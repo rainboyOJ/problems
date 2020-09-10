@@ -1,0 +1,11 @@
+./std < ./data/problem1.in > ./data/problem1.out
+./std < ./data/problem2.in > ./data/problem2.out
+./std < ./data/problem3.in > ./data/problem3.out
+./std < ./data/problem4.in > ./data/problem4.out
+./std < ./data/problem5.in > ./data/problem5.out
+./std < ./data/problem6.in > ./data/problem6.out
+./std < ./data/problem7.in > ./data/problem7.out
+./std < ./data/problem8.in > ./data/problem8.out
+./std < ./data/problem9.in > ./data/problem9.out
+./std < ./data/problem10.in > ./data/problem10.out
+./std < ./data/problem11.in > ./data/problem11.out

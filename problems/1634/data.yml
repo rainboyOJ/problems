@@ -1,0 +1,7 @@
+subtasks:
+  - score: 100
+    type: sum
+    cases: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+inputFile: 'input#.txt'
+outputFile: 'output#.txt'

@@ -1,0 +1,10 @@
+subtasks:
+  - score: 97
+    type: sum
+    cases: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  - score: 3
+    type: min
+    cases: [10, 11, 12]
+
+inputFile: 'tickets#.in'
+outputFile: 'tickets#.out'

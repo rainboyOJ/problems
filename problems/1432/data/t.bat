@@ -1,0 +1,10 @@
+candy < candy0.in > candy0.out
+candy < candy1.in > candy1.out
+candy < candy2.in > candy2.out
+candy < candy3.in > candy3.out
+candy < candy4.in > candy4.out
+candy < candy5.in > candy5.out
+candy < candy6.in > candy6.out
+candy < candy7.in > candy7.out
+candy < candy8.in > candy8.out
+candy < candy9.in > candy9.out

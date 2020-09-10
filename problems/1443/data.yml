@@ -1,0 +1,11 @@
+subtasks:
+  - score: 100
+    type: min
+    cases: ['1']
+
+inputFile: 'test#.in'
+outputFile: 'test#.out'
+
+specialJudge:
+  language: cpp
+  fileName: spj.cpp

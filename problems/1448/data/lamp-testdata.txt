@@ -1,0 +1,20 @@
+Test data for task lamp
+
+Remark: the points of a test case were awarded if and only if the program suceeded on all test runs of the test case.
+
+--------------
+Case	Points
+--------------
+0	0 (example test cases)
+1	0 (partial feedback test case; subset of the real test data)
+2	8
+3	8
+4	8
+5	8
+6	8
+7	10
+8	10
+9	10
+10	10
+11	10
+12	10

@@ -1,0 +1,7 @@
+可以用以下方法求gcd
+当a>=b时
+1)a=b gcd(a,b)=a
+2)a,b为偶数 gcd(a,b)=2*gcd(a/2,b/2)
+3)a为偶数,b为奇数 gcd(a,b)=gcd(a/2,b)
+4)a为奇数,b为偶数 gcd(a,b)=gcd(a,b/2)
+5)a,b为奇数 gcd(a,b)=gcd(a-b,b)

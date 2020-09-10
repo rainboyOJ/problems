@@ -1,0 +1,10 @@
+subtasks:
+  - score: 0
+    type: min
+    cases: ['01']
+  - score: 100
+    type: sum
+    cases: ['00', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
+
+inputFile: 'batch.#.in'
+outputFile: 'batch.#.sol'

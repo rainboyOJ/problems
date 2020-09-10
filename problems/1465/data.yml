@@ -1,0 +1,10 @@
+subtasks:
+  - score: 97
+    type: min
+    cases: [1]
+  - score: 3
+    type: min
+    cases: [3,2]
+
+inputFile: '#.in'
+outputFile: '#.out'

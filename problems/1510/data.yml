@@ -1,0 +1,10 @@
+subtasks:
+  - score: 97
+    type: sum
+    cases: ['Cashier', 'Cashier1']
+  - score: 3
+    type: min
+    cases: ['ex_Cashier1']
+
+inputFile: '#.in'
+outputFile: '#.out'

@@ -1,0 +1,43 @@
+subtasks:
+  - score: 0
+    type: min
+    cases: ['01A']
+  - score: 0
+    type: min
+    cases: ['02A', '02B', '02C', '02D', '02E', '02F', '02G', '02H']
+  - score: 8
+    type: min
+    cases: ['03A', '03B', '03C', '03D']
+  - score: 8
+    type: min
+    cases: ['04A', '04B', '04C', '04D']
+  - score: 8
+    type: min
+    cases: ['05A', '05B', '05C', '05D']
+  - score: 8
+    type: min
+    cases: ['06A', '06B', '06C', '06D']
+  - score: 8
+    type: min
+    cases: ['07A', '07B', '07C', '07D']
+  - score: 10
+    type: min
+    cases: ['08A', '08B', '08C', '08D']
+  - score: 10
+    type: min
+    cases: ['09A', '09B', '09C', '09D']
+  - score: 10
+    type: min
+    cases: ['10A', '10B', '10C', '10D']
+  - score: 10
+    type: min
+    cases: ['11A', '11B', '11C', '11D']
+  - score: 10
+    type: min
+    cases: ['12A', '12B', '12C', '12D']
+  - score: 10
+    type: min
+    cases: ['13A', '13B', '13C', '13D']
+
+inputFile: 'lamp.g#.in'
+outputFile: 'lamp.g#.out'

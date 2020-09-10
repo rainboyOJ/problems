@@ -1,0 +1,16 @@
+subtasks:
+  - score: 10
+    type: min
+    cases: [0, '1a', '1b', '1c', 2]
+  - score: 30
+    type: min
+    cases: [3, 4]
+  - score: 57
+    type: min
+    cases: [5, 6, 7, 8, 9, 10]
+  - score: 3
+    type: min
+    cases: [17, 11, 12, 13, 14, 15, 16]
+
+inputFile: 'two#.in'
+outputFile: 'two#.out'
