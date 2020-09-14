@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "commander": "^6.1.0",
+    "js-yaml": "^3.14.0",
+    "progress": "^2.0.3"
+  }
+}
