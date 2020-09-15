@@ -42,7 +42,7 @@ function upload({file,content,pid,title,time=1000,memory=128,stack=128,spj='defa
   let args_1 = (args.map( d => `-F "${d[0]}=${d[1]}"`)).join(" ")
   if(program.force)
     args_1 += " -F upload_force=1"
-  return execSync(`curl -X POST ${args_1} -H @header ${roj_url}admin/problem/create`,{encoding:'utf8'})
+  return execSync(`curl -X POST ${args_1} -H @header ${roj_url}admin/problem/create`,{encoding:'utf8',stdio:['pipe','pipe','/dev/null']})
   //console.log(`curl -X POST ${args_1} -H @header ${roj_url}admin/problem/create`)
 }
 
@@ -60,6 +60,11 @@ async function main(){
           }
           execSync(`zip -j data.zip -r ./problems/${i}/data`)
           let ret = upload({file:'data.zip',content:`<problems/${i}/content.md`,pid:i,...config})
+          if( ret.startsWith('Redirect') ){
+            console.log(`请重新登录！`)
+            process.exit(1)
+
+          }
           if( JSON.parse(ret).status !== 0){
             throw(ret)
           }
