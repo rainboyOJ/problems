@@ -14,6 +14,31 @@
 
 如果哪个题目侵权,请在 Issues 中提出,我会删除
 
+## 如何使用 upload.js 上传/更新题目
+
+安装nodejs,yarn,然后`yarn install`安装依赖
+
+```
+./upload.js --help
+```
+
+**上传**
+
+准备: 登录admin,保存Cookie到cookie文件
+
+```
+./upload.js 1001            # 上传一个题目
+./upload.js 1002 1004       # 上传3个题目 1002->1003
+./upload.js -d 1005         # 显示debug信息
+```
+
+```
+./upload.js -u 1001            # 更新一个题目
+./upload.js -u 1002 1004       # 更新3个题目 只更新题面
+./upload.js -u -f 1002 1004    # 上传3个题目 强制上传覆盖原数据
+./upload.js -uf 1002 1004      # 同上
+```
+
 
 ## [LICENSE](https://github.com/anak10thn/WTFPL)
 
