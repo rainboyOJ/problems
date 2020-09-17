@@ -4,26 +4,41 @@ const root_name = "root"
 const root_password = "password"
 const roj_url = 'http://localhost:3000/'
 
+const problem_create = `${roj_url}admin/problem/create`
+const problem_update = `${roj_url}admin/problem/update`
+
 const ProgressBar = require('progress');
 const { program } = require('commander');
 const fs = require("fs")
-const {execSync} = require("child_process")
+const {execSync,spawnSync} = require("child_process")
 const yaml = require("js-yaml")
 
 
-if(!fs.existsSync('header')){
-  console.log("先在网页上登录admin，然后获取 header存入header文件")
+if(!fs.existsSync('cookie')){
+  console.log("先在网页上登录admin，然后获取 Cookie存入cookie文件")
   process.exit(0)
 }
+const COOKIE = fs.readFileSync("cookie","utf8")
+
+
+if(fs.existsSync('log')){
+  console.log("删除上次的日志文件: log")
+  fs.unlinkSync('log')
+}
+if(fs.existsSync('data.zip')) fs.unlinkSync(`data.zip`)
 
 
 
 program.option("-f --force","强制上传")
+        .option("-u --update","更新题目")
+        .option("-i --ignore","忽略错误")
+        .option("-d --debug","输出 debug 信息")
         .arguments('<start> [end]')
         .action(function(start,end){
           Start = start
           End = end
         })
+
 program.parse(process.argv)
 
 function upload({file,content,pid,title,time=1000,memory=128,stack=128,spj='default',level=1}){
@@ -39,11 +54,18 @@ function upload({file,content,pid,title,time=1000,memory=128,stack=128,spj='defa
     ["spj",spj],
     ["level",level]
   ]
-  let args_1 = (args.map( d => `-F "${d[0]}=${d[1]}"`)).join(" ")
-  if(program.force)
-    args_1 += " -F upload_force=1"
-  return execSync(`curl -X POST ${args_1} -H @header ${roj_url}admin/problem/create`,{encoding:'utf8',stdio:['pipe','pipe','/dev/null']})
-  //console.log(`curl -X POST ${args_1} -H @header ${roj_url}admin/problem/create`)
+  let args_1 = ["-X","POST"]
+  args.map( d => args_1.push(...[`-F`,`${d[0]}=${d[1]}`]) )
+
+  if(program.force) args_1.push(...["-F",'upload_force=1'])
+
+  args_1.push(`-b`,`${COOKIE.trim()}`)
+
+  let url =  program.update ? problem_update :  problem_create
+  args_1.push(url)
+
+  if( program.debug) console.log("curl "+ args_1.join(" "))
+  return spawnSync("curl",args_1,{encoding:'utf8',cwd:__dirname})
 }
 
 async function main(){
@@ -60,12 +82,21 @@ async function main(){
           }
           execSync(`zip -j data.zip -r ./problems/${i}/data`)
           let ret = upload({file:'data.zip',content:`<problems/${i}/content.md`,pid:i,...config})
-          if( ret.startsWith('Redirect') ){
+
+          if(ret.error) throw(ret.error)
+          if(ret.stderr && program.debug)
+            console.log(ret.stderr)
+
+          if( ret.stdout.startsWith('Redirect') ){
+            if( ret.stdout.includes('<a href="/404">')){
+              console.log(`网址错误！`)
+              process.exit(1)
+            }
             console.log(`请重新登录！`)
             process.exit(1)
 
           }
-          if( JSON.parse(ret).status !== 0){
+          if( JSON.parse(ret.stdout).status !== 0){
             throw(ret)
           }
           fs.unlinkSync(`data.zip`)
@@ -77,17 +108,22 @@ async function main(){
           bar.tick({
             "m1":`失败 ${i}`
           })
-          fs.writeFileSync("log",`fail at ${i}\n${e}\n\n\n`,{flag:"w+"})
+          console.error(e)
+          fs.writeFileSync("log",`fail at ${i}\n${e}\n\n\n`,{flag:"a+"})
+          if( ! program.ignore ){
+            console.log("如果想忽略错误,请加上 -i 或 --ignore,具体查看 log 文件")
+            process.exit(1);
+          }
         }
     }
     else {
 
           bar.tick({
-            "m1":`失败 ${i} 不存在`
+            "m1":`失败 题目:${i} 不存在`
           })
-          fs.writeFileSync("log",`fail at ${i} 不存在\n\n\n`,{flag:"w+"})
+          console.log("请查看日志文件: log")
+          fs.writeFileSync("log",`fail at ${i} 不存在\n\n\n`,{flag:"a+"})
     }
-
     if(fs.existsSync('data.zip')) fs.unlinkSync(`data.zip`)
   }
 }
