@@ -1,5 +1,5 @@
 title: 骨牌1
 time: 1000
-tags: 
- - ?
-memory: 536870912 #128 MB
+tags:
+  - 'null': null
+memory: 128
