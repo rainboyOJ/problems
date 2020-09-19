@@ -29,8 +29,8 @@ if(fs.existsSync('data.zip')) fs.unlinkSync(`data.zip`)
 
 
 
-program.option("-f --force","强制上传")
-        .option("-u --update","更新题目")
+program.option("-f --force","强制上传,和 -u 配合,可以强制上传数据覆盖原数据")
+        .option("-u --update","更新题目,不加-f,只会更新题面")
         .option("-i --ignore","忽略错误")
         .option("-d --debug","输出 debug 信息")
         .arguments('<start> [end]')
@@ -54,10 +54,16 @@ function upload({file,content,pid,title,time=1000,memory=128,stack=128,spj='defa
     ["spj",spj],
     ["level",level]
   ]
+
+
+  //如果选择了更新 但没有加force 只会更新题面
+  if( program.update &&  !program.force ) args.shift()
+
   let args_1 = ["-X","POST"]
   args.map( d => args_1.push(...[`-F`,`${d[0]}=${d[1]}`]) )
 
   if(program.force) args_1.push(...["-F",'upload_force=1'])
+
 
   args_1.push(`-b`,`${COOKIE.trim()}`)
 
