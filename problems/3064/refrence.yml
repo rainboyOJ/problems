@@ -1,0 +1,7 @@
+title: 「Sudoku」 数独2
+time: 2000
+memory: 64
+tags:
+  - 搜索
+  - 剪枝
+level: 6

@@ -1,0 +1,7 @@
+title: 关押罪犯
+time: 1000
+memory: 64
+tags:
+  - 并查集
+  - 扩展域或边带权
+level: 4

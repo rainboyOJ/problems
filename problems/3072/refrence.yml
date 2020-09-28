@@ -1,0 +1,9 @@
+title: 八数码
+time: 1000
+memory: 64
+tags:
+  - 搜索
+  - A*
+  - 哈希
+  - 康托展开
+level: 4

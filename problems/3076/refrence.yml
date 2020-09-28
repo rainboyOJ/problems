@@ -1,0 +1,10 @@
+title: 靶形数独
+time: 1000
+memory: 64
+tags:
+  - 搜索
+  - 深度优先搜索
+  - DFS
+  - 剪枝
+  - 位运算优化
+level: 4

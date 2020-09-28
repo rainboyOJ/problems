@@ -1,0 +1,7 @@
+title: 「Hotel」 旅馆
+time: 1000
+memory: 64
+tags:
+  - 线段树
+  - 延迟标记
+level: 3

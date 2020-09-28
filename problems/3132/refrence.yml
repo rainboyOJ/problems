@@ -1,0 +1,7 @@
+title: Fotile模拟赛L
+time: 1000
+memory: 64
+tags:
+  - 可持久化Trie
+  - 分块
+level: 4

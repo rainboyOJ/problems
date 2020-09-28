@@ -1,0 +1,8 @@
+title: 「Supermarket」 超市
+time: 1000
+memory: 64
+tags:
+  - 二叉堆
+  - 并查集
+  - 贪心
+level: 3

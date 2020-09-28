@@ -1,0 +1,8 @@
+title: 「LCIS」 最长公共上升子序列
+time: 1000
+memory: 64
+tags:
+  - 动态规划
+  - 线性DP
+  - 前缀和
+level: 4

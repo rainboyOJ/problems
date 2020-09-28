@@ -1,0 +1,8 @@
+title: 「Square Destroyer」 破坏正方形
+time: 1000
+memory: 10
+tags:
+  - 搜索
+  - IDA*
+  - 剪枝
+level: 6

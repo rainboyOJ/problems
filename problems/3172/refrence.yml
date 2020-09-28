@@ -1,0 +1,7 @@
+title: 棋盘分割
+time: 1000
+memory: 10
+tags:
+  - 动态规划
+  - 区间DP
+level: 4

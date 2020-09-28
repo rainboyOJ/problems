@@ -1,0 +1,8 @@
+title: 骑士放置
+time: 1000
+memory: 64
+tags:
+  - 图论
+  - 二分图最大独立集
+  - 匈牙利算法
+level: 3

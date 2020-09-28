@@ -1,0 +1,7 @@
+title: 「Milking Grid」 奶牛矩阵
+time: 1000
+memory: 64
+tags:
+  - 字符串
+  - KMP模式匹配
+level: 4

@@ -1,0 +1,8 @@
+title: 走廊泼水节
+time: 1000
+memory: 64
+tags:
+  - 图论
+  - 最小生成树
+  - Kruskal
+level: 4

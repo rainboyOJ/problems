@@ -1,0 +1,9 @@
+title: 字串变换
+time: 1000
+memory: 64
+tags:
+  - 搜索
+  - 广度优先搜索
+  - BFS
+  - 双向BFS
+level: 4

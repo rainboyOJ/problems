@@ -1,0 +1,8 @@
+title: K取方格数
+time: 1000
+memory: 64
+tags:
+  - 图论
+  - 费用流
+  - 拆点
+level: 6

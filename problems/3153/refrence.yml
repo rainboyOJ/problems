@@ -1,0 +1,7 @@
+title: 炮兵阵地
+time: 1000
+memory: 64
+tags:
+  - 动态规划
+  - 状态压缩DP
+level: 4

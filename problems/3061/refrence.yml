@@ -1,0 +1,8 @@
+title: 「Sudoku」 数独
+time: 1000
+memory: 64
+tags:
+  - 搜索
+  - 深度优先搜索
+  - DFS
+level: 4

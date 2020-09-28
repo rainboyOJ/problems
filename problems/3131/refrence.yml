@@ -1,0 +1,7 @@
+title: 「Meteors」 流星
+time: 3000
+memory: 64
+tags:
+  - 离线分治
+  - 基于值域的整体分治算法
+level: 4
