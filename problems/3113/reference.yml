@@ -1,6 +1,6 @@
 title: 「Interval GCD」 区间最大公约数
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 线段树
 level: 6

@@ -1,6 +1,6 @@
 title: 最短Hamilton路径
-time: 5000
-memory: 256
+time: 1000
+memory: 128
 tags:
   - 二进制
   - 状态压缩DP

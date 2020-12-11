@@ -1,6 +1,6 @@
 title: 「Muddy Fields」 泥泞的区域
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 图论
   - 二分图最小点覆盖

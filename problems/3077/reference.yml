@@ -1,6 +1,6 @@
 title: 虫食算
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 搜索
   - 深度优先搜索

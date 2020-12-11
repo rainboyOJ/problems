@@ -1,6 +1,6 @@
 title: 天使玩偶
-time: 7000
-memory: 256
+time: 1000
+memory: 128
 tags:
   - 离线分治
   - 基于时间的分治算法

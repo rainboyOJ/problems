@@ -1,6 +1,6 @@
 title: 最大子序和
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 单调队列
   - 前缀和

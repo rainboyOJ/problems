@@ -1,6 +1,6 @@
 title: a^b
 time: 1000
-memory: 32
+memory: 128
 tags:
   - 位运算
   - 快速幂

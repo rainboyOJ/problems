@@ -1,6 +1,6 @@
 title: 「Lost Cows」 谜一样的牛
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 树状数组
 level: 3

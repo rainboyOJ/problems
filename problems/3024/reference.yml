@@ -1,6 +1,6 @@
 title: 「Raid」 袭击
-time: 5000
-memory: 64
+time: 1000
+memory: 128
 tags:
   - 分治
 level: 4

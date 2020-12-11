@@ -1,6 +1,6 @@
 title: 后缀数组
-time: 3000
-memory: 64
+time: 1000
+memory: 128
 tags:
   - 字符串hash
   - 哈希

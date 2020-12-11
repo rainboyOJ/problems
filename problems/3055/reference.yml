@@ -1,6 +1,6 @@
 title: 「Phone List」 电话列表
 time: 1000
-memory: 64
+memory: 128
 tags:
   - Trie
   - 字典树

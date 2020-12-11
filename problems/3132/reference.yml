@@ -1,6 +1,6 @@
 title: Fotile模拟赛L
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 可持久化Trie
   - 分块

@@ -1,6 +1,6 @@
 title: 可达性统计
 time: 1000
-memory: 256
+memory: 128
 tags:
   - 拓扑排序
   - 位运算

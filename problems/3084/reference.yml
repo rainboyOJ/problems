@@ -1,6 +1,6 @@
 title: 「Power Hungry Cows」 算乘方的牛
 time: 1000
-memory: 30
+memory: 128
 tags:
   - 搜索
   - A*

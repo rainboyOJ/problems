@@ -1,6 +1,6 @@
 title: 楼兰图腾
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 树状数组
   - 线段树

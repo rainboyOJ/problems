@@ -1,6 +1,6 @@
 title: 「The Rotation Game」 回转游戏
-time: 4000
-memory: 64
+time: 1000
+memory: 128
 tags:
   - 搜索
   - IDA*

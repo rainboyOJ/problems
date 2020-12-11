@@ -1,6 +1,6 @@
 title: 最优高铁环
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 图论
   - 负环判定

@@ -1,6 +1,6 @@
 title: 最优贸易
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 图论
   - SPFA

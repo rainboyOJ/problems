@@ -1,6 +1,6 @@
 title: 「自然数拆分Lunatic版」 自然数拆分
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 动态规划
   - 完全背包问题

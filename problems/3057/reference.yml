@@ -1,6 +1,6 @@
 title: 生日礼物
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 二叉堆
   - 链表

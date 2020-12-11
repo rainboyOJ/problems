@@ -1,6 +1,6 @@
 title: 「Buy Low Buy Lower」 低买
 time: 1000
-memory: 30
+memory: 128
 tags:
   - 动态规划
   - 线性DP

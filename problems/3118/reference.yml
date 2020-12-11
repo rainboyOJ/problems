@@ -1,6 +1,6 @@
 title: 「Tree」 树
-time: 0
-memory: 10
+time: 1000
+memory: 128
 tags:
   - 点分治
 level: 6

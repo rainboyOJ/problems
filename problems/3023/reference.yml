@@ -1,6 +1,6 @@
 title: 「Fractal」 分形
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 递归
   - 分形

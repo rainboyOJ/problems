@@ -1,6 +1,6 @@
 title: 「K-th Number」 第K小数
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 离线分治
   - 基于值域的整体分治算法

@@ -1,6 +1,6 @@
 title: 「Number Base Conversion」 数的进制转换
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 高精度运算
   - 进制转换

@@ -1,6 +1,6 @@
 title: 货仓选址
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 排序
   - 贪心

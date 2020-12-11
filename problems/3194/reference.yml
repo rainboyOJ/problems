@@ -1,6 +1,6 @@
 title: 「Intervals」 区间
 time: 1000
-memory: 64
+memory: 128
 tags:
   - 图论
   - 差分约束

@@ -1,6 +1,6 @@
 title: 「PKU ACM Team's Excursion」 北大ACM队的远足
-time: 2000
-memory: 256
+time: 1000
+memory: 128
 tags:
   - 图论
   - Tarjan算法
