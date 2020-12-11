@@ -7,6 +7,7 @@
  - `2000-2096`为usaco training的题目
  - `3000-3224`为《算法竞赛进阶指南》上的题目
  - `3498-4000`历年noip题目
+ - `5000-6000` 为rbook上的题目
 
 - [一本通入门篇题目列表](./list/一本通入门篇题目列表.md) PS. 数据为我自己生成
 - [usacoTrainning题目列表](./list/usacoTrainning题目列表.md)

@@ -12,4 +12,4 @@ for pid in pids:
     datas = os.listdir(path.join("./problems",pid,"data"))
     if len(datas) == 0:
         print("data dir empty",pid)
-        sys.exit(1)
+        # sys.exit(1)
