@@ -16,7 +16,7 @@ int main(){
             if(a[j] == '0') sum++;
         }
 
-        if(sum /2 ==1)
+        if(sum % 2 ==1)
             printf("Win\n");
         else
             printf("Lost\n");
