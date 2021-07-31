@@ -79,20 +79,15 @@ int main(){
 6. 评测其它编号的题目替换1000
 
 
-## [LICENSE](https://github.com/anak10thn/WTFPL)
+## LICENSE
 
-```
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
+**我这里强烈声明**
 
- Copyright (C) 2012 Romain Lespinasse <romain.lespinasse@gmail.com>
+ 1. 本库不能用于商业作用，任何培训机构不可以使用本库
+ 2. 使用的本库后，你的OJ网站以及OJ网站所属的公司不能有任何收费行为
+ 3. 需要在网站上注明题目来源于本库
+ 4. 使用本库的OJ，必须要开放注册
+ 5. 有些数据我写的程序自动生成，如发现在错误，请提Issues
+ 6. 部分题目收集于网络，如果侵权，请提Issues，我会删除
 
- Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document, and changing it is allowed as long
- as the name is changed.
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
-  0. You just DO WHAT THE FUCK YOU WANT TO.
-```
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
