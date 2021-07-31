@@ -5,7 +5,7 @@ import os
 import glob
 
 
-a = glob.glob("data/*.txt")
+a = glob.glob("data/*")
 for f in a:
     f1,b = os.path.splitext(f)
     if 'input' in f:

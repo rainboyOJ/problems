@@ -8,7 +8,8 @@ for pid in pids:
     files = os.listdir(path.join("./problems",pid))
     if "data" not in files:
         print("have no data dir",pid)
-        sys.exit(1)
+        continue
+        # sys.exit(1)
     datas = os.listdir(path.join("./problems",pid,"data"))
     if len(datas) == 0:
         print("data dir empty",pid)

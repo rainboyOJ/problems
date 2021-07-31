@@ -43,6 +43,41 @@
 ./upload.js -uf 1002 1004      # 同上
 ```
 
+### 如何评测
+
+### 方法一： 在ROJ上评测
+### 方法二： 手动评测
+ 
+1. 需要 `node.js >= 14.0`
+2. `cd bin; yarn (or npm install)`
+3.  安装 https://github.com/rainboyOJ/testlib 下的 fcmp2
+
+```
+git clone https://github.com/rainboyOJ/testlib
+cd testlib
+mkdir build
+cmake ..
+make
+cd ../output
+sudo install fcmp2 /usr/bin
+```
+
+4. 创建一个 `tmp`文件夹，在里面写入`1.cpp`
+
+```c++
+#include <cstdio>
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d",a+b);
+    return 0;
+}
+```
+
+5. 执行 `./bin/singleJudge.js 1000 tmp/1.cpp`
+
+6. 评测其它编号的题目替换1000
+
 
 ## [LICENSE](https://github.com/anak10thn/WTFPL)
 
