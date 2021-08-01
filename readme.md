@@ -55,7 +55,7 @@
 ```
 git clone https://github.com/rainboyOJ/testlib
 cd testlib
-mkdir build
+mkdir build && cd build
 cmake ..
 make
 cd ../output
