@@ -18,3 +18,7 @@ all: $(TARGET) $(CPPTARGET)
 clean:
 	rm -rf $(TARGET)
 	rm -rf $(CPPTARGET)
+	rm -rf *.out
+	rm -rf *_out
+	rm -rf *_err
+	rm -rf *log.txt

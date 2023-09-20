@@ -234,7 +234,8 @@ int main (int argc, char *argv[]) {
         }
 
         if( JCONFIG.max_cpu_time!= UNLIMITED ) {
-            rlim.rlim_cur = rlim.rlim_max = JCONFIG.max_cpu_time;
+            rlim.rlim_cur = JCONFIG.max_cpu_time;
+            rlim.rlim_max = JCONFIG.max_cpu_time+1;
             if( setrlimit(RLIMIT_CPU,&rlim) != 0) {
                 fprintf(stderr,"child error: set RLIMIT_CPU failed\n");
                 fflush(stderr);
@@ -334,13 +335,23 @@ int main (int argc, char *argv[]) {
                 JRESULT.result = RUNTIME_ERROR;
             if( JCONFIG.max_memory != UNLIMITED && JCONFIG.max_memory * 1024 <  (uint64_t)JRESULT.memory)
             {
+#ifdef DEBUG
+                fprintf(stderr,"MEMORY_LIMIT_EXCEEDED\n");
+#endif
                 JRESULT.result = MEMORY_LIMIT_EXCEEDED;
             }
 
-            if( JCONFIG.max_cpu_time!= UNLIMITED && JCONFIG.max_cpu_time <  (uint64_t)JRESULT.cpu_time)
+            //转成ms来比较
+            if(
+                JRESULT.signal == SIGXCPU ||
+                JCONFIG.max_cpu_time!= UNLIMITED && JCONFIG.max_cpu_time * 1000 <  (uint64_t)JRESULT.cpu_time)
             {
+#ifdef DEBUG
+                fprintf(stderr,"CPU_TIME_LIMIT_EXCEEDED\n");
+#endif
                 JRESULT.result = CPU_TIME_LIMIT_EXCEEDED;
             }
+
 
             if( JCONFIG.max_real_time != UNLIMITED && JCONFIG.max_real_time <  (uint64_t)JRESULT.real_time)
             {
