@@ -5,3 +5,6 @@ header
 node_modules
 cookie
 data.zip
+tmp/
+sjudge/*.out
+sjudge/tests/*.out
