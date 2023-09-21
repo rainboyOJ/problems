@@ -53,6 +53,12 @@ sudo apt fzf bat cat
 sudo apt nodejs yarn
 ```
 
+将`bin`目录加入的PATH变量中,在`~/.bashrc` 或 `~/.zshrc`,这取决于你使用哪种terminal
+
+```
+export PATH=$PATH:<your_clone_path>/bin
+```
+
 ### 2.常用命令
 
 - `./bin/p_search.sh` 查找题目
