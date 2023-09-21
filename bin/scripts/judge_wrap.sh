@@ -44,7 +44,11 @@ judge_run() {
     esac
     
     if (( $result == 0 ));then
-        ret+="AC"
+        if /usr/bin/diff -q -b /tmp/sjudge.out $5 > /dev/null; then
+            ret+="✅"
+        else
+            ret+="❌"
+        fi
     elif (( $result > 5 ));then
         ret+="Other error: "
         ret+="$result"

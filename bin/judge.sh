@@ -6,18 +6,17 @@ source "$sh_dir/scripts/judge_wrap.sh"
 # echo $sh_dir
 # echo $problem_dir
 
-pid=1000
+program=${2:-1.out}
 if [[ -z "$1" ]];then
     echo "please input problem id,like 1000"
     exit 1
 fi
-
-
+pid=$1
 
 # 2.检查路径是否存在
 
 data_dir="$problem_dir/$pid/data"
-
+echo "data_dir: " $data_dir
 # 3.得到数据列表
 # 3.1 检查数据目录是否存在
 in_data=$(find $data_dir -type f  -name "*.in" -printf '%f\n')
