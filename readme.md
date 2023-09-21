@@ -43,6 +43,21 @@
 ./upload.js -uf 1002 1004      # 同上
 ```
 
+## `bin`目录下的命令的使用
+
+### 0. 准备
+
+```
+sudo apt update
+sudo apt fzf bat cat
+sudo apt nodejs yarn
+```
+
+### 2.常用命令
+
+- `./bin/p_search.sh` 查找题目
+- [./sjudge/sjudge.cpp](./sjudge/readme.md) 一个简单的评测命令,查看对应的文档
+
 ### 如何评测
 
 ### 方法一： 在ROJ上评测
