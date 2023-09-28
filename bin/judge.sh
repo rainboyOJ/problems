@@ -29,21 +29,28 @@ oneFileName=$(echo $in_data | cut -d ' ' -f1)
 first_num_pos=$(expr index $oneFileName $(grep -oP '\d+' <<< $oneFileName))
 echo $a
 echo $first_num_pos
+
+
+# 输出对应的信息
+
+printf "评测程序: %s\n" $program
+printf "题目编号: %s\n" $pid
+
 #
 #转数组
 in_arr=($(echo $in_data | xargs -n 1 | sort -n -k 1.$first_num_pos))
 out_arr=($(echo $out_data | xargs -n 1 | sort -n -k 1.$first_num_pos))
 count_in=${#in_arr[*]}
 count_out=${#out_arr[*]}
-echo $count_in
-echo $count_out
+printf "size of input: %3d , output %3d \n\n" $count_in $count_out
+
 for ((i=0;i<$count_in;i++))
 do
     input=$problem_dir/$pid/data/${in_arr[i]}
     output=$problem_dir/$pid/data/${out_arr[i]}
     # judge_run 1.out 128 1 $input $output
-    ret=$(judge_run 1.out 128 1 $input $output)
-    printf "%2d %s\t%s\t%s\n" $i ${in_arr[i]} ${out_arr[i]} "$ret"
+    ret=$(judge_run $program 128 1 $input $output)
+    printf "%2d %10s %10s -> %s\n" $i ${in_arr[i]} ${out_arr[i]} "$ret"
     # echo -en   "\t"
 done
 #echo $out_data

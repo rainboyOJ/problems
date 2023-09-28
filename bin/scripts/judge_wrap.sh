@@ -28,23 +28,26 @@ judge_run() {
         --log log.txt)
     ret=""
     result=$(echo $res | jq .result)
+    # echo "result" $result
     case $result in
         1 | 2)
-            let ret+='TLE'
+            ret+='TLE'
             ;;
         3)
-            let ret+='MLE'
+            ret+='MLE'
             ;;
         4)
-            let ret+='RE'
+            ret+='RE'
             ;;
         5)
-            let ret+='SE'
+            ret+='SE'
             ;;
     esac
+    # echo "ret" $ret
     
     if (( $result == 0 ));then
         if /usr/bin/diff -q -b /tmp/sjudge.out $5 > /dev/null; then
+        # if /usr/bin/diff -b /tmp/sjudge.out $5 ; then
             ret+="✅"
         else
             ret+="❌"
@@ -55,14 +58,11 @@ judge_run() {
     fi
 
     # add time
-    ret+=" | time: "
-    ret+="$(echo $res | jq .cpu_time) ms"
+    time="$(echo $res | jq .cpu_time)"
     # add memory
-    ret+=" | mem: "
     mem_kb="$(echo $res | jq .memory)"
     mem_mb=$(echo "scale=2; $mem_kb / 1024" | bc)
-    ret+="$mem_mb mb"
-
+    printf "%3s | time :%4s ms | mem: %7s mb" $ret $time $mem_mb
 
     #
     # result=$(echo $res | jq .result)
@@ -72,5 +72,5 @@ judge_run() {
     #     let ret+="SUCC"
     # fi
     #
-    echo $ret
+    # echo $ret
 }
