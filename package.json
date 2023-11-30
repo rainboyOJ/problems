@@ -1,7 +1,27 @@
 {
-  "dependencies": {
-    "commander": "^6.1.0",
-    "js-yaml": "^3.14.0",
-    "progress": "^2.0.3"
-  }
+    "name": "problems",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "source": "src/index.html",
+    "scripts": {
+        "dev": "parcel --no-cache"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.2",
+        "ejs": "^3.1.9",
+        "lokijs": "^1.5.12"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.10.3",
+        "@parcel/transformer-vue": "^2.10.3",
+        "commander": "^6.1.0",
+        "js-yaml": "^3.14.0",
+        "parcel": "^2.10.3",
+        "parcel-transformer-ejs": "^1.0.1",
+        "process": "^0.11.10",
+        "progress": "^2.0.3",
+        "vue": "^3.3.9"
+    }
 }
