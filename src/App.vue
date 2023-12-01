@@ -62,8 +62,16 @@
             </thead>
             <tbody>
                 <tr v-for="p in problem_list">
-                    <th scope="row">{{p._id}}</th>
-                    <td>{{p.title}}</td>
+                    <th scope="row">
+                        <a class="plink" target="__blank__" :href="`/problem/${p._id}`">
+                            {{p._id}}
+                        </a>
+                    </th>
+                    <td>
+                        <a class="plink" target="__blank__" :href="`/problem/${p._id}`">
+                            {{p.title}}
+                        </a>
+                    </td>
                     <td>{{p.tags}}</td>
                     <td>{{p.level || '未知'}}</td>
                 </tr>
@@ -107,17 +115,18 @@
 
             // 核心函数:
             function alldoc() {
+
                 let query_object = {_id: { '$exists':true} };
                 if( level.value ) //等级
                     query_object.level = level.value
                 if( title.value && title.length != 0 ) //标题
                     query_object.title = {'$regex': [title.value,'i']}
-
+                //console.log(query_object)
 
                 let query = problems.chain()
                 .find(query_object)
                 //标签,使用where
-                if( tags.value && tags.value.length != 0 )
+                if( tags.value && tags.value.length != 0 ) {
                     query = query.where( function(obj){
                         if( !obj.tags || obj.tags.length == 0 )
                             return false;
@@ -126,14 +135,14 @@
                             if( obj.tags.indexOf(tag) == -1  )
                                 return false;
                         }
-
                         return true;
                     })
+                }
 
 
                 skip.value = (page.value - 1) * limit.value
                 total_size.value = query.filteredrows.length;
-                total_pages = Math.ceil(total_size.value / limit.value)
+                total_pages.value = Math.ceil(total_size.value / limit.value)
 
                 return query.simplesort('_id')
                 .offset( skip.value )
@@ -142,7 +151,9 @@
             }
 
 
-            function do_search() {
+            function do_search(stay_at_page = 1) {
+                //修改默认的page 
+                page.value = stay_at_page
                 problem_list.value = alldoc()
             }
 
@@ -161,6 +172,7 @@
                 change_page(page.value+1);
             }
             function change_page(idx) {
+                console.log('change_page',idx)
                 if(idx == '...') return;
                 if(idx == page.value) return; // 没有改变page值
                 if( idx > total_pages.value) {
@@ -173,7 +185,7 @@
                 }
 
                 page.value = idx;
-                do_search();
+                do_search(page.value);
             }
 
             return {

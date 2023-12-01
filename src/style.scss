@@ -1,1 +1,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.plink {
+    text-decoration:none;
+    color:black;
+    &:hover {
+        color:rgb(123,190,254);
+        text-decoration:underline;
+    }
+}
