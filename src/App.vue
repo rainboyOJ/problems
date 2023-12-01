@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="row g-3 align-items-center">
+        <div class="row g-2 align-items-center my-3">
             <div class="col-md-1">
                 <span> 筛选: </span>
             </div>
@@ -8,8 +8,8 @@
             <div class="col-md-3">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">难度</span>
-                    <select class="form-select" aria-label="level">
-                        <option selected>题目难度</option>
+                    <select v-model="level" class="form-select" aria-label="level">
+                        <option value="0" selected>题目难度</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -22,23 +22,35 @@
             <div class="col-md-3">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">标签</span>
-                    <input type="text" class="form-control" placeholder="标签" aria-label="title" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="标签" aria-label="title" aria-describedby="basic-addon1" 
+                        readonly @click="choose_tags"
+                        v-model="tags_str"
+                        >
                 </div>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">标题</span>
-                    <input type="text" class="form-control" placeholder="标题" aria-label="title" aria-describedby="basic-addon1">
+                    <input v-model="title" type="text" class="form-control" placeholder="标题" aria-label="title" aria-describedby="basic-addon1">
                 </div>
             </div>
+
+            <div class="col-md-1 d-flex justify-content-center">
+                <button type="button" class="btn btn-primary" @click="do_search">
+                    search
+                </button>
+            </div>
         </div>
-        <div class="d-flex m-2 justify-content-center">
-            <button type="button" class="btn btn-primary" @click="do_search">
-                search
-            </button>
+        
+        <div class="d-flex justify-content-center">
+            <pagenation 
+            @prev_page="prev_page" 
+            @next_page="next_page" 
+             @page="change_page"
+            :page_size="total_pages" :now_page="page"/>
         </div>
-        <pagenation @prev_page="prev_page" :page_size="total_pages" :now_page="1"/>
+
         <table class="table">
             <thead>
                 <tr>
@@ -81,16 +93,45 @@
             var skip = ref(0)
             var limit = ref(100)
             var problem_list = ref([])
-            var page = ref(0)
+
+            // 分页
+            var page = ref(1)
             var total_size = ref(0)
             var total_pages = ref(0)
-    
 
+            var level = ref(0)
+            var tags = ref([])
+            var title = ref('')
+
+            var tags_str = computed( ()=> { return tags.value.join(','); })
+
+            // 核心函数:
             function alldoc() {
-                skip.value = page.value * limit.value
-                let query = problems.chain()
-                .find({_id: { '$exists':true} })
+                let query_object = {_id: { '$exists':true} };
+                if( level.value ) //等级
+                    query_object.level = level.value
+                if( title.value && title.length != 0 ) //标题
+                    query_object.title = {'$regex': [title.value,'i']}
 
+
+                let query = problems.chain()
+                .find(query_object)
+                //标签,使用where
+                if( tags.value && tags.value.length != 0 )
+                    query = query.where( function(obj){
+                        if( !obj.tags || obj.tags.length == 0 )
+                            return false;
+
+                        for( let tag of tags.value) {
+                            if( obj.tags.indexOf(tag) == -1  )
+                                return false;
+                        }
+
+                        return true;
+                    })
+
+
+                skip.value = (page.value - 1) * limit.value
                 total_size.value = query.filteredrows.length;
                 total_pages = Math.ceil(total_size.value / limit.value)
 
@@ -107,8 +148,32 @@
 
             do_search()
 
+
+            function choose_tags() {
+                tags.value.push('123');
+                console.log("choose_tags")
+            }
+
             function prev_page() {
-                console.log('prev_page')
+                change_page(page.value-1);
+            }
+            function next_page() {
+                change_page(page.value+1);
+            }
+            function change_page(idx) {
+                if(idx == '...') return;
+                if(idx == page.value) return; // 没有改变page值
+                if( idx > total_pages.value) {
+                    alert('最后一页')
+                    return;
+                }
+                if( idx < 1) {
+                    alert('最前一页')
+                    return;
+                }
+
+                page.value = idx;
+                do_search();
             }
 
             return {
@@ -118,7 +183,16 @@
                 do_search,
                 total_size,
                 total_pages,
-                prev_page
+                
+                level,
+                tags,
+                tags_str,
+                title,
+
+                prev_page,
+                next_page,
+                change_page,
+                choose_tags,
             };
         },
     };
