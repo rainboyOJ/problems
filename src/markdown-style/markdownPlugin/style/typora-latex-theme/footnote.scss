@@ -1,0 +1,15 @@
+/* 参考文献（脚注）块 */
+.footnotes {
+  font-size: 0.95em;
+}
+.footnotes-area {
+  .footnote-line {
+    color: var(--text-color);
+  }
+
+  // 默认情况下，Typora 会给参考文献块顶部加一条横线，这里把它隐藏掉
+  hr {
+    border: 0;
+    color: #00000000;
+  }
+}

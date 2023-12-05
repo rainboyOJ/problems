@@ -1,0 +1,40 @@
+div[class^="language-"] {
+    position:relative;
+}
+
+.zeroclipboard-container {
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    cursor:pointer;
+    padding:0.5rem;
+    border-radius:5px;
+
+    &:hover {
+        background: rgba(#fff,0.5);
+    }
+
+    svg {
+        fill:#bbb;
+        &:hover {
+            fill:#fff;
+        }
+    }
+
+    svg:first-child {
+        display:unset;
+    }
+    svg:last-child {
+        display:none;
+    }
+
+}
+
+.zeroclipboard-container.copied {
+    svg:first-child {
+        display:none;
+    }
+    svg:last-child {
+        display:unset;
+    }
+}

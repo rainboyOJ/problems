@@ -47,7 +47,7 @@
             <pagenation 
             @prev_page="prev_page" 
             @next_page="next_page" 
-             @page="change_page"
+            @page="change_page"
             :page_size="total_pages" :now_page="page"/>
         </div>
 
@@ -77,6 +77,15 @@
                 </tr>
             </tbody>
         </table>
+
+        <div class="d-flex justify-content-center">
+            <pagenation 
+            @prev_page="prev_page" 
+            @next_page="next_page" 
+            @page="change_page"
+            :page_size="total_pages" :now_page="page"/>
+        </div>
+
     </div>
 </template>
 

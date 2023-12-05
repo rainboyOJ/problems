@@ -1,0 +1,19 @@
+// https://stackoverflow.com/a/30279590
+// The syntax is the same as now - @import "your/path/to/the/file", without an extension after the file name. This will import your file directly. If you append *.css at the end, it will translate into the css rule @import url(...).
+html,body {
+    font-size:62.5%;
+}
+.markdown-body {
+    max-width:800px;
+    margin: 0 auto;
+}
+
+@import "./markdown-r.scss";
+@import "./markdownPlugin/pseudocode";
+// @import "./markdownPlugin/markdown-it-code-copy.scss";
+@import "./markdownPlugin/markdown-it-container.scss";
+@import "./markdownPlugin/style/typora-latex-theme/include.scss";
+@import "./markdownPlugin/clipcopy-container.scss";
+@import "./markdown_perfect.scss";
+@import "../style/scrobar.scss";
+

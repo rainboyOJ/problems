@@ -20,9 +20,9 @@
  * */
 const {join,resolve,extname} = require('path')
 const {basename,statSync,readFileSync,readdirSync,existsSync} = require("fs")
-const jsyaml = require('js-yaml')
+// const jsyaml = require('js-yaml')
 const fs = require("fs")
-const getDataList = require("../bin/lib/getDataList.js")
+const getDataList = require("../../bin/lib/getDataList.js")
 
 const lokijs = require('lokijs')
 
@@ -52,7 +52,8 @@ function get_content_ext(problem_path) {
 
 //得到题目信息
 function get_problem_info(path) {
-    let a = jsyaml.load(readFileSync(join(path,'reference.yml'),{encoding:'utf-8'}),{json:true})
+    // let a = jsyaml.load(readFileSync(join(path,'reference.yml'),{encoding:'utf-8'}),{json:true})
+    let a = JSON.parse(readFileSync(join(path,'config.json'),{encoding:'utf-8'}))
     return Object.assign(
         a,
         {  content_ext: get_content_ext(path)},
@@ -62,7 +63,7 @@ function get_problem_info(path) {
 
 async function main() {
     // 1. get All pid
-    const problem_dir = resolve(__dirname,'../problems/')
+    const problem_dir = resolve(__dirname,'../../problems/')
     let pids = readdirSync(problem_dir)
     for(let pid of pids) {
         let problem_path = join(problem_dir,pid)
@@ -88,7 +89,9 @@ async function main() {
     // 下载dump
     let jsonStr = db.serialize()
     // console.log(jsonStr)
-    fs.writeFileSync(join(__dirname,'../src/roj.json'),jsonStr,{encoding:'utf8'})
+    const out_db_path = join(__dirname,'../src/roj.json')
+    console("写入db:" out_db_path)
+    fs.writeFileSync(out_db_path,jsonStr,{encoding:'utf8'})
 
 }
 

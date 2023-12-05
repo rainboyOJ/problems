@@ -1,0 +1,50 @@
+@media print {
+  .markdown-body {
+    padding: 0 !important;
+  }
+  @page {
+    margin: 1.8cm 2cm 1.2cm 2cm !important; /* 页边距 */
+  }
+}
+
+.markdown-body {
+  font-family: var(--base-Latin-font), var(--base-Chinese-font), serif;
+  font-size: var(--base-font-size);
+  /* A4标准宽度 */
+  // max-width: 21cm;
+  /* column-count: 2;
+    column-gap: 25px;
+    column-width: 8cm; 
+    display: inline-block; */
+  /* 这里可以试分栏的，但确实不适合实现 */
+
+  .md-math-block,
+  .md-rawblock,
+  p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  p {
+    text-align: left;
+    line-height: var(--base-line-height);
+  }
+
+    a {
+      color: var(--link-color-light);
+    }
+}
+
+hr {
+  border-top: solid 1px #ddd;
+  margin-top: 1.8em;
+  margin-bottom: 1.8em;
+}
+
+img {
+  /* 避免图片在导出时被断开 */
+  page-break-inside: avoid;
+}
+
+strong {
+  font-weight: var(--strong-weight);
+}

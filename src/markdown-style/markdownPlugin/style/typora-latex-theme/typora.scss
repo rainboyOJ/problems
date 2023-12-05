@@ -1,0 +1,118 @@
+@media screen {
+  .markdown-body {
+      // padding: var(--set-margin);
+      /* 添加一个淡蓝色的边框 */
+      // border: 0.8px solid #AAC ;
+      // border-radius: 2px;
+      /* 页边阴影 */
+      // box-shadow: 0 0 24px 12px #cccccc;
+      // box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      // box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      // box-shadow:
+      /* offset-x | offset-y | blur-radius | spread-radius | color */
+      // 0px 1px 1px 0px hsla(0,0%,0%,0.14), 
+      // 0px 2px 1px -1px hsla(0,0%,0%,0.12), 
+      // 0px 1px 3px 0px hsla(0,0%,0%,0.2);
+  }
+}
+
+// 公式
+.MathJax {
+  font-size: var(--math-font-size);
+}
+
+/* typora 编写模式 */
+// #typora-source {
+//   @if $theme == "dark" {
+//     /* background: ;*/
+//     color: #dddddd;
+//   }
+//   font-family: var(--sourceMode-font), var(--code-font), var(--ui-font),
+//     monospace;
+//   line-height: 2em;
+// }
+
+/* 侧边大纲标题 */
+.sidebar-content {
+  .outline-h1 {
+    counter-reset: outline-h2;
+  }
+  .outline-h2 {
+    counter-reset: outline-h3;
+    .outline-label:before {
+      counter-increment: outline-h2;
+      content: counter(outline-h2) " ";
+    }
+  }
+  .outline-h3 {
+    counter-reset: outline-h4;
+    .outline-label:before {
+      counter-increment: outline-h3;
+      content: counter(outline-h2) "." counter(outline-h3) "  ";
+    }
+  }
+  .outline-h4 {
+    counter-reset: outline-h5;
+    .outline-label:before {
+      counter-increment: outline-h4;
+      content: counter(outline-h2) "." counter(outline-h3) "."
+        counter(outline-h4) "  ";
+    }
+  }
+  .outline-h5 {
+    counter-reset: outline-h6;
+    .outline-label:before {
+      counter-increment: outline-h5;
+      content: counter(outline-h2) "." counter(outline-h3) "."
+        counter(outline-h4) "." counter(outline-h5) "  ";
+    }
+  }
+}
+
+.sidebar-content {
+  /* 侧边栏的字体修改 */
+  font-family: var(--ui-font);
+  list-style: none;
+  // @if $theme == "dark" {
+    /* 黑色模式修改 */
+    background-color: #282828;
+    color: #e9e9e9;
+  // }
+}
+
+// /* 元数据（如 YAML front matter）的背景框 */
+// pre.md-meta-block {
+//   @if $theme == "light" {
+//     background: #cccccc;
+//   } @else if $theme == "dark" {
+//     background: #161616;
+//     color: white !important;
+//   }
+//   padding: 1.4em;
+//   font-family: var(--code-font), var(--ui-font), monospace;
+//   font-size: 0.8em;
+// }
+
+// override the default style for focused headings
+.markdown-body > h3.md-focus:before,
+.markdown-body > h4.md-focus:before,
+.markdown-body > h5.md-focus:before,
+.markdown-body > h6.md-focus:before,
+h3.md-focus:before,
+h4.md-focus:before,
+h5.md-focus:before,
+h6.md-focus:before {
+  color: inherit;
+  border: inherit;
+  border-radius: inherit;
+  position: inherit;
+  left: initial;
+  float: none;
+  top: initial;
+  font-size: inherit;
+  padding-left: inherit;
+  padding-right: inherit;
+  vertical-align: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
