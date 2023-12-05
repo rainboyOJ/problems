@@ -1,0 +1,9 @@
+{
+  "title": "「Largest Rectangle in a Histogram」 直方图中最大的矩形",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "单调栈"
+  ],
+  "level": 3
+}

@@ -1,0 +1,11 @@
+{
+  "title": "「Square Destroyer」 破坏正方形",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "搜索",
+    "IDA*",
+    "剪枝"
+  ],
+  "level": 6
+}

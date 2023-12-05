@@ -1,0 +1,10 @@
+{
+  "title": "「Count The Repetitions」 计算重复",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "动态规划",
+    "倍增优化DP"
+  ],
+  "level": 6
+}

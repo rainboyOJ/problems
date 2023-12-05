@@ -1,8 +1,0 @@
-title: 「Network of Schools」 学校网络
-time: 1000
-memory: 128
-tags:
-  - 图论
-  - Tarjan算法
-  - 有向图的强连通分量
-level: 4

@@ -1,0 +1,10 @@
+{
+  "title": "「Phone List」 电话列表",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "Trie",
+    "字典树"
+  ],
+  "level": 3
+}

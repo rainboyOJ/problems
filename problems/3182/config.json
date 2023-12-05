@@ -1,0 +1,10 @@
+{
+  "title": "「Sorting It All Out」 排序",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "图论",
+    "传递闭包"
+  ],
+  "level": 3
+}

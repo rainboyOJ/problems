@@ -1,0 +1,10 @@
+{
+  "title": "「Addition Chains」 加成序列",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "搜索",
+    "迭代加深"
+  ],
+  "level": 3
+}

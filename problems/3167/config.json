@@ -1,0 +1,10 @@
+{
+  "title": "「Substract」 减操作",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "动态规划",
+    "线性DP"
+  ],
+  "level": 3
+}

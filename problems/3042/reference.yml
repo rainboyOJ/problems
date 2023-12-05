@@ -1,8 +1,0 @@
-title: 「The XOR Largest Pair」 最大异或对
-time: 1000
-memory: 128
-tags:
-  - Trie
-  - 字典树
-  - 贪心
-level: 3

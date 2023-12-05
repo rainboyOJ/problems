@@ -1,0 +1,11 @@
+{
+  "title": "「Machine Schedule」 机器任务",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "图论",
+    "二分图最小点覆盖",
+    "匈牙利算法"
+  ],
+  "level": 3
+}

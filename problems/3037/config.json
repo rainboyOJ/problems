@@ -1,0 +1,10 @@
+{
+  "title": "「Snowflake Snow Snowflakes」 雪花雪花雪花",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "哈希表",
+    "字符串的最小表示法"
+  ],
+  "level": 3
+}
