@@ -37,7 +37,6 @@ var problems = db.addCollection('problems')
 function get_data_info(path) {
     let {both_list}= getDataList(join(path,'data'))
     return both_list
-
 }
 
 //得到题目的后缀

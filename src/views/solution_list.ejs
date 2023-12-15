@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8"/>
+    <title><%=_id%> : <%= title || "无标题" %></title>
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/markdown.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" integrity="sha512-fHwaWebuwA7NSF5Qg/af4UeDx9XqUpYpOGgubo3yWu+b2IQR4UeQwbb42Ti7gVAjNtVoI/I9TEoYeu9omwcC6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="/prism-theme/prism.css"/> -->
+    <link rel="stylesheet" href="/prism-theme/prism-vsc-dark-plus.css"/>
+    <style>
+        hr.wavy {
+            border: none;
+            border-top: 3px solid transparent;
+            background-image: linear-gradient(to right, #ccc, #ccc 20%, transparent 20%, transparent 40%, #ccc 40%);
+            background-size: 40px 4px;
+        }
+    </style>
+  </head>
+  <body>
+    <%-include("../ejs/git-corner.ejs")%>
+    <div class="bg-dark">
+        <%-include("../ejs/nav.ejs")%>
+    </div>
+    <div class="container">
+        <div style="text-align:center;">
+            <h1>
+                <%= _id%> : <%= title %>
+            </h1>
+        </div>
+        <table class="table fs-5" style="max-width:800px;margin:0 auto;">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">标题</th>
+                    <th scope="col">作者</th>
+                </tr>
+            </thead>
+            <tbody>
+            <% for(let i = 0;i<solution_links.length;i++) {%>
+                <tr>
+                    <th scope="row">
+                        <a class="plink" target="__blank__" href="<%- solution_links[i].link%>">
+                            <%= i+1 %>
+                        </a>
+                    </th>
+                    <td>
+                        <a class="plink" target="__blank__" href="<%- solution_links[i].link%>">
+                            <%= solution_links[i].title%>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="plink" target="__blank__" href="<%- solution_links[i].home || '#'%>">
+                            <%= solution_links[i].author || '未知' %>
+                        </a>
+                    </td>
+                </tr>
+            <%}%>
+            </tbody>
+        </table>
+    </div> <!-- end container -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        //copy to clipboard
+        document.querySelectorAll('.zeroclipboard-container').forEach( function(clipContainer){
+            clipContainer.addEventListener('click', function(event) {
+                if( clipContainer.classList.contains('copied')) return;
+
+                let text = clipContainer.parentNode.textContent
+                clipContainer.classList.add('copied');
+                navigator.clipboard.writeText(text).then( ()=>{
+                        setTimeout( ()=> clipContainer.classList.remove('copied'),1500)
+                    },
+                    ()=> { //failed
+                        setTimeout( ()=> clipContainer.classList.remove('copied'),1500)
+                        alert("copy failed!");
+                    }
+                )
+            })
+        })
+    </script>
+  </body>
+</html>
