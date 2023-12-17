@@ -95,10 +95,22 @@
     import roj_json from './roj.json'
     import pagenation from './pagination.vue'
 
+
     const db = new lokijs('roj.json')
     db.loadJSONObject(roj_json)
 
-    const problems = db.getCollection('problems')
+    const AllCollects = db.listCollections().map( ({name})=> name);
+    const now_Coll= ref('')
+
+    console.log(AllCollects)
+    //now_Coll.value = (AllCollects.indexOf('roj') != -1) :  'roj' ? AllCollects[0]
+    if( AllCollects.indexOf('roj') != -1)
+    {
+        now_Coll.value = 'roj'
+    }
+    else now_Coll.value = AllCollects[0]
+
+    const problems = db.getCollection(now_Coll.value)
     const problems_size = problems.chain().find({_id: { '$exists':true} }).filteredrows.length;
     //var a = problems.findOne({_id:1000})
     console.log(problems_size)

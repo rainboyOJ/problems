@@ -1,23 +1,15 @@
-const base_oj_class = require("./base_oj_class.js")
-class luogu extends base_oj_class {
+const base = require("./base.js")
+class luogu extends base {
 
     static instance = null
 
     constructor() {
-        super('luogu','other_oj/luogu','dist/luogu')
+        super('luogu','other_oj/luogu','/luogu')
         // this.id = id
         // this.link = `https://www.luogu.com.cn/problem/${id}`
         return luogu.instance || (luogu.instance = this)
     }
 
-    get_data_info(id) {
-        try {
-            return super.get_data_info(id)
-        }
-        catch(e) {
-            return [];
-        }
-    }
 
     //连接网络 得到信息
     http() {
