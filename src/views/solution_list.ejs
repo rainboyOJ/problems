@@ -21,10 +21,11 @@
   </head>
   <body>
     <%-include("../ejs/git-corner.ejs")%>
-    <div class="bg-dark">
-        <%-include("../ejs/nav.ejs")%>
-    </div>
+    <%-include("../ejs/nav.ejs")%>
+
+
     <div class="container">
+        <%- include("../ejs/tabs.html",{is_solutions:false})%>
         <div style="text-align:center;">
             <h1>
                 <%= _id%> : <%= title %>
@@ -39,21 +40,24 @@
                 </tr>
             </thead>
             <tbody>
-            <% for(let i = 0;i<solution_links.length;i++) {%>
+            <% for(let i = 0;i<solutions.length;i++) {
+                let link = solutions[i].link
+                let home = solutions[i].home || '#'
+                        %>
                 <tr>
                     <th scope="row">
-                        <a class="plink" target="__blank__" href="<%- solution_links[i].link%>">
+                        <a class="plink" target="__blank__" href="<%- link%>">
                             <%= i+1 %>
                         </a>
                     </th>
                     <td>
-                        <a class="plink" target="__blank__" href="<%- solution_links[i].link%>">
-                            <%= solution_links[i].title%>
+                        <a class="plink" target="__blank__" href="<%- link%>">
+                            <%= solutions[i].title%>
                         </a>
                     </td>
                     <td>
-                        <a class="plink" target="__blank__" href="<%- solution_links[i].home || '#'%>">
-                            <%= solution_links[i].author || '未知' %>
+                        <a class="plink" target="__blank__" href="<%- home %>">
+                            <%= solutions[i].author || '未知' %>
                         </a>
                     </td>
                 </tr>

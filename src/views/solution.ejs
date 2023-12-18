@@ -21,15 +21,18 @@
   </head>
   <body>
     <%-include("../ejs/git-corner.ejs")%>
-    <div class="bg-dark">
-        <%-include("../ejs/nav.ejs")%>
-    </div>
+    <%-include("../ejs/nav.ejs")%>
     <div class="container">
+
+        <%- include("../ejs/tabs.html",{is_solutions:true})%>
+
         <div style="text-align:center;">
             <h1>
                 <%= title %>
             </h1>
         </div>
+
+
         <div class="markdown-body">
             <%- content %>
         </div>

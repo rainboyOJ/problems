@@ -1,0 +1,43 @@
+//渲染 传入的md文件为html
+const MDRender = require('markdown-r')
+const {mirrors,real_link} = require('../../utils/github_proxy.js')
+const {extname} =  require("path")
+const {writeFileSync,statSync,mkdirSync,readFileSync,existsSync} = require('fs')
+const pather  = require("./pather.js")
+
+function file_time_newer(file1,file2) {
+    //file1 不存在就认,file1不比file2新
+    if( !existsSync(file1)) return false;
+
+    if( !existsSync(file2)) throw `${file2} not exists!`
+
+    let s1_time = statSync(file1).ctime
+    let s2_time = statSync(file2).ctime
+    return s1_time > s2_time;
+}
+
+module.exports = function (md_path ,config = {}) {
+
+    const force_update = config.force_update || false
+
+    //TODO check time
+
+    config.ejs = config.ejs || {}
+
+    config.ejs.data = config.ejs.data || {}
+    config.ejs.options= config.ejs.options || {}
+
+    let filename = pather.absolute(md_path)
+    config.ejs.options.filename = config.ejs.options.filename || filename
+
+    let content = '';
+    //渲染条件
+    if(extname(md_path).toLowerCase() == '.md') {
+        content = MDRender( readFileSync( filename  ,{encoding:'utf8'}) , 
+            { //MDRender config
+                ejs:config.ejs
+            }
+        ).content
+    }
+    return content
+}

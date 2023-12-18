@@ -3,11 +3,16 @@
 const {join,resolve,isAbsolute,extname,dirname,basename,relative} = require('path')
 const {writeFileSync,readdirSync,statSync,readFileSync,existsSync} = require("fs")
 
-const {project_dir,relative:pather_relative} = require('./base_class/pather.js')
+const {project_dir,relative:pather_relative,link_to_output_path} = require('./base_class/pather.js')
+
+const {mirrors,real_link} = require('../utils/github_proxy.js')
 
 const problemClass = require("./base_class/problem.js")
 const solutionClass = require("./base_class/solution.js")
 const dataClass = require("./base_class/data.js")
+
+
+const renderer = require("./base_class/renderer.js")
 const viewer = require('../viewer.js')
 
 class Base {
@@ -17,6 +22,7 @@ class Base {
         this._path = join(project_dir,_path)//基础路径
         this._output_path = output_path
     }
+
     get name() {
         return this._name
     }
@@ -50,7 +56,7 @@ class Base {
     solution_list_link(problem_path) {
         return join(this._output_path,
             this.relative_problem_base_path( problem_path) ,
-            'solutions.html')
+            'solutions/index.html')
     }
 
     solution_link(_file_){
@@ -98,18 +104,22 @@ class Base {
         }
         return infos
     }
+
     render(infos) {
         //得到所有的infos
         //然后开始渲染
         for(let info of infos) {
             // problemClass.render(info);
             //渲染器 题目
-            viewer('problem',info.link,infos)
+            let content = renderer(info.file)
+            viewer('problem',link_to_output_path(info.link),{...info,content, mirrors,real_link})
             //渲染器 solution_list
-            viewer('solution_list',info.solution_list_link,infos)
+            viewer('solution_list',link_to_output_path(info.solution_list_link),info)
             //渲染器 solution
-            for(let solution of solutions)
-            viewer('solution',solution,solution)
+            for(let solution of info.solutions){
+                let content = renderer(solution.file)
+                viewer('solution',link_to_output_path(solution.link),{...solution,content})
+            }
         }
     }
 

@@ -37,7 +37,9 @@ async function main() {
         //得到collections的名字
         console.log(oj.name)
         let collections = db.getCollection(oj.name);
+
         let problems = collections.find({_id: {'$exists':true}})
+
         for( let p of problems) {
 
             //渲染条件

@@ -3,10 +3,12 @@
 
 const ejs = require("ejs")
 const {writeFileSync,statSync,mkdirSync,readFileSync,existsSync} = require('fs')
-const {resolve,join} = require("path")
+const {isAbsolute,dirname,resolve,join} = require("path")
 const {project_dir } = require("./online_judge/base_class/pather.js")
+const {mkdirp} = require("./utils/utils.js")
 
 const viewDir = join(__dirname,'../views/')
+
 var ejs_template = {
 
 }
@@ -23,8 +25,9 @@ module.exports = function(viewName,output_path,data,config = {}) {
     let html = ejs_template[viewName](data,config)
     //写入
     let real_output_path = output_path
-    if( isAbsolute(output_path) ) {
+    if( !isAbsolute(output_path) ) {
         real_output_path = join(project_dir,output_path)
     }
+    mkdirp(dirname(output_path))
     writeFileSync(real_output_path,html,{encoding:'utf8'})
 }

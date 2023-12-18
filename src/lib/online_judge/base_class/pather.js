@@ -16,6 +16,18 @@ exports.relative = function (p) {
 }
 
 //把相对地址 转成 绝对地址
+//
 exports.absolute = function (p) {
     return join(project_dir,p)
 }
+
+//把href link 转到输出的路径
+exports.link_to_output_path = function (link) {
+    
+    let tlink = link
+    if(isAbsolute(link)) {
+        tlink = link.slice(1);
+    }
+    return join(project_dir,'dist',tlink)
+}
+

@@ -11,7 +11,7 @@ class luogu extends base {
     }
 
 
-    //连接网络 得到信息
+    //连接网络 得到题目数据
     http() {
 
         var getInfo = function(id){
