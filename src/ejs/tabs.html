@@ -1,18 +1,24 @@
-<ul class="nav nav-tabs">
-    <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">题目</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">数据下载</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">解析列表</a>
-    </li>
-    <% if(is_solutions) {%>
+<div class="mx-4 my-5">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link <%= active=='problem' ? 'active' : ''%>" aria-current="page" href="<%-link%>">题目</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link <%= active=='data' ? 'active' : ''%>" href="#">数据下载</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link <%= active=='solution_list' ? 'active' : ''%>" href="<%-solution_list_link%>">解析列表
+                <span class="badge bg-secondary">
+                    <%= solutions.length %>
+                </span>
+            </a>
+        </li>
+        <% if( active =='solution') {%>
 
-    <li class="nav-item">
-        <a class="nav-link" href="#">题目解析</a>
-    </li>
+        <li class="nav-item">
+            <a class="nav-link <%= active=='solution' ? 'active' : ''%>">题目解析</a>
+        </li>
 
-    <%}%>
-</ul>
+        <%}%>
+    </ul>
+</div>

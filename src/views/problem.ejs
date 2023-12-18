@@ -4,7 +4,7 @@
   <body>
     <%-include("../ejs/nav.ejs")%>
     <div class="container">
-        <%- include("../ejs/tabs.html",{is_solutions:false})%>
+        <%- include("../ejs/tabs.html",{active:'problem',solution_list_link,link,solutions})%>
         <div style="text-align:center;">
             <h1>
                 <%= _id%> : <%= title %>

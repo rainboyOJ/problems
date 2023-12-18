@@ -112,13 +112,15 @@ class Base {
             // problemClass.render(info);
             //渲染器 题目
             let content = renderer(info.file)
-            viewer('problem',link_to_output_path(info.link),{...info,content, mirrors,real_link})
+            let data = {...info,content, mirrors,real_link}
+            viewer('problem',link_to_output_path(info.link),data)
             //渲染器 solution_list
-            viewer('solution_list',link_to_output_path(info.solution_list_link),info)
+            viewer('solution_list',link_to_output_path(info.solution_list_link),data)
             //渲染器 solution
-            for(let solution of info.solutions){
-                let content = renderer(solution.file)
-                viewer('solution',link_to_output_path(solution.link),{...solution,content})
+            for(let i = 0 ;i< info.solutions.length ;i++){
+                data.content = renderer(info.solutions[i].file)
+                data.current_solution = i
+                viewer('solution',link_to_output_path(info.solutions[i].link),data)
             }
         }
     }
