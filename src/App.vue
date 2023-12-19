@@ -1,5 +1,12 @@
 <template>
-    <div>
+    <div class="my-5">
+        <div class="">
+            <span> OJ: </span>
+            <template v-for="name in oj_name">
+                <input type="checkbox" class="btn-check" :value="name" :id="`oj-name-${name}`" autocomplete="off" checked v-model="choosed_oj">
+                <label class="btn btn-light btn-sm me-2" :for="`oj-name-${name}`" type="button">{{name}}</label>
+            </template>
+        </div>
         <div class="row g-2 align-items-center my-3">
             <div class="col-md-1">
                 <span> 筛选: </span>
@@ -37,7 +44,7 @@
             </div>
 
             <div class="col-md-1 d-flex justify-content-center">
-                <button type="button" class="btn btn-primary" @click="do_search">
+                <button type="button" class="btn btn-primary" @click="do_search(1)">
                     search
                 </button>
             </div>
@@ -63,12 +70,12 @@
             <tbody>
                 <tr v-for="p in problem_list">
                     <th scope="row">
-                        <a class="plink" target="__blank__" :href="`/problem/${p._id}`">
+                        <a class="plink" target="__blank__" :href="p.link">
                             {{p._id}}
                         </a>
                     </th>
                     <td>
-                        <a class="plink" target="__blank__" :href="`/problem/${p._id}`">
+                        <a class="plink" target="__blank__" :href="p.link">
                             {{p.title}}
                         </a>
                     </td>
@@ -93,24 +100,19 @@
     import {ref, reactive, computed } from "vue";
     import lokijs from 'lokijs'
     import roj_json from './roj.json'
+    import oj_name from './oj_name.json'
     import pagenation from './pagination.vue'
+
+    
+    const choosed_oj= ref(oj_name)
+    console.log(oj_name)
 
 
     const db = new lokijs('roj.json')
     db.loadJSONObject(roj_json)
 
-    const AllCollects = db.listCollections().map( ({name})=> name);
-    const now_Coll= ref('')
+    const problems = db.getCollection('problem')
 
-    console.log(AllCollects)
-    //now_Coll.value = (AllCollects.indexOf('roj') != -1) :  'roj' ? AllCollects[0]
-    if( AllCollects.indexOf('roj') != -1)
-    {
-        now_Coll.value = 'roj'
-    }
-    else now_Coll.value = AllCollects[0]
-
-    const problems = db.getCollection(now_Coll.value)
     const problems_size = problems.chain().find({_id: { '$exists':true} }).filteredrows.length;
     //var a = problems.findOne({_id:1000})
     console.log(problems_size)
@@ -143,6 +145,8 @@
                 if( title.value && title.length != 0 ) //标题
                     query_object.title = {'$regex': [title.value,'i']}
                 //console.log(query_object)
+                
+                query_object.oj = {'$in':choosed_oj.value}
 
                 let query = problems.chain()
                 .find(query_object)
@@ -210,6 +214,9 @@
             }
 
             return {
+                oj_name,
+                choosed_oj,
+
                 problem_list,
                 page,
                 limit,

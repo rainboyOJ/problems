@@ -69,7 +69,7 @@ class Base {
     //返回全部题目的信息
     info() {
         let dirs = readdirSync(this._path)
-        console.log('dirs',dirs)
+        // console.log('dirs',dirs)
         let infos= []
         for(let d of dirs) 
         {
@@ -84,12 +84,13 @@ class Base {
                 let data_info = Data.info();
 
                 let solutions = new solutionClass(problem_path).info()
-                console.log(solutions)
+                // console.log(solutions)
 
                 // 读取数据
 
                 let doc = {
                     _id:d+'',
+                    oj:this.name,
                     ...problem_info,
                     //输出路径
                     link: this.problem_link(problem_info.file),

@@ -1,27 +1,33 @@
 {
     "name": "problems",
     "version": "1.0.0",
-    "main": "index.js",
     "license": "MIT",
-    "source": "src/index.html",
+    "source": "src/index.ejs",
     "scripts": {
-        "dev": "parcel --no-cache"
+        "dev": "vite --host",
+        "build": "vite build"
     },
     "dependencies": {
-        "@popperjs/core": "^2.11.8",
-        "bootstrap": "^5.3.2",
-        "ejs": "^3.1.9",
-        "lokijs": "^1.5.12"
-    },
-    "devDependencies": {
         "@parcel/transformer-sass": "^2.10.3",
         "@parcel/transformer-vue": "^2.10.3",
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.2",
         "commander": "^6.1.0",
+        "ejs": "^3.1.9",
+        "glob": "^10.3.10",
+        "gray-matter": "^4.0.3",
         "js-yaml": "^3.14.0",
+        "lokijs": "^1.5.12",
+        "moment": "^2.29.4",
         "parcel": "^2.10.3",
         "parcel-transformer-ejs": "^1.0.1",
         "process": "^0.11.10",
         "progress": "^2.0.3",
         "vue": "^3.3.9"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.5.2",
+        "vite": "^5.0.8",
+        "vite-plugin-ejs": "^1.7.0"
     }
 }

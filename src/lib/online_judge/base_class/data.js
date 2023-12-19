@@ -22,9 +22,7 @@ class Data {
             }
         }
         catch(e) {
-            if( e.indexOf('输入文件没有找到') != -1)
-                return []
-            throw e;
+            console.error(this._path,e);
         }
         return []
     }

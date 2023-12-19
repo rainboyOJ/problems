@@ -4,39 +4,44 @@
 //[扫描]->创建database
 //[读取database] -> 渲染相应网页
 
-const {join,resolve,extname} = require('path')
+const {join} = require("path")
 const fs = require("fs")
-const {basename,statSync,readFileSync,readdirSync,existsSync} = require("fs")
-const getDataList = require("./utils/getDataList.js")
-const lokijs = require('lokijs')
 
+const lokijs = require('lokijs')
 //创建数据库
 var db = new lokijs('roj.json')
-const ojs = require("./online_judge/")
+
+const ojs = [
+    require("./online_judge/roj.js"),
+    require("./online_judge/luogu.js")
+]
 
 async function main() {
 
+    //创建collection
+    let collection = db.addCollection('problem')
+    let oj_names = []
+    // let collection_oj_name = db.addCollection('oj_name')
     for( let oj of ojs) {
+        oj_names.push(oj.name)
 
         // 得到信息
-        let infos = oj.all_info();
-        //创建collection
-        let collection = db.addCollection(oj.name)
+        let infos = oj.info();
         //插入
-        collection.insert(infos)
-        for(let info of infos) {
-            console.log('info',info)
-            oj.render(info._id,info) //渲染数据
-        }
+        // await collection_oj_name.insert({name:oj.name})
+        await collection.insert(infos)
+
+        oj.render(infos)
     }
 
     //写入数据
     let jsonStr = db.serialize()
-    // console.log(jsonStr)
     const out_db_path = join(__dirname,'../roj.json')
-    console.log(out_db_path)
+    const out_oj_name_path = join(__dirname,'../oj_name.json')
     console.log("写入db:", out_db_path)
     fs.writeFileSync(out_db_path,jsonStr,{encoding:'utf8'})
+    fs.writeFileSync(out_oj_name_path,JSON.stringify(oj_names),{encoding:'utf8'})
 }
 
 main()
+
