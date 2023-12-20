@@ -5,7 +5,8 @@
     "source": "src/index.ejs",
     "scripts": {
         "dev": "vite --host",
-        "build": "vite build"
+        "build": "vite build",
+        "down":"node ./src/lib/problem_download.js $INIT_CWD"
     },
     "dependencies": {
         "@parcel/transformer-sass": "^2.10.3",

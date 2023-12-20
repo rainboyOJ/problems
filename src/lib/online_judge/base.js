@@ -27,6 +27,10 @@ class Base {
         return this._name
     }
 
+    get relative() {
+        return this._relative_path
+    }
+
     id_path(id) {
         return join(this._path,id+'')
     }
@@ -73,6 +77,12 @@ class Base {
         return join(this._output_path,
             this.relative_problem_base_path(_file_) ).replace('.md','.html');
     }
+
+    //-- 用于创建题目的相关信息
+    problem(id) {
+        return new problemClass(this.id_path(id))
+    }
+    //-- 用于创建题目的相关信息 end
 
     //返回全部题目的信息
     info() {
