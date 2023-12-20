@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh">
+    <%-include("../ejs/header.html")%>
+  <body>
+    <%-include("../ejs/nav.ejs")%>
+    <div class="container">
+        <%- include("../ejs/tabs.html",{active:'data',solution_list_link,link,solutions,data})%>
+        <%- include("../ejs/download_data.html",{_id,data,mirrors,real_link})%>
+    </div>
+<body>
+</html>

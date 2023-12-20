@@ -4,7 +4,11 @@
             <a class="nav-link <%= active=='problem' ? 'active' : ''%>" aria-current="page" href="<%-link%>">题目</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link <%= active=='data' ? 'active' : ''%>" href="#">数据下载</a>
+            <% if( data.length) {%>
+                <a class="nav-link <%= active=='data' ? 'active' : ''%>" href="<%-data_link%>">数据下载 </a>
+            <%}else{%>
+                <a class="nav-link <%= active=='data' ? 'active' : ''%>">无数据</a>
+            <% }%>
         </li>
         <li class="nav-item">
             <a class="nav-link <%= active=='solution_list' ? 'active' : ''%>" href="<%-solution_list_link%>">解析列表

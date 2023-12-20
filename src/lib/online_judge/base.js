@@ -52,6 +52,14 @@ class Base {
         return link
     }
 
+    //显示数据列表下载的地址
+    data_link(_file_) {
+        let link = join(this._output_path,
+            this.relative_problem_base_path( dirname(_file_) ),
+            'data.html')
+        return link
+    }
+
     //
     solution_list_link(problem_path) {
         return join(this._output_path,
@@ -95,6 +103,7 @@ class Base {
                     //输出路径
                     link: this.problem_link(problem_info.file),
                     data: data_info,
+                    data_link: this.data_link(problem_info.file),
                     solution_list_link: this.solution_list_link(pather_relative(problem_path)),
                     solutions : solutions.map( sol => {return { ...sol,link:this.solution_link(sol.file)}} )
                     // solutions : solutions.map( sol => { return {...sol} })
@@ -115,8 +124,14 @@ class Base {
             let content = renderer(info.file)
             let data = {...info,content, mirrors,real_link}
             viewer('problem',link_to_output_path(info.link),data)
+
+            //渲染data.html
+            if(data.data.length)
+                viewer('data',link_to_output_path(info.data_link),data)
+
             //渲染器 solution_list
-            viewer('solution_list',link_to_output_path(info.solution_list_link),data)
+            if( data.solutions.length)
+                viewer('solution_list',link_to_output_path(info.solution_list_link),data)
             //渲染器 solution
             for(let i = 0 ;i< info.solutions.length ;i++){
                 data.content = renderer(info.solutions[i].file)

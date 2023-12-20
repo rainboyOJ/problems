@@ -4,7 +4,7 @@
   <body>
     <%-include("../ejs/nav.ejs")%>
     <div class="container">
-        <%- include("../ejs/tabs.html",{active:'problem',solution_list_link,link,solutions})%>
+        <%- include("../ejs/tabs.html",{active:'problem',solution_list_link,link,solutions,data})%>
         <div style="text-align:center;">
             <h1>
                 <%= _id%> : <%= title %>
@@ -32,7 +32,6 @@
         <% if ( data && data.length > 0) {%>
             <%-include("../ejs/judge.html",{_id})%>
         <%}%>
-        <%-include("../ejs/download_data.html",{_id,data,mirrors,real_link})%>
     </div> <!-- end container -->
 
 
