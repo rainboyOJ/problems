@@ -84,14 +84,20 @@ class Base {
     }
     //-- 用于创建题目的相关信息 end
 
+    //得到所有的题目的id
+    all_ids() {
+        let dirs = readdirSync(this._path)
+        return dirs
+    }
+
     //返回全部题目的信息
     info() {
-        let dirs = readdirSync(this._path)
+        let all_id = this.all_ids()
         // console.log('dirs',dirs)
         let infos= []
-        for(let d of dirs) 
+        for(let id of all_id)
         {
-            let problem_path = this.id_path(d)
+            let problem_path = this.id_path(id)
             if( statSync(problem_path).isDirectory() ) //是文件夹
             {
 
@@ -107,7 +113,7 @@ class Base {
                 // 读取数据
 
                 let doc = {
-                    _id:d+'',
+                    _id:id+'',
                     oj:this.name,
                     ...problem_info,
                     //输出路径
