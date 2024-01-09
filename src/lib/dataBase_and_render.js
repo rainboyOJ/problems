@@ -13,7 +13,8 @@ var db = new lokijs('roj.json')
 
 const ojs = [
     require("./online_judge/roj.js"),
-    require("./online_judge/luogu.js")
+    require("./online_judge/luogu.js"),
+    require("./online_judge/noi.openjudge.cn.js")
 ]
 
 async function main() {
