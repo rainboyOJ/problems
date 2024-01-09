@@ -4,7 +4,7 @@
             <span> OJ: </span>
             <template v-for="name in oj_name">
                 <input type="checkbox" class="btn-check" :value="name" :id="`oj-name-${name}`" autocomplete="off" checked v-model="choosed_oj">
-                <label class="btn btn-light btn-sm me-2" :for="`oj-name-${name}`" type="button">{{name}}</label>
+                <label class="btn btn-primary btn-sm me-2" style="--bs-btn-bg:#ccc;" :for="`oj-name-${name}`" type="button">{{name}}</label>
             </template>
         </div>
         <div class="row g-2 align-items-center my-3">
