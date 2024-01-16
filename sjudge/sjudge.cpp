@@ -24,6 +24,7 @@ using std::literals::operator""sv;
 
 constexpr uint32_t UNLIMITED = 0;
 constexpr uint32_t extra_mem_limit = 16; // 16mb
+const std::string_view VERSION = "20231204"sv;
 
 //评测参数
 struct judge_config {
@@ -136,7 +137,12 @@ int main (int argc, char *argv[]) {
         else if ( argv[i] == "--cwd"sv)
         {
             JCONFIG.cwd = std::string_view(argv[i+1]);
-
+        }
+        else if ( argv[i] == "--version"sv)
+        {
+            // JCONFIG.cwd = std::string_view(argv[i+1]);
+            printf("%s\n",VERSION.data());
+            return 0;
         }
         else if ( argv[i] == "--exe"sv)
         {
@@ -344,7 +350,8 @@ int main (int argc, char *argv[]) {
             //转成ms来比较
             if(
                 JRESULT.signal == SIGXCPU ||
-                JCONFIG.max_cpu_time!= UNLIMITED && JCONFIG.max_cpu_time * 1000 <  (uint64_t)JRESULT.cpu_time)
+                (JCONFIG.max_cpu_time!= UNLIMITED && JCONFIG.max_cpu_time * 1000 <  (uint64_t)JRESULT.cpu_time)
+            )
             {
 #ifdef DEBUG
                 fprintf(stderr,"CPU_TIME_LIMIT_EXCEEDED\n");
