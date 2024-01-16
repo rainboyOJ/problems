@@ -27,6 +27,7 @@ const { input_regs,output_regs} = {
     ],
     output_regs:[
         /([\w]*).out$/i,
+        /([\w]*).ans$/i,
     ]
 }
 
