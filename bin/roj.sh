@@ -91,7 +91,7 @@ function find_file {
     shift 1
     local FZF_OPTIONS="--no-sort --layout=reverse --height 40% --border --margin=0,1"
     local files
-    files="$(find . -type f -name "$find_str" -printf "%f\n")"
+    files="$(find . -type f -maxdepth 1 -name "$find_str" -printf "%f\n")"
     if [ -z "$files" ];then
       echo ""
     else
