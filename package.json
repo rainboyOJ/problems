@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "vite --host",
         "build": "vite build",
-        "down":"node ./src/lib/problem_download.js $INIT_CWD"
+        "down": "node ./src/lib/problem_download.js $INIT_CWD"
     },
     "dependencies": {
         "@parcel/transformer-sass": "^2.10.3",
@@ -28,6 +28,10 @@
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^4.5.2",
+        "axios": "^1.6.5",
+        "cheerio": "^1.0.0-rc.12",
+        "crc": "^4.3.2",
+        "turndown": "^7.1.2",
         "vite": "^5.0.8",
         "vite-plugin-ejs": "^1.7.0"
     }

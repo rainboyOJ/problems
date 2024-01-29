@@ -1,5 +1,7 @@
 #!/bin/env bash
 
+# TODO 这个id 默认是 roj里，其它的可以写成 luogu/1027
+echo "usage: judge.sh roj-problme-id [1.out]"
 sh_dir="$(dirname "$(readlink -f "$0")")"
 problem_dir=$(readlink -f "$sh_dir/../roj")
 source "$sh_dir/scripts/judge_wrap.sh"
