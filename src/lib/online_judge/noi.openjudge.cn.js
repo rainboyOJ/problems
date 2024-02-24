@@ -54,14 +54,14 @@ class NoiOpenJudge extends base {
         return join(this._path,id.replace('-','/'));
     }
 
-    all_ids(){
+    all_dirs(){
         let all_ids = []
         let dirs = readdirSync(this._path)
         for( let d of dirs) {
             let t = readdirSync(this._path + '/' + d)
             // all_ids.push(d + '-' + t)
             // console.log( t.map(item => d +'-' + item ))
-            all_ids = all_ids.concat( t.map(item => d +'-' + item ));
+            all_ids = all_ids.concat( t.map(item => d +'/' + item ));
         }
         return all_ids
     }

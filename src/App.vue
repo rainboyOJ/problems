@@ -62,6 +62,7 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
+                    <th scope="col">OJ</th>
                     <th scope="col">标题</th>
                     <th scope="col">标签</th>
                     <th scope="col">难度</th>
@@ -69,11 +70,12 @@
             </thead>
             <tbody>
                 <tr v-for="p in problem_list">
-                    <th scope="row">
+                    <td scope="row">
                         <a class="plink" target="__blank__" :href="p.link">
-                            {{p._id}}
+                            {{p.sid}}
                         </a>
-                    </th>
+                    </td>
+                    <td>{{p.oj}}</td>
                     <td>
                         <a class="plink" target="__blank__" :href="p.link">
                             {{p.title}}
@@ -169,7 +171,7 @@
                 total_size.value = query.filteredrows.length;
                 total_pages.value = Math.ceil(total_size.value / limit.value)
 
-                return query.simplesort('_id')
+                return query.simplesort('sid')
                 .offset( skip.value )
                 .limit(limit.value)
                 .data()

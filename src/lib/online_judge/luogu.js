@@ -39,6 +39,7 @@ class luogu extends base {
         console.log(data)
 
         let problem = data.currentData.problem
+        console.log(problem.tags)
         let template_md_file =  join(__dirname,'./template/luogou.ejs')
 
         let template_content = readFileSync(template_md_file,{encoding:'utf-8'})
@@ -46,6 +47,17 @@ class luogu extends base {
         let md_content = ejs.render(template_content,problem)
         let output_path = this.problem(id).default_file
         writeFileSync(output_path,md_content,{encoding:'utf-8'})
+
+        //创建config.json
+        let config = `{
+    "title": "${problem.title}",
+    "tags": [
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P${id}"
+}`
+        writeFileSync(this.problem(id).config,config,{encoding:'utf-8'})
     }
 
 }

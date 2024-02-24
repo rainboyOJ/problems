@@ -30,6 +30,11 @@ class Problem {
         return join(this._path,this._default_name+this._exts[0])
     }
 
+    // 得到配置文件的绝对路径
+    get config(){
+        return join(this._path,'config.json')
+    }
+
     //搜索,得到题目信息
     info(){
         let a = JSON.parse(readFileSync(join(this._path,'config.json'),{encoding:'utf-8'}))

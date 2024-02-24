@@ -4,7 +4,8 @@ const {relative} = require('path')
 const pather = require("./online_judge/base_class/pather.js")
 const ojs =
 [
-    require("./online_judge/luogu.js")
+    require("./online_judge/luogu.js"),
+    require("./online_judge/leetcodecn.js")
 ]
 
 // 得到执行yarn down 的命令的cwd
