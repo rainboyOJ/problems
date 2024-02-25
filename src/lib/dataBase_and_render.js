@@ -15,8 +15,12 @@ const ojs = [
     require("./online_judge/roj.js"),
     require("./online_judge/luogu.js"),
     require("./online_judge/noi.openjudge.cn.js"),
-    require("./online_judge/leetcodecn.js")
+    require("./online_judge/leetcodecn.js"),
+    require("./online_judge/vjudge.js"),
 ]
+
+//参数,渲染哪个oj
+let need_render_oj = process.argv[2]
 
 async function main() {
 
@@ -45,5 +49,16 @@ async function main() {
     fs.writeFileSync(out_oj_name_path,JSON.stringify(oj_names),{encoding:'utf8'})
 }
 
-main()
+if( need_render_oj )
+{
+    console.log(need_render_oj,'开始渲染')
+    for( let oj of ojs) {
+        if( oj.name == need_render_oj)  {
+            let infos = oj.info();
+            oj.render(infos)
+            console.log(need_render_oj,'渲染完毕')
+        }
+    }
+}
+else main() // render_all
 

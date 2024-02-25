@@ -34,6 +34,11 @@ class Base {
         return this._relative_path
     }
 
+    //返回此oj默认存题目文件的名字,使用 problem,content
+    get problem_file_name() {
+        return 'content'
+    }
+
     //默认根据oj目录下文件夹名字来
     all_dirs() {
         let dirs = readdirSync(this._path)
@@ -139,7 +144,7 @@ class Base {
             if( statSync(problem_path).isDirectory() ) //是文件夹
             {
 
-                let Problem = new problemClass(problem_path)
+                let Problem = new problemClass(problem_path,this.problem_file_name)
                 let problem_info = Problem.info();
 
                 let Data = new dataClass(problem_path)
@@ -175,14 +180,35 @@ class Base {
         return infos
     }
 
+    //渲染给定绝对路径的 md file 文件
+    render_problem(info) {
+        let ext = extname(info.file)
+        if(  ext == '.md' )
+            return renderer(info.file)
+        else if( ext == '.pdf')
+        return `<script>
+            const pdfs = [
+                "https://mirror.ghproxy.com/https://raw.githubusercontent.com/rainboyOJ/problems/master/problems/<%=_id%>/content.pdf",
+            ]
+            </script>
+            <div id="pdfjs">
+                <iframe width="100%" height="100%"
+                    src="/pdfJs/generic/web/viewer.html?file=https://mirror.ghproxy.com/https://raw.githubusercontent.com/rainboyOJ/problems/master/problems/<%=_id%>/content.pdf">
+                </iframe>
+            </div>
+`
+    }
+
     render(infos) {
         //得到所有的infos
         //然后开始渲染
         for(let info of infos) {
             // problemClass.render(info);
             //渲染器 题目
-            let content = renderer(info.file)
+            let content = this.render_problem(info)
             let data = {...info,content, mirrors,real_link}
+            // For debug
+            // console.log(data)
             viewer('problem',link_to_output_path(info.link),data)
 
             //渲染data.html

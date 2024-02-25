@@ -15,3 +15,26 @@ document.querySelectorAll('.zeroclipboard-container').forEach( function(clipCont
         }
     })
 })
+
+function vjudge_get_problem(pid) {
+    const reg = /<iframe\s+id="frame-description"\s+src="(\S*)"/
+    fetch('https://vjudge.net.cn/problem/'+pid)
+        .then(response => {
+            if (!response.ok) {
+                alert('Network response was not ok');
+            }
+            return response.text();
+        })
+        .then(html => {
+            if( reg.test(html) ){
+                let url_subfixx = html.match(reg)[1]
+                document.getElementById('frame-description').src = 'https://vjudge.net.cn' + url_subfixx
+            }
+            else {
+                alert('不匹配 reg')
+            }
+        })
+        .catch(error => {
+            alert('There was a problem with the fetch operation:', error);
+        });
+}

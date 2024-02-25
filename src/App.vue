@@ -171,7 +171,7 @@
                 total_size.value = query.filteredrows.length;
                 total_pages.value = Math.ceil(total_size.value / limit.value)
 
-                return query.simplesort('sid')
+                return query.simplesort('_id')
                 .offset( skip.value )
                 .limit(limit.value)
                 .data()

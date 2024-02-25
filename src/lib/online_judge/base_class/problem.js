@@ -8,9 +8,9 @@ class Problem {
 
 
     // _path 这个路径下的题目
-    constructor(_path_) {
-        this._default_name = 'content'
-        this._exts = ['.md','.pdf']
+    constructor(_path_,problem_file_name) {
+        this._default_name = problem_file_name ||  'content'
+        this._exts = ['.md','.pdf','.json']
         this._path = _path_ //题目所在路径的绝对路径
     }
 
