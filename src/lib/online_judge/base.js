@@ -11,6 +11,9 @@ const problemClass = require("./base_class/problem.js")
 const solutionClass = require("./base_class/solution.js")
 const dataClass = require("./base_class/data.js")
 
+const Glob = require("glob")
+const fse = require("fs-extra")
+
 
 const renderer = require("./base_class/renderer.js")
 const viewer = require('../viewer.js')
@@ -223,7 +226,21 @@ class Base {
                 data.content = renderer(info.solutions[i].file)
                 data.current_solution = i
                 viewer('solution',link_to_output_path(info.solutions[i].link),data)
+                //把solutions 目录下的所有的图片文件 png,svg,jpg,jpeg,全部复制到对应的输出文件夹下面
+                if( i == 0) {
+                    let out_path = dirname(link_to_output_path(info.solutions[i].link))
+                    let org_path = dirname(info.solutions[i].file)
+
+                    //得到所有的图片文件
+                    let imgs = Glob.globSync("**/*.{png,jpg,jpeg,svg}",{cwd : org_path })
+                    
+                    function move_to_dist(src) {
+                        fse.copySync(join(org_path,src),join(out_path,src))
+                    }
+                    for(let img of imgs) move_to_dist(img);
+                }
             }
+
         }
     }
 
