@@ -18,6 +18,16 @@ const fse = require("fs-extra")
 const renderer = require("./base_class/renderer.js")
 const viewer = require('../viewer.js')
 
+const config_ejs = {
+
+    data : {
+        onedrive_video: function(url) {
+            return `<video width="100%" height="360" controls> <source src="https://d.roj.ac.cn/d/oneDrive/${url}" type="video/mp4"> Your browser does not support the video tag. </video>`
+        }
+    }
+
+}
+
 class Base {
     //name oj名字
     //_path oj所有的路径(相对于problems 项目)
@@ -147,37 +157,44 @@ class Base {
             if( statSync(problem_path).isDirectory() ) //是文件夹
             {
 
-                let Problem = new problemClass(problem_path,this.problem_file_name)
-                let problem_info = Problem.info();
+                try {
+                    let Problem = new problemClass(problem_path,this.problem_file_name)
+                    let problem_info = Problem.info();
 
-                let Data = new dataClass(problem_path)
-                let data_info = Data.info();
+                    let Data = new dataClass(problem_path)
+                    let data_info = Data.info();
 
-                let solutions = new solutionClass(problem_path).info()
-                // console.log(solutions)
+                    let solutions = new solutionClass(problem_path).info()
+                    // console.log(solutions)
 
-                // 读取数据
+                    // 读取数据
 
-                let doc = {
-                    _id: pid,
-                    sid: this.show_id(pid),
-                    oj:this.name,
-                    ...problem_info,
-                    //输出路径
-                    data: data_info,
+                    let doc = {
+                        _id: pid,
+                        sid: this.show_id(pid),
+                        oj:this.name,
+                        ...problem_info,
+                        //输出路径
+                        data: data_info,
 
-                    //题目的href
-                    link: this.problem_link(pid),
-                    //数据的href
-                    data_link: this.data_link(pid),
-                    //解析的href
-                    solution_list_link: this.solution_list_link(pid),
+                        //题目的href
+                        link: this.problem_link(pid),
+                        //数据的href
+                        data_link: this.data_link(pid),
+                        //解析的href
+                        solution_list_link: this.solution_list_link(pid),
 
-                    solutions : solutions.map( sol => {return { ...sol,link:this.solution_link(sol.file)}} )
-                    // solutions : solutions.map( sol => { return {...sol} })
-                    // solutions : solutions.map( d => d)
+                        solutions : solutions.map( sol => {return { ...sol,link:this.solution_link(sol.file)}} )
+                        // solutions : solutions.map( sol => { return {...sol} })
+                        // solutions : solutions.map( d => d)
+                    }
+                    infos.push(doc)
                 }
-                infos.push(doc)
+                catch(e) {
+                    console.error(e)
+                    console.error(problem_path)
+                    process.exit(1)
+                }
             }
         }
         return infos
@@ -187,7 +204,7 @@ class Base {
     render_problem(info) {
         let ext = extname(info.file)
         if(  ext == '.md' )
-            return renderer(info.file)
+            return renderer(info.file,{ejs : config_ejs})
         else if( ext == '.pdf')
         return `<script>
             const pdfs = [
@@ -223,7 +240,8 @@ class Base {
                 viewer('solution_list',link_to_output_path(info.solution_list_link),data)
             //渲染器 solution
             for(let i = 0 ;i< info.solutions.length ;i++){
-                data.content = renderer(info.solutions[i].file)
+                // console.log(info.solutions[i])
+                data.content = renderer(info.solutions[i].file,{ejs : config_ejs})
                 data.current_solution = i
                 viewer('solution',link_to_output_path(info.solutions[i].link),data)
                 //把solutions 目录下的所有的图片文件 png,svg,jpg,jpeg,全部复制到对应的输出文件夹下面

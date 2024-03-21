@@ -22,20 +22,23 @@ module.exports = function (md_path ,config = {}) {
 
     //TODO check time
 
-    config.ejs = config.ejs || {}
+    let ejs_config = {}
+    if( config && config.ejs )
+        ejs_config = { ...config.ejs }
 
-    config.ejs.data = config.ejs.data || {}
-    config.ejs.options= config.ejs.options || {}
+    ejs_config.data = ejs_config.data || {}
+    ejs_config.options= ejs_config.options || {}
 
     let filename = pather.absolute(md_path)
-    config.ejs.options.filename = config.ejs.options.filename || filename
+    ejs_config.options.filename = ejs_config.options.filename || filename
+    // console.log(ejs_config)
 
     let content = '';
     //渲染条件
     if(extname(md_path).toLowerCase() == '.md') {
         content = MDRender( readFileSync( filename  ,{encoding:'utf8'}) , 
             { //MDRender config
-                ejs:config.ejs
+                ejs:ejs_config
             }
         ).content
     }
