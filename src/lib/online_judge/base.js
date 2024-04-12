@@ -47,6 +47,15 @@ class Base {
         return this._relative_path
     }
 
+    //路径path : roj/abc 是否在当前路径下面
+    //路径path必须是一个相对于project_dir的地址
+    dirInThisOj(path){
+        let tmp = relative(this.relative,path)
+        // console.log(this.relative,path,tmp)
+        return tmp && !tmp.startsWith('..') && !isAbsolute(tmp);
+        // return true;
+    }
+
     //返回此oj默认存题目文件的名字,使用 problem,content
     get problem_file_name() {
         return 'content'
@@ -64,8 +73,13 @@ class Base {
 
     //把dir文件名转成id
     dir_to_id(dir_name) {
+        if( dir_name.startsWith(this.relative)){
+            return this.pid_prefix + relative(this.relative,dir_name)
+        }
         return this.pid_prefix +dir_name
     }
+
+    //
 
 
     //用于显示的id,不是真正的id
@@ -73,12 +87,12 @@ class Base {
         return pid.replace(this.pid_prefix,'');
     }
 
-    //根据pid,转成对的路径
+    //根据pid,转成相对的路径,相对problems项目的路径
     //有些oj可以转,因为pid 就是 所在的文件夹名
     //有些oj不能转,如果不能转,重载这个函数为throw
     id_path(pid) {
         let first_idx = pid.indexOf('-');
-        return join(this._path,pid.slice(first_idx))
+        return join(this._relative_path,pid.slice(first_idx+1))
     }
 
     //根据文件的名字,得到绝对路径
@@ -174,6 +188,7 @@ class Base {
                         sid: this.show_id(pid),
                         oj:this.name,
                         ...problem_info,
+                        path: this.id_path(pid),
                         //输出路径
                         data: data_info,
 

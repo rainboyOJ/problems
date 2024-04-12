@@ -4,6 +4,8 @@
 //[扫描]->创建database
 //[读取database] -> 渲染相应网页
 
+const Path = require("path")
+const {project_dir,relative:pather_relative,link_to_output_path} = require('./online_judge/base_class/pather.js')
 const {join} = require("path")
 const fs = require("fs")
 
@@ -33,6 +35,26 @@ async function main() {
 
         // 得到信息
         let infos = oj.info();
+
+        //对所的信息进行处理
+        for(let info of infos) {
+            if( info.pre) {
+                console.log(info)
+                //遍历前面的地址
+                for(let i = 0 ;i < info.pre.length ;i++) {
+                    let pre_path  = info.pre[i]
+                    // 把相对地址转成对于problem项目的地址
+                    let problem_path =  pather_relative(Path.resolve(info.path,pre_path))
+                    // console.log(problem_path)
+                    for( let _oj of ojs) {
+                        if(  _oj.dirInThisOj(problem_path) )
+                        info.pre[i] = _oj.dir_to_id(problem_path)
+                    }
+                }
+                console.log(info)
+            }
+        }
+
         //插入
         // await collection_oj_name.insert({name:oj.name})
         await collection.insert(infos)
