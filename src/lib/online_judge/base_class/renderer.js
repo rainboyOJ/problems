@@ -36,7 +36,7 @@ module.exports = function (md_path ,config = {}) {
     let content = '';
     //渲染条件
     if(extname(md_path).toLowerCase() == '.md') {
-        content = MDRender( readFileSync( filename  ,{encoding:'utf8'}) , 
+        content = MDRender.render( readFileSync( filename  ,{encoding:'utf8'}) , 
             { //MDRender config
                 ejs:ejs_config
             }

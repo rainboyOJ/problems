@@ -3,6 +3,7 @@
 const {join,resolve,isAbsolute,extname,basename,relative} = require('path')
 const {writeFileSync,readdirSync,statSync,readFileSync,existsSync} = require("fs")
 const pather = require("./pather.js")
+const { parse:jsonc_parse } = require('jsonc-parser');
 
 class Problem {
 
@@ -37,7 +38,8 @@ class Problem {
 
     //搜索,得到题目信息
     info(){
-        let a = JSON.parse(readFileSync(join(this._path,'config.json'),{encoding:'utf-8'}))
+        // let a = JSON.parse(readFileSync(join(this._path,'config.json'),{encoding:'utf-8'}))
+        let a = jsonc_parse(readFileSync(join(this._path,'config.json'),{encoding:'utf-8'}))
         return {
             ...a,
             file:this.file()

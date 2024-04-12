@@ -27,7 +27,7 @@ const files = [
 for ( let [file,out_file] of files) {
 
     file = join(project_dir,file)
-    let article = MDRender( readFileSync(file,{encoding:'utf8'}) ,{
+    let article = MDRender.render( readFileSync(file,{encoding:'utf8'}) ,{
         ejs : {
             options: {
                 filename : file
