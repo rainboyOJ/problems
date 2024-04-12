@@ -18,6 +18,7 @@
         "glob": "^10.3.10",
         "gray-matter": "^4.0.3",
         "js-yaml": "^3.14.0",
+        "jsonc-parser": "^3.2.1",
         "lokijs": "^1.5.12",
         "moment": "^2.29.4",
         "parcel": "^2.10.3",
@@ -31,7 +32,9 @@
         "axios": "^1.6.5",
         "cheerio": "^1.0.0-rc.12",
         "crc": "^4.3.2",
+        "fs-extra": "^11.2.0",
         "turndown": "^7.1.2",
+        "vis-network": "^9.1.9",
         "vite": "^5.0.8",
         "vite-plugin-ejs": "^1.7.0"
     }
