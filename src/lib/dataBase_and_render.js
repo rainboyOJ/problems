@@ -9,9 +9,12 @@ const {project_dir,relative:pather_relative,link_to_output_path} = require('./on
 const {join} = require("path")
 const fs = require("fs")
 
-const lokijs = require('lokijs')
+// const lokijs = require('lokijs')
 //创建数据库
-var db = new lokijs('roj.json')
+// var db = new lokijs('roj.json')
+
+const problemDB = require("./database/")
+var db = new problemDB();
 
 const ojs = [
     require("./online_judge/roj.js"),
@@ -27,11 +30,11 @@ let need_render_oj = process.argv[2]
 async function main() {
 
     //创建collection
-    let collection = db.addCollection('problem')
-    let oj_names = []
+    // let collection = db.addCollection('problem')
+    // let oj_names = []
     // let collection_oj_name = db.addCollection('oj_name')
     for( let oj of ojs) {
-        oj_names.push(oj.name)
+        // oj_names.push(oj.name)
 
         // 得到信息
         let infos = oj.info();
@@ -48,7 +51,7 @@ async function main() {
                     // console.log(problem_path)
                     for( let _oj of ojs) {
                         if(  _oj.dirInThisOj(problem_path) )
-                        info.pre[i] = _oj.dir_to_id(problem_path)
+                            info.pre[i] = _oj.dir_to_id(problem_path)
                     }
                 }
                 console.log(info)
@@ -57,18 +60,21 @@ async function main() {
 
         //插入
         // await collection_oj_name.insert({name:oj.name})
-        await collection.insert(infos)
+        // await collection.insert(infos)
+        await db.addProblem(infos)
 
         oj.render(infos)
     }
 
-    //写入数据
-    let jsonStr = db.serialize()
-    const out_db_path = join(__dirname,'../roj.json')
-    const out_oj_name_path = join(__dirname,'../oj_name.json')
-    console.log("写入db:", out_db_path)
-    fs.writeFileSync(out_db_path,jsonStr,{encoding:'utf8'})
-    fs.writeFileSync(out_oj_name_path,JSON.stringify(oj_names),{encoding:'utf8'})
+    //写入数据;
+    // let jsonStr = db.serialize()
+    // const out_db_path = join(__dirname,'../roj.json')
+    // const out_oj_name_path = join(__dirname,'../oj_name.json')
+    // console.log("写入db:", out_db_path)
+    // fs.writeFileSync(out_db_path,jsonStr,{encoding:'utf8'})
+    // fs.writeFileSync(out_oj_name_path,JSON.stringify(oj_names),{encoding:'utf8'})
+    db.saveDatabase()
+    db.saveJson()
 }
 
 if( need_render_oj )

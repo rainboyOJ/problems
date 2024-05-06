@@ -50,10 +50,25 @@ class Base {
     //路径path : roj/abc 是否在当前路径下面
     //路径path必须是一个相对于project_dir的地址
     dirInThisOj(path){
+        // path 例如 : other_oj/luogu/1014
+        // this.relative other_oj/luogu
+        // tmp -> 1014
         let tmp = relative(this.relative,path)
         // console.log(this.relative,path,tmp)
         return tmp && !tmp.startsWith('..') && !isAbsolute(tmp);
         // return true;
+    }
+
+    /*
+     * 是对dirInThisOj的补充
+     * dirInThisOj的path参数必须是 相对于project_dir 的相对地址
+     * 有的时候这个地址可能比较长: 使用vjudge/hdu/1014
+     * 但我只想传递 hdu/1014 怎么办呢?
+     * 只要 检查 this._relative_path + hud/1014 这文件夹是否在project_dir里存在就行了
+     * */
+    match(path) {
+        let final_path = join(project_dir,this.relative,path)
+        return existsSync(final_path)
     }
 
     //返回此oj默认存题目文件的名字,使用 problem,content
@@ -158,6 +173,58 @@ class Base {
     }
     //-- 用于创建题目的相关信息 end
 
+    //得到一个题目的info
+    //dir 相对于 这个题目_relative的dir
+    one_info(dir) {
+
+        if( dir.startsWith(this.relative))
+            dir = relative(this.relative,dir)
+
+        let pid = this.dir_to_id(dir)
+        let problem_path = this.dir_to_path(dir)
+        if( !existsSync(problem_path) ) {
+            throw `${problem_path} not exists!`
+            return {}
+        }
+
+        //不是文件夹
+        if( !statSync(problem_path).isDirectory() ) {
+            throw `${problem_path} is not directory`
+            return {}
+        }
+        let Problem = new problemClass(problem_path,this.problem_file_name)
+        let problem_info = Problem.info();
+
+        let Data = new dataClass(problem_path)
+        let data_info = Data.info();
+
+        let solutions = new solutionClass(problem_path).info()
+        // console.log(solutions)
+
+        // 读取数据
+
+        let doc = {
+            _id: pid,
+            sid: this.show_id(pid),
+            oj:this.name,
+            ...problem_info,
+            path: this.id_path(pid),
+            //输出路径
+            data: data_info,
+
+            //题目的href
+            link: this.problem_link(pid),
+            //数据的href
+            data_link: this.data_link(pid),
+            //解析的href
+            solution_list_link: this.solution_list_link(pid),
+
+            solutions : solutions.map( sol => {return { ...sol,link:this.solution_link(sol.file)}} )
+            // solutions : solutions.map( sol => { return {...sol} })
+            // solutions : solutions.map( d => d)
+        }
+        return doc
+    }
 
     //返回全部题目的信息
     info() {
@@ -172,37 +239,7 @@ class Base {
             {
 
                 try {
-                    let Problem = new problemClass(problem_path,this.problem_file_name)
-                    let problem_info = Problem.info();
-
-                    let Data = new dataClass(problem_path)
-                    let data_info = Data.info();
-
-                    let solutions = new solutionClass(problem_path).info()
-                    // console.log(solutions)
-
-                    // 读取数据
-
-                    let doc = {
-                        _id: pid,
-                        sid: this.show_id(pid),
-                        oj:this.name,
-                        ...problem_info,
-                        path: this.id_path(pid),
-                        //输出路径
-                        data: data_info,
-
-                        //题目的href
-                        link: this.problem_link(pid),
-                        //数据的href
-                        data_link: this.data_link(pid),
-                        //解析的href
-                        solution_list_link: this.solution_list_link(pid),
-
-                        solutions : solutions.map( sol => {return { ...sol,link:this.solution_link(sol.file)}} )
-                        // solutions : solutions.map( sol => { return {...sol} })
-                        // solutions : solutions.map( d => d)
-                    }
+                    let doc = this.one_info(dir)
                     infos.push(doc)
                 }
                 catch(e) {

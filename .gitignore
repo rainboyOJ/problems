@@ -144,3 +144,8 @@ dist
 .pnp.*
 roj_data/
 push.sh
+python_venv/
+data.txt
+**/solutions/*.out
+problem.db
+roj.json
