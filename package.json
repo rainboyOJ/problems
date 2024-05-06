@@ -3,10 +3,14 @@
     "version": "1.0.0",
     "license": "MIT",
     "source": "src/index.ejs",
+    "bin":{
+        "roj":"./src/bin/roj.js"
+    },
     "scripts": {
         "dev": "vite --host",
         "build": "vite build",
-        "down": "node ./src/lib/problem_download.js $INIT_CWD"
+        "down": "node ./src/lib/problem_download.js $INIT_CWD",
+        "roj":"node ./src/bin/roj.js"
     },
     "dependencies": {
         "@parcel/transformer-sass": "^2.10.3",
