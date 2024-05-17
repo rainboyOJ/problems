@@ -8,6 +8,7 @@ class roj extends base {
         return roj.instance || (roj.instance = this)
     }
 
+    /*
     match(path) {
         if(path.startsWith('roj/')) {
             let new_path = path.replace('roj/','' )
@@ -17,6 +18,7 @@ class roj extends base {
             return super.match(path)
         }
     }
+    */
 }
 
 module.exports = new roj()

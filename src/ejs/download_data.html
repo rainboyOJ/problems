@@ -5,20 +5,8 @@
         <p> 无数据 </p>
     <%}else {%>
         <%# 遍历镜像的地址 %>
-        <% var first_mirror = 1%>
         <div id="choose-mirror">
-        <% for(let mirror in mirrors ) {%>
-            <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" value="<%=mirror%>" name="mirror" id="mirror-<%=mirror%>" 
-                <%if(first_mirror) {%>
-                    checked
-                <% first_mirror=0}%>
-            >
-                <label class="form-check-label" for="mirror-<%=mirror%>">
-                    <%=mirror%>
-                </label>
-            </div>
-        <%}%>
+        打包下载
         </div>
         <table class="table table-hover align-middle" id="download_data">
             <thead class="">
@@ -33,31 +21,15 @@
                 <% for (let [input,output] of data) {%>
                 <tr>
                     <td><a target="__blank" href="#" name="<%=input%>" class=""> <%= input%> </a></td>
-                    <td><a href="#" name="<%=input%>" class="btn btn-info btn-sm" download> 下载 </a></td>
+                    <%# 拼接得到真的下载地址,但是使用使用一个生成函数来生成链接%>
+                    <td><a href="https://roj.ac.cn/problems/<%=path%>/data/<%=input%>" name="<%=input%>" class="btn btn-info btn-sm" download> 下载 </a></td>
                     <td><a target="__blank" href="#" name="<%=output%>"class=""> <%= output%> </a></td>
-                    <td><a href="#" name="<%=output%>" class="btn btn-info btn-sm" download> 下载 </a></td>
+                    <td><a href="https://roj.ac.cn/problems/<%=path%>/data/<%=output%>" name="<%=output%>" class="btn btn-info btn-sm" download> 下载 </a></td>
                 </tr>
                 <%}%>
             </tbody>
         </table>
         <script>
-            const mirrors = <%- JSON.stringify(mirrors) %>
-            const real_link = <%- real_link.toString()%>
-            function change_download_href() {
-                let mirror= document.querySelector('input[name="mirror"]:checked').value
-                document.querySelectorAll('table#download_data a').forEach( (ele)=>{
-                    let name = ele.getAttribute('name')
-                    ele.setAttribute('href',real_link(mirror,<%=_id%>,name))
-                })
-            }
-            change_download_href()
-            document.getElementById("choose-mirror").addEventListener("click",function(e){
-                if(e.target.tagName=='INPUT')
-                {
-                    // console.log('radiovale',e.target.value)
-                    change_download_href()
-                }
-            })
         </script>
     <%}%>
 </div>

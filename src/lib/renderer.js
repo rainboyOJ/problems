@@ -6,7 +6,7 @@
 const force_update = process.argv.indexOf('force') != -1;
 console.log('force_update',force_update)
 
-const {mirrors,real_link} = require('./utils/github_proxy.js')
+// const {mirrors,real_link} = require('./utils/github_proxy.js')
 
 const {join} = require('path')
 const {writeFileSync,statSync,mkdirSync,readFileSync,existsSync} = require('fs')
@@ -47,7 +47,7 @@ async function main() {
                 p.content = MDRender( readFileSync(oj.problem_file_path_by_id(p._id),{encoding:'utf8'}) ).content
             }
             //渲染
-            viewer('problem',{...p,mirrors,real_link})
+            viewer('problem',{...p})
 
             //写入
             //  创建输出目录

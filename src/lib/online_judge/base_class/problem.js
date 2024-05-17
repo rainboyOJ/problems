@@ -4,6 +4,7 @@ const {join,resolve,isAbsolute,extname,basename,relative} = require('path')
 const {writeFileSync,readdirSync,statSync,readFileSync,existsSync} = require("fs")
 const pather = require("./pather.js")
 const { parse:jsonc_parse } = require('jsonc-parser');
+const {project_dir} = require("./pather.js")
 
 class Problem {
 
@@ -16,6 +17,8 @@ class Problem {
     }
 
 
+    //返回方个文件夹下的题目文件名
+    //可能为content.md, 或 content.pdf
     file() {
         for( let ext of this._exts)
         {
@@ -36,10 +39,23 @@ class Problem {
         return join(this._path,'config.json')
     }
 
-    //搜索,得到题目信息
+    // 提取md文件里 [[[]]]
+    // 得到双链的信息
+    get_double_link_info() {
+        let problem_path = this.file()
+        if( extname(problem_path) !== '.md')
+            return {}
+        let raw_md = readFileSync(join(project_dir ,this.file()),{encoding:'utf-8'});
+        const regex = /\[\[\[(.*?)\]\]\]/gm
+        const matches = raw_md.match(regex);
+        console.log(matches)
+    }
+
+    //得到题目信息
     info(){
         // let a = JSON.parse(readFileSync(join(this._path,'config.json'),{encoding:'utf-8'}))
         let a = jsonc_parse(readFileSync(join(this._path,'config.json'),{encoding:'utf-8'}))
+        // this.get_double_link_info();
         return {
             ...a,
             file:this.file()

@@ -8,12 +8,12 @@ html,body {
     margin: 0 auto;
 }
 
-@import "./markdown-r.scss";
+@import "../../node_modules/markdown-r/assets/markdown-r.scss";
 @import "./markdownPlugin/pseudocode";
 // @import "./markdownPlugin/markdown-it-code-copy.scss";
 @import "./markdownPlugin/markdown-it-container.scss";
 @import "./markdownPlugin/style/typora-latex-theme/include.scss";
-@import "./markdownPlugin/clipcopy-container.scss";
+// @import "./markdownPlugin/clipcopy-container.scss";
 @import "./markdown_perfect.scss";
 @import "../style/scrobar.scss";
 

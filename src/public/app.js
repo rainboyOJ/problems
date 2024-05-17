@@ -1,20 +1,24 @@
-//copy to clipboard
-document.querySelectorAll('.zeroclipboard-container').forEach( function(clipContainer){
-    clipContainer.addEventListener('click', function(event) {
-        if( clipContainer.classList.contains('copied')) return;
+function init_copy(params) {
 
-        let text = clipContainer.parentNode.querySelector('pre > code').textContent
-        clipContainer.classList.add('copied');
-        try {
-            navigator.clipboard.writeText(text).then( ()=>{
-                setTimeout( ()=> clipContainer.classList.remove('copied'),1500)
-            })
-        }
-        catch(err) {
-            alert('failed to copy!',err)
-        }
+    //copy to clipboard
+    document.querySelectorAll('.zeroclipboard-container').forEach( function(clipContainer){
+        clipContainer.addEventListener('click', function(event) {
+            console.log(clipContainer.parentNode.parentNode)
+            if( clipContainer.classList.contains('copied')) return;
+
+            let text = clipContainer.parentNode.parentNode.querySelector('pre > code').textContent
+            clipContainer.classList.add('copied');
+            try {
+                navigator.clipboard.writeText(text).then( ()=>{
+                    setTimeout( ()=> clipContainer.classList.remove('copied'),1500)
+                })
+            }
+            catch(err) {
+                alert('failed to copy!',err)
+            }
+        })
     })
-})
+}
 
 function vjudge_get_problem(pid) {
     const reg = /<iframe\s+id="frame-description"\s+src="(\S*)"/
@@ -38,3 +42,7 @@ function vjudge_get_problem(pid) {
             alert('There was a problem with the fetch operation:', error);
         });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    init_copy();
+});

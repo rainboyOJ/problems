@@ -48,6 +48,10 @@ class luogu extends base {
         let output_path = this.problem(id).default_file
         writeFileSync(output_path,md_content,{encoding:'utf-8'})
 
+        let source_id = id + ''
+        if( source_id[0] >= '0' && source_id[0] <='9')
+            source_id = 'P' + source_id
+
         //创建config.json
         let config = `{
     "title": "${problem.title}",
@@ -55,7 +59,7 @@ class luogu extends base {
     ],
     "memory": 128,
     "time": 1000,
-    "source": "https://www.luogu.com.cn/problem/P${id}"
+    "source": "https://www.luogu.com.cn/problem/${source_id}"
 }`
         writeFileSync(this.problem(id).config,config,{encoding:'utf-8'})
     }

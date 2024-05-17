@@ -6,6 +6,7 @@ const moment = require('moment')
 const pather = require("./pather.js")
 const {globSync}= require('glob')
 const GrayMater = require('gray-matter')
+const get_double_link_info = require("./get_double_link_info.js")
 
 class solution {
 
@@ -21,6 +22,11 @@ class solution {
         return pather.relative( join(this._path,filename) )
     }
 
+    //绝对路径
+    absolute_file(filename){
+        return join(this._path,filename);
+    }
+
     //得到信息
     info() {
         //读取所有的md文件
@@ -34,17 +40,24 @@ class solution {
         //得到每个solution的信息
         for(let filename of solution_names) {
             let file_path = join(this._path,filename)
-            let grayed = GrayMater(readFileSync(file_path,{encoding:'utf-8'}))
+            let raw_md = readFileSync(file_path,{encoding:'utf-8'})
+            let grayed = GrayMater(raw_md)
             let info = {
                 'author' :'未知',
                 title:filename.split('.')[0],
                 update: moment(statSync(file_path).mtime).format('YYYY-MM-DD hh:mm'),
                 top:false
             }
-            if(!grayed.isEmpty)
+            let double_link_info = get_double_link_info(raw_md);
             info = {
                 ...info,
                 file:this.file(filename),
+                ...double_link_info
+            }
+
+            if(!grayed.isEmpty)
+            info = {
+                ...info,
                 ...grayed.data
             }
 

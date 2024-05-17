@@ -61,7 +61,7 @@ async function main() {
         //插入
         // await collection_oj_name.insert({name:oj.name})
         // await collection.insert(infos)
-        await db.addProblem(infos)
+        db.addProblem(infos)
 
         oj.render(infos)
     }

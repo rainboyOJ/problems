@@ -7,6 +7,8 @@ const {project_dir,relative:pather_relative,link_to_output_path} = require('./ba
 
 const {mirrors,real_link} = require('../utils/github_proxy.js')
 
+const {getLatestFileUnixTime} = require("../utils/utils.js")
+
 const problemClass = require("./base_class/problem.js")
 const solutionClass = require("./base_class/solution.js")
 const dataClass = require("./base_class/data.js")
@@ -43,6 +45,7 @@ class Base {
         return this._name
     }
 
+    //oj相对于 project_dir 所在的位置
     get relative() {
         return this._relative_path
     }
@@ -67,7 +70,23 @@ class Base {
      * 只要 检查 this._relative_path + hud/1014 这文件夹是否在project_dir里存在就行了
      * */
     match(path) {
-        let final_path = join(project_dir,this.relative,path)
+        //进行交替的比对
+        let oj_base_path_split = this.relative.split('/')
+        let path_split = path.split('/')
+        let common_cnt = 0;
+        let _end_cnt = Math.min(oj_base_path_split.length , path_split.length)
+        for( let i =  1;i<= _end_cnt;i++) {
+            if( oj_base_path_split.slice(-i).join('/')
+                ==
+                path_split.slice(0,i).join('/')
+            )
+            common_cnt = i;
+        }
+        // console.log(common_cnt)
+        let _findal_path = join(this.relative, path_split.slice( -(path_split.length - common_cnt)).join('/')) ;
+        // console.log("_findal_path",_findal_path)
+        let final_path = join(project_dir,_findal_path)
+        // console.log(final_path)
         return existsSync(final_path)
     }
 
@@ -87,11 +106,13 @@ class Base {
     }
 
     //把dir文件名转成id
+    // vjudge/poj/1995
     dir_to_id(dir_name) {
+        let _id = this.pid_prefix +dir_name
         if( dir_name.startsWith(this.relative)){
-            return this.pid_prefix + relative(this.relative,dir_name)
+            _id = this.pid_prefix + relative(this.relative,dir_name)
         }
-        return this.pid_prefix +dir_name
+        return _id.replace(/\//g,'-');
     }
 
     //
@@ -107,7 +128,7 @@ class Base {
     //有些oj不能转,如果不能转,重载这个函数为throw
     id_path(pid) {
         let first_idx = pid.indexOf('-');
-        return join(this._relative_path,pid.slice(first_idx+1))
+        return join(this._relative_path,pid.slice(first_idx+1).replace(/-/g,'/'))
     }
 
     //根据文件的名字,得到绝对路径
@@ -192,6 +213,7 @@ class Base {
             throw `${problem_path} is not directory`
             return {}
         }
+
         let Problem = new problemClass(problem_path,this.problem_file_name)
         let problem_info = Problem.info();
 
@@ -200,6 +222,7 @@ class Base {
 
         let solutions = new solutionClass(problem_path).info()
         // console.log(solutions)
+        let lastUnixTime = getLatestFileUnixTime(problem_path)
 
         // 读取数据
 
@@ -218,6 +241,9 @@ class Base {
             data_link: this.data_link(pid),
             //解析的href
             solution_list_link: this.solution_list_link(pid),
+
+            //最后的更新时间
+            last_updte: lastUnixTime,
 
             solutions : solutions.map( sol => {return { ...sol,link:this.solution_link(sol.file)}} )
             // solutions : solutions.map( sol => { return {...sol} })

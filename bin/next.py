@@ -1,8 +1,9 @@
+#!/bin/env python3
 # 得到下一个没有被占用的编号
 import os
 import sys
 from os import path
-listdir = sorted(list(map(int, filter(lambda x : x.isnumeric,os.listdir("./problems")))))
+listdir = sorted(list(map(int, filter(lambda x : x.isnumeric,os.listdir("./roj")))))
 start=1000
 if len(sys.argv) > 1:
     print("start=",sys.argv[1])

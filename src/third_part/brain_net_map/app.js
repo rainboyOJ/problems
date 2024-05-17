@@ -53,9 +53,9 @@ const options = {
         improvedLayout: true,
         clusterThreshold: 150,
         hierarchical: {
-            enabled: true,
+            enabled: false,
             levelSeparation: 150,
-            nodeSpacing: 100,
+            nodeSpacing: 220,
             treeSpacing: 200,
             blockShifting: true,
             edgeMinimization: true,
