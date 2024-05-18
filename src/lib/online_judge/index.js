@@ -92,10 +92,11 @@ exports.deal_pre_attr = function(info) {
         if( str.startsWith('..')) //这种情况是地址
         {
             const dir = project_dir_absolute(info.path)
-            const pre_problem_dir = project_dir_relative(dir)
-            let pre_problem_info = dir_to_id(pre_problem_dir)
-            return pre_problem_dir._id
+            const pre_problem_dir = join(dir,str)
+            // console.log(str,dir,pre_problem_dir)
+            str = dir_to_id(pre_problem_dir)
         }
+        // console.log('pre id',str)
         return str; //本身就是id
     }
 

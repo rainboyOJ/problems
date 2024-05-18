@@ -6,7 +6,10 @@
 // const {flatten_menu_json} = require("../../src/menu.js")
 
 // import roj_json from './roj.json'
-const {data}= require('../../roj.json').collections[0]
+const database = require("../../lib/database/index.js")
+// const {data}= require('../../roj.json').collections[0]
+const problemDB = new database()
+problemDB.loadDatabase()
 
 function get_by_id(pid) {
     for(let d of data) {
@@ -52,8 +55,9 @@ function load_data(){
             })
 
         }
-
     }
+
+    let data = problemDB.getAllProblems()
 
 
     for( let d of data)
@@ -61,7 +65,7 @@ function load_data(){
         // 没有id,说明这个节点,没有加入
         if( !d.pre) continue;
         for( let pre_id of d.pre) {
-            let pre_node = get_by_id(pre_id);
+            let pre_node = problemDB.getProblemById(pre_id);
             if( !pre_node ) continue;
 
             Edges.push({

@@ -115,9 +115,6 @@ class Base {
         return _id.replace(/\//g,'-');
     }
 
-    //
-
-
     //用于显示的id,不是真正的id
     show_id(pid) {
         return pid.replace(this.pid_prefix,'');

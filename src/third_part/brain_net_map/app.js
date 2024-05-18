@@ -76,10 +76,18 @@ network.on('click', function(params) {
     var clickedNodeId = params.nodes[0];
     var clickedNode = nodes.get(clickedNodeId);
     console.log(clickedNode)
+    let href = null
     
     // 检查是否点击的是带有链接的结点
-    if (clickedNode.href) {
-        window.open(clickedNode.href, '_blank');
+    if( clickedNode.oj)
+        href = "https://roj.ac.cn"+clickedNode.link;
+    if( href ) {
+        const result = confirm("要想到跳转到对应的页面吗?");
+        if( result){
+            console.log(href)
+            window.open(href, '_blank');
+        }
+
     }
   }
 });
