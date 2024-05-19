@@ -1,0 +1,11 @@
+{
+    "title": "[NOIP2002 普及组] 选数",
+    "tags": [
+        "排列组合",
+        "递归"
+    ],
+    "pre_rbook":["01_seq"],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1036"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "[NOIP2003 普及组] 栈",
+    "tags": [
+        "栈",
+        "递归",
+        "catalan数"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1044"
+}

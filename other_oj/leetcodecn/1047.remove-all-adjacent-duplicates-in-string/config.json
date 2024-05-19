@@ -1,0 +1,9 @@
+{
+    "title": "删除字符串中的所有相邻重复项",
+    "tags": [
+        "栈"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.leetcode.cn/problems/remove-all-adjacent-duplicates-in-string"
+}

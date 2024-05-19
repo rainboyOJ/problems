@@ -2,5 +2,8 @@
     "title": "布尔表达式",
     "memory": 128,
     "time": 1000,
+    "tags":[
+        "栈"
+    ],
     "source": "http://noi.openjudge.cn/ch0303/6263/"
 }

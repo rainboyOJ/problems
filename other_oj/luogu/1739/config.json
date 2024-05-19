@@ -1,0 +1,9 @@
+{
+    "title": "表达式括号匹配",
+    "tags": [
+        "栈"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1739"
+}

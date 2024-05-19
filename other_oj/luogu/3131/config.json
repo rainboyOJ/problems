@@ -1,0 +1,9 @@
+{
+    "title": "[USACO16JAN] Subsequences Summing to Sevens S",
+    "tags": [
+        "前缀和"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P3131"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "枚举子集",
+    "tags": [
+        "排列组合",
+        "子集枚举",
+        "枚举",
+        "搜索"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/B3622"
+}

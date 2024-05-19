@@ -1,0 +1,9 @@
+{
+    "title": "寻找数组的中心下标",
+    "tags": [
+        "前缀和"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.leetcode.cn/problems/find-pivot-index"
+}

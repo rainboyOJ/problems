@@ -1,0 +1,10 @@
+{
+    "title": "[NOIP2011 提高组] 选择客栈",
+    "tags": [
+        "枚举"
+    ],
+    "pre":["../../noiopenjudge/ch0201/6184/"],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1311"
+}

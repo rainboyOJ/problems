@@ -1,0 +1,10 @@
+{
+    "title": "连续的子数组和",
+    "tags": [
+        "前缀和",
+        "数论"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.leetcode.cn/problems/continuous-subarray-sum"
+}

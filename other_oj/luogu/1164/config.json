@@ -1,0 +1,12 @@
+{
+    "title": "小A点菜",
+    "tags": [
+        "01背包",
+        "恰好装满",
+        "计数DP"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1164",
+    "pre":["../1048"]
+}

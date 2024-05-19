@@ -1,0 +1,11 @@
+{
+    "title": "饥饿的奶牛",
+    "tags": [
+        "排序",
+        "贪心",
+        "DP"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1868"
+}

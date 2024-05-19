@@ -1,0 +1,9 @@
+{
+    "title": "[USACO1.5] 回文质数 Prime Palindromes",
+    "tags": [
+        "递归"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1217"
+}

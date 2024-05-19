@@ -1,0 +1,17 @@
+{
+    "title": "毛毛的密码",
+    "time": 1000,
+    "memory": 128,
+    "tags":[
+        "字符串",
+        "动态规划",
+        "组合"
+    ],
+    "source":"https://usaco.org/index.php?page=viewproblem2&cpid=1231&lang=en"
+    "pre":[
+        "../3589" //选择客栈
+        "../8010" //从本题目里,抽象出来的题目
+    // ,"../../other_oj/luogu/1010/" //测试用
+
+    ]
+}

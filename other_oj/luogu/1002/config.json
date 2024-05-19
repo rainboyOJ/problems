@@ -1,0 +1,11 @@
+{
+    "title": "[NOIP2002 普及组] 过河卒",
+    "tags": [
+        "递归",
+        "DP",
+        "记忆化"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1002"
+}

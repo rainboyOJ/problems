@@ -1,0 +1,13 @@
+{
+    "title": "A+B Problem（再升级）",
+    "tags": [
+        "计算类DP",
+        "背包",
+        "枚举",
+        "分组背包"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1832",
+    "pre":["../1164","../1757"]
+}

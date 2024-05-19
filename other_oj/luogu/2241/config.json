@@ -1,0 +1,10 @@
+{
+    "title": "统计方形（数据加强版）",
+    "tags": [
+        "枚举",
+        "动态规划"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P2241"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "[HNOI2008] 玩具装箱",
+    "tags": [
+        "动态规划优化",
+        "决策单调性",
+        "斜率优化"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "pre_rbook":["decision_mono"],
+    "source": "https://www.luogu.com.cn/problem/P3195"
+}

@@ -1,0 +1,9 @@
+{
+    "title": "用队列实现栈",
+    "tags": [
+        "队列"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.leetcode.cn/problems/implement-stack-using-queues"
+}

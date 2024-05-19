@@ -1,0 +1,11 @@
+{
+    "title": "通天之分组背包",
+    "tags": [
+        "背包",
+        "分组背包",
+    ],
+    "pre":["../1048/"],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1757"
+}

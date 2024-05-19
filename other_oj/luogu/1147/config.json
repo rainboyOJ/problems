@@ -1,0 +1,10 @@
+{
+    "title": "连续自然数和",
+    "tags": [
+        "前缀和",
+        "双指针"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1147"
+}

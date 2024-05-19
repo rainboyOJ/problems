@@ -1,5 +1,5 @@
 {
-  "title": "起床困难综合症",
+  "title": "最短Hamilton路径",
   "time": 1000,
   "memory": 128,
   "tags": [
@@ -8,5 +8,5 @@
     "贪心",
     "位运算"
   ],
-  "level": 4
+  "level": 3
 }

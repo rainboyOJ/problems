@@ -1,0 +1,11 @@
+{
+    "title": "[USACO08DEC] Trick or Treat on the Farm G",
+    "tags": [
+        "拓扑排序",
+        "图的遍历",
+        "图论"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P2921"
+}

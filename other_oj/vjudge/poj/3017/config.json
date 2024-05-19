@@ -1,0 +1,10 @@
+{
+    "title": "Cut the Sequence",
+    "tags": [
+        "动态规划",
+        "单调队列"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://vjudge.net.cn/problem/POJ-3017"
+}

@@ -2,5 +2,8 @@
     "title": "Card Stacking",
     "memory": 128,
     "time": 1000,
+    "tags":[
+        "队列","模拟"
+    ],
     "source": "http://noi.openjudge.cn/ch0304/2406/"
 }

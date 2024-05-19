@@ -1,0 +1,10 @@
+{
+    "title": "[NOIP2007 普及组] 守望者的逃离",
+    "tags": [
+        "贪心",
+        "dp"
+    ],
+    "memory": 128,
+    "time": 1000,
+    "source": "https://www.luogu.com.cn/problem/P1095"
+}
