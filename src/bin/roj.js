@@ -8,10 +8,14 @@ const glob = require('glob');
 const { Command } = require('commander');
 const program = new Command();
 const database = require("../lib/database/index.js")
+const fs = require("fs")
+const {join} = require("path")
 
 
 const {get_info_by_problem_path,render,get_all_raw_infos,deal_pre_attr} =  require("../lib/online_judge/index.js")
-const {absolute} = require("../lib/online_judge/base_class/pather.js")
+const {absolute,link_to_output_path} = require("../lib/online_judge/base_class/pather.js")
+
+const {getLatestFileUnixTime} = require("../lib/utils/utils.js")
 
 program
   .name('roj')
@@ -20,11 +24,29 @@ program
 
 program.command('renderAll')
     .description('渲染所有的题目')
-    .option('--force','强制更新',false)
     .action((path, options) => {
+
+        // 1. 加载数据库
         let db = new database()
-        if( !options.force ) {
-            db.loadDatabase();
+        db.loadDatabase();
+
+        // 2. 一条一条渲染
+        let docs = db.getAllProblems()
+        for( let doc of docs)
+        {
+            // console.log(doc.path)
+            // break;
+            // 这里不好TODO,应该在render 加入force参加来决定是不是渲染
+            let ab_path = join(link_to_output_path(doc.link),'..')
+            if(
+                !fs.existsSync(ab_path) // 不存在
+                || 
+                getLatestFileUnixTime(ab_path) < doc.last_update
+            )
+            {
+                console.log(doc.path)
+                render([doc])
+            }
         }
     })
 
@@ -96,7 +118,7 @@ program.command('render-one')
 
         // console.log('before',db.getProblemById(one_problem_info._id))
         // db.reAddProblem(one_problem_info);
-        update_oneinfo_by_time(db,one_problem_info,false);
+        update_oneinfo_by_time(db,one_problem_info,true);
         // console.log('after',db.getProblemById(one_problem_info._id))
         // console.log('after',db.getProblemById(one_problem_info._id).solutions[0])
         // console.log('after-- solutions find',db.solutions_bidir_find('rbook','01_seq'))

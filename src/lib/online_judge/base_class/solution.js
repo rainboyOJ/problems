@@ -49,6 +49,7 @@ class solution {
                 top:false
             }
             let double_link_info = get_double_link_info(raw_md);
+            // console.log('double_link_info',double_link_info)
             info = {
                 ...info,
                 file:this.file(filename),

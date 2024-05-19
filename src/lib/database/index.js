@@ -55,6 +55,11 @@ class ProblemDB {
         return this.problems.find({'pre_rbook':{'$contains': rbook_id}})
     }
 
+    //查找pre 属性含有 id的值
+    find_pre_has(p_id) {
+        return this.problems.find({'pre':{'$contains':p_id}})
+    }
+
     // 获取所有问题
     getAllProblems() {
         return this.problems.find();
