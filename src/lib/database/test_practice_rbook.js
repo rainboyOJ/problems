@@ -7,8 +7,7 @@ async function main() {
     console.log(db.getUniqueOJNames())
     // console.log(db.getProblemById('luogu-3195'))
 
-    // console.log( db.find_pre_rbook('decision_mono'))
-    console.log( db.solutions_bidir_find('rbook','ball_and_box'))
+    console.log( db.solutions_has_practice_rbook('ball_and_box'))
 
 }
 main()

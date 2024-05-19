@@ -34,7 +34,7 @@ class ProblemDB {
         }
     }
 
-    //solutions 数据中函数 type 这个 attr,
+    //solutions 数据中含有 type 这个 attr,
     //且attr是一个数组,数组中含有 id 这个值
     // rbook: ['01_seq','subset_enum']
     solutions_bidir_find(type,id) {
@@ -48,6 +48,13 @@ class ProblemDB {
             }
             return false;
         })
+    }
+
+    //solutions 数据中含有 type 这个 attr,
+    //且attr是一个数组,数组中含有 id 这个值
+    // practice_rbook: ['01_seq','subset_enum']
+    solutions_has_practice_rbook(id) {
+        return this.solutions_bidir_find('practice_rbook',id)
     }
 
     //查找pre_rbook
