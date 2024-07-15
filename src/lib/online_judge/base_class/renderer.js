@@ -51,7 +51,8 @@ module.exports = function (md_path ,config = {}) {
                 //TODO:还可以传入本身的INFO
                 mdit : {
                     problemDB,
-                    rbookDB
+                    rbookDB,
+                    ...config.mdit
                 }
             }
         ).content

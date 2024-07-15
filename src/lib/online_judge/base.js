@@ -276,10 +276,10 @@ class Base {
     }
 
     //渲染给定绝对路径的 md file 文件
-    render_problem(info) {
+    render_problem(info,env = {}) {
         let ext = extname(info.file)
         if(  ext == '.md' )
-            return renderer(info.file,{ejs : config_ejs})
+            return renderer(info.file,{ejs : config_ejs,mdit : env})
         else if( ext == '.pdf')
         return `<script>
             const pdfs = [
@@ -294,7 +294,7 @@ class Base {
 `
     }
 
-    render(infos) {
+    render(infos,env={}) {
         //得到所有的infos
         //然后开始渲染
         for(let info of infos) {
@@ -316,7 +316,7 @@ class Base {
             //渲染器 solution
             for(let i = 0 ;i< info.solutions.length ;i++){
                 // console.log(info.solutions[i])
-                data.content = renderer(info.solutions[i].file,{ejs : config_ejs})
+                data.content = renderer(info.solutions[i].file,{ejs : config_ejs,mdit:env})
                 data.current_solution = i
                 viewer('solution',link_to_output_path(info.solutions[i].link),data)
                 //把solutions 目录下的所有的图片文件 png,svg,jpg,jpeg,全部复制到对应的输出文件夹下面

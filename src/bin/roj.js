@@ -58,7 +58,7 @@ function update_oneinfo_by_time(db,info,force = false) {
     else {
         //1. 是否比较新
         let old_info = db.getProblemById(info._id)
-        if( old_info.last_update < info.last_update)
+        if( !old_info || !old_info.last_update  || old_info.last_update < info.last_update)
             db.reAddProblem(info)
     }
 }
@@ -110,8 +110,11 @@ program.command('render-one')
             path = process.cwd()
         }
         let one_problem_info = get_info_by_problem_path(path)
+        //处理 pre 前趋题目
         deal_pre_attr(one_problem_info)
-        render([one_problem_info])
+
+        // TODO : 如何添加env ： debug:true
+        render([one_problem_info],{debug:true})
         // console.log(path,options)
         let db = new database()
         db.loadDatabase()

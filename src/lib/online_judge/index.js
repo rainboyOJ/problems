@@ -66,9 +66,9 @@ function get_oj_by_name(name) {
 // 渲染单个的 infos,可以单个的渲染,也可以一次渲染多个
 // 但必须保证所有的info是同一个oj的
 // infos type is Array
-function render(infos) {
+function render(infos,env = {}) {
     let oj = get_oj_by_name(infos[0].oj)
-    oj.render(infos)
+    oj.render(infos,env)
 }
 
 
