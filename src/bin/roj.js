@@ -66,7 +66,7 @@ function update_oneinfo_by_time(db,info,force = false) {
 program.command('db')
     .argument('<argument>',"update,find")
     .argument('[id]',"id")
-    .description('渲染所有的题目')
+    .description('数据库相关操作')
     .option('--force','强制更新',false)
     .action((argument,id,options) => {
         // console.log(argument,id,options)

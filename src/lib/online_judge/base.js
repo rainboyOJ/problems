@@ -3,7 +3,7 @@
 const {join,resolve,isAbsolute,extname,dirname,basename,relative} = require('path')
 const {writeFileSync,readdirSync,statSync,readFileSync,existsSync} = require("fs")
 
-const {project_dir,relative:pather_relative,link_to_output_path} = require('./base_class/pather.js')
+const {project_dir,absolute:pather_absolute,relative:pather_relative,link_to_output_path} = require('./base_class/pather.js')
 
 const {mirrors,real_link} = require('../utils/github_proxy.js')
 
@@ -21,7 +21,6 @@ const renderer = require("./base_class/renderer.js")
 const viewer = require('../viewer.js')
 
 const config_ejs = {
-
     data : {
         onedrive_video: function(url) {
             return `<video width="100%" height="360" controls> <source src="https://d.roj.ac.cn/d/oneDrive/${url}" type="video/mp4"> Your browser does not support the video tag. </video>`
@@ -324,11 +323,20 @@ class Base {
                     let out_path = dirname(link_to_output_path(info.solutions[i].link))
                     let org_path = dirname(info.solutions[i].file)
 
+                    //转换成绝对地址
+                    // out_path = pather_absolute(out_path)
+                    org_path = pather_absolute(org_path)
+
                     //得到所有的图片文件
                     let imgs = Glob.globSync("**/*.{png,jpg,jpeg,svg}",{cwd : org_path })
+                    // console.log('imgs',org_path)
+                    // console.log('imgs',imgs)
                     
                     function move_to_dist(src) {
-                        fse.copySync(join(org_path,src),join(out_path,src))
+                        let o = join(org_path,src)
+                        let t = join(out_path,src)
+                        // console.log(o,t)
+                        fse.copySync(o,t)
                     }
                     for(let img of imgs) move_to_dist(img);
                 }
