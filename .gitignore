@@ -149,3 +149,5 @@ data.txt
 **/solutions/*.out
 problem.db
 roj.json
+
+push-to-vps.sh
