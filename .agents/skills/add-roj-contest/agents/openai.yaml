@@ -1,0 +1,7 @@
+interface:
+  display_name: "创建 ROJ 比赛"
+  short_description: "创建和校验 ROJ 比赛 Markdown 文件及题目链接"
+  default_prompt: "使用 $add-roj-contest 创建一场 ROJ 比赛。"
+
+policy:
+  allow_implicit_invocation: true
