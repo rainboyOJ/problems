@@ -1,0 +1,26 @@
+extends layout.pug
+
+block title
+  | 关于 - ROJ
+
+block content
+  .shell.narrow-shell
+    section.page-heading.page-heading-simple
+      p.eyebrow ROJ
+      h1 关于
+      p.page-lead 一个专注于题面阅读的只读题目展示站。
+
+    article.about-content
+      h2 这个站点
+      p ROJ 用于浏览整理后的编程题目，提供题目列表、题面和基础元数据。本站不提供注册、提交、在线评测或成绩功能。
+
+      h2 内容来源
+      p 题目资料来自项目仓库中的 ROJ 题目目录。Markdown 题面在站内排版，PDF 题面使用浏览器阅读器打开。
+      p
+        a.external-link(href=repositoryUrl, target="_blank", rel="noopener noreferrer") 查看 GitHub 仓库 ↗
+
+      h2 反馈与许可
+      p 如果发现题面错误、来源问题或侵权内容，请在 GitHub 仓库提交 Issue，便于核查和处理。
+      p 部分资料遵循仓库声明的知识共享署名—非商业性使用—相同方式共享许可协议（CC BY-NC-SA 4.0）。使用题目内容时请同时遵守原始来源的许可要求。
+      p
+        a.external-link(href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans", target="_blank", rel="noopener noreferrer") 查看许可证说明 ↗

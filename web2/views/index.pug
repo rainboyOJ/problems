@@ -1,0 +1,80 @@
+extends layout.pug
+
+block title
+  | 题目列表 - ROJ
+
+block content
+  .shell
+    section.page-heading
+      .page-heading-copy
+        p.eyebrow ROJ
+        h1 题目列表
+        p.page-lead 浏览来自题目资料库的题面与基础信息。
+      .heading-count
+        strong #{pagination.total}
+        span 道题
+
+    section.list-toolbar(aria-label="题目搜索")
+      form.search-form(action="/", method="get", role="search")
+        label.visually-hidden(for="problem-search") 搜索题号或标题
+        span.search-icon(aria-hidden="true") ⌕
+        input#problem-search(type="search", name="q", value=pagination.query, placeholder="搜索题号或标题", autocomplete="off")
+        if pagination.query
+          a.search-clear(href="/", aria-label="清除搜索") 清除
+        button.search-submit(type="submit") 搜索
+      p.results-summary
+        if pagination.total
+          | 显示第 #{pagination.startItem}–#{pagination.endItem} 条，共 #{pagination.total} 道题
+        else
+          | 没有符合条件的题目
+
+    if problems.length
+      .table-wrap
+        table.problem-table
+          caption.visually-hidden 题目列表
+          thead
+            tr
+              th(scope="col") 题号
+              th(scope="col") 标题
+              th(scope="col") 标签
+              th(scope="col") 资源限制
+          tbody
+            each problem in problems
+              tr
+                td.problem-id
+                  a(href=`/problem/${problem.id}`) #{problem.id}
+                td.problem-title-cell
+                  a.problem-title-link(href=`/problem/${problem.id}`) #{problem.title}
+                  if problem.metadataIncomplete
+                    span.status-note(title="题目元数据不完整") 元数据不完整
+                td
+                  if problem.tags.length
+                    .tag-list
+                      each tag in problem.tags
+                        span.tag #{tag}
+                  else
+                    span.muted 未标注
+                td.limit-cell
+                  if problem.resourceLimit
+                    | #{problem.resourceLimit}
+                  else
+                    span.muted 未提供
+    else
+      .empty-state
+        span.empty-state-mark(aria-hidden="true") /
+        h2 没有找到题目
+        p 尝试使用其他题号或标题搜索。
+
+    if pagination.totalPages > 1
+      nav.pagination(aria-label="题目列表分页")
+        if pagination.page > 1
+          a.pagination-arrow(href=pageUrl(pagination.page - 1), aria-label="上一页", title="上一页") ‹
+        each item in paginationItems
+          if item === 'ellipsis'
+            span.pagination-ellipsis(aria-hidden="true") …
+          else if item === pagination.page
+            span.pagination-page.is-current(aria-current="page") #{item}
+          else
+            a.pagination-page(href=pageUrl(item)) #{item}
+        if pagination.page < pagination.totalPages
+          a.pagination-arrow(href=pageUrl(pagination.page + 1), aria-label="下一页", title="下一页") ›

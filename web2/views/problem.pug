@@ -1,0 +1,74 @@
+extends layout.pug
+
+block title
+  | #{problem.title} - ROJ
+
+block content
+  .shell
+    nav.breadcrumbs(aria-label="当前位置")
+      a(href="/") 题目列表
+      span(aria-hidden="true") /
+      span(aria-current="page") #{problem.id}
+
+    header.problem-heading
+      .problem-heading-main
+        p.eyebrow 题目 #{problem.id}
+        h1 #{problem.title}
+      if problem.metadataIncomplete
+        span.metadata-warning(title="这道题的部分辅助信息缺失或格式异常") 元数据不完整
+
+    dl.problem-meta
+      div
+        dt 题号
+        dd #{problem.id}
+      if problem.time !== null
+        div
+          dt 时间限制
+          dd #{problem.time} ms
+      if problem.memory !== null
+        div
+          dt 内存限制
+          dd #{problem.memory} MB
+      if problem.tags.length
+        div.problem-meta-wide
+          dt 标签
+          dd
+            .tag-list
+              each tag in problem.tags
+                span.tag #{tag}
+      if problem.source
+        div.problem-meta-wide
+          dt 来源
+          dd
+            if /^https?:\/\//i.test(problem.source)
+              a.external-link(href=problem.source, target="_blank", rel="noopener noreferrer") 原题链接 ↗
+            else
+              | #{problem.source}
+
+    if statement
+      .problem-layout
+        article.markdown-body!= statement.html
+        if statement.toc.length
+          aside.problem-toc
+            details.toc-details(open)
+              summary 题面目录
+              nav(aria-label="题面目录")
+                each item in statement.toc
+                  a.toc-link(data-toc-link, class=item.level === 3 ? 'is-subheading' : '', href=`#${item.id}`) #{item.text}
+    else if problem.statementKind === 'pdf' && pdfUrl
+      .pdf-viewer
+        .pdf-viewer-heading
+          h2 PDF 题面
+          a.external-link(href=pdfUrl, target="_blank", rel="noopener noreferrer") 在新窗口打开 ↗
+        iframe(src=pdfUrl, title=`${problem.title} PDF 题面`, loading="lazy")
+        p.pdf-fallback
+          | 如果浏览器无法显示 PDF，
+          a(href=pdfUrl, target="_blank", rel="noopener noreferrer") 在新窗口打开题面
+    else if renderError
+      .content-error(role="alert")
+        h2 题面暂时无法显示
+        p #{renderError}
+    else
+      .content-error(role="status")
+        h2 题面暂缺
+        p 这道题目前没有可用的题面文件。

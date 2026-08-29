@@ -1,0 +1,12 @@
+extends layout.pug
+
+block title
+  | #{title}
+
+block content
+  .shell.narrow-shell
+    .error-page
+      p.error-code 404
+      h1 #{message}
+      p.error-lead 这个地址没有对应的内容。
+      a.primary-link(href="/") 返回题目列表

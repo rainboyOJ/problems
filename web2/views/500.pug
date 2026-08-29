@@ -1,0 +1,12 @@
+extends layout.pug
+
+block title
+  | #{title}
+
+block content
+  .shell.narrow-shell
+    .error-page
+      p.error-code 500
+      h1 #{message}
+      p.error-lead 请稍后重新访问。
+      a.primary-link(href="/") 返回题目列表

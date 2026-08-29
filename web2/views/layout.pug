@@ -1,0 +1,41 @@
+doctype html
+html(lang="zh-CN")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="theme-color", content="#f7f8fa")
+    title
+      block title
+        | ROJ
+    link(rel="stylesheet", href="/assets/index.css")
+    script.
+      (function () {
+        try {
+          var saved = localStorage.getItem('roj.theme');
+          var mode = saved === 'dark' || saved === 'light' ? saved : 'system';
+          var dark = mode === 'dark' || (mode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+          document.documentElement.dataset.themeMode = mode;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themeMode = 'system';
+        }
+      }());
+  body
+    a.skip-link(href="#main-content") 跳到主要内容
+    header.site-header
+      .shell.header-inner
+        a.brand(href="/", aria-label="ROJ 首页") ROJ
+        nav.site-nav(aria-label="主导航")
+          a(class=activePath === '/' ? 'is-active' : '', href="/") 题目列表
+          a(class=activePath === '/about' ? 'is-active' : '', href="/about") 关于
+        button.theme-toggle(type="button", data-theme-toggle, aria-label="切换主题", title="切换主题")
+          span(data-theme-icon, aria-hidden="true") ☾
+    main#main-content.site-main
+      block content
+    footer.site-footer
+      .shell
+        span ROJ
+        span.footer-separator ·
+        span 只读题目展示
+    script(src="/assets/app.js", defer)
