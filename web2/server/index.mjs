@@ -13,6 +13,7 @@ const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '
 const rojRoot = path.resolve(process.env.ROJ_ROOT || path.join(projectRoot, '..', 'roj'));
 const contestsRoot = path.resolve(process.env.CONTESTS_ROOT || path.join(projectRoot, '..', 'contests'));
 const publicRoot = path.join(projectRoot, 'public');
+const favRoot = path.join(projectRoot, 'fav');
 const port = Number.parseInt(process.env.PORT || '3033', 10) || 3033;
 const host = process.env.HOST || '0.0.0.0';
 
@@ -58,6 +59,16 @@ if (fs.existsSync(publicRoot)) {
   await app.register(fastifyStatic, {
     root: path.join(publicRoot, 'assets'),
     prefix: '/assets/',
+    decorateReply: false,
+    index: false,
+    setHeaders(res) { res.setHeader('Cache-Control', 'public, max-age=31536000, immutable'); }
+  });
+}
+
+if (fs.existsSync(favRoot)) {
+  await app.register(fastifyStatic, {
+    root: favRoot,
+    prefix: '/fav/',
     decorateReply: false,
     index: false,
     setHeaders(res) { res.setHeader('Cache-Control', 'public, max-age=31536000, immutable'); }
