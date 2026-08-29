@@ -45,13 +45,20 @@ function encodePath(value) {
 
 function localImageUrl(src, env) {
   const cleanSrc = src.split('#', 1)[0].split('?', 1)[0];
-  if (!cleanSrc || cleanSrc.startsWith('/') || cleanSrc.includes('\\') || cleanSrc.includes('..')) return null;
-  const fullPath = path.resolve(env.problemDir, cleanSrc);
-  const relative = path.relative(env.problemDir, fullPath);
+  const resourceDir = env.resourceDir || env.problemDir;
+  if (!resourceDir || !cleanSrc || cleanSrc.startsWith('/') || cleanSrc.includes('\\') || cleanSrc.includes('..')) return null;
+  const fullPath = path.resolve(resourceDir, cleanSrc);
+  const relative = path.relative(resourceDir, fullPath);
+  const normalizedRelative = relative.split(path.sep).join('/');
   const extension = path.extname(fullPath).toLocaleLowerCase();
   if (!relative || relative.startsWith('..') || path.isAbsolute(relative) || !['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg'].includes(extension)) return null;
+  if (env.assetScope && normalizedRelative !== env.assetScope && !normalizedRelative.startsWith(`${env.assetScope}/`)) return null;
   if (!fs.existsSync(fullPath) || !fs.statSync(fullPath).isFile()) return null;
-  return `/problem/${encodeURIComponent(env.problemId)}/asset/${encodePath(relative.split(path.sep).join('/'))}`;
+  const assetBase = env.assetBase || `/problem/${encodeURIComponent(env.problemId)}/asset`;
+  const urlRelative = env.assetScope && normalizedRelative.startsWith(`${env.assetScope}/`)
+    ? normalizedRelative.slice(env.assetScope.length + 1)
+    : normalizedRelative;
+  return `${assetBase}/${encodePath(urlRelative)}`;
 }
 
 function addHeadingIds(tokens, env) {
@@ -64,6 +71,30 @@ function addHeadingIds(tokens, env) {
     token.attrSet('id', id);
     env.toc.push({ id, level: Number(token.tag.slice(1)), text: inline?.content || '' });
   }
+}
+
+function extractProblemLinks(tokens) {
+  const links = [];
+  const seen = new Set();
+  for (const token of tokens) {
+    if (token.type !== 'inline' || !token.children) continue;
+    for (let index = 0; index < token.children.length; index += 1) {
+      const child = token.children[index];
+      if (child.type !== 'link_open') continue;
+      const href = child.attrGet('href') || '';
+      const match = href.match(/^\/problem\/(\d+)(?:[?#].*)?\/?$/);
+      if (!match || seen.has(match[1])) continue;
+      const labelParts = [];
+      for (let labelIndex = index + 1; labelIndex < token.children.length; labelIndex += 1) {
+        const labelToken = token.children[labelIndex];
+        if (labelToken.type === 'link_close') break;
+        if (['text', 'code_inline', 'emoji'].includes(labelToken.type)) labelParts.push(labelToken.content);
+      }
+      seen.add(match[1]);
+      links.push({ id: match[1], label: labelParts.join('').trim() || match[1] });
+    }
+  }
+  return links;
 }
 
 export class MarkdownRenderer {
@@ -125,6 +156,11 @@ export class MarkdownRenderer {
     const renderEnv = { ...env, toc: [] };
     const tokens = this.md.parse(parsed.content, renderEnv);
     addHeadingIds(tokens, renderEnv);
-    return { html: this.md.renderer.render(tokens, this.md.options, renderEnv), toc: renderEnv.toc, frontMatter: parsed.data };
+    return {
+      html: this.md.renderer.render(tokens, this.md.options, renderEnv),
+      toc: renderEnv.toc,
+      frontMatter: parsed.data,
+      problemLinks: extractProblemLinks(tokens)
+    };
   }
 }

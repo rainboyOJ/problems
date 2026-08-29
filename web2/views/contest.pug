@@ -1,0 +1,59 @@
+extends layout.pug
+
+block title
+  | #{contest.title} - ROJ
+
+block content
+  .shell
+    nav.breadcrumbs(aria-label="当前位置")
+      a(href="/contests") 比赛
+      span(aria-hidden="true") /
+      span(aria-current="page") #{contest.title}
+
+    header.contest-heading
+      .contest-heading-main
+        p.eyebrow 比赛
+        h1 #{contest.title}
+        if contest.description
+          p.page-lead #{contest.description}
+      if contest.statusLabel
+        span(class=`contest-status contest-status-${contest.status}`) #{contest.statusLabel}
+
+    if contest.metadata.length
+      dl.contest-meta
+        each field in contest.metadata
+          div
+            dt #{field.label}
+            dd #{field.value}
+
+    if statement && statement.problemLinks.length
+      section.contest-problems(aria-labelledby="contest-problems-title")
+        .section-heading
+          p.eyebrow 题目
+          h2#contest-problems-title 比赛题目
+        ol.contest-problem-list
+          each problem, index in statement.problemLinks
+            li
+              span.contest-problem-index(aria-hidden="true") #{index + 1}
+              a.contest-problem-link(href=problem.href)
+                span.contest-problem-label #{problem.label}
+                span.contest-problem-title #{problem.title}
+
+    if statement
+      .contest-layout
+        article.markdown-body!= statement.html
+        if statement.toc.length
+          aside.problem-toc
+            details.toc-details(open)
+              summary 页面目录
+              nav(aria-label="比赛内容目录")
+                each item in statement.toc
+                  a.toc-link(data-toc-link, class=item.level === 3 ? 'is-subheading' : '', href=`#${item.id}`) #{item.text}
+    else if renderError
+      .content-error(role="alert")
+        h2 内容暂时无法显示
+        p #{renderError}
+    else
+      .content-error(role="status")
+        h2 内容暂缺
+        p 这场比赛目前没有可用的 Markdown 内容。

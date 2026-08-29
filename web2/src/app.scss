@@ -269,6 +269,227 @@ p {
   font-weight: 700;
 }
 
+.contest-list {
+  display: grid;
+  gap: 14px;
+}
+
+.contest-card {
+  padding: 23px 25px 20px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.contest-card-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.contest-card-heading-copy {
+  min-width: 0;
+}
+
+.contest-slug {
+  margin-bottom: 5px;
+  color: var(--text-faint);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.77rem;
+  letter-spacing: 0.04em;
+}
+
+.contest-card h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.35;
+}
+
+.contest-card h2 a {
+  color: var(--text);
+}
+
+.contest-card h2 a:hover {
+  color: var(--accent-strong);
+}
+
+.contest-status {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  min-height: 27px;
+  padding: 3px 9px;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.contest-status-upcoming {
+  border-color: color-mix(in srgb, var(--warning) 35%, var(--border));
+  background: var(--warning-soft);
+  color: var(--warning);
+}
+
+.contest-status-archived {
+  border-color: var(--border);
+  background: var(--surface-muted);
+  color: var(--text-soft);
+}
+
+.contest-description {
+  max-width: 760px;
+  margin: 15px 0 17px;
+  color: var(--text-soft);
+}
+
+.contest-card-meta,
+.contest-meta {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px 18px;
+  margin: 0;
+}
+
+.contest-card-meta dt,
+.contest-meta dt {
+  margin-bottom: 3px;
+  color: var(--text-faint);
+  font-size: 0.74rem;
+  font-weight: 650;
+}
+
+.contest-card-meta dd,
+.contest-meta dd {
+  margin: 0;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+.contest-card-tags {
+  grid-column: span 2;
+}
+
+.contest-card-link {
+  display: inline-flex;
+  margin-top: 19px;
+  color: var(--accent-strong);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.contest-card-link::after {
+  content: ' →';
+  padding-left: 3px;
+}
+
+.contest-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.contest-heading-main {
+  min-width: 0;
+}
+
+.contest-heading h1 {
+  max-width: 850px;
+  margin-bottom: 8px;
+  color: var(--text);
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  font-weight: 750;
+  line-height: 1.2;
+}
+
+.contest-meta {
+  margin-bottom: 38px;
+  padding: 18px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.contest-problems {
+  margin-bottom: 40px;
+  padding: 20px 22px 22px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 13px;
+  margin-bottom: 13px;
+}
+
+.section-heading .eyebrow {
+  margin-bottom: 0;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 1.14rem;
+}
+
+.contest-problem-list {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contest-problem-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  min-width: 0;
+  padding: 9px 0;
+  border-top: 1px solid var(--border);
+}
+
+.contest-problem-index {
+  flex: 0 0 25px;
+  color: var(--text-faint);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.82rem;
+  text-align: right;
+}
+
+.contest-problem-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 9px;
+  min-width: 0;
+}
+
+.contest-problem-label {
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.contest-problem-title {
+  color: var(--text-soft);
+  overflow-wrap: anywhere;
+}
+
+.contest-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  align-items: start;
+  gap: 52px;
+}
+
 .list-toolbar {
   display: flex;
   align-items: center;
@@ -1103,7 +1324,8 @@ p {
 }
 
 @media (max-width: 900px) {
-  .problem-layout {
+  .problem-layout,
+  .contest-layout {
     display: block;
   }
 
@@ -1120,6 +1342,10 @@ p {
   }
 
   .problem-meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contest-meta {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -1206,6 +1432,27 @@ p {
     margin-bottom: 22px;
   }
 
+  .contest-heading {
+    display: block;
+    margin-bottom: 22px;
+  }
+
+  .contest-heading .contest-status {
+    margin-top: 13px;
+  }
+
+  .contest-card {
+    padding: 19px 17px 17px;
+  }
+
+  .contest-card-heading {
+    display: block;
+  }
+
+  .contest-card-heading .contest-status {
+    margin-top: 11px;
+  }
+
   .metadata-warning {
     margin-top: 12px;
   }
@@ -1218,6 +1465,20 @@ p {
 
   .problem-meta-wide {
     grid-column: span 2;
+  }
+
+  .contest-card-meta,
+  .contest-meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contest-card-tags {
+    grid-column: span 2;
+  }
+
+  .contest-problems {
+    margin-bottom: 32px;
+    padding: 17px 15px 18px;
   }
 
   .markdown-body {

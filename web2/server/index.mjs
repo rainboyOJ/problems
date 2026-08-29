@@ -6,17 +6,22 @@ import fastifyStatic from '@fastify/static';
 import fastifyView from '@fastify/view';
 import pug from 'pug';
 import { ProblemCatalog } from './problem-catalog.mjs';
+import { ContestCatalog } from './contest-catalog.mjs';
 import { MarkdownRenderer } from './markdown-renderer.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const rojRoot = path.resolve(process.env.ROJ_ROOT || path.join(projectRoot, '..', 'roj'));
+const contestsRoot = path.resolve(process.env.CONTESTS_ROOT || path.join(projectRoot, '..', 'contests'));
 const publicRoot = path.join(projectRoot, 'public');
 const port = Number.parseInt(process.env.PORT || '3033', 10) || 3033;
 const host = process.env.HOST || '0.0.0.0';
 
+const app = Fastify({ logger: true });
 const renderer = new MarkdownRenderer();
 const catalog = new ProblemCatalog(rojRoot, renderer);
 catalog.load();
+const contestCatalog = new ContestCatalog(contestsRoot, renderer, catalog, { logger: app.log });
+contestCatalog.load();
 
 function pageUrl(page, query) {
   const params = new URLSearchParams();
@@ -47,8 +52,6 @@ function baseLocals(activePath, values = {}) {
   return { activePath, ...values };
 }
 
-const app = Fastify({ logger: true });
-
 await app.register(fastifyView, { engine: { pug }, root: path.join(projectRoot, 'views'), production: process.env.NODE_ENV === 'production' });
 
 if (fs.existsSync(publicRoot)) {
@@ -73,6 +76,35 @@ app.get('/', async (request, reply) => {
 });
 
 app.get('/about', async (_request, reply) => reply.view('about.pug', baseLocals('/about', { title: '关于 - ROJ', repositoryUrl: 'https://github.com/rainboyOJ/problems' })));
+
+app.get('/contests', async (_request, reply) => {
+  const contests = contestCatalog.list();
+  return reply.view('contests.pug', baseLocals('/contests', {
+    title: '比赛 - ROJ',
+    contests
+  }));
+});
+
+app.get('/contest/:slug', async (request, reply) => {
+  const contest = contestCatalog.get(request.params.slug);
+  if (!contest) return reply.code(404).view('404.pug', { title: '比赛不存在 - ROJ', message: '没有找到这场比赛。' });
+
+  let statement = null;
+  let renderError = null;
+  try {
+    statement = contestCatalog.render(contest);
+  } catch (error) {
+    request.log.error({ err: error, contest: contest.slug }, 'Contest Markdown render failed');
+    renderError = '这场比赛的 Markdown 暂时无法渲染。';
+  }
+
+  return reply.view('contest.pug', baseLocals('/contests', {
+    title: `${contest.title} - ROJ`,
+    contest,
+    statement,
+    renderError
+  }));
+});
 
 app.get('/problem/:id', async (request, reply) => {
   const entry = catalog.get(request.params.id);
@@ -123,6 +155,23 @@ app.get('/problem/:id/asset/*', async (request, reply) => {
   return reply.send(fs.createReadStream(assetPath));
 });
 
+app.get('/contest/:slug/asset/*', async (request, reply) => {
+  const entry = contestCatalog.get(request.params.slug);
+  let assetPath = null;
+  try { assetPath = contestCatalog.assetPath(entry, request.params['*']); } catch { assetPath = null; }
+  if (!assetPath) return reply.code(404).send('Not found');
+  const contentTypes = {
+    '.png': 'image/png',
+    '.jpg': 'image/jpeg',
+    '.jpeg': 'image/jpeg',
+    '.gif': 'image/gif',
+    '.webp': 'image/webp',
+    '.svg': 'image/svg+xml'
+  };
+  reply.type(contentTypes[path.extname(assetPath).toLocaleLowerCase()] || 'application/octet-stream');
+  return reply.send(fs.createReadStream(assetPath));
+});
+
 app.setNotFoundHandler(async (request, reply) => {
   if (request.raw.url?.startsWith('/assets/')) return reply.code(404).send('Not found');
   return reply.code(404).view('404.pug', { title: '页面不存在 - ROJ', message: '你访问的页面不存在。' });
@@ -136,7 +185,7 @@ app.setErrorHandler(async (error, request, reply) => {
 
 try {
   await app.listen({ port, host });
-  app.log.info({ host, port, rojRoot, problems: catalog.entries.length }, 'ROJ is serving');
+  app.log.info({ host, port, rojRoot, contestsRoot, problems: catalog.entries.length, contests: contestCatalog.entries.length }, 'ROJ is serving');
 } catch (error) {
   app.log.error(error);
   process.exit(1);

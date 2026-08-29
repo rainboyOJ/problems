@@ -28,6 +28,7 @@ html(lang="zh-CN")
         a.brand(href="/", aria-label="ROJ 首页") ROJ
         nav.site-nav(aria-label="主导航")
           a(class=activePath === '/' ? 'is-active' : '', href="/") 题目列表
+          a(class=activePath === '/contests' ? 'is-active' : '', href="/contests") 比赛
           a(class=activePath === '/about' ? 'is-active' : '', href="/about") 关于
         button.theme-toggle(type="button", data-theme-toggle, aria-label="切换主题", title="切换主题")
           span(data-theme-icon, aria-hidden="true") ☾

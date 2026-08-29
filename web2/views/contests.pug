@@ -1,0 +1,55 @@
+extends layout.pug
+
+block title
+  | 比赛 - ROJ
+
+block content
+  .shell
+    section.page-heading
+      .page-heading-copy
+        p.eyebrow ROJ / CONTESTS
+        h1 比赛
+        p.page-lead 浏览比赛安排、题目清单与相关说明。
+      .heading-count
+        strong #{contests.length}
+        span 场比赛
+
+    if contests.length
+      .contest-list
+        each contest in contests
+          article.contest-card
+            .contest-card-heading
+              .contest-card-heading-copy
+                p.contest-slug #{contest.slug}
+                h2
+                  a(href=`/contest/${contest.slug}`) #{contest.title}
+              if contest.statusLabel
+                span(class=`contest-status contest-status-${contest.status}`) #{contest.statusLabel}
+            if contest.description
+              p.contest-description #{contest.description}
+            dl.contest-card-meta
+              if contest.date
+                div
+                  dt 开始
+                  dd #{contest.date}
+              if contest.endDate
+                div
+                  dt 结束
+                  dd #{contest.endDate}
+              if contest.organizer
+                div
+                  dt 组织者
+                  dd #{contest.organizer}
+              if contest.tags.length
+                div.contest-card-tags
+                  dt 标签
+                  dd
+                    .tag-list
+                      each tag in contest.tags
+                        span.tag #{tag}
+            a.contest-card-link(href=`/contest/${contest.slug}`) 查看比赛详情
+    else
+      .empty-state
+        span.empty-state-mark(aria-hidden="true") /
+        h2 暂无比赛
+        p 比赛资料添加到 contests 目录后会显示在这里。
