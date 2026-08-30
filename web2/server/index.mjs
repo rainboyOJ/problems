@@ -100,7 +100,7 @@ if (fs.existsSync(publicRoot)) {
     prefix: '/assets/',
     decorateReply: false,
     index: false,
-    setHeaders(res) { res.setHeader('Cache-Control', 'public, max-age=31536000, immutable'); }
+    setHeaders(reply) { reply.header('Cache-Control', 'public, max-age=31536000, immutable'); }
   });
 }
 
@@ -110,7 +110,7 @@ if (fs.existsSync(favRoot)) {
     prefix: '/fav/',
     decorateReply: false,
     index: false,
-    setHeaders(res) { res.setHeader('Cache-Control', 'public, max-age=31536000, immutable'); }
+    setHeaders(reply) { reply.header('Cache-Control', 'public, max-age=31536000, immutable'); }
   });
 }
 
