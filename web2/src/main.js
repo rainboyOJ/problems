@@ -87,6 +87,74 @@ function initDownloadModal() {
     status.dataset.state = kind;
   }
 
+  function fileStem(filePath) {
+    const separator = filePath.lastIndexOf('/');
+    const extension = filePath.lastIndexOf('.');
+    return extension > separator ? filePath.slice(0, extension) : filePath;
+  }
+
+  function fileExtension(filePath) {
+    const separator = filePath.lastIndexOf('/');
+    const dot = filePath.lastIndexOf('.');
+    return dot > separator ? filePath.slice(dot).toLowerCase() : '';
+  }
+
+  function pairFiles(files) {
+    const groups = new Map();
+    for (const file of files) {
+      const key = fileStem(file.path);
+      let group = groups.get(key);
+      if (!group) {
+        group = { input: null, output: null, extras: [] };
+        groups.set(key, group);
+      }
+      const extension = fileExtension(file.path);
+      if (extension === '.in' && !group.input) group.input = file;
+      else if (extension === '.out' && !group.output) group.output = file;
+      else group.extras.push(file);
+    }
+
+    const rows = [];
+    for (const group of groups.values()) {
+      if (group.input || group.output) rows.push([group.input, group.output]);
+      for (const file of group.extras) rows.push([file, null]);
+    }
+    return rows;
+  }
+
+  function appendFileSlot(row, file) {
+    const cell = document.createElement('td');
+    cell.className = 'download-file-cell';
+    const action = document.createElement('td');
+    action.className = 'download-file-action';
+
+    if (!file) {
+      cell.classList.add('is-empty');
+      action.classList.add('is-empty');
+      cell.textContent = '-';
+      action.textContent = '-';
+      row.append(cell, action);
+      return;
+    }
+
+    const name = document.createElement('span');
+    name.className = 'download-file-name';
+    name.textContent = file.path;
+    const meta = document.createElement('span');
+    meta.className = 'download-file-size';
+    meta.textContent = formatBytes(file.size);
+    cell.append(name, meta);
+
+    const link = document.createElement('a');
+    link.className = 'download-file-link';
+    link.href = file.downloadUrl;
+    link.download = file.path.split('/').pop() || 'download';
+    link.textContent = '下载';
+    link.setAttribute('aria-label', `下载 ${file.path}`);
+    action.append(link);
+    row.append(cell, action);
+  }
+
   function renderFiles(files) {
     list.replaceChildren();
     if (!files.length) {
@@ -96,26 +164,30 @@ function initDownloadModal() {
       list.append(empty);
       return;
     }
-    const fragment = document.createDocumentFragment();
-    for (const file of files) {
-      const row = document.createElement('div');
-      row.className = 'download-file-row';
-      const name = document.createElement('span');
-      name.className = 'download-file-name';
-      name.textContent = file.path;
-      const meta = document.createElement('span');
-      meta.className = 'download-file-size';
-      meta.textContent = formatBytes(file.size);
-      const link = document.createElement('a');
-      link.className = 'download-file-link';
-      link.href = file.downloadUrl;
-      link.download = file.path.split('/').pop() || 'download';
-      link.textContent = '下载';
-      link.setAttribute('aria-label', `下载 ${file.path}`);
-      row.append(name, meta, link);
-      fragment.append(row);
+    const table = document.createElement('table');
+    table.className = 'download-file-table';
+    table.setAttribute('aria-label', '公开数据文件');
+
+    const head = document.createElement('thead');
+    const headingRow = document.createElement('tr');
+    for (const label of ['输入数据', '操作', '输出数据', '操作']) {
+      const heading = document.createElement('th');
+      heading.scope = 'col';
+      heading.textContent = label;
+      headingRow.append(heading);
     }
-    list.append(fragment);
+    head.append(headingRow);
+    table.append(head);
+
+    const body = document.createElement('tbody');
+    for (const [input, output] of pairFiles(files)) {
+      const row = document.createElement('tr');
+      appendFileSlot(row, input);
+      appendFileSlot(row, output);
+      body.append(row);
+    }
+    table.append(body);
+    list.append(table);
   }
 
   async function loadManifest() {

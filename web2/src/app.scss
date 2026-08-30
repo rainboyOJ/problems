@@ -1443,17 +1443,52 @@ p {
   overflow: auto;
 }
 
-.download-file-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto;
-  align-items: center;
-  gap: 12px;
-  min-height: 43px;
+.download-file-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.84rem;
+}
+
+.download-file-table th {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border-strong);
+  color: var(--text-faint);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.download-file-table th:nth-child(2),
+.download-file-table th:nth-child(4),
+.download-file-table td:nth-child(2),
+.download-file-table td:nth-child(4) {
+  width: 52px;
+  text-align: right;
+}
+
+.download-file-table td {
+  padding: 10px;
   border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.download-file-cell {
+  min-width: 0;
+}
+
+.download-file-cell.is-empty,
+.download-file-action.is-empty {
+  color: var(--text-faint);
+}
+
+.download-file-name,
+.download-file-size {
+  display: block;
 }
 
 .download-file-name {
-  min-width: 0;
   overflow-wrap: anywhere;
   font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 0.83rem;
@@ -1711,13 +1746,29 @@ p {
     padding-left: 18px;
   }
 
-  .download-file-row {
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 4px 10px;
-    padding: 8px 0;
+  .download-file-table {
+    font-size: 0.78rem;
+  }
+
+  .download-file-table th,
+  .download-file-table td {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  .download-file-table th:nth-child(2),
+  .download-file-table th:nth-child(4),
+  .download-file-table td:nth-child(2),
+  .download-file-table td:nth-child(4) {
+    width: 44px;
   }
 
   .download-file-name {
-    grid-column: 1 / -1;
+    font-size: 0.76rem;
+  }
+
+  .download-file-size,
+  .download-file-link {
+    font-size: 0.74rem;
   }
 }
