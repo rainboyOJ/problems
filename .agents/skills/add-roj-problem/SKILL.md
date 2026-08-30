@@ -15,8 +15,10 @@ judge integration. The website discovers numeric `roj/<id>/` directories at star
 - Work only inside the repository's `roj/` directory and the user-supplied local
   source path. Never scan or copy an unrelated broad filesystem path.
 - Do not copy or expose registration, judging, or account data.
-- Do not expose `data/` or `std.cpp` through Markdown links. They are repository
-  maintenance files; only `down/` files are public download material.
+- Do not expose `std.cpp`, generators, checkers, or other maintenance files. The
+  website's download feature treats allowlisted files under `data/` as public download
+  candidates; the legacy `down/` directory is retained for compatibility but is not
+  part of the new download UI.
 - Do not overwrite an existing `roj/<id>/` directory. A collision is a stop-and-ask
   condition, not a reason to replace files.
 - Do not write anything before producing a preview and receiving explicit user
@@ -167,18 +169,23 @@ roj/<id>/
 ├── config.json
 ├── content.md              # or content.pdf for PDF-only problems
 ├── std.cpp                 # only when a source was selected
-├── data/                   # official tests, not linked from the statement
-└── down/                   # public user data, linked from the statement
+├── data/                   # public data candidates; web2 applies an extension filter
+└── down/                   # legacy compatibility data, not used by the new UI
 ```
 
 Copy the source `data/` directory recursively, preserving filenames and subdirectories.
-Treat a clearly identified `大样例/` directory as official test data unless the user
-explicitly classifies it as public down data; do not silently publish it.
+The web2 download feature exposes only ordinary files with case-insensitive `.in`,
+`.out`, `.ans`, `.txt`, or `.dat` extensions; source code, scripts, executables,
+compiled artifacts, hidden files, caches, and symlinks are never public downloads.
+Treat a clearly identified `大样例/` directory as data candidates only when the user
+confirms it contains files intended for visitors; otherwise report it as unresolved.
 
-Copy `down/` and `下发文件/` into `down/`, preserving their relative directory
-structure. Copy only data-like regular files such as `.in`, `.out`, `.ans`, `.txt`,
-or `.dat`; exclude source programs and helper scripts. If a file has an unfamiliar
-extension, list it in the preview instead of silently deciding its visibility.
+Copy `down/` and `下发文件/` into `down/` only when preserving legacy source material
+is part of the requested import, preserving their relative directory structure. This
+directory is not linked from new contest/problem download UI. Copy only data-like
+regular files such as `.in`, `.out`, `.ans`, `.txt`, or `.dat`; exclude source programs
+and helper scripts. If a file has an unfamiliar extension, list it in the preview
+instead of silently deciding its visibility.
 
 Do not copy solutions, analysis workspaces, readmes, generators, checkers, or unrelated
 attachments. Do not follow symlinks outside the source problem directory.
@@ -187,33 +194,23 @@ Reject or pause a candidate when any single file intended for a GitHub Raw link 
 over 100 MB. GitHub cannot reliably serve such a file through the agreed link; wait
 for an explicit Git LFS or external storage decision.
 
-### 6. Add public download links
+### 6. Record public data candidates
 
-If `down/` contains public files, append this managed block to the end of
-`content.md`:
+Do not append a managed download-link block to `content.md`. The web2 download API
+builds a local VPS download URL from the final `roj/<id>/data/` path and its filtered
+manifest. In the preview, report the public data candidates, their relative paths,
+sizes, and the eventual API path. A GitHub Raw URL may be reported only as an
+explicit fallback; do not claim either URL works until the destination is committed
+and deployed.
 
-```markdown
-<!-- roj:downloads:start -->
-## 下发数据
-
-- [下载 example.in](https://raw.githubusercontent.com/rainboyOJ/problems/master/roj/20015/down/example.in)
-<!-- roj:downloads:end -->
-```
-
-Generate one link per copied `.in`, `.out`, `.ans`, or other approved data file. URL
-encode each path component while keeping `/` separators. Links must point to the
-canonical `rainboyOJ/problems` `master` branch and the final `roj/<id>/down/` path.
-Do not add links to `data/` or `std.cpp`.
-
-The managed block must be idempotent: replace an existing valid block rather than
-appending a duplicate. If only one marker is present or the block is malformed, stop
-and ask before changing the statement. If there are no public files, do not add an
-empty section.
+Existing legacy download-link blocks are not rewritten automatically. If the user asks
+to migrate one, show a separate before/after preview and remove only links explicitly
+covered by that request.
 
 ### 7. Preview and confirm
 
 Present a flat preview before writing. Include proposed IDs, titles, statement type,
-source selection, data/down file counts and sizes, generated link count, and every
+source selection, data/down file counts and sizes, public data candidate count, and every
 warning or unresolved choice. Explicitly call out skipped directories and why.
 
 Do not create final `roj/<id>/` directories until the user confirms the complete
@@ -229,16 +226,18 @@ For every imported problem, verify:
 - exactly one usable statement carrier exists (`content.md` or `content.pdf`)
 - `content.md` has no unapproved structural raw HTML
 - all local image references resolve to copied files
-- every generated download link maps to a copied `down/` file
+- every reported public data candidate maps to a copied `data/` file
 - `std.cpp` exists when a source was selected
 - `data/` and `down/` contain no unexpected symlink escapes
 - no destination ID collided during the write
 - `git diff --check` is clean for the new text files
 
 If the ROJ web server is already running, request each imported `/problem/<id>` page
-and each PDF/download URL that the current server supports. Remember that the current
-web2 server may not yet expose `down/` or `data/` routes; a GitHub Raw link is still
-the expected public link until that feature is deliberately implemented.
+and each PDF/download URL that the current server supports. The planned web2
+download UI uses the VPS for individual files and server-generated ZIP archives;
+verify the manifest endpoint, at least one individual data URL, and the ZIP URL when
+the destination is deployed. Do not claim a download URL works before deployment.
+If a GitHub Raw fallback is configured, verify it separately.
 
 Report imported IDs, skipped candidates, warnings, file counts, and validation results.
 Leave all Git operations to the user.
@@ -251,6 +250,6 @@ Leave all Git operations to the user.
 - Do not infer a title from a generic heading such as `题目描述` when a contest label
   is available.
 - Do not mistake `题解.md`, `sol.md`, or analysis notes for the statement.
-- Do not expose official `data/` tests or `std.cpp` merely because they were copied.
+- Do not expose non-allowlisted `data/` files or `std.cpp` merely because they were copied.
 - Do not claim a GitHub Raw download works before the files are committed to the
   repository at the generated paths.
