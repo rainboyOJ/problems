@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { scanPublicData } from './download-service.mjs';
 
 class LruCache {
   constructor(limit = 128) {
@@ -75,6 +76,7 @@ export class ProblemCatalog {
       const { config, invalid } = readConfig(path.join(dir, 'config.json'));
       const configuredTitle = optionalString(config.title);
       const title = configuredTitle || `题目 ${id}`;
+      const publicData = scanPublicData(path.join(dir, 'data'));
 
       entries.push({
         id,
@@ -88,6 +90,8 @@ export class ProblemCatalog {
         hasMarkdown,
         hasPdf,
         statementKind: hasMarkdown ? 'markdown' : 'pdf',
+        publicData,
+        publicDataBytes: publicData.reduce((total, file) => total + file.size, 0),
         metadataIncomplete: invalid || !configuredTitle,
         configInvalid: invalid
       });

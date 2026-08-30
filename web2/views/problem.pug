@@ -17,6 +17,11 @@ block content
       if problem.metadataIncomplete
         span.metadata-warning(title="这道题的部分辅助信息缺失或格式异常") 元数据不完整
 
+    .problem-actions(aria-label="题目操作")
+      if problem.hasPublicData
+        button.action-button.action-button-primary(type="button", data-download-trigger, data-problem-id=problem.id, aria-haspopup="dialog") 下载数据
+      a.action-button(href=solutionUrl, target="_blank", rel="noopener noreferrer") 查看题解 ↗
+
     dl.problem-meta
       div
         dt 题号
@@ -72,3 +77,18 @@ block content
       .content-error(role="status")
         h2 题面暂缺
         p 这道题目前没有可用的题面文件。
+
+    if problem.hasPublicData
+      dialog.download-modal(data-download-modal, aria-labelledby="download-modal-title")
+        .download-modal-panel
+          header.download-modal-header
+            div
+              p.eyebrow 数据下载
+              h2#download-modal-title 题目 #{problem.id} 的公开数据
+            button.icon-button(type="button", data-download-close, aria-label="关闭下载窗口", title="关闭") ×
+          .download-modal-summary(data-download-summary, role="status") 正在读取文件列表…
+          .download-modal-warning(data-download-warning, role="note", hidden) 数据总量较大，打包可能需要较长时间。
+          .download-file-list(data-download-list)
+          footer.download-modal-footer
+            span.download-modal-status(data-download-status, role="status")
+            button.action-button.action-button-primary(type="button", data-zip-download, disabled) 打包下载

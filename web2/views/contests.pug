@@ -15,39 +15,49 @@ block content
         span 场比赛
 
     if contests.length
-      .contest-list
-        each contest in contests
-          article.contest-card
-            .contest-card-heading
-              .contest-card-heading-copy
-                p.contest-slug #{contest.slug}
-                h2
-                  a(href=`/contest/${contest.slug}`) #{contest.title}
-              if contest.statusLabel
-                span(class=`contest-status contest-status-${contest.status}`) #{contest.statusLabel}
-            if contest.description
-              p.contest-description #{contest.description}
-            dl.contest-card-meta
-              if contest.date
-                div
-                  dt 开始
-                  dd #{contest.date}
-              if contest.endDate
-                div
-                  dt 结束
-                  dd #{contest.endDate}
-              if contest.organizer
-                div
-                  dt 组织者
-                  dd #{contest.organizer}
-              if contest.tags.length
-                div.contest-card-tags
-                  dt 标签
-                  dd
+      .table-wrap
+        table.problem-table.contest-table
+          caption.visually-hidden 比赛列表
+          thead
+            tr
+              th(scope="col") 比赛
+              th(scope="col") 日期
+              th(scope="col") 状态
+              th(scope="col") 组织者
+              th(scope="col") 标签
+          tbody
+            each contest in contests
+              tr
+                td.contest-title-cell
+                  p.contest-slug #{contest.slug}
+                  a.problem-title-link(href=`/contest/${contest.slug}`) #{contest.title}
+                  if contest.description
+                    p.contest-table-description #{contest.description}
+                td.contest-date-cell
+                  if contest.date
+                    time(datetime=contest.date) #{contest.date}
+                    if contest.endDate
+                      span.contest-date-separator 至
+                      time(datetime=contest.endDate) #{contest.endDate}
+                  else
+                    span.muted 未提供
+                td
+                  if contest.statusLabel
+                    span(class=`contest-status contest-status-${contest.status}`) #{contest.statusLabel}
+                  else
+                    span.muted 未标注
+                td.contest-organizer-cell
+                  if contest.organizer
+                    | #{contest.organizer}
+                  else
+                    span.muted 未提供
+                td.contest-tags-cell
+                  if contest.tags.length
                     .tag-list
                       each tag in contest.tags
                         span.tag #{tag}
-            a.contest-card-link(href=`/contest/${contest.slug}`) 查看比赛详情
+                  else
+                    span.muted 未标注
     else
       .empty-state
         span.empty-state-mark(aria-hidden="true") /
