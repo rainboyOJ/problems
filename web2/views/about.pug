@@ -23,27 +23,77 @@ block content
 
       h2 ROJ 客户端 Skill
       p
-        | 仓库提供了只读的 ROJ 客户端 Skill，位于
-        code .agents/skills/roj/
-        | 。它指导 AI 使用
-        code scripts/roj.py
-        | 查询题目、读取题面、下载公开数据，并在本地评测 C++ 程序。
+        | ROJ 提供了只读客户端 Skill 和
+        code roj.py
+        | 脚本，帮助 AI 或用户查询题目、读取题面、下载公开数据，并在本地评测 C++ 程序。
+
+      h3 安装 Skill
       p
-        | 如果希望让 OpenCode、Codex 或 Claude Code 自动安装，请把下面的安装说明链接交给 AI：
+        | 如果使用 OpenCode、Codex 或 Claude Code，可以把下面的安装说明链接交给 AI：
         a.external-link(href="https://raw.githubusercontent.com/rainboyOJ/problems/master/ai-install.md", target="_blank", rel="noopener noreferrer") ai-install.md ↗
-      p 在仓库中协作时可以直接使用这个目录；如果要安装到个人 Agent 的 Skill 目录，可以复制整个目录：
+        | 。安装说明会优先使用 GitHub Raw，直连失败时自动切换到加速源，不会下载整个仓库。
+      p 在当前仓库中使用时，Skill 位于
+        code .agents/skills/roj/
+        | ，无需复制。手动安装到个人 Agent 的全局目录时，默认使用
+        code ~/.agents/skills/roj/
+        | ，也可以通过
+        code AGENT_HOME
+        | 更改根目录：
       pre
         code
           | AGENT_SKILLS_DIR="${AGENT_HOME:-$HOME/.agents}/skills"
           | mkdir -p "$AGENT_SKILLS_DIR"
           | cp -r .agents/skills/roj "$AGENT_SKILLS_DIR/roj"
+
+      h3 使用 roj.py
       p
-        | 也可以不安装 Skill，直接运行客户端命令：
+        | 脚本只依赖 Python 3。使用
+        code test
+        | 评测时，还需要系统中的
+        code g++
+        | 和
+        code diff
+        | 。在仓库根目录运行：
       pre
         code
-          | python3 .agents/skills/roj/scripts/roj.py list
-          | python3 .agents/skills/roj/scripts/roj.py download 1000
-          | python3 .agents/skills/roj/scripts/roj.py test 1000 main.cpp
+          | ROJ_SCRIPT=".agents/skills/roj/scripts/roj.py"
+          | python3 "$ROJ_SCRIPT" --help
+          | python3 "$ROJ_SCRIPT" list "关键词"
+          | python3 "$ROJ_SCRIPT" get 1000
+          | python3 "$ROJ_SCRIPT" download 1000
+          | python3 "$ROJ_SCRIPT" download 1000 --zip
+          | python3 "$ROJ_SCRIPT" test 1000 main.cpp
+      ul
+        li
+          code list
+          | 通过题号或标题搜索题目；默认自动读取全部分页。
+        li
+          code get &lt;id&gt;
+          | 获取题目元数据和 Markdown 题面；PDF-only 题目会显示浏览器地址。
+        li
+          code download &lt;id&gt;
+          | 下载公开数据到
+          code ./roj-data/&lt;id&gt;/
+          | ，使用
+          code --zip
+          | 下载服务器生成的 ZIP，已有文件默认不会覆盖。
+        li
+          code test &lt;id&gt; &lt;source.cpp&gt;
+          | 使用本地公开数据评测 C++；默认离线，需要联网时显式添加
+          code --download
+          | 。
+      p
+        | 脚本默认连接
+        code https://roj.ac.cn
+        | 。测试本地服务时可以设置
+        code ROJ_URL
+        | 或传入
+        code --base-url
+        | ：
+      pre
+        code
+          | ROJ_URL=http://127.0.0.1:3033 python3 "$ROJ_SCRIPT" list
+          | python3 "$ROJ_SCRIPT" --json get 1000
 
       h2 内容来源
       p 题目资料来自项目仓库中的 ROJ 题目目录。Markdown 题面在站内排版，PDF 题面使用浏览器阅读器打开。
