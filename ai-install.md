@@ -15,13 +15,9 @@ https://raw.githubusercontent.com/rainboyOJ/problems/master/.agents/skills/roj/s
 https://raw.githubusercontent.com/rainboyOJ/problems/master/.agents/skills/roj/agents/openai.yaml
 ```
 
-可以使用`https://gh-proxy.com/`在中国大陆的网络环境下进行加速
-
-```text
-https://gh-proxy.com/https://raw.githubusercontent.com/rainboyOJ/problems/master/.agents/skills/roj/SKILL.md
-https://gh-proxy.com/https://raw.githubusercontent.com/rainboyOJ/problems/master/.agents/skills/roj/scripts/roj.py
-https://gh-proxy.com/https://raw.githubusercontent.com/rainboyOJ/problems/master/.agents/skills/roj/agents/openai.yaml
-```
+安装命令默认先访问 GitHub Raw；直连失败时，自动改用
+`https://gh-proxy.com/https://raw.githubusercontent.com/...` 重试。可以通过
+`RAW_BASE` 和 `RAW_MIRROR` 环境变量替换默认地址。
 
 ## 选择安装目录
 
@@ -44,16 +40,35 @@ https://gh-proxy.com/https://raw.githubusercontent.com/rainboyOJ/problems/master
 将下面的 `<SKILL_DIR>` 替换为上一步选定的目录，然后执行：
 
 ```sh
+set -eu
+
+RAW_BASE="${RAW_BASE:-https://raw.githubusercontent.com/rainboyOJ/problems/master}"
+RAW_MIRROR="${RAW_MIRROR:-https://gh-proxy.com}"
+RAW_BASE="${RAW_BASE%/}"
+RAW_MIRROR="${RAW_MIRROR%/}"
+TMP_DIR="$(mktemp -d)"
+trap 'rm -rf "$TMP_DIR"' EXIT
+
+download_raw() {
+  path="$1"
+  output="$2"
+  direct_url="${RAW_BASE}/${path}"
+  mirror_url="${RAW_MIRROR}/${direct_url}"
+  if curl -fL --retry 2 --connect-timeout 10 "$direct_url" -o "$output"; then
+    return 0
+  fi
+  printf 'GitHub Raw 直连失败，改用加速源：%s\n' "$mirror_url" >&2
+  curl -fL --retry 2 --connect-timeout 10 "$mirror_url" -o "$output"
+}
+
+download_raw ".agents/skills/roj/SKILL.md" "$TMP_DIR/SKILL.md"
+download_raw ".agents/skills/roj/scripts/roj.py" "$TMP_DIR/roj.py"
+download_raw ".agents/skills/roj/agents/openai.yaml" "$TMP_DIR/openai.yaml"
+
 mkdir -p "<SKILL_DIR>/scripts" "<SKILL_DIR>/agents"
-curl -fL --retry 2 \
-  https://raw.githubusercontent.com/rainboyOJ/problems/master/.agents/skills/roj/SKILL.md \
-  -o "<SKILL_DIR>/SKILL.md"
-curl -fL --retry 2 \
-  https://raw.githubusercontent.com/rainboyOJ/problems/master/.agents/skills/roj/scripts/roj.py \
-  -o "<SKILL_DIR>/scripts/roj.py"
-curl -fL --retry 2 \
-  https://raw.githubusercontent.com/rainboyOJ/problems/master/.agents/skills/roj/agents/openai.yaml \
-  -o "<SKILL_DIR>/agents/openai.yaml"
+cp "$TMP_DIR/SKILL.md" "<SKILL_DIR>/SKILL.md"
+cp "$TMP_DIR/roj.py" "<SKILL_DIR>/scripts/roj.py"
+cp "$TMP_DIR/openai.yaml" "<SKILL_DIR>/agents/openai.yaml"
 chmod +x "<SKILL_DIR>/scripts/roj.py"
 ```
 
