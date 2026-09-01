@@ -20,6 +20,7 @@ block content
     .problem-actions(aria-label="题目操作")
       if problem.hasPublicData
         button.action-button.action-button-primary(type="button", data-download-trigger, data-problem-id=problem.id, aria-haspopup="dialog") 下载数据
+      button.action-button(type="button", data-command-trigger, data-problem-id=problem.id, data-has-public-data=(problem.hasPublicData ? 'true' : 'false'), aria-haspopup="dialog") 常用命令
       if problem.hasMarkdown
         button.action-button(type="button", data-copy-statement, data-problem-id=problem.id, aria-describedby="copy-statement-status") 复制题面
       a.action-button(href=solutionUrl, target="_blank", rel="noopener noreferrer") 查看题解 ↗
@@ -98,3 +99,17 @@ block content
           footer.download-modal-footer
             span.download-modal-status(data-download-status, role="status")
             button.action-button.action-button-primary(type="button", data-zip-download, disabled) 打包下载
+
+    dialog.download-modal.command-modal(data-command-modal, aria-labelledby="command-modal-title")
+      .download-modal-panel
+        header.download-modal-header
+          div
+            p.eyebrow 常用命令
+            h2#command-modal-title 题目 #{problem.id} 的 ROJ 命令
+          button.icon-button(type="button", data-command-close, aria-label="关闭常用命令窗口", title="关闭") ×
+        p.command-modal-intro
+          | 以下命令默认使用全局安装的 ROJ Skill，请在终端中直接执行；如果修改过 AGENT_HOME，请将命令中的 ~/.agents 替换为对应目录。
+        ol.command-list(data-command-list)
+        footer.download-modal-footer
+          span.download-modal-status(data-command-status, role="status", aria-live="polite", aria-atomic="true")
+          button.action-button.action-button-primary(type="button", data-copy-all-commands) 复制全部

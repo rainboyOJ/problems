@@ -32,13 +32,11 @@ block content
         | 如果使用 OpenCode、Codex 或 Claude Code，可以把下面的安装说明链接交给 AI：
         a.external-link(href="https://raw.githubusercontent.com/rainboyOJ/problems/master/ai-install.md", target="_blank", rel="noopener noreferrer") ai-install.md ↗
         | 。安装说明会优先使用 GitHub Raw，直连失败时自动切换到加速源，不会下载整个仓库。
-      p 在当前仓库中使用时，Skill 位于
-        code .agents/skills/roj/
-        | ，无需复制。手动安装到个人 Agent 的全局目录时，默认使用
+      p 网站中的“常用命令”默认使用全局 Skill 路径
         code ~/.agents/skills/roj/
-        | ，也可以通过
+        | 。手动安装到个人 Agent 的全局目录时，默认使用该路径，也可以通过
         code AGENT_HOME
-        | 更改根目录：
+        | 更改根目录。当前仓库内也保留了项目级副本，直接从仓库运行时无需复制。
       pre
         code
           | AGENT_SKILLS_DIR="${AGENT_HOME:-$HOME/.agents}/skills"
@@ -53,16 +51,15 @@ block content
         code g++
         | 和
         code diff
-        | 。在仓库根目录运行：
+        | 。全局安装后，可以在任意目录运行：
       pre
         code
-          | ROJ_SCRIPT=".agents/skills/roj/scripts/roj.py"
-          | python3 "$ROJ_SCRIPT" --help
-          | python3 "$ROJ_SCRIPT" list "关键词"
-          | python3 "$ROJ_SCRIPT" get 1000
-          | python3 "$ROJ_SCRIPT" download 1000
-          | python3 "$ROJ_SCRIPT" download 1000 --zip
-          | python3 "$ROJ_SCRIPT" test 1000 main.cpp
+          | python3 ~/.agents/skills/roj/scripts/roj.py --help
+          | python3 ~/.agents/skills/roj/scripts/roj.py list "关键词"
+          | python3 ~/.agents/skills/roj/scripts/roj.py get 1000
+          | python3 ~/.agents/skills/roj/scripts/roj.py download 1000
+          | python3 ~/.agents/skills/roj/scripts/roj.py download 1000 --zip
+          | python3 ~/.agents/skills/roj/scripts/roj.py test 1000 main.cpp
       ul
         li
           code list
@@ -92,8 +89,8 @@ block content
         | ：
       pre
         code
-          | ROJ_URL=http://127.0.0.1:3033 python3 "$ROJ_SCRIPT" list
-          | python3 "$ROJ_SCRIPT" --json get 1000
+          | ROJ_URL=http://127.0.0.1:3033 python3 ~/.agents/skills/roj/scripts/roj.py list
+          | python3 ~/.agents/skills/roj/scripts/roj.py --json get 1000
 
       h2 内容来源
       p 题目资料来自项目仓库中的 ROJ 题目目录。Markdown 题面在站内排版，PDF 题面使用浏览器阅读器打开。

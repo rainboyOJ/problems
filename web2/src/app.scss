@@ -1398,6 +1398,10 @@ p {
   box-shadow: 0 24px 70px rgba(25, 39, 52, 0.22);
 }
 
+.command-modal {
+  width: min(760px, calc(100% - 28px));
+}
+
 .download-modal::backdrop {
   background: rgba(10, 18, 22, 0.54);
   backdrop-filter: blur(2px);
@@ -1553,6 +1557,64 @@ p {
   gap: 14px;
   padding: 15px 24px 20px;
   border-top: 1px solid var(--border);
+}
+
+.command-modal-intro {
+  margin: 0;
+  padding: 14px 24px 3px;
+  color: var(--text-soft);
+  font-size: 0.84rem;
+}
+
+.command-list {
+  display: grid;
+  max-height: min(480px, 54vh);
+  gap: 10px;
+  margin: 9px 0 0;
+  padding: 0 24px 15px 44px;
+  overflow: auto;
+}
+
+.command-item {
+  min-width: 0;
+  padding: 11px 12px 12px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface-muted);
+}
+
+.command-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.command-label {
+  color: var(--text);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.command-copy-button {
+  min-height: 31px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+}
+
+.command-code {
+  display: block;
+  margin-top: 9px;
+  padding: 9px 11px;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--code-bg);
+  color: var(--code-text);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  white-space: pre;
 }
 
 .download-modal-status[data-state='error'] {
@@ -1770,6 +1832,11 @@ p {
     padding-left: 18px;
   }
 
+  .command-modal-intro {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
   .download-modal-warning {
     margin-right: 18px;
     margin-left: 18px;
@@ -1778,6 +1845,11 @@ p {
   .download-file-list {
     padding-right: 18px;
     padding-left: 18px;
+  }
+
+  .command-list {
+    padding-right: 18px;
+    padding-left: 36px;
   }
 
   .download-file-table {

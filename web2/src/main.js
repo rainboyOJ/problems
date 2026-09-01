@@ -143,6 +143,128 @@ function initCopyStatement() {
   });
 }
 
+function initCommandModal() {
+  const trigger = document.querySelector('[data-command-trigger]');
+  const modal = document.querySelector('[data-command-modal]');
+  if (!trigger || !modal) return;
+
+  const problemId = trigger.dataset.problemId;
+  const hasPublicData = trigger.dataset.hasPublicData === 'true';
+  const list = modal.querySelector('[data-command-list]');
+  const closeButton = modal.querySelector('[data-command-close]');
+  const copyAllButton = modal.querySelector('[data-copy-all-commands]');
+  const status = modal.querySelector('[data-command-status]');
+  let lastFocused = null;
+  let resetTimer = null;
+
+  const commands = [
+    { label: '获取题面', text: `python3 ~/.agents/skills/roj/scripts/roj.py get ${problemId}` },
+  ];
+  if (hasPublicData) {
+    commands.push(
+      { label: '下载本题数据', text: `python3 ~/.agents/skills/roj/scripts/roj.py download ${problemId}` },
+      { label: '本地评测（下载数据）', text: `python3 ~/.agents/skills/roj/scripts/roj.py test ${problemId} solution.cpp --download` },
+    );
+  }
+
+  function setStatus(message, kind = '') {
+    status.textContent = message;
+    status.dataset.state = kind;
+  }
+
+  function scheduleReset(delay = 1700) {
+    window.clearTimeout(resetTimer);
+    resetTimer = window.setTimeout(() => setStatus(''), delay);
+  }
+
+  function commandItem(command) {
+    const item = document.createElement('li');
+    item.className = 'command-item';
+
+    const header = document.createElement('div');
+    header.className = 'command-item-header';
+    const label = document.createElement('span');
+    label.className = 'command-label';
+    label.textContent = command.label;
+    header.append(label);
+
+    const copyButton = document.createElement('button');
+    copyButton.type = 'button';
+    copyButton.className = 'action-button command-copy-button';
+    copyButton.textContent = '复制';
+    copyButton.setAttribute('aria-label', `复制${command.label}命令`);
+    copyButton.addEventListener('click', async () => {
+      if (copyButton.disabled) return;
+      copyButton.disabled = true;
+      try {
+        await copyText(command.text);
+        copyButton.textContent = '已复制';
+        setStatus(`${command.label}命令已复制。`, 'success');
+        window.setTimeout(() => { copyButton.textContent = '复制'; }, 1700);
+        scheduleReset();
+      } catch (error) {
+        setStatus(error.message === 'clipboard_unavailable' ? '复制失败，请手动复制。' : '复制失败，请稍后重试。', 'error');
+        scheduleReset(4500);
+      } finally {
+        copyButton.disabled = false;
+      }
+    });
+    header.append(copyButton);
+
+    const code = document.createElement('code');
+    code.className = 'command-code';
+    code.textContent = command.text;
+    item.append(header, code);
+    return item;
+  }
+
+  list.replaceChildren(...commands.map(commandItem));
+
+  copyAllButton.addEventListener('click', async () => {
+    if (copyAllButton.disabled) return;
+    copyAllButton.disabled = true;
+    try {
+      await copyText(commands.map((command) => command.text).join('\n'));
+      copyAllButton.textContent = '已复制';
+      setStatus('常用命令已全部复制。', 'success');
+      window.setTimeout(() => { copyAllButton.textContent = '复制全部'; }, 1700);
+      scheduleReset();
+    } catch (error) {
+      setStatus(error.message === 'clipboard_unavailable' ? '复制失败，请手动复制。' : '复制失败，请稍后重试。', 'error');
+      scheduleReset(4500);
+    } finally {
+      copyAllButton.disabled = false;
+    }
+  });
+
+  function closeModal() {
+    if (modal.open) modal.close();
+    else modal.removeAttribute('open');
+  }
+
+  trigger.addEventListener('click', () => {
+    lastFocused = document.activeElement;
+    if (typeof modal.showModal === 'function') modal.showModal();
+    else modal.setAttribute('open', '');
+    closeButton.focus();
+  });
+  closeButton.addEventListener('click', closeModal);
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) closeModal();
+  });
+  modal.addEventListener('close', () => {
+    window.clearTimeout(resetTimer);
+    setStatus('');
+    copyAllButton.textContent = '复制全部';
+    modal.querySelectorAll('.command-copy-button').forEach((button) => {
+      button.textContent = '复制';
+      button.disabled = false;
+    });
+    lastFocused?.focus?.();
+    lastFocused = null;
+  });
+}
+
 function initDownloadModal() {
   const trigger = document.querySelector('[data-download-trigger]');
   const modal = document.querySelector('[data-download-modal]');
@@ -362,6 +484,7 @@ function initDownloadModal() {
 document.addEventListener('DOMContentLoaded', () => {
   applyTheme();
   initDownloadModal();
+  initCommandModal();
   initCopyStatement();
 
   document.querySelectorAll('.code-block code[class*="language-"]').forEach((code) => {

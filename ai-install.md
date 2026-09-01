@@ -21,13 +21,13 @@ https://raw.githubusercontent.com/rainboyOJ/problems/master/.agents/skills/roj/a
 
 ## 选择安装目录
 
-先识别当前 Agent 的 Skill 目录和项目级 Skill 目录，遵循当前工具的既有约定：
+先识别当前 Agent 的 Skill 目录和项目级 Skill 目录，遵循当前工具的既有约定。网站“常用命令”默认使用全局目录，因此没有特别需求时优先选择全局安装：
 
 - 如果用户明确指定了安装目录，使用用户指定的目录。
-- 如果当前项目已经有 `.agents/skills/`，优先安装到当前项目的
-  `.agents/skills/roj/`，这样项目协作者都能使用。
 - 全局安装统一使用 `$AGENT_HOME/skills/roj/`；如果没有设置 `AGENT_HOME`，
   使用默认目录 `~/.agents/skills/roj/`。
+- 如果用户明确要求只在当前项目中使用，才安装到项目的
+  `.agents/skills/roj/`（或工具约定的项目级 Skill 目录）；此时需要使用项目相对路径运行脚本。
 - 如果 OpenCode、Codex 或 Claude Code 当前配置了专用的全局 Skill 目录，遵循
   工具的现有配置；如果只需要当前项目可用，使用项目约定的
   `.agents/skills/roj/` 或 `.claude/skills/roj/`。
