@@ -153,6 +153,24 @@ app.get('/api/problem/:id/data', async (request, reply) => {
   return reply.send(dataManifest(entry));
 });
 
+app.get('/api/problem/:id/markdown', async (request, reply) => {
+  const entry = catalog.get(request.params.id);
+  if (!entry) return zipError(reply, 404, 'problem_not_found', '题目不存在。');
+  if (!entry.hasMarkdown) return zipError(reply, 404, 'markdown_not_found', '这道题没有 Markdown 题面。');
+
+  try {
+    const markdown = await fs.promises.readFile(path.join(entry.dir, 'content.md'), 'utf8');
+    return reply
+      .type('text/markdown; charset=utf-8')
+      .header('Cache-Control', 'no-store')
+      .header('X-Content-Type-Options', 'nosniff')
+      .send(markdown);
+  } catch (error) {
+    request.log.error({ err: error, problemId: entry.id }, 'Raw Markdown read failed');
+    return zipError(reply, 500, 'markdown_unavailable', '题面暂时无法读取。');
+  }
+});
+
 app.get('/contests', async (_request, reply) => {
   const contests = contestCatalog.list();
   return reply.view('contests.pug', baseLocals('/contests', {
@@ -203,7 +221,9 @@ app.get('/problem/:id', async (request, reply) => {
     statement,
     renderError,
     pdfUrl: entry.hasPdf ? `/problem/${encodeURIComponent(entry.id)}/pdf` : null,
-    solutionUrl: `https://pcs2.roj.ac.cn/problem/roj/${encodeURIComponent(entry.id)}`
+    solutionUrl: `https://pcs2.roj.ac.cn/problem/roj/${encodeURIComponent(entry.id)}`,
+    githubUrl: `https://github.com/rainboyOJ/problems/tree/master/roj/${encodeURIComponent(entry.id)}`,
+    howToEvaluateUrl: '/about#how-to-evaluate'
   }));
 });
 

@@ -20,7 +20,13 @@ block content
     .problem-actions(aria-label="题目操作")
       if problem.hasPublicData
         button.action-button.action-button-primary(type="button", data-download-trigger, data-problem-id=problem.id, aria-haspopup="dialog") 下载数据
+      if problem.hasMarkdown
+        button.action-button(type="button", data-copy-statement, data-problem-id=problem.id, aria-describedby="copy-statement-status") 复制题面
       a.action-button(href=solutionUrl, target="_blank", rel="noopener noreferrer") 查看题解 ↗
+      a.action-button(href=githubUrl, target="_blank", rel="noopener noreferrer") GitHub ↗
+      a.action-button(href=howToEvaluateUrl) 如何评测
+      if problem.hasMarkdown
+        span#copy-statement-status.problem-action-status(data-copy-statement-status, role="status", aria-live="polite", aria-atomic="true")
 
     dl.problem-meta
       div

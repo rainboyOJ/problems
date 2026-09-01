@@ -66,6 +66,83 @@ function downloadErrorMessage(payload, fallback) {
   return typeof payload?.message === 'string' && payload.message ? payload.message : fallback;
 }
 
+async function copyText(text) {
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return;
+    } catch {
+      // Fall through to the textarea fallback when clipboard permission is unavailable.
+    }
+  }
+
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.setAttribute('readonly', '');
+  textarea.style.position = 'fixed';
+  textarea.style.top = '0';
+  textarea.style.left = '-9999px';
+  document.body.append(textarea);
+  textarea.select();
+  textarea.setSelectionRange(0, textarea.value.length);
+  const copied = typeof document.execCommand === 'function' && document.execCommand('copy');
+  textarea.remove();
+  if (!copied) throw new Error('clipboard_unavailable');
+}
+
+function initCopyStatement() {
+  const trigger = document.querySelector('[data-copy-statement]');
+  const status = document.querySelector('[data-copy-statement-status]');
+  if (!trigger || !status) return;
+
+  const problemId = trigger.dataset.problemId;
+  const defaultLabel = trigger.textContent;
+  let resetTimer = null;
+
+  function setStatus(message, kind = '') {
+    status.textContent = message;
+    status.dataset.state = kind;
+  }
+
+  function scheduleReset(delay = 1600) {
+    window.clearTimeout(resetTimer);
+    resetTimer = window.setTimeout(() => {
+      trigger.textContent = defaultLabel;
+      setStatus('');
+    }, delay);
+  }
+
+  trigger.addEventListener('click', async () => {
+    if (trigger.disabled) return;
+    window.clearTimeout(resetTimer);
+    trigger.disabled = true;
+    trigger.setAttribute('aria-busy', 'true');
+    setStatus('正在读取题面…', 'working');
+
+    try {
+      const response = await fetch(`/api/problem/${encodeURIComponent(problemId)}/markdown`, {
+        headers: { Accept: 'text/markdown' }
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => null);
+        throw new Error(downloadErrorMessage(payload, '题面暂时无法读取。'));
+      }
+      const markdown = await response.text();
+      await copyText(markdown);
+      trigger.textContent = '已复制';
+      setStatus('题面已复制。', 'success');
+      scheduleReset();
+    } catch (error) {
+      trigger.textContent = defaultLabel;
+      setStatus(error.message === 'clipboard_unavailable' ? '复制失败，请手动复制。' : (error.message || '题面暂时无法读取。'), 'error');
+      scheduleReset(4500);
+    } finally {
+      trigger.disabled = false;
+      trigger.removeAttribute('aria-busy');
+    }
+  });
+}
+
 function initDownloadModal() {
   const trigger = document.querySelector('[data-download-trigger]');
   const modal = document.querySelector('[data-download-modal]');
@@ -284,6 +361,7 @@ function initDownloadModal() {
 document.addEventListener('DOMContentLoaded', () => {
   applyTheme();
   initDownloadModal();
+  initCopyStatement();
 
   document.querySelectorAll('.code-block code[class*="language-"]').forEach((code) => {
     const language = [...code.classList].find((name) => name.startsWith('language-'))?.slice(9);

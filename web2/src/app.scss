@@ -1266,6 +1266,16 @@ p {
   color: var(--text-soft);
 }
 
+.about-content ol {
+  margin: 0 0 18px;
+  padding-left: 1.45rem;
+  color: var(--text-soft);
+}
+
+.about-content li + li {
+  margin-top: 6px;
+}
+
 .error-page {
   text-align: center;
 }
@@ -1310,6 +1320,30 @@ p {
   flex-wrap: wrap;
   gap: 9px;
   margin: -7px 0 27px;
+}
+
+.problem-action-status {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  color: var(--text-soft);
+  font-size: 0.82rem;
+}
+
+.problem-action-status:empty {
+  display: none;
+}
+
+.problem-action-status[data-state='error'] {
+  color: var(--danger);
+}
+
+.problem-action-status[data-state='success'] {
+  color: var(--accent-strong);
+}
+
+.problem-action-status[data-state='working'] {
+  color: var(--accent);
 }
 
 .action-button {
