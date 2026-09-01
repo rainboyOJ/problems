@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Fastify from 'fastify';
@@ -19,6 +20,20 @@ const favRoot = path.join(projectRoot, 'fav');
 const downloadConfigPath = process.env.DOWNLOAD_CONFIG || path.join(projectRoot, 'config.yaml');
 const port = Number.parseInt(process.env.PORT || '3033', 10) || 3033;
 const host = process.env.HOST || '0.0.0.0';
+
+function assetVersion() {
+  const hash = createHash('sha256');
+  try {
+    for (const filename of ['app.js', 'index.css']) {
+      hash.update(fs.readFileSync(path.join(publicRoot, 'assets', filename)));
+    }
+    return hash.digest('hex').slice(0, 16);
+  } catch {
+    return 'dev';
+  }
+}
+
+const assetsVersion = assetVersion();
 
 const app = Fastify({
   logger: true,
@@ -92,7 +107,12 @@ function baseLocals(activePath, values = {}) {
   return { activePath, ...values };
 }
 
-await app.register(fastifyView, { engine: { pug }, root: path.join(projectRoot, 'views'), production: process.env.NODE_ENV === 'production' });
+await app.register(fastifyView, {
+  engine: { pug },
+  root: path.join(projectRoot, 'views'),
+  production: process.env.NODE_ENV === 'production',
+  defaultContext: { assetsVersion }
+});
 
 if (fs.existsSync(publicRoot)) {
   await app.register(fastifyStatic, {

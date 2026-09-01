@@ -12,7 +12,7 @@ html(lang="zh-CN")
     title
       block title
         | ROJ
-    link(rel="stylesheet", href="/assets/index.css")
+    link(rel="stylesheet", href=`/assets/index.css?v=${assetsVersion}`)
     script.
       (function () {
         try {
@@ -44,4 +44,4 @@ html(lang="zh-CN")
         span ROJ
         span.footer-separator ·
         span 只读题目展示
-    script(src="/assets/app.js", defer)
+    script(src=`/assets/app.js?v=${assetsVersion}`, defer)
