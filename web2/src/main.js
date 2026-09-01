@@ -182,19 +182,20 @@ function initDownloadModal() {
       const key = fileStem(file.path);
       let group = groups.get(key);
       if (!group) {
-        group = { input: null, output: null, extras: [] };
+        group = { input: null, outputs: [], extras: [] };
         groups.set(key, group);
       }
       const extension = fileExtension(file.path);
       if (extension === '.in' && !group.input) group.input = file;
-      else if (extension === '.out' && !group.output) group.output = file;
+      else if (extension === '.out' || extension === '.ans') group.outputs.push(file);
       else group.extras.push(file);
     }
 
     const rows = [];
     for (const group of groups.values()) {
-      if (group.input || group.output) rows.push([group.input, group.output]);
-      for (const file of group.extras) rows.push([file, null]);
+      const output = group.outputs.find((file) => fileExtension(file.path) === '.out') || group.outputs[0] || null;
+      if (group.input || output) rows.push([group.input, output]);
+      for (const file of [...group.outputs.filter((item) => item !== output), ...group.extras]) rows.push([file, null]);
     }
     return rows;
   }
