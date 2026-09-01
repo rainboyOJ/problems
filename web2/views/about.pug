@@ -21,6 +21,30 @@ block content
         li 将程序输出与对应的标准输出文件进行比较，并检查题目要求的输出格式。
         li 如果题目需要特殊校验器，请以该题目录中的说明为准。
 
+      h2 ROJ 客户端 Skill
+      p
+        | 仓库提供了只读的 ROJ 客户端 Skill，位于
+        code .agents/skills/roj/
+        | 。它指导 AI 使用
+        code scripts/roj.py
+        | 查询题目、读取题面、下载公开数据，并在本地评测 C++ 程序。
+      p
+        | 如果希望让 OpenCode、Codex 或 Claude Code 自动安装，请把下面的安装说明链接交给 AI：
+        a.external-link(href="https://raw.githubusercontent.com/rainboyOJ/problems/master/ai-install.md", target="_blank", rel="noopener noreferrer") ai-install.md ↗
+      p 在仓库中协作时可以直接使用这个目录；如果要安装到个人 Agent 的 Skill 目录，可以复制整个目录：
+      pre
+        code
+          | AGENT_SKILLS_DIR="${AGENT_HOME:-$HOME/.agents}/skills"
+          | mkdir -p "$AGENT_SKILLS_DIR"
+          | cp -r .agents/skills/roj "$AGENT_SKILLS_DIR/roj"
+      p
+        | 也可以不安装 Skill，直接运行客户端命令：
+      pre
+        code
+          | python3 .agents/skills/roj/scripts/roj.py list
+          | python3 .agents/skills/roj/scripts/roj.py download 1000
+          | python3 .agents/skills/roj/scripts/roj.py test 1000 main.cpp
+
       h2 内容来源
       p 题目资料来自项目仓库中的 ROJ 题目目录。Markdown 题面在站内排版，PDF 题面使用浏览器阅读器打开。
       p

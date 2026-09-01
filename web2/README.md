@@ -50,10 +50,17 @@ download:
 数据接口约定如下：
 
 ```text
+GET /api/problems?q=<query>&page=<number> # 分页返回题目元数据
+GET /api/problem/<id>                  # 返回单题元数据
+GET /api/problem/<id>/markdown         # 返回原始 Markdown 题面
 GET /api/problem/<id>/data       # 返回公开文件清单
 GET /problem/<id>/data/<path>    # 流式下载单个文件
 GET /problem/<id>/data.zip       # 按请求生成 ZIP
 ```
+
+题目列表 API 返回 `items`、`total`、`totalPages`、`page` 和 `pageSize`；单题
+元数据包含题号、标题、时间/内存限制、标签、来源、题面类型，以及 Markdown、
+PDF 和公开数据是否存在。客户端应使用分页接口，不要假设一次响应包含全部题目。
 
 清单按规范化相对路径排序；没有公开数据的题目返回空清单，页面隐藏下载按钮。下载接口只接受公开扩展名下的普通文件，拒绝目录、符号链接、绝对路径和路径穿越。
 

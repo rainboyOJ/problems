@@ -81,6 +81,29 @@ function problemViewModel(entry) {
   };
 }
 
+function problemApiModel(entry) {
+  if (!entry) return null;
+  return {
+    id: entry.id,
+    title: entry.title,
+    time: entry.time,
+    memory: entry.memory,
+    tags: entry.tags,
+    source: entry.source,
+    statementKind: entry.statementKind,
+    hasMarkdown: entry.hasMarkdown,
+    hasPdf: entry.hasPdf,
+    hasPublicData: entry.publicData.length > 0,
+    urls: {
+      problem: `/problem/${encodeURIComponent(entry.id)}`,
+      markdown: entry.hasMarkdown ? `/api/problem/${encodeURIComponent(entry.id)}/markdown` : null,
+      pdf: entry.hasPdf ? `/problem/${encodeURIComponent(entry.id)}/pdf` : null,
+      data: `/api/problem/${encodeURIComponent(entry.id)}/data`,
+      zip: entry.publicData.length ? `/problem/${encodeURIComponent(entry.id)}/data.zip` : null
+    }
+  };
+}
+
 function dataManifest(entry) {
   if (!entry) return null;
   return {
@@ -146,6 +169,26 @@ app.get('/', async (request, reply) => {
 });
 
 app.get('/about', async (_request, reply) => reply.view('about.pug', baseLocals('/about', { title: '关于 - ROJ', repositoryUrl: 'https://github.com/rainboyOJ/problems' })));
+
+app.get('/api/problems', async (request, reply) => {
+  const result = catalog.search(request.query?.q, request.query?.page);
+  return reply.send({
+    items: result.items.map(problemApiModel),
+    total: result.total,
+    totalPages: result.totalPages,
+    page: result.page,
+    pageSize: result.pageSize,
+    query: result.query,
+    startItem: result.startItem,
+    endItem: result.endItem
+  });
+});
+
+app.get('/api/problem/:id', async (request, reply) => {
+  const entry = catalog.get(request.params.id);
+  if (!entry) return zipError(reply, 404, 'problem_not_found', '题目不存在。');
+  return reply.send(problemApiModel(entry));
+});
 
 app.get('/api/problem/:id/data', async (request, reply) => {
   const entry = catalog.get(request.params.id);

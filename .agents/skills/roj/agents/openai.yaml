@@ -1,0 +1,7 @@
+interface:
+  display_name: "ROJ 题目客户端"
+  short_description: "查询 ROJ 题面、下载公开数据并本地评测 C++"
+  default_prompt: "使用 $roj 查询题目、下载公开数据或在本地评测 C++ 程序。"
+
+policy:
+  allow_implicit_invocation: true

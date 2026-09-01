@@ -64,6 +64,46 @@ export PATH=$PATH:<your_clone_path>/bin
 - `./bin/p_search.sh` 查找题目
 - [./sjudge/sjudge.cpp](./sjudge/readme.md) 一个简单的评测命令,查看对应的文档
 
+### ROJ 客户端 Skill
+
+仓库提供了一个只读的 ROJ 客户端 Skill，位于
+`.agents/skills/roj/`。它指导 AI 使用 `scripts/roj.py` 查询题目、读取
+Markdown/PDF 题面、下载公开数据，并使用本地 `g++` 和 `diff -b` 评测 C++
+程序。ROJ 不接收代码提交，也不提供远程评测。
+
+在本仓库中使用时，直接把 `.agents/skills/roj/` 作为 Skill 路径提供给 AI。
+如果要安装到个人 Agent 的 Skill 目录，可以复制整个目录。全局目录由
+`AGENT_HOME` 指定，未设置时默认为 `~/.agents`：
+
+```sh
+AGENT_SKILLS_DIR="${AGENT_HOME:-$HOME/.agents}/skills"
+mkdir -p "$AGENT_SKILLS_DIR"
+cp -r .agents/skills/roj "$AGENT_SKILLS_DIR/roj"
+```
+
+也可以直接运行客户端：
+
+```sh
+python3 .agents/skills/roj/scripts/roj.py list
+python3 .agents/skills/roj/scripts/roj.py get 1000
+python3 .agents/skills/roj/scripts/roj.py download 1000
+python3 .agents/skills/roj/scripts/roj.py test 1000 main.cpp
+```
+
+### 如何安装
+
+如果希望由 AI 编程助手安装 ROJ Skill，可以把下面这句话复制给
+OpenCode、Codex 或 Claude Code：
+
+```text
+请读取并执行这份安装说明：
+https://raw.githubusercontent.com/rainboyOJ/problems/master/ai-install.md
+```
+
+安装说明只会从 GitHub Raw 下载 Skill 所需的几个文件，不会下载整个题目仓库。
+也可以直接查看仓库中的 [ai-install.md](./ai-install.md)。
+
+
 ### 如何评测
 
 ### 方法一： 在ROJ上评测
