@@ -36,6 +36,12 @@ DEFAULT_DOWNLOAD_ROOT = Path("roj-data")
 DEFAULT_TEST_TIMEOUT_SECONDS = 5.0
 # 下载时的读取块大小（1 MiB）
 CHUNK_SIZE = 1024 * 1024
+# test 递归扫描 data/ 目录的最大深度（相对当前目录）
+MAX_SCAN_DEPTH = 5
+# 递归扫描时排除的目录名
+EXCLUDED_SCAN_DIRS = {".git", "node_modules"}
+# 候选目录交互最多显示的数量
+MAX_CANDIDATES = 10
 
 
 class RojError(Exception):
@@ -571,6 +577,119 @@ def prompt_download_destination(identifier: str) -> Path:
         print("无效选择，请输入 1-4。")
 
 
+def scan_data_directories(identifier: str) -> list[tuple[Path, int]]:
+    """递归扫描当前目录下所有 data/ 目录（深度 ≤5，排除 .git/node_modules）。
+
+    返回按 (题号匹配优先, 深度浅优先, 路径字典序) 排序的 (目录, 配对组数) 列表；
+    只保留能成功配对的目录。
+    """
+    root = Path.cwd()
+    found: list[tuple[Path, int]] = []
+    for directory, dirnames, _ in os.walk(root):
+        # 剪枝：排除指定目录，超过深度不再深入
+        dirnames[:] = sorted(d for d in dirnames if d not in EXCLUDED_SCAN_DIRS)
+        relative = Path(directory).relative_to(root).parts
+        if len(relative) >= MAX_SCAN_DEPTH:
+            dirnames[:] = []
+        if Path(directory).name != "data":
+            continue
+        try:
+            pairs, _ = find_data_pairs(Path(directory))
+        except RojError:
+            continue
+        if pairs:
+            found.append((Path(directory), len(pairs)))
+
+    def sort_key(item: tuple[Path, int]) -> tuple[int, int, str]:
+        directory, _ = item
+        parts = directory.relative_to(root).parts
+        has_id = identifier in parts
+        return (0 if has_id else 1, len(parts), str(directory))
+
+    found.sort(key=sort_key)
+    return found
+
+
+def prompt_data_directory(identifier: str) -> Path:
+    """为 test 命令选择本地数据目录。
+
+    递归扫描当前目录的 data/ 目录作为候选；TTY 时显示前 MAX_CANDIDATES 个
+    供选择（回车默认第一候选），非 TTY 直接取第一候选。
+    """
+    candidates = scan_data_directories(identifier)
+    if not candidates:
+        raise RojError("找不到本地数据；请先运行 download，或给 test 加 --download。")
+    if not sys.stdin.isatty():
+        # 脚本场景：自动取排序后的第一个候选
+        return candidates[0][0]
+
+    shown = candidates[:MAX_CANDIDATES]
+    custom_index = len(shown) + 1
+    print(f"找到 {len(candidates)} 个数据目录：")
+    for index, (directory, count) in enumerate(shown, 1):
+        print(f"{index}. {directory} ({count} 组数据)")
+    print(f"{custom_index}. 自定义路径")
+    while True:
+        try:
+            choice = input(f"输入 1-{custom_index}（回车默认 1）: ").strip()
+        except EOFError:
+            # 输入流意外关闭时退回第一候选，避免卡死
+            return candidates[0][0]
+        if not choice:
+            return candidates[0][0]
+        if choice.isdigit() and 1 <= int(choice) <= len(shown):
+            return shown[int(choice) - 1][0]
+        if choice.isdigit() and int(choice) == custom_index:
+            custom = input("输入路径: ").strip()
+            if not custom:
+                print("路径不能为空。")
+                continue
+            path = Path(custom).expanduser()
+            # 立即校验自定义路径：无效（不存在/无法配对）直接报错，不重试
+            try:
+                pairs, _ = find_data_pairs(path)
+            except RojError as error:
+                raise RojError(f"自定义路径无效：{error}") from error
+            if not pairs:
+                raise RojError(f"自定义路径无效：{path} 没有可评测的数据")
+            return path
+        print(f"无效选择，请输入 1-{custom_index}。")
+
+
+def resolve_download_destination(identifier: str, explicit_output: str | None) -> Path:
+    """确定下载落盘目录：--output 指定 > TTY 交互询问 > 默认位置。"""
+    if explicit_output:
+        return Path(explicit_output)
+    if sys.stdin.isatty():
+        # 交互式终端：让用户选下载位置
+        return prompt_download_destination(identifier)
+    # 管道/脚本场景：静默使用默认位置（与交互选项 2 一致），避免卡住
+    return DEFAULT_DOWNLOAD_ROOT / identifier / "data"
+
+
+def perform_download(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
+                     force: bool = False, skip_existing: bool = False,
+                     progress: DownloadProgress | None = None) -> tuple[list[dict[str, Any]], list[Path]]:
+    """执行清单下载（带进度条），失败时清进度条并抛错。
+
+    供 cmd_download 与 cmd_test --download 复用。
+    """
+    try:
+        downloaded, skipped = download_manifest(client, identifier, manifest, destination,
+                                                force=force, skip_existing=skip_existing, progress=progress)
+    except RojError:
+        if progress is not None:
+            # 失败：清掉进度条行，保留"卡在哪"的上下文后重新抛出
+            progress.fail()
+            if progress.enabled:
+                print(f"已下载 {format_bytes(progress.committed)} / {format_bytes(progress.total)} 后失败",
+                      file=sys.stderr)
+        raise
+    if progress is not None:
+        progress.finish()
+    return downloaded, skipped
+
+
 def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
     """download 命令：把题目的公开数据下载到本地目录。
 
@@ -587,33 +706,15 @@ def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
             # 清单请求失败：清掉状态行后再报错
             progress.fail()
         raise
-    if args.output:
-        destination = Path(args.output)
-    elif sys.stdin.isatty():
-        # 交互式终端：让用户选下载位置
-        destination = prompt_download_destination(args.identifier)
-    else:
-        # 管道/脚本场景：静默使用默认位置（与交互选项 2 一致），避免卡住
-        destination = DEFAULT_DOWNLOAD_ROOT / args.identifier / "data"
+    destination = resolve_download_destination(args.identifier, args.output)
     if not manifest.get("files"):
         raise RojError("这道题没有公开数据。")
 
     # --file 只下载一个文件（路径或唯一文件名），否则下载全部
     files = [manifest_file(manifest, args.file)] if args.file else manifest.get("files", [])
     selected_manifest = {**manifest, "files": files}
-    try:
-        downloaded, skipped = download_manifest(client, args.identifier, selected_manifest, destination,
-                                                force=args.force, progress=progress)
-    except RojError:
-        if progress is not None:
-            # 失败：清掉进度条行，保留"卡在哪"的上下文后重新抛出
-            progress.fail()
-            if progress.enabled:
-                print(f"已下载 {format_bytes(progress.committed)} / {format_bytes(progress.total)} 后失败",
-                      file=sys.stderr)
-        raise
-    if progress is not None:
-        progress.finish()
+    downloaded, skipped = perform_download(client, args.identifier, selected_manifest, destination,
+                                           force=args.force, progress=progress)
     payload = {
         "problemId": args.identifier,
         "kind": "files",
@@ -711,19 +812,14 @@ def run_case(executable: Path, input_path: Path, expected_path: Path, output_pat
 def cmd_test(client: RojClient, args: argparse.Namespace) -> int:
     """test 命令：编译 C++ 源码并用公开数据在本地评测。
 
-    数据来源优先级：--data-dir 指定目录 > 本地已下载目录 > --download 现场下载。
+    数据来源：--data-dir 指定 > 本地扫描候选（递归 data/ 目录）> --download 现场下载。
+    --download 时复用 download 的流程（请求清单、选择落盘位置、下载）。
     时间限制取题目元数据（毫秒），无元数据时用默认 5 秒。
     """
     metadata = client.problem(args.identifier)
-    data_dir = Path(args.data_dir) if args.data_dir else None
-    if data_dir is None:
-        # 依次找默认下载目录与仓库内 roj/<id>/data
-        candidates = [DEFAULT_DOWNLOAD_ROOT / args.identifier / "data",
-                      DEFAULT_DOWNLOAD_ROOT / args.identifier,
-                      Path("roj") / args.identifier / "data"]
-        data_dir = next((candidate for candidate in candidates if candidate.is_dir()), None)
+    explicit_data_dir = Path(args.data_dir) if args.data_dir else None
     if args.download:
-        # 显式要求下载：优先用清单补齐缺失数据（落到 <id>/data，与 download 默认一致）
+        # 复用 download 的下载流程：请求清单 → 选择落盘位置 → 下载（跳过已有）
         progress = None if json_requested(args) else DownloadProgress()
         try:
             if progress is not None:
@@ -733,25 +829,19 @@ def cmd_test(client: RojClient, args: argparse.Namespace) -> int:
             if progress is not None:
                 progress.fail()
             raise
-        data_dir = data_dir or DEFAULT_DOWNLOAD_ROOT / args.identifier / "data"
         if not manifest.get("files"):
             if progress is not None:
                 progress.fail()
             raise RojError("这道题没有公开数据，无法评测。")
-        try:
-            download_manifest(client, args.identifier, manifest, data_dir,
-                              force=args.force, skip_existing=True, progress=progress)
-        except RojError:
-            if progress is not None:
-                progress.fail()
-                if progress.enabled:
-                    print(f"已下载 {format_bytes(progress.committed)} / {format_bytes(progress.total)} 后失败",
-                          file=sys.stderr)
-            raise
-        if progress is not None:
-            progress.finish()
-    if data_dir is None:
-        raise RojError("找不到本地数据；请先运行 download，或给 test 加 --download。")
+        destination = explicit_data_dir if explicit_data_dir else resolve_download_destination(args.identifier, None)
+        perform_download(client, args.identifier, manifest, destination,
+                         force=args.force, skip_existing=True, progress=progress)
+        data_dir = destination
+    elif explicit_data_dir is not None:
+        data_dir = explicit_data_dir
+    else:
+        # 本地查找：递归扫描当前目录的 data/ 目录并让用户选择
+        data_dir = prompt_data_directory(args.identifier)
 
     pairs, missing = find_data_pairs(data_dir)
     compiler = shutil.which(args.compiler)
