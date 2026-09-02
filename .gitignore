@@ -151,3 +151,4 @@ problem.db
 roj.json
 
 push-to-vps.sh
+__pycache__/
