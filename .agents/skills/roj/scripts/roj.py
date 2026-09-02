@@ -302,6 +302,8 @@ def download_manifest(client: RojClient, identifier: str, manifest: dict[str, An
         if target.exists() and skip_existing and not force:
             skipped.append(target)
             continue
+        if progress is not None:
+            progress.show_status(f"下载 {item['path']}")
         size = download_to(client, file_urls(manifest, item["path"]), target, force=force,
                            on_attempt=progress.on_attempt if progress else None,
                            on_chunk=progress.on_chunk if progress else None)
@@ -344,20 +346,30 @@ class DownloadProgress:
     SPEED_WINDOW_SAMPLES = 8  # 速度滑动窗口的样本数（每块 1MiB，约 8MiB）
 
     def __init__(self):
-        self.enabled = False
+        # 构造即检测 TTY：状态行（请求清单等）在 enable 之前就要显示
+        self.enabled = sys.stderr.isatty()
         self.total = 0
         self.committed = 0
         self.attempt = 0
+        self.status = ""  # 状态行文字（请求数据清单/准备下载/下载 <path>）
         self.last_render = 0.0
-        self.last_len = 0
+        self.last_len = 0  # 进度行长度（清行用）
+        self.last_status_len = 0  # 状态行长度（清行用）
         # 滑动窗口：每个样本是 (monotonic 时间, 累计字节)，用于算速度
         self.samples: deque[tuple[float, int]] = deque()
 
     def enable(self, total_bytes: int) -> None:
-        """按本次任务的总字节数启用进度条（非 TTY 或总量无效时保持静默）。"""
+        """按本次任务的总字节数启用进度条（总量无效时保持只有状态行）。"""
         self.total = max(0, int(total_bytes))
-        self.enabled = sys.stderr.isatty() and self.total > 0
         self.samples.clear()
+        self.show_status("准备下载")
+
+    def show_status(self, text: str) -> None:
+        """设置状态行文字并强制刷新（清单请求、文件开始等阶段切换）。"""
+        if not self.enabled:
+            return
+        self.status = text
+        self._render(time.monotonic(), force=True)
 
     def on_attempt(self) -> None:
         """当前源尝试开始：清空已读字节，失败的源进度不累计。"""
@@ -385,14 +397,25 @@ class DownloadProgress:
         sys.stderr.write("\n")
         sys.stderr.flush()
         self.last_len = 0
+        self.last_status_len = 0
 
     def fail(self) -> None:
-        """失败：清掉进度条行，供错误信息输出前调用。"""
+        """失败：清掉全部进度行与状态行，供错误信息输出前调用。"""
         if not self.enabled:
             return
-        sys.stderr.write("\r" + " " * self.last_len + "\r")
+        rows = 2 if self.total > 0 else 1
+        if rows > 1:
+            # 回到第一行
+            sys.stderr.write(f"\033[{rows - 1}A")
+        for index in range(rows):
+            width = self.last_len if index == 0 else self.last_status_len
+            sys.stderr.write("\r" + " " * width)
+            if index < rows - 1:
+                sys.stderr.write("\033[1B")
+        sys.stderr.write("\r")
         sys.stderr.flush()
         self.last_len = 0
+        self.last_status_len = 0
 
     def _maybe_render(self, force: bool) -> None:
         if not self.enabled:
@@ -416,21 +439,41 @@ class DownloadProgress:
             return None
         return max(0, end_bytes - start_bytes) / elapsed
 
+    def _truncate_status(self, text: str) -> str:
+        """状态行截断到终端宽度，避免超长路径换行破坏两行布局。"""
+        width = max(10, shutil.get_terminal_size().columns - 1)
+        return text if len(text) <= width else text[: width - 1] + "…"
+
     def _render(self, now: float, force: bool = False) -> None:
-        done = self.done_bytes()
-        ratio = min(1.0, done / self.total) if self.total > 0 else 1.0
-        filled = round(ratio * self.BAR_WIDTH)
-        bar = "=" * filled + " " * (self.BAR_WIDTH - filled)
-        percent = f"{ratio * 100:>3.0f}%"
-        line = f"[{bar}]  {percent}  {format_bytes(done)} / {format_bytes(self.total)}"
-        speed = self._speed(now)
-        if speed is not None:
-            line += f"  {format_bytes(speed)}/s"
-        # 行变短时用空格补齐，避免残留上次的尾巴
-        padding = " " * (self.last_len - len(line)) if self.last_len > len(line) else ""
-        sys.stderr.write("\r" + line + padding)
+        if not self.enabled:
+            return
+        # 进度行：total 未知（请求清单阶段）时不画
+        progress_line = ""
+        if self.total > 0:
+            done = self.done_bytes()
+            ratio = min(1.0, done / self.total)
+            filled = round(ratio * self.BAR_WIDTH)
+            bar = "=" * filled + " " * (self.BAR_WIDTH - filled)
+            percent = f"{ratio * 100:>3.0f}%"
+            progress_line = f"[{bar}]  {percent}  {format_bytes(done)} / {format_bytes(self.total)}"
+            speed = self._speed(now)
+            if speed is not None:
+                progress_line += f"  {format_bytes(speed)}/s"
+        status_line = self._truncate_status(self.status)
+        if self.total > 0:
+            # 两行布局：重画进度行，下移重画状态行，再回到进度行
+            padding = " " * (self.last_len - len(progress_line)) if self.last_len > len(progress_line) else ""
+            status_padding = " " * (self.last_status_len - len(status_line)) if self.last_status_len > len(status_line) else ""
+            sys.stderr.write("\r" + progress_line + padding)
+            sys.stderr.write(f"\033[1B\r{status_line}{status_padding}\033[1A")
+            self.last_len = len(progress_line)
+            self.last_status_len = len(status_line)
+        else:
+            # 清单阶段：只有状态行
+            status_padding = " " * (self.last_status_len - len(status_line)) if self.last_status_len > len(status_line) else ""
+            sys.stderr.write("\r" + status_line + status_padding)
+            self.last_status_len = len(status_line)
         sys.stderr.flush()
-        self.last_len = len(line)
 
 
 def cmd_list(client: RojClient, args: argparse.Namespace) -> int:
@@ -533,7 +576,17 @@ def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
 
     未指定 --output 且 stdin 是 TTY 时，先询问下载位置。
     """
-    manifest = client.manifest(args.identifier)
+    # JSON 输出时进度条静默；否则在 TTY 上显示状态行与进度条
+    progress = None if json_requested(args) else DownloadProgress()
+    try:
+        if progress is not None:
+            progress.show_status("请求数据清单")
+        manifest = client.manifest(args.identifier)
+    except RojError:
+        if progress is not None:
+            # 清单请求失败：清掉状态行后再报错
+            progress.fail()
+        raise
     if args.output:
         destination = Path(args.output)
     elif sys.stdin.isatty():
@@ -548,8 +601,6 @@ def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
     # --file 只下载一个文件（路径或唯一文件名），否则下载全部
     files = [manifest_file(manifest, args.file)] if args.file else manifest.get("files", [])
     selected_manifest = {**manifest, "files": files}
-    # JSON 输出时进度条静默；否则在 TTY 上显示总体进度
-    progress = None if json_requested(args) else DownloadProgress()
     try:
         downloaded, skipped = download_manifest(client, args.identifier, selected_manifest, destination,
                                                 force=args.force, progress=progress)
@@ -673,11 +724,20 @@ def cmd_test(client: RojClient, args: argparse.Namespace) -> int:
         data_dir = next((candidate for candidate in candidates if candidate.is_dir()), None)
     if args.download:
         # 显式要求下载：优先用清单补齐缺失数据（落到 <id>/data，与 download 默认一致）
-        manifest = client.manifest(args.identifier)
+        progress = None if json_requested(args) else DownloadProgress()
+        try:
+            if progress is not None:
+                progress.show_status("请求数据清单")
+            manifest = client.manifest(args.identifier)
+        except RojError:
+            if progress is not None:
+                progress.fail()
+            raise
         data_dir = data_dir or DEFAULT_DOWNLOAD_ROOT / args.identifier / "data"
         if not manifest.get("files"):
+            if progress is not None:
+                progress.fail()
             raise RojError("这道题没有公开数据，无法评测。")
-        progress = None if json_requested(args) else DownloadProgress()
         try:
             download_manifest(client, args.identifier, manifest, data_dir,
                               force=args.force, skip_existing=True, progress=progress)
