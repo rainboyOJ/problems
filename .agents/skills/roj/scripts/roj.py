@@ -20,8 +20,9 @@ import subprocess
 import sys
 import tempfile
 import time
+from collections import deque
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any, Callable, Iterable
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urljoin, urlparse
 from urllib.request import Request, urlopen
@@ -208,11 +209,14 @@ def local_destination(root: Path, relative: str) -> Path:
     return destination
 
 
-def download_to(client: RojClient, urls: list[str], destination: Path, force: bool = False) -> int:
+def download_to(client: RojClient, urls: list[str], destination: Path, force: bool = False,
+                on_attempt: Callable[[], None] | None = None,
+                on_chunk: Callable[[int], None] | None = None) -> int:
     """依次尝试多个下载源，把文件下载到 destination，返回字节数。
 
     先写入同目录临时文件再原子改名，避免半截文件残留；
     所有源都失败才报错。--force 允许覆盖已存在文件。
+    on_attempt/on_chunk 用于进度回调：每次换源时与每读一块后触发。
     """
     if destination.exists() and not force:
         raise RojError(f"文件已存在，未覆盖：{destination}（如需覆盖请使用 --force）")
@@ -223,6 +227,8 @@ def download_to(client: RojClient, urls: list[str], destination: Path, force: bo
     for url in urls:
         temporary = None
         total = 0
+        if on_attempt:
+            on_attempt()
         try:
             with urlopen(Request(url, headers={"Accept": "application/octet-stream", "User-Agent": "roj-cli/1.0"}), timeout=client.timeout) as response:
                 # 与目标同目录的临时文件，保证同文件系统可原子 rename
@@ -234,6 +240,8 @@ def download_to(client: RojClient, urls: list[str], destination: Path, force: bo
                             break
                         output.write(chunk)
                         total += len(chunk)
+                        if on_chunk:
+                            on_chunk(total)
             os.replace(temporary, destination)
             temporary = None
             return total
@@ -261,20 +269,44 @@ def file_urls(manifest: dict[str, Any], relative: str) -> list[str]:
 
 
 def download_manifest(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
-                      force: bool = False, skip_existing: bool = False) -> tuple[list[dict[str, Any]], list[Path]]:
+                      force: bool = False, skip_existing: bool = False,
+                      progress: DownloadProgress | None = None) -> tuple[list[dict[str, Any]], list[Path]]:
     """按清单批量下载全部文件。
 
     返回 (已下载列表, 跳过列表)。skip_existing 用于 test --download：
     已有文件不覆盖、不报错。
+    progress 非空时启用进度条，分母 = 本次实际要下载的文件 size 之和
+    （排除 --file 未选中与被跳过的文件）。
     """
     downloaded: list[dict[str, Any]] = []
     skipped: list[Path] = []
-    for item in manifest.get("files", []):
+    files = manifest.get("files", [])
+
+    if progress is not None:
+        # 计算分母：先按"会被下载"过滤一遍（与下方循环相同的判定）
+        planned = 0
+        for item in files:
+            target = local_destination(destination, item["path"])
+            if target.exists() and skip_existing and not force:
+                continue
+            planned += int(item.get("size") or 0)
+        # 清单没有逐文件 size 时退回 totalBytes；仍无效则进度条自动静默
+        if planned <= 0:
+            total = manifest.get("totalBytes")
+            if isinstance(total, (int, float)) and total > 0:
+                planned = int(total)
+        progress.enable(planned)
+
+    for item in files:
         target = local_destination(destination, item["path"])
         if target.exists() and skip_existing and not force:
             skipped.append(target)
             continue
-        size = download_to(client, file_urls(manifest, item["path"]), target, force=force)
+        size = download_to(client, file_urls(manifest, item["path"]), target, force=force,
+                           on_attempt=progress.on_attempt if progress else None,
+                           on_chunk=progress.on_chunk if progress else None)
+        if progress is not None:
+            progress.commit(int(item.get("size") or size))
         downloaded.append({"path": item["path"], "size": size})
     return downloaded, skipped
 
@@ -297,6 +329,108 @@ def format_bytes(value: int | float) -> str:
         value /= 1024
         index += 1
     return f"{value:.1f} {units[index]}" if index else f"{int(value)} B"
+
+
+class DownloadProgress:
+    """下载总体进度条，绘制到 stderr。
+
+    仅当 stderr 是 TTY 且总大小为正时才启用；管道/重定向/JSON 输出时静默。
+    进度 = 已成功落盘的文件字节（committed）+ 当前源尝试中已读的字节（attempt）。
+    分母是本次任务实际要下载的文件 size 之和。
+    """
+
+    BAR_WIDTH = 30  # 进度条字符宽度
+    MIN_REFRESH_SECONDS = 0.05  # 最小刷新间隔，避免小文件快速闪烁
+    SPEED_WINDOW_SAMPLES = 8  # 速度滑动窗口的样本数（每块 1MiB，约 8MiB）
+
+    def __init__(self):
+        self.enabled = False
+        self.total = 0
+        self.committed = 0
+        self.attempt = 0
+        self.last_render = 0.0
+        self.last_len = 0
+        # 滑动窗口：每个样本是 (monotonic 时间, 累计字节)，用于算速度
+        self.samples: deque[tuple[float, int]] = deque()
+
+    def enable(self, total_bytes: int) -> None:
+        """按本次任务的总字节数启用进度条（非 TTY 或总量无效时保持静默）。"""
+        self.total = max(0, int(total_bytes))
+        self.enabled = sys.stderr.isatty() and self.total > 0
+        self.samples.clear()
+
+    def on_attempt(self) -> None:
+        """当前源尝试开始：清空已读字节，失败的源进度不累计。"""
+        self.attempt = 0
+
+    def on_chunk(self, file_bytes: int) -> None:
+        """当前文件已读 file_bytes 字节（实时进度）。"""
+        self.attempt = file_bytes
+        self._maybe_render(force=False)
+
+    def commit(self, size: int) -> None:
+        """一个文件下载成功落盘（os.replace 完成），累计其大小。"""
+        self.committed += size
+        self.attempt = 0
+        self._maybe_render(force=True)
+
+    def done_bytes(self) -> int:
+        return self.committed + self.attempt
+
+    def finish(self) -> None:
+        """任务完成：强制绘制最终行并换行，供"已下载"列表输出前调用。"""
+        if not self.enabled:
+            return
+        self._render(time.monotonic(), force=True)
+        sys.stderr.write("\n")
+        sys.stderr.flush()
+        self.last_len = 0
+
+    def fail(self) -> None:
+        """失败：清掉进度条行，供错误信息输出前调用。"""
+        if not self.enabled:
+            return
+        sys.stderr.write("\r" + " " * self.last_len + "\r")
+        sys.stderr.flush()
+        self.last_len = 0
+
+    def _maybe_render(self, force: bool) -> None:
+        if not self.enabled:
+            return
+        now = time.monotonic()
+        if not force and now - self.last_render < self.MIN_REFRESH_SECONDS:
+            return
+        self._render(now, force=force)
+
+    def _speed(self, now: float) -> float | None:
+        """滑动窗口速度：最近样本差 / 时间差；样本不足或间隔为 0 时返回 None。"""
+        cumulative = self.done_bytes()
+        self.samples.append((now, cumulative))
+        while len(self.samples) > self.SPEED_WINDOW_SAMPLES:
+            self.samples.popleft()
+        if len(self.samples) < 2:
+            return None
+        (start_time, start_bytes), (end_time, end_bytes) = self.samples[0], self.samples[-1]
+        elapsed = end_time - start_time
+        if elapsed <= 0:
+            return None
+        return max(0, end_bytes - start_bytes) / elapsed
+
+    def _render(self, now: float, force: bool = False) -> None:
+        done = self.done_bytes()
+        ratio = min(1.0, done / self.total) if self.total > 0 else 1.0
+        filled = round(ratio * self.BAR_WIDTH)
+        bar = "=" * filled + " " * (self.BAR_WIDTH - filled)
+        percent = f"{ratio * 100:>3.0f}%"
+        line = f"[{bar}]  {percent}  {format_bytes(done)} / {format_bytes(self.total)}"
+        speed = self._speed(now)
+        if speed is not None:
+            line += f"  {format_bytes(speed)}/s"
+        # 行变短时用空格补齐，避免残留上次的尾巴
+        padding = " " * (self.last_len - len(line)) if self.last_len > len(line) else ""
+        sys.stderr.write("\r" + line + padding)
+        sys.stderr.flush()
+        self.last_len = len(line)
 
 
 def cmd_list(client: RojClient, args: argparse.Namespace) -> int:
@@ -363,17 +497,72 @@ def cmd_get(client: RojClient, args: argparse.Namespace) -> int:
     return 0
 
 
+def prompt_download_destination(identifier: str) -> Path:
+    """交互式询问下载位置（仅 TTY 时由调用方触发）。
+
+    提供 4 个选项：./data、./roj-data/<id>/data、./、自定义路径；
+    回车取默认值（./roj-data/<id>/data）。
+    """
+    default = DEFAULT_DOWNLOAD_ROOT / identifier / "data"
+    options = [Path("data"), default, Path(".")]
+    print("选择下载位置：")
+    for index, option in enumerate(options, 1):
+        print(f"{index}. {option}/")
+    print("4. 自定义路径")
+    while True:
+        try:
+            choice = input(f"输入 1-4（回车默认 {default}/）: ").strip()
+        except EOFError:
+            # 输入流意外关闭时退回默认位置，避免卡死
+            return default
+        if not choice:
+            return default
+        if choice in ("1", "2", "3"):
+            return options[int(choice) - 1]
+        if choice == "4":
+            custom = input("输入路径: ").strip()
+            if custom:
+                return Path(custom).expanduser()
+            print("路径不能为空。")
+            continue
+        print("无效选择，请输入 1-4。")
+
+
 def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
-    """download 命令：把题目的公开数据下载到本地目录。"""
+    """download 命令：把题目的公开数据下载到本地目录。
+
+    未指定 --output 且 stdin 是 TTY 时，先询问下载位置。
+    """
     manifest = client.manifest(args.identifier)
-    destination = Path(args.output or DEFAULT_DOWNLOAD_ROOT / args.identifier)
+    if args.output:
+        destination = Path(args.output)
+    elif sys.stdin.isatty():
+        # 交互式终端：让用户选下载位置
+        destination = prompt_download_destination(args.identifier)
+    else:
+        # 管道/脚本场景：静默使用默认位置（与交互选项 2 一致），避免卡住
+        destination = DEFAULT_DOWNLOAD_ROOT / args.identifier / "data"
     if not manifest.get("files"):
         raise RojError("这道题没有公开数据。")
 
     # --file 只下载一个文件（路径或唯一文件名），否则下载全部
     files = [manifest_file(manifest, args.file)] if args.file else manifest.get("files", [])
     selected_manifest = {**manifest, "files": files}
-    downloaded, skipped = download_manifest(client, args.identifier, selected_manifest, destination, force=args.force)
+    # JSON 输出时进度条静默；否则在 TTY 上显示总体进度
+    progress = None if json_requested(args) else DownloadProgress()
+    try:
+        downloaded, skipped = download_manifest(client, args.identifier, selected_manifest, destination,
+                                                force=args.force, progress=progress)
+    except RojError:
+        if progress is not None:
+            # 失败：清掉进度条行，保留"卡在哪"的上下文后重新抛出
+            progress.fail()
+            if progress.enabled:
+                print(f"已下载 {format_bytes(progress.committed)} / {format_bytes(progress.total)} 后失败",
+                      file=sys.stderr)
+        raise
+    if progress is not None:
+        progress.finish()
     payload = {
         "problemId": args.identifier,
         "kind": "files",
@@ -478,15 +667,29 @@ def cmd_test(client: RojClient, args: argparse.Namespace) -> int:
     data_dir = Path(args.data_dir) if args.data_dir else None
     if data_dir is None:
         # 依次找默认下载目录与仓库内 roj/<id>/data
-        candidates = [DEFAULT_DOWNLOAD_ROOT / args.identifier, Path("roj") / args.identifier / "data"]
+        candidates = [DEFAULT_DOWNLOAD_ROOT / args.identifier / "data",
+                      DEFAULT_DOWNLOAD_ROOT / args.identifier,
+                      Path("roj") / args.identifier / "data"]
         data_dir = next((candidate for candidate in candidates if candidate.is_dir()), None)
     if args.download:
-        # 显式要求下载：优先用清单补齐缺失数据
+        # 显式要求下载：优先用清单补齐缺失数据（落到 <id>/data，与 download 默认一致）
         manifest = client.manifest(args.identifier)
-        data_dir = data_dir or DEFAULT_DOWNLOAD_ROOT / args.identifier
+        data_dir = data_dir or DEFAULT_DOWNLOAD_ROOT / args.identifier / "data"
         if not manifest.get("files"):
             raise RojError("这道题没有公开数据，无法评测。")
-        download_manifest(client, args.identifier, manifest, data_dir, force=args.force, skip_existing=True)
+        progress = None if json_requested(args) else DownloadProgress()
+        try:
+            download_manifest(client, args.identifier, manifest, data_dir,
+                              force=args.force, skip_existing=True, progress=progress)
+        except RojError:
+            if progress is not None:
+                progress.fail()
+                if progress.enabled:
+                    print(f"已下载 {format_bytes(progress.committed)} / {format_bytes(progress.total)} 后失败",
+                          file=sys.stderr)
+            raise
+        if progress is not None:
+            progress.finish()
     if data_dir is None:
         raise RojError("找不到本地数据；请先运行 download，或给 test 加 --download。")
 
