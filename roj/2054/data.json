@@ -1,0 +1,156 @@
+{
+  "files": [
+    {
+      "path": "camelot0.in",
+      "size": 8
+    },
+    {
+      "path": "camelot0.out",
+      "size": 1
+    },
+    {
+      "path": "camelot1.in",
+      "size": 17
+    },
+    {
+      "path": "camelot1.out",
+      "size": 1
+    },
+    {
+      "path": "camelot10.in",
+      "size": 57
+    },
+    {
+      "path": "camelot10.out",
+      "size": 2
+    },
+    {
+      "path": "camelot11.in",
+      "size": 13
+    },
+    {
+      "path": "camelot11.out",
+      "size": 1
+    },
+    {
+      "path": "camelot12.in",
+      "size": 25
+    },
+    {
+      "path": "camelot12.out",
+      "size": 2
+    },
+    {
+      "path": "camelot13.in",
+      "size": 21
+    },
+    {
+      "path": "camelot13.out",
+      "size": 1
+    },
+    {
+      "path": "camelot14.in",
+      "size": 85
+    },
+    {
+      "path": "camelot14.out",
+      "size": 2
+    },
+    {
+      "path": "camelot15.in",
+      "size": 243
+    },
+    {
+      "path": "camelot15.out",
+      "size": 3
+    },
+    {
+      "path": "camelot16.in",
+      "size": 41
+    },
+    {
+      "path": "camelot16.out",
+      "size": 2
+    },
+    {
+      "path": "camelot17.in",
+      "size": 13
+    },
+    {
+      "path": "camelot17.out",
+      "size": 1
+    },
+    {
+      "path": "camelot18.in",
+      "size": 17
+    },
+    {
+      "path": "camelot18.out",
+      "size": 1
+    },
+    {
+      "path": "camelot2.in",
+      "size": 268
+    },
+    {
+      "path": "camelot2.out",
+      "size": 3
+    },
+    {
+      "path": "camelot3.in",
+      "size": 1011
+    },
+    {
+      "path": "camelot3.out",
+      "size": 3
+    },
+    {
+      "path": "camelot4.in",
+      "size": 2940
+    },
+    {
+      "path": "camelot4.out",
+      "size": 4
+    },
+    {
+      "path": "camelot5.in",
+      "size": 3701
+    },
+    {
+      "path": "camelot5.out",
+      "size": 4
+    },
+    {
+      "path": "camelot6.in",
+      "size": 14
+    },
+    {
+      "path": "camelot6.out",
+      "size": 2
+    },
+    {
+      "path": "camelot7.in",
+      "size": 385
+    },
+    {
+      "path": "camelot7.out",
+      "size": 3
+    },
+    {
+      "path": "camelot8.in",
+      "size": 1850
+    },
+    {
+      "path": "camelot8.out",
+      "size": 4
+    },
+    {
+      "path": "camelot9.in",
+      "size": 3714
+    },
+    {
+      "path": "camelot9.out",
+      "size": 4
+    }
+  ]
+}

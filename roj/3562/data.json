@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "ballg0.in",
+      "size": 5
+    },
+    {
+      "path": "ballg0.out",
+      "size": 9
+    },
+    {
+      "path": "ballg1.in",
+      "size": 3
+    },
+    {
+      "path": "ballg1.out",
+      "size": 1
+    },
+    {
+      "path": "ballg2.in",
+      "size": 4
+    },
+    {
+      "path": "ballg2.out",
+      "size": 3
+    },
+    {
+      "path": "ballg3.in",
+      "size": 5
+    },
+    {
+      "path": "ballg3.out",
+      "size": 4
+    },
+    {
+      "path": "ballg4.in",
+      "size": 5
+    },
+    {
+      "path": "ballg4.out",
+      "size": 6
+    },
+    {
+      "path": "ballg5.in",
+      "size": 4
+    },
+    {
+      "path": "ballg5.out",
+      "size": 8
+    },
+    {
+      "path": "ballg6.in",
+      "size": 4
+    },
+    {
+      "path": "ballg6.out",
+      "size": 8
+    },
+    {
+      "path": "ballg7.in",
+      "size": 5
+    },
+    {
+      "path": "ballg7.out",
+      "size": 1
+    },
+    {
+      "path": "ballg8.in",
+      "size": 4
+    },
+    {
+      "path": "ballg8.out",
+      "size": 9
+    },
+    {
+      "path": "ballg9.in",
+      "size": 5
+    },
+    {
+      "path": "ballg9.out",
+      "size": 9
+    }
+  ]
+}

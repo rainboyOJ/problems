@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "sjwl0.in",
+      "size": 1182
+    },
+    {
+      "path": "sjwl0.out",
+      "size": 5
+    },
+    {
+      "path": "sjwl1.in",
+      "size": 874
+    },
+    {
+      "path": "sjwl1.out",
+      "size": 19
+    },
+    {
+      "path": "sjwl2.in",
+      "size": 81
+    },
+    {
+      "path": "sjwl2.out",
+      "size": 3
+    },
+    {
+      "path": "sjwl3.in",
+      "size": 71
+    },
+    {
+      "path": "sjwl3.out",
+      "size": 4
+    },
+    {
+      "path": "sjwl4.in",
+      "size": 8
+    },
+    {
+      "path": "sjwl4.out",
+      "size": 3
+    }
+  ]
+}

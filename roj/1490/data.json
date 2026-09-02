@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "milktrans1.in",
+      "size": 372
+    },
+    {
+      "path": "milktrans1.out",
+      "size": 4
+    },
+    {
+      "path": "milktrans10.in",
+      "size": 174579
+    },
+    {
+      "path": "milktrans10.out",
+      "size": 13
+    },
+    {
+      "path": "milktrans2.in",
+      "size": 2197
+    },
+    {
+      "path": "milktrans2.out",
+      "size": 8
+    },
+    {
+      "path": "milktrans3.in",
+      "size": 5083
+    },
+    {
+      "path": "milktrans3.out",
+      "size": 8
+    },
+    {
+      "path": "milktrans4.in",
+      "size": 58649
+    },
+    {
+      "path": "milktrans4.out",
+      "size": 8
+    },
+    {
+      "path": "milktrans5.in",
+      "size": 58654
+    },
+    {
+      "path": "milktrans5.out",
+      "size": 8
+    },
+    {
+      "path": "milktrans6.in",
+      "size": 117735
+    },
+    {
+      "path": "milktrans6.out",
+      "size": 12
+    },
+    {
+      "path": "milktrans7.in",
+      "size": 122321
+    },
+    {
+      "path": "milktrans7.out",
+      "size": 12
+    },
+    {
+      "path": "milktrans8.in",
+      "size": 143470
+    },
+    {
+      "path": "milktrans8.out",
+      "size": 12
+    },
+    {
+      "path": "milktrans9.in",
+      "size": 174567
+    },
+    {
+      "path": "milktrans9.out",
+      "size": 13
+    }
+  ]
+}

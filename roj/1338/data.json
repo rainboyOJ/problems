@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "hospital1.in",
+      "size": 24
+    },
+    {
+      "path": "hospital1.out",
+      "size": 3
+    },
+    {
+      "path": "hospital2.in",
+      "size": 42
+    },
+    {
+      "path": "hospital2.out",
+      "size": 4
+    },
+    {
+      "path": "hospital3.in",
+      "size": 73
+    },
+    {
+      "path": "hospital3.out",
+      "size": 5
+    },
+    {
+      "path": "hospital4.in",
+      "size": 437
+    },
+    {
+      "path": "hospital4.out",
+      "size": 7
+    },
+    {
+      "path": "hospital5.in",
+      "size": 888
+    },
+    {
+      "path": "hospital5.out",
+      "size": 8
+    }
+  ]
+}

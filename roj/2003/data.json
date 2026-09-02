@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "beads0.in",
+      "size": 33
+    },
+    {
+      "path": "beads0.out",
+      "size": 2
+    },
+    {
+      "path": "beads1.in",
+      "size": 6
+    },
+    {
+      "path": "beads1.out",
+      "size": 1
+    },
+    {
+      "path": "beads2.in",
+      "size": 81
+    },
+    {
+      "path": "beads2.out",
+      "size": 2
+    },
+    {
+      "path": "beads3.in",
+      "size": 21
+    },
+    {
+      "path": "beads3.out",
+      "size": 2
+    },
+    {
+      "path": "beads4.in",
+      "size": 54
+    },
+    {
+      "path": "beads4.out",
+      "size": 1
+    },
+    {
+      "path": "beads5.in",
+      "size": 11
+    },
+    {
+      "path": "beads5.out",
+      "size": 1
+    },
+    {
+      "path": "beads6.in",
+      "size": 205
+    },
+    {
+      "path": "beads6.out",
+      "size": 2
+    },
+    {
+      "path": "beads7.in",
+      "size": 355
+    },
+    {
+      "path": "beads7.out",
+      "size": 2
+    },
+    {
+      "path": "beads8.in",
+      "size": 338
+    },
+    {
+      "path": "beads8.out",
+      "size": 1
+    }
+  ]
+}

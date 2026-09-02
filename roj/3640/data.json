@@ -1,0 +1,364 @@
+{
+  "files": [
+    {
+      "path": "classroom1.ans",
+      "size": 5
+    },
+    {
+      "path": "classroom1.in",
+      "size": 356009
+    },
+    {
+      "path": "classroom10.ans",
+      "size": 7
+    },
+    {
+      "path": "classroom10.in",
+      "size": 29557
+    },
+    {
+      "path": "classroom11.ans",
+      "size": 6
+    },
+    {
+      "path": "classroom11.in",
+      "size": 106496
+    },
+    {
+      "path": "classroom12.ans",
+      "size": 7
+    },
+    {
+      "path": "classroom12.in",
+      "size": 1716
+    },
+    {
+      "path": "classroom13.ans",
+      "size": 7
+    },
+    {
+      "path": "classroom13.in",
+      "size": 10361
+    },
+    {
+      "path": "classroom14.ans",
+      "size": 6
+    },
+    {
+      "path": "classroom14.in",
+      "size": 425475
+    },
+    {
+      "path": "classroom15.ans",
+      "size": 8
+    },
+    {
+      "path": "classroom15.in",
+      "size": 3510
+    },
+    {
+      "path": "classroom16.ans",
+      "size": 9
+    },
+    {
+      "path": "classroom16.in",
+      "size": 3488
+    },
+    {
+      "path": "classroom17.ans",
+      "size": 8
+    },
+    {
+      "path": "classroom17.in",
+      "size": 10588
+    },
+    {
+      "path": "classroom18.ans",
+      "size": 8
+    },
+    {
+      "path": "classroom18.in",
+      "size": 712329
+    },
+    {
+      "path": "classroom19.ans",
+      "size": 9
+    },
+    {
+      "path": "classroom19.in",
+      "size": 13172
+    },
+    {
+      "path": "classroom2.ans",
+      "size": 6
+    },
+    {
+      "path": "classroom2.in",
+      "size": 279
+    },
+    {
+      "path": "classroom20.ans",
+      "size": 9
+    },
+    {
+      "path": "classroom20.in",
+      "size": 22802
+    },
+    {
+      "path": "classroom21.ans",
+      "size": 10
+    },
+    {
+      "path": "classroom21.in",
+      "size": 22313
+    },
+    {
+      "path": "classroom22.ans",
+      "size": 9
+    },
+    {
+      "path": "classroom22.in",
+      "size": 38825
+    },
+    {
+      "path": "classroom23.ans",
+      "size": 9
+    },
+    {
+      "path": "classroom23.in",
+      "size": 61020
+    },
+    {
+      "path": "classroom24.ans",
+      "size": 9
+    },
+    {
+      "path": "classroom24.in",
+      "size": 296699
+    },
+    {
+      "path": "classroom25.ans",
+      "size": 8
+    },
+    {
+      "path": "classroom25.in",
+      "size": 364630
+    },
+    {
+      "path": "classroom3.ans",
+      "size": 6
+    },
+    {
+      "path": "classroom3.in",
+      "size": 17107
+    },
+    {
+      "path": "classroom4.ans",
+      "size": 6
+    },
+    {
+      "path": "classroom4.in",
+      "size": 52964
+    },
+    {
+      "path": "classroom5.ans",
+      "size": 6
+    },
+    {
+      "path": "classroom5.in",
+      "size": 1686
+    },
+    {
+      "path": "classroom6.ans",
+      "size": 5
+    },
+    {
+      "path": "classroom6.in",
+      "size": 40119
+    },
+    {
+      "path": "classroom7.ans",
+      "size": 6
+    },
+    {
+      "path": "classroom7.in",
+      "size": 269044
+    },
+    {
+      "path": "classroom8.ans",
+      "size": 6
+    },
+    {
+      "path": "classroom8.in",
+      "size": 697400
+    },
+    {
+      "path": "classroom9.ans",
+      "size": 7
+    },
+    {
+      "path": "classroom9.in",
+      "size": 1932
+    },
+    {
+      "path": "problem1.ans",
+      "size": 2
+    },
+    {
+      "path": "problem1.in",
+      "size": 8
+    },
+    {
+      "path": "problem10.ans",
+      "size": 22240
+    },
+    {
+      "path": "problem10.in",
+      "size": 55147
+    },
+    {
+      "path": "problem11.ans",
+      "size": 4
+    },
+    {
+      "path": "problem11.in",
+      "size": 11
+    },
+    {
+      "path": "problem12.ans",
+      "size": 27583
+    },
+    {
+      "path": "problem12.in",
+      "size": 43307
+    },
+    {
+      "path": "problem13.ans",
+      "size": 4
+    },
+    {
+      "path": "problem13.in",
+      "size": 11
+    },
+    {
+      "path": "problem14.ans",
+      "size": 22469
+    },
+    {
+      "path": "problem14.in",
+      "size": 34048
+    },
+    {
+      "path": "problem15.ans",
+      "size": 5
+    },
+    {
+      "path": "problem15.in",
+      "size": 11
+    },
+    {
+      "path": "problem16.ans",
+      "size": 36727
+    },
+    {
+      "path": "problem16.in",
+      "size": 52458
+    },
+    {
+      "path": "problem17.ans",
+      "size": 6
+    },
+    {
+      "path": "problem17.in",
+      "size": 13
+    },
+    {
+      "path": "problem18.ans",
+      "size": 36679
+    },
+    {
+      "path": "problem18.in",
+      "size": 50218
+    },
+    {
+      "path": "problem19.ans",
+      "size": 7
+    },
+    {
+      "path": "problem19.in",
+      "size": 15
+    },
+    {
+      "path": "problem2.ans",
+      "size": 17804
+    },
+    {
+      "path": "problem2.in",
+      "size": 35615
+    },
+    {
+      "path": "problem20.ans",
+      "size": 41033
+    },
+    {
+      "path": "problem20.in",
+      "size": 54799
+    },
+    {
+      "path": "problem3.ans",
+      "size": 2
+    },
+    {
+      "path": "problem3.in",
+      "size": 8
+    },
+    {
+      "path": "problem4.ans",
+      "size": 10284
+    },
+    {
+      "path": "problem4.in",
+      "size": 20575
+    },
+    {
+      "path": "problem5.ans",
+      "size": 2
+    },
+    {
+      "path": "problem5.in",
+      "size": 8
+    },
+    {
+      "path": "problem6.ans",
+      "size": 19441
+    },
+    {
+      "path": "problem6.in",
+      "size": 37564
+    },
+    {
+      "path": "problem7.ans",
+      "size": 3
+    },
+    {
+      "path": "problem7.in",
+      "size": 10
+    },
+    {
+      "path": "problem8.ans",
+      "size": 14671
+    },
+    {
+      "path": "problem8.in",
+      "size": 33063
+    },
+    {
+      "path": "problem9.ans",
+      "size": 3
+    },
+    {
+      "path": "problem9.in",
+      "size": 13
+    }
+  ]
+}

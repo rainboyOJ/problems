@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "humble0.in",
+      "size": 8
+    },
+    {
+      "path": "humble0.out",
+      "size": 2
+    },
+    {
+      "path": "humble1.in",
+      "size": 13
+    },
+    {
+      "path": "humble1.out",
+      "size": 2
+    },
+    {
+      "path": "humble10.in",
+      "size": 21
+    },
+    {
+      "path": "humble10.out",
+      "size": 8
+    },
+    {
+      "path": "humble11.in",
+      "size": 382
+    },
+    {
+      "path": "humble11.out",
+      "size": 6
+    },
+    {
+      "path": "humble2.in",
+      "size": 7
+    },
+    {
+      "path": "humble2.out",
+      "size": 7
+    },
+    {
+      "path": "humble3.in",
+      "size": 22
+    },
+    {
+      "path": "humble3.out",
+      "size": 8
+    },
+    {
+      "path": "humble4.in",
+      "size": 22
+    },
+    {
+      "path": "humble4.out",
+      "size": 9
+    },
+    {
+      "path": "humble5.in",
+      "size": 29
+    },
+    {
+      "path": "humble5.out",
+      "size": 10
+    },
+    {
+      "path": "humble6.in",
+      "size": 25
+    },
+    {
+      "path": "humble6.out",
+      "size": 9
+    },
+    {
+      "path": "humble7.in",
+      "size": 26
+    },
+    {
+      "path": "humble7.out",
+      "size": 9
+    },
+    {
+      "path": "humble8.in",
+      "size": 7
+    },
+    {
+      "path": "humble8.out",
+      "size": 10
+    },
+    {
+      "path": "humble9.in",
+      "size": 18
+    },
+    {
+      "path": "humble9.out",
+      "size": 10
+    }
+  ]
+}

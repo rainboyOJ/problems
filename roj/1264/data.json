@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "chorus0.in",
+      "size": 33
+    },
+    {
+      "path": "chorus0.out",
+      "size": 1
+    },
+    {
+      "path": "chorus1.in",
+      "size": 42
+    },
+    {
+      "path": "chorus1.out",
+      "size": 1
+    },
+    {
+      "path": "chorus2.in",
+      "size": 82
+    },
+    {
+      "path": "chorus2.out",
+      "size": 1
+    },
+    {
+      "path": "chorus3.in",
+      "size": 82
+    },
+    {
+      "path": "chorus3.out",
+      "size": 2
+    },
+    {
+      "path": "chorus4.in",
+      "size": 82
+    },
+    {
+      "path": "chorus4.out",
+      "size": 2
+    },
+    {
+      "path": "chorus5.in",
+      "size": 403
+    },
+    {
+      "path": "chorus5.out",
+      "size": 2
+    },
+    {
+      "path": "chorus6.in",
+      "size": 403
+    },
+    {
+      "path": "chorus6.out",
+      "size": 2
+    },
+    {
+      "path": "chorus7.in",
+      "size": 403
+    },
+    {
+      "path": "chorus7.out",
+      "size": 2
+    },
+    {
+      "path": "chorus8.in",
+      "size": 403
+    },
+    {
+      "path": "chorus8.out",
+      "size": 2
+    },
+    {
+      "path": "chorus9.in",
+      "size": 403
+    },
+    {
+      "path": "chorus9.out",
+      "size": 2
+    }
+  ]
+}

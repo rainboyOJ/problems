@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "gift1.in",
+      "size": 2913
+    },
+    {
+      "path": "gift1.out",
+      "size": 7
+    },
+    {
+      "path": "gift10.in",
+      "size": 3324
+    },
+    {
+      "path": "gift10.out",
+      "size": 7
+    },
+    {
+      "path": "gift2.in",
+      "size": 367923
+    },
+    {
+      "path": "gift2.out",
+      "size": 9
+    },
+    {
+      "path": "gift3.in",
+      "size": 6
+    },
+    {
+      "path": "gift3.out",
+      "size": 2
+    },
+    {
+      "path": "gift4.in",
+      "size": 363735
+    },
+    {
+      "path": "gift4.out",
+      "size": 10
+    },
+    {
+      "path": "gift5.in",
+      "size": 4993
+    },
+    {
+      "path": "gift5.out",
+      "size": 7
+    },
+    {
+      "path": "gift6.in",
+      "size": 3264
+    },
+    {
+      "path": "gift6.out",
+      "size": 7
+    },
+    {
+      "path": "gift7.in",
+      "size": 7
+    },
+    {
+      "path": "gift7.out",
+      "size": 2
+    },
+    {
+      "path": "gift8.in",
+      "size": 529593
+    },
+    {
+      "path": "gift8.out",
+      "size": 9
+    },
+    {
+      "path": "gift9.in",
+      "size": 2956
+    },
+    {
+      "path": "gift9.out",
+      "size": 7
+    }
+  ]
+}

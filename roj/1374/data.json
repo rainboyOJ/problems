@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "SNOW1.IN",
+      "size": 548
+    },
+    {
+      "path": "SNOW1.OUT",
+      "size": 7
+    },
+    {
+      "path": "SNOW10.IN",
+      "size": 80949
+    },
+    {
+      "path": "SNOW10.OUT",
+      "size": 10
+    },
+    {
+      "path": "SNOW2.IN",
+      "size": 812
+    },
+    {
+      "path": "SNOW2.OUT",
+      "size": 8
+    },
+    {
+      "path": "SNOW3.IN",
+      "size": 1599
+    },
+    {
+      "path": "SNOW3.OUT",
+      "size": 8
+    },
+    {
+      "path": "SNOW4.IN",
+      "size": 2100
+    },
+    {
+      "path": "SNOW4.OUT",
+      "size": 8
+    },
+    {
+      "path": "SNOW5.IN",
+      "size": 4356
+    },
+    {
+      "path": "SNOW5.OUT",
+      "size": 8
+    },
+    {
+      "path": "SNOW6.IN",
+      "size": 10816
+    },
+    {
+      "path": "SNOW6.OUT",
+      "size": 9
+    },
+    {
+      "path": "SNOW7.IN",
+      "size": 20840
+    },
+    {
+      "path": "SNOW7.OUT",
+      "size": 9
+    },
+    {
+      "path": "SNOW8.IN",
+      "size": 38652
+    },
+    {
+      "path": "SNOW8.OUT",
+      "size": 9
+    },
+    {
+      "path": "SNOW9.IN",
+      "size": 64423
+    },
+    {
+      "path": "SNOW9.OUT",
+      "size": 10
+    }
+  ]
+}

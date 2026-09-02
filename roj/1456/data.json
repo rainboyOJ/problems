@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "tsgl0.in",
+      "size": 181
+    },
+    {
+      "path": "tsgl0.out",
+      "size": 10
+    },
+    {
+      "path": "tsgl1.in",
+      "size": 288
+    },
+    {
+      "path": "tsgl1.out",
+      "size": 24
+    },
+    {
+      "path": "tsgl2.in",
+      "size": 854
+    },
+    {
+      "path": "tsgl2.out",
+      "size": 86
+    },
+    {
+      "path": "tsgl3.in",
+      "size": 2156
+    },
+    {
+      "path": "tsgl3.out",
+      "size": 237
+    },
+    {
+      "path": "tsgl4.in",
+      "size": 11424
+    },
+    {
+      "path": "tsgl4.out",
+      "size": 1101
+    },
+    {
+      "path": "tsgl5.in",
+      "size": 56611
+    },
+    {
+      "path": "tsgl5.out",
+      "size": 2461
+    },
+    {
+      "path": "tsgl6.in",
+      "size": 114323
+    },
+    {
+      "path": "tsgl6.out",
+      "size": 4405
+    },
+    {
+      "path": "tsgl7.in",
+      "size": 542013
+    },
+    {
+      "path": "tsgl7.out",
+      "size": 11542
+    },
+    {
+      "path": "tsgl8.in",
+      "size": 1074717
+    },
+    {
+      "path": "tsgl8.out",
+      "size": 23636
+    },
+    {
+      "path": "tsgl9.in",
+      "size": 3195108
+    },
+    {
+      "path": "tsgl9.out",
+      "size": 70961
+    }
+  ]
+}

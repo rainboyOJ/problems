@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "charrec10.in",
+      "size": 12723
+    },
+    {
+      "path": "charrec10.out",
+      "size": 2
+    },
+    {
+      "path": "charrec11.in",
+      "size": 12723
+    },
+    {
+      "path": "charrec11.out",
+      "size": 2
+    },
+    {
+      "path": "charrec12.in",
+      "size": 14110
+    },
+    {
+      "path": "charrec12.out",
+      "size": 5
+    },
+    {
+      "path": "charrec13.in",
+      "size": 16750
+    },
+    {
+      "path": "charrec13.out",
+      "size": 11
+    },
+    {
+      "path": "charrec14.in",
+      "size": 24274
+    },
+    {
+      "path": "charrec14.out",
+      "size": 26
+    },
+    {
+      "path": "charrec15.in",
+      "size": 29334
+    },
+    {
+      "path": "charrec15.out",
+      "size": 40
+    },
+    {
+      "path": "charrec16.in",
+      "size": 36881
+    },
+    {
+      "path": "charrec16.out",
+      "size": 56
+    },
+    {
+      "path": "charrec17.in",
+      "size": 36507
+    },
+    {
+      "path": "charrec17.out",
+      "size": 56
+    },
+    {
+      "path": "charrec18.in",
+      "size": 38267
+    },
+    {
+      "path": "charrec18.out",
+      "size": 60
+    }
+  ]
+}

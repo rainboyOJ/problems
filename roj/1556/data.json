@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "dis0.in",
+      "size": 348799
+    },
+    {
+      "path": "dis0.out",
+      "size": 102234
+    },
+    {
+      "path": "dis1.in",
+      "size": 348535
+    },
+    {
+      "path": "dis1.out",
+      "size": 100762
+    },
+    {
+      "path": "dis10.in",
+      "size": 348799
+    },
+    {
+      "path": "dis10.out",
+      "size": 102234
+    },
+    {
+      "path": "dis2.in",
+      "size": 348535
+    },
+    {
+      "path": "dis2.out",
+      "size": 100762
+    },
+    {
+      "path": "dis3.in",
+      "size": 348540
+    },
+    {
+      "path": "dis3.out",
+      "size": 102870
+    },
+    {
+      "path": "dis4.in",
+      "size": 348540
+    },
+    {
+      "path": "dis4.out",
+      "size": 102870
+    },
+    {
+      "path": "dis5.in",
+      "size": 348540
+    },
+    {
+      "path": "dis5.out",
+      "size": 102870
+    },
+    {
+      "path": "dis6.in",
+      "size": 348782
+    },
+    {
+      "path": "dis6.out",
+      "size": 103454
+    },
+    {
+      "path": "dis7.in",
+      "size": 348782
+    },
+    {
+      "path": "dis7.out",
+      "size": 103454
+    },
+    {
+      "path": "dis8.in",
+      "size": 348782
+    },
+    {
+      "path": "dis8.out",
+      "size": 103454
+    },
+    {
+      "path": "dis9.in",
+      "size": 348782
+    },
+    {
+      "path": "dis9.out",
+      "size": 103454
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "cowtour0.in",
+      "size": 137
+    },
+    {
+      "path": "cowtour0.out",
+      "size": 9
+    },
+    {
+      "path": "cowtour1.in",
+      "size": 19
+    },
+    {
+      "path": "cowtour1.out",
+      "size": 8
+    },
+    {
+      "path": "cowtour2.in",
+      "size": 47
+    },
+    {
+      "path": "cowtour2.out",
+      "size": 9
+    },
+    {
+      "path": "cowtour3.in",
+      "size": 1152
+    },
+    {
+      "path": "cowtour3.out",
+      "size": 10
+    },
+    {
+      "path": "cowtour4.in",
+      "size": 23219
+    },
+    {
+      "path": "cowtour4.out",
+      "size": 10
+    },
+    {
+      "path": "cowtour5.in",
+      "size": 23892
+    },
+    {
+      "path": "cowtour5.out",
+      "size": 8
+    },
+    {
+      "path": "cowtour6.in",
+      "size": 24407
+    },
+    {
+      "path": "cowtour6.out",
+      "size": 12
+    },
+    {
+      "path": "cowtour7.in",
+      "size": 24415
+    },
+    {
+      "path": "cowtour7.out",
+      "size": 12
+    },
+    {
+      "path": "cowtour8.in",
+      "size": 24416
+    },
+    {
+      "path": "cowtour8.out",
+      "size": 12
+    }
+  ]
+}

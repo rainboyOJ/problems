@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "fence1.in",
+      "size": 228
+    },
+    {
+      "path": "fence1.out",
+      "size": 506
+    },
+    {
+      "path": "fence10.in",
+      "size": 1933
+    },
+    {
+      "path": "fence10.out",
+      "size": 5059
+    },
+    {
+      "path": "fence2.in",
+      "size": 8
+    },
+    {
+      "path": "fence2.out",
+      "size": 3
+    },
+    {
+      "path": "fence3.in",
+      "size": 115
+    },
+    {
+      "path": "fence3.out",
+      "size": 508
+    },
+    {
+      "path": "fence4.in",
+      "size": 533
+    },
+    {
+      "path": "fence4.out",
+      "size": 828
+    },
+    {
+      "path": "fence5.in",
+      "size": 624
+    },
+    {
+      "path": "fence5.out",
+      "size": 1246
+    },
+    {
+      "path": "fence6.in",
+      "size": 1036
+    },
+    {
+      "path": "fence6.out",
+      "size": 2310
+    },
+    {
+      "path": "fence7.in",
+      "size": 1503
+    },
+    {
+      "path": "fence7.out",
+      "size": 3772
+    },
+    {
+      "path": "fence8.in",
+      "size": 1774
+    },
+    {
+      "path": "fence8.out",
+      "size": 4558
+    },
+    {
+      "path": "fence9.in",
+      "size": 1886
+    },
+    {
+      "path": "fence9.out",
+      "size": 4909
+    }
+  ]
+}

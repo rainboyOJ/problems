@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "stall40.in",
+      "size": 6
+    },
+    {
+      "path": "stall40.out",
+      "size": 1
+    },
+    {
+      "path": "stall41.in",
+      "size": 28
+    },
+    {
+      "path": "stall41.out",
+      "size": 1
+    },
+    {
+      "path": "stall42.in",
+      "size": 40
+    },
+    {
+      "path": "stall42.out",
+      "size": 1
+    },
+    {
+      "path": "stall43.in",
+      "size": 94
+    },
+    {
+      "path": "stall43.out",
+      "size": 2
+    },
+    {
+      "path": "stall44.in",
+      "size": 129
+    },
+    {
+      "path": "stall44.out",
+      "size": 2
+    },
+    {
+      "path": "stall45.in",
+      "size": 437
+    },
+    {
+      "path": "stall45.out",
+      "size": 2
+    },
+    {
+      "path": "stall46.in",
+      "size": 6801
+    },
+    {
+      "path": "stall46.out",
+      "size": 3
+    },
+    {
+      "path": "stall47.in",
+      "size": 2663
+    },
+    {
+      "path": "stall47.out",
+      "size": 3
+    },
+    {
+      "path": "stall48.in",
+      "size": 4710
+    },
+    {
+      "path": "stall48.out",
+      "size": 3
+    }
+  ]
+}

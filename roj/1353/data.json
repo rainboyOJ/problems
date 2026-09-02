@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "stack1.in",
+      "size": 14
+    },
+    {
+      "path": "stack1.out",
+      "size": 5
+    },
+    {
+      "path": "stack2.in",
+      "size": 18
+    },
+    {
+      "path": "stack2.out",
+      "size": 4
+    },
+    {
+      "path": "stack3.in",
+      "size": 74
+    },
+    {
+      "path": "stack3.out",
+      "size": 4
+    },
+    {
+      "path": "stack4.in",
+      "size": 43
+    },
+    {
+      "path": "stack4.out",
+      "size": 4
+    },
+    {
+      "path": "stack5.in",
+      "size": 12
+    },
+    {
+      "path": "stack5.out",
+      "size": 5
+    }
+  ]
+}

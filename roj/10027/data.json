@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "decode0.in",
+      "size": 7014
+    },
+    {
+      "path": "decode0.out",
+      "size": 6987
+    },
+    {
+      "path": "decode1.in",
+      "size": 3646
+    },
+    {
+      "path": "decode1.out",
+      "size": 3619
+    },
+    {
+      "path": "decode2.in",
+      "size": 1049
+    },
+    {
+      "path": "decode2.out",
+      "size": 1022
+    },
+    {
+      "path": "decode3.in",
+      "size": 8277
+    },
+    {
+      "path": "decode3.out",
+      "size": 8250
+    },
+    {
+      "path": "decode4.in",
+      "size": 5505
+    },
+    {
+      "path": "decode4.out",
+      "size": 5478
+    },
+    {
+      "path": "decode5.in",
+      "size": 6347
+    },
+    {
+      "path": "decode5.out",
+      "size": 6320
+    },
+    {
+      "path": "decode6.in",
+      "size": 3575
+    },
+    {
+      "path": "decode6.out",
+      "size": 3548
+    },
+    {
+      "path": "decode7.in",
+      "size": 803
+    },
+    {
+      "path": "decode7.out",
+      "size": 776
+    },
+    {
+      "path": "decode8.in",
+      "size": 4838
+    },
+    {
+      "path": "decode8.out",
+      "size": 4811
+    },
+    {
+      "path": "decode9.in",
+      "size": 8873
+    },
+    {
+      "path": "decode9.out",
+      "size": 8846
+    }
+  ]
+}

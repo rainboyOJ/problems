@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "wireless0.in",
+      "size": 100
+    },
+    {
+      "path": "wireless0.out",
+      "size": 5
+    },
+    {
+      "path": "wireless1.in",
+      "size": 100
+    },
+    {
+      "path": "wireless1.out",
+      "size": 5
+    },
+    {
+      "path": "wireless2.in",
+      "size": 78
+    },
+    {
+      "path": "wireless2.out",
+      "size": 5
+    },
+    {
+      "path": "wireless3.in",
+      "size": 34
+    },
+    {
+      "path": "wireless3.out",
+      "size": 5
+    },
+    {
+      "path": "wireless4.in",
+      "size": 92
+    },
+    {
+      "path": "wireless4.out",
+      "size": 5
+    },
+    {
+      "path": "wireless5.in",
+      "size": 270
+    },
+    {
+      "path": "wireless5.out",
+      "size": 10
+    },
+    {
+      "path": "wireless6.in",
+      "size": 262
+    },
+    {
+      "path": "wireless6.out",
+      "size": 10
+    },
+    {
+      "path": "wireless7.in",
+      "size": 271
+    },
+    {
+      "path": "wireless7.out",
+      "size": 10
+    },
+    {
+      "path": "wireless8.in",
+      "size": 262
+    },
+    {
+      "path": "wireless8.out",
+      "size": 9
+    },
+    {
+      "path": "wireless9.in",
+      "size": 265
+    },
+    {
+      "path": "wireless9.out",
+      "size": 10
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "lock1.ans",
+      "size": 3
+    },
+    {
+      "path": "lock1.in",
+      "size": 12
+    },
+    {
+      "path": "lock10.ans",
+      "size": 2
+    },
+    {
+      "path": "lock10.in",
+      "size": 82
+    },
+    {
+      "path": "lock2.ans",
+      "size": 3
+    },
+    {
+      "path": "lock2.in",
+      "size": 12
+    },
+    {
+      "path": "lock3.ans",
+      "size": 3
+    },
+    {
+      "path": "lock3.in",
+      "size": 12
+    },
+    {
+      "path": "lock4.ans",
+      "size": 2
+    },
+    {
+      "path": "lock4.in",
+      "size": 22
+    },
+    {
+      "path": "lock5.ans",
+      "size": 2
+    },
+    {
+      "path": "lock5.in",
+      "size": 22
+    },
+    {
+      "path": "lock6.ans",
+      "size": 2
+    },
+    {
+      "path": "lock6.in",
+      "size": 42
+    },
+    {
+      "path": "lock7.ans",
+      "size": 2
+    },
+    {
+      "path": "lock7.in",
+      "size": 62
+    },
+    {
+      "path": "lock8.ans",
+      "size": 2
+    },
+    {
+      "path": "lock8.in",
+      "size": 72
+    },
+    {
+      "path": "lock9.ans",
+      "size": 2
+    },
+    {
+      "path": "lock9.in",
+      "size": 52
+    }
+  ]
+}

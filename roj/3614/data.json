@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "countb0.in",
+      "size": 9
+    },
+    {
+      "path": "countb0.out",
+      "size": 1
+    },
+    {
+      "path": "countb1.in",
+      "size": 14
+    },
+    {
+      "path": "countb1.out",
+      "size": 1
+    },
+    {
+      "path": "countb2.in",
+      "size": 35
+    },
+    {
+      "path": "countb2.out",
+      "size": 1
+    },
+    {
+      "path": "countb3.in",
+      "size": 32
+    },
+    {
+      "path": "countb3.out",
+      "size": 1
+    },
+    {
+      "path": "countb4.in",
+      "size": 60
+    },
+    {
+      "path": "countb4.out",
+      "size": 1
+    },
+    {
+      "path": "countb5.in",
+      "size": 149
+    },
+    {
+      "path": "countb5.out",
+      "size": 2
+    },
+    {
+      "path": "countb6.in",
+      "size": 295
+    },
+    {
+      "path": "countb6.out",
+      "size": 2
+    },
+    {
+      "path": "countb7.in",
+      "size": 394
+    },
+    {
+      "path": "countb7.out",
+      "size": 2
+    },
+    {
+      "path": "countb8.in",
+      "size": 388
+    },
+    {
+      "path": "countb8.out",
+      "size": 2
+    },
+    {
+      "path": "countb9.in",
+      "size": 491
+    },
+    {
+      "path": "countb9.out",
+      "size": 2
+    }
+  ]
+}

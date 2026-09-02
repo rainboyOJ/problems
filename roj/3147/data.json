@@ -1,0 +1,204 @@
+{
+  "files": [
+    {
+      "path": "pyr00.in",
+      "size": 9
+    },
+    {
+      "path": "pyr00.out",
+      "size": 3
+    },
+    {
+      "path": "pyr01.in",
+      "size": 4
+    },
+    {
+      "path": "pyr01.out",
+      "size": 3
+    },
+    {
+      "path": "pyr02.in",
+      "size": 11
+    },
+    {
+      "path": "pyr02.out",
+      "size": 4
+    },
+    {
+      "path": "pyr03.in",
+      "size": 13
+    },
+    {
+      "path": "pyr03.out",
+      "size": 4
+    },
+    {
+      "path": "pyr04.in",
+      "size": 23
+    },
+    {
+      "path": "pyr04.out",
+      "size": 7
+    },
+    {
+      "path": "pyr05.in",
+      "size": 21
+    },
+    {
+      "path": "pyr05.out",
+      "size": 4
+    },
+    {
+      "path": "pyr06.in",
+      "size": 301
+    },
+    {
+      "path": "pyr06.out",
+      "size": 11
+    },
+    {
+      "path": "pyr07.in",
+      "size": 302
+    },
+    {
+      "path": "pyr07.out",
+      "size": 3
+    },
+    {
+      "path": "pyr08.in",
+      "size": 103
+    },
+    {
+      "path": "pyr08.out",
+      "size": 3
+    },
+    {
+      "path": "pyr09.in",
+      "size": 203
+    },
+    {
+      "path": "pyr09.out",
+      "size": 3
+    },
+    {
+      "path": "pyr10.in",
+      "size": 301
+    },
+    {
+      "path": "pyr10.out",
+      "size": 3
+    },
+    {
+      "path": "pyr11.in",
+      "size": 101
+    },
+    {
+      "path": "pyr11.out",
+      "size": 4
+    },
+    {
+      "path": "pyr12.in",
+      "size": 201
+    },
+    {
+      "path": "pyr12.out",
+      "size": 5
+    },
+    {
+      "path": "pyr13.in",
+      "size": 241
+    },
+    {
+      "path": "pyr13.out",
+      "size": 5
+    },
+    {
+      "path": "pyr14.in",
+      "size": 299
+    },
+    {
+      "path": "pyr14.out",
+      "size": 4
+    },
+    {
+      "path": "pyr15.in",
+      "size": 299
+    },
+    {
+      "path": "pyr15.out",
+      "size": 8
+    },
+    {
+      "path": "pyr16.in",
+      "size": 299
+    },
+    {
+      "path": "pyr16.out",
+      "size": 11
+    },
+    {
+      "path": "pyr17.in",
+      "size": 299
+    },
+    {
+      "path": "pyr17.out",
+      "size": 11
+    },
+    {
+      "path": "pyr18.in",
+      "size": 299
+    },
+    {
+      "path": "pyr18.out",
+      "size": 11
+    },
+    {
+      "path": "pyr19.in",
+      "size": 203
+    },
+    {
+      "path": "pyr19.out",
+      "size": 11
+    },
+    {
+      "path": "pyr20.in",
+      "size": 301
+    },
+    {
+      "path": "pyr20.out",
+      "size": 11
+    },
+    {
+      "path": "pyr21.in",
+      "size": 257
+    },
+    {
+      "path": "pyr21.out",
+      "size": 6
+    },
+    {
+      "path": "pyr22.in",
+      "size": 203
+    },
+    {
+      "path": "pyr22.out",
+      "size": 11
+    },
+    {
+      "path": "pyr23.in",
+      "size": 299
+    },
+    {
+      "path": "pyr23.out",
+      "size": 10
+    },
+    {
+      "path": "pyr24.in",
+      "size": 101
+    },
+    {
+      "path": "pyr24.out",
+      "size": 10
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "BlockNOIP20130.in",
+      "size": 7
+    },
+    {
+      "path": "BlockNOIP20130.out",
+      "size": 1
+    },
+    {
+      "path": "BlockNOIP20131.in",
+      "size": 14
+    },
+    {
+      "path": "BlockNOIP20131.out",
+      "size": 2
+    },
+    {
+      "path": "BlockNOIP20132.in",
+      "size": 29
+    },
+    {
+      "path": "BlockNOIP20132.out",
+      "size": 3
+    },
+    {
+      "path": "BlockNOIP20133.in",
+      "size": 62
+    },
+    {
+      "path": "BlockNOIP20133.out",
+      "size": 3
+    },
+    {
+      "path": "BlockNOIP20134.in",
+      "size": 152
+    },
+    {
+      "path": "BlockNOIP20134.out",
+      "size": 3
+    },
+    {
+      "path": "BlockNOIP20135.in",
+      "size": 968
+    },
+    {
+      "path": "BlockNOIP20135.out",
+      "size": 5
+    },
+    {
+      "path": "BlockNOIP20136.in",
+      "size": 3889
+    },
+    {
+      "path": "BlockNOIP20136.out",
+      "size": 6
+    },
+    {
+      "path": "BlockNOIP20137.in",
+      "size": 38948
+    },
+    {
+      "path": "BlockNOIP20137.out",
+      "size": 7
+    },
+    {
+      "path": "BlockNOIP20138.in",
+      "size": 244474
+    },
+    {
+      "path": "BlockNOIP20138.out",
+      "size": 8
+    },
+    {
+      "path": "BlockNOIP20139.in",
+      "size": 488957
+    },
+    {
+      "path": "BlockNOIP20139.out",
+      "size": 9
+    }
+  ]
+}

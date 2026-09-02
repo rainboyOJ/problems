@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "lsh1.in",
+      "size": 91291
+    },
+    {
+      "path": "lsh1.out",
+      "size": 81088
+    },
+    {
+      "path": "lsh10.in",
+      "size": 376395
+    },
+    {
+      "path": "lsh10.out",
+      "size": 369239
+    },
+    {
+      "path": "lsh2.in",
+      "size": 415932
+    },
+    {
+      "path": "lsh2.out",
+      "size": 409222
+    },
+    {
+      "path": "lsh3.in",
+      "size": 349186
+    },
+    {
+      "path": "lsh3.out",
+      "size": 341753
+    },
+    {
+      "path": "lsh4.in",
+      "size": 171020
+    },
+    {
+      "path": "lsh4.out",
+      "size": 161770
+    },
+    {
+      "path": "lsh5.in",
+      "size": 219007
+    },
+    {
+      "path": "lsh5.out",
+      "size": 210161
+    },
+    {
+      "path": "lsh6.in",
+      "size": 582231
+    },
+    {
+      "path": "lsh6.out",
+      "size": 576713
+    },
+    {
+      "path": "lsh7.in",
+      "size": 388716
+    },
+    {
+      "path": "lsh7.out",
+      "size": 381642
+    },
+    {
+      "path": "lsh8.in",
+      "size": 427109
+    },
+    {
+      "path": "lsh8.out",
+      "size": 420321
+    },
+    {
+      "path": "lsh9.in",
+      "size": 266904
+    },
+    {
+      "path": "lsh9.out",
+      "size": 258553
+    }
+  ]
+}

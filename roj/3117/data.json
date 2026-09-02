@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "socks1.in",
+      "size": 797304
+    },
+    {
+      "path": "socks1.out",
+      "size": 778061
+    },
+    {
+      "path": "socks10.in",
+      "size": 299540
+    },
+    {
+      "path": "socks10.out",
+      "size": 287687
+    },
+    {
+      "path": "socks2.in",
+      "size": 791056
+    },
+    {
+      "path": "socks2.out",
+      "size": 797325
+    },
+    {
+      "path": "socks3.in",
+      "size": 800226
+    },
+    {
+      "path": "socks3.out",
+      "size": 768927
+    },
+    {
+      "path": "socks4.in",
+      "size": 66725
+    },
+    {
+      "path": "socks4.out",
+      "size": 59648
+    },
+    {
+      "path": "socks5.in",
+      "size": 381867
+    },
+    {
+      "path": "socks5.out",
+      "size": 367802
+    },
+    {
+      "path": "socks6.in",
+      "size": 32179
+    },
+    {
+      "path": "socks6.out",
+      "size": 26020
+    },
+    {
+      "path": "socks7.in",
+      "size": 628708
+    },
+    {
+      "path": "socks7.out",
+      "size": 621629
+    },
+    {
+      "path": "socks8.in",
+      "size": 864
+    },
+    {
+      "path": "socks8.out",
+      "size": 598
+    },
+    {
+      "path": "socks9.in",
+      "size": 384921
+    },
+    {
+      "path": "socks9.out",
+      "size": 358716
+    }
+  ]
+}

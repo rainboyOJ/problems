@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "divide1.in",
+      "size": 5
+    },
+    {
+      "path": "divide1.out",
+      "size": 3
+    },
+    {
+      "path": "divide2.in",
+      "size": 6
+    },
+    {
+      "path": "divide2.out",
+      "size": 4
+    },
+    {
+      "path": "divide3.in",
+      "size": 7
+    },
+    {
+      "path": "divide3.out",
+      "size": 7
+    },
+    {
+      "path": "divide4.in",
+      "size": 7
+    },
+    {
+      "path": "divide4.out",
+      "size": 8
+    },
+    {
+      "path": "divide5.in",
+      "size": 7
+    },
+    {
+      "path": "divide5.out",
+      "size": 9
+    }
+  ]
+}

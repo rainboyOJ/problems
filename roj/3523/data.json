@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "mason0.in",
+      "size": 7
+    },
+    {
+      "path": "mason0.out",
+      "size": 516
+    },
+    {
+      "path": "mason1.in",
+      "size": 5
+    },
+    {
+      "path": "mason1.out",
+      "size": 515
+    },
+    {
+      "path": "mason2.in",
+      "size": 5
+    },
+    {
+      "path": "mason2.out",
+      "size": 514
+    },
+    {
+      "path": "mason3.in",
+      "size": 4
+    },
+    {
+      "path": "mason3.out",
+      "size": 514
+    },
+    {
+      "path": "mason4.in",
+      "size": 4
+    },
+    {
+      "path": "mason4.out",
+      "size": 513
+    },
+    {
+      "path": "mason5.in",
+      "size": 3
+    },
+    {
+      "path": "mason5.out",
+      "size": 513
+    },
+    {
+      "path": "mason6.in",
+      "size": 4
+    },
+    {
+      "path": "mason6.out",
+      "size": 513
+    },
+    {
+      "path": "mason7.in",
+      "size": 7
+    },
+    {
+      "path": "mason7.out",
+      "size": 516
+    },
+    {
+      "path": "mason8.in",
+      "size": 7
+    },
+    {
+      "path": "mason8.out",
+      "size": 516
+    },
+    {
+      "path": "mason9.in",
+      "size": 6
+    },
+    {
+      "path": "mason9.out",
+      "size": 516
+    }
+  ]
+}

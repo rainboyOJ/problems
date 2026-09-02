@@ -1,0 +1,276 @@
+{
+  "files": [
+    {
+      "path": "meteo1.in",
+      "size": 123
+    },
+    {
+      "path": "meteo1.out",
+      "size": 15
+    },
+    {
+      "path": "meteo10.in",
+      "size": 17564
+    },
+    {
+      "path": "meteo10.out",
+      "size": 822
+    },
+    {
+      "path": "meteo11.in",
+      "size": 3487501
+    },
+    {
+      "path": "meteo11.out",
+      "size": 1000
+    },
+    {
+      "path": "meteo12.in",
+      "size": 578827
+    },
+    {
+      "path": "meteo12.out",
+      "size": 2653
+    },
+    {
+      "path": "meteo13.in",
+      "size": 2396817
+    },
+    {
+      "path": "meteo13.out",
+      "size": 3086
+    },
+    {
+      "path": "meteo14.in",
+      "size": 94
+    },
+    {
+      "path": "meteo14.out",
+      "size": 14
+    },
+    {
+      "path": "meteo15.in",
+      "size": 1018986
+    },
+    {
+      "path": "meteo15.out",
+      "size": 2410
+    },
+    {
+      "path": "meteo16.in",
+      "size": 7988955
+    },
+    {
+      "path": "meteo16.out",
+      "size": 8
+    },
+    {
+      "path": "meteo17.in",
+      "size": 6055598
+    },
+    {
+      "path": "meteo17.out",
+      "size": 525000
+    },
+    {
+      "path": "meteo18.in",
+      "size": 13866
+    },
+    {
+      "path": "meteo18.out",
+      "size": 558
+    },
+    {
+      "path": "meteo19.in",
+      "size": 1236793
+    },
+    {
+      "path": "meteo19.out",
+      "size": 134463
+    },
+    {
+      "path": "meteo2.in",
+      "size": 1062847
+    },
+    {
+      "path": "meteo2.out",
+      "size": 11510
+    },
+    {
+      "path": "meteo20.in",
+      "size": 808712
+    },
+    {
+      "path": "meteo20.out",
+      "size": 27570
+    },
+    {
+      "path": "meteo21.in",
+      "size": 1270169
+    },
+    {
+      "path": "meteo21.out",
+      "size": 83752
+    },
+    {
+      "path": "meteo22.in",
+      "size": 1118769
+    },
+    {
+      "path": "meteo22.out",
+      "size": 51886
+    },
+    {
+      "path": "meteo23.in",
+      "size": 1210232
+    },
+    {
+      "path": "meteo23.out",
+      "size": 113905
+    },
+    {
+      "path": "meteo24.in",
+      "size": 1209639
+    },
+    {
+      "path": "meteo24.out",
+      "size": 52837
+    },
+    {
+      "path": "meteo25.in",
+      "size": 429350
+    },
+    {
+      "path": "meteo25.out",
+      "size": 64033
+    },
+    {
+      "path": "meteo26.in",
+      "size": 8161678
+    },
+    {
+      "path": "meteo26.out",
+      "size": 1319648
+    },
+    {
+      "path": "meteo27.in",
+      "size": 7877521
+    },
+    {
+      "path": "meteo27.out",
+      "size": 594440
+    },
+    {
+      "path": "meteo28.in",
+      "size": 17897
+    },
+    {
+      "path": "meteo28.out",
+      "size": 2963
+    },
+    {
+      "path": "meteo29.in",
+      "size": 14542
+    },
+    {
+      "path": "meteo29.out",
+      "size": 874
+    },
+    {
+      "path": "meteo3.in",
+      "size": 1236859
+    },
+    {
+      "path": "meteo3.out",
+      "size": 100104
+    },
+    {
+      "path": "meteo30.in",
+      "size": 1117334
+    },
+    {
+      "path": "meteo30.out",
+      "size": 51578
+    },
+    {
+      "path": "meteo31.in",
+      "size": 555
+    },
+    {
+      "path": "meteo31.out",
+      "size": 34
+    },
+    {
+      "path": "meteo32.in",
+      "size": 8263369
+    },
+    {
+      "path": "meteo32.out",
+      "size": 1490537
+    },
+    {
+      "path": "meteo33.in",
+      "size": 898442
+    },
+    {
+      "path": "meteo33.out",
+      "size": 19877
+    },
+    {
+      "path": "meteo34.in",
+      "size": 41
+    },
+    {
+      "path": "meteo34.out",
+      "size": 8
+    },
+    {
+      "path": "meteo4.in",
+      "size": 16527
+    },
+    {
+      "path": "meteo4.out",
+      "size": 1997
+    },
+    {
+      "path": "meteo5.in",
+      "size": 1081334
+    },
+    {
+      "path": "meteo5.out",
+      "size": 73754
+    },
+    {
+      "path": "meteo6.in",
+      "size": 8026131
+    },
+    {
+      "path": "meteo6.out",
+      "size": 696244
+    },
+    {
+      "path": "meteo7.in",
+      "size": 6488944
+    },
+    {
+      "path": "meteo7.out",
+      "size": 16
+    },
+    {
+      "path": "meteo8.in",
+      "size": 18610
+    },
+    {
+      "path": "meteo8.out",
+      "size": 695
+    },
+    {
+      "path": "meteo9.in",
+      "size": 1156726
+    },
+    {
+      "path": "meteo9.out",
+      "size": 94727
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "submatrix1.ans",
+      "size": 2
+    },
+    {
+      "path": "submatrix1.in",
+      "size": 73
+    },
+    {
+      "path": "submatrix10.ans",
+      "size": 4
+    },
+    {
+      "path": "submatrix10.in",
+      "size": 374
+    },
+    {
+      "path": "submatrix11.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix11.in",
+      "size": 668
+    },
+    {
+      "path": "submatrix12.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix12.in",
+      "size": 664
+    },
+    {
+      "path": "submatrix13.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix13.in",
+      "size": 708
+    },
+    {
+      "path": "submatrix14.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix14.in",
+      "size": 727
+    },
+    {
+      "path": "submatrix15.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix15.in",
+      "size": 891
+    },
+    {
+      "path": "submatrix16.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix16.in",
+      "size": 884
+    },
+    {
+      "path": "submatrix17.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix17.in",
+      "size": 1007
+    },
+    {
+      "path": "submatrix18.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix18.in",
+      "size": 1017
+    },
+    {
+      "path": "submatrix19.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix19.in",
+      "size": 1004
+    },
+    {
+      "path": "submatrix2.ans",
+      "size": 3
+    },
+    {
+      "path": "submatrix2.in",
+      "size": 71
+    },
+    {
+      "path": "submatrix20.ans",
+      "size": 6
+    },
+    {
+      "path": "submatrix20.in",
+      "size": 1002
+    },
+    {
+      "path": "submatrix3.ans",
+      "size": 2
+    },
+    {
+      "path": "submatrix3.in",
+      "size": 58
+    },
+    {
+      "path": "submatrix4.ans",
+      "size": 3
+    },
+    {
+      "path": "submatrix4.in",
+      "size": 97
+    },
+    {
+      "path": "submatrix5.ans",
+      "size": 2
+    },
+    {
+      "path": "submatrix5.in",
+      "size": 131
+    },
+    {
+      "path": "submatrix6.ans",
+      "size": 2
+    },
+    {
+      "path": "submatrix6.in",
+      "size": 134
+    },
+    {
+      "path": "submatrix7.ans",
+      "size": 4
+    },
+    {
+      "path": "submatrix7.in",
+      "size": 288
+    },
+    {
+      "path": "submatrix8.ans",
+      "size": 4
+    },
+    {
+      "path": "submatrix8.in",
+      "size": 288
+    },
+    {
+      "path": "submatrix9.ans",
+      "size": 4
+    },
+    {
+      "path": "submatrix9.in",
+      "size": 375
+    }
+  ]
+}

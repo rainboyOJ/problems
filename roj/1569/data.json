@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "merge0.in",
+      "size": 106
+    },
+    {
+      "path": "merge0.out",
+      "size": 13
+    },
+    {
+      "path": "merge1.in",
+      "size": 13
+    },
+    {
+      "path": "merge1.out",
+      "size": 12
+    },
+    {
+      "path": "merge2.in",
+      "size": 19
+    },
+    {
+      "path": "merge2.out",
+      "size": 10
+    },
+    {
+      "path": "merge3.in",
+      "size": 14
+    },
+    {
+      "path": "merge3.out",
+      "size": 9
+    },
+    {
+      "path": "merge4.in",
+      "size": 75
+    },
+    {
+      "path": "merge4.out",
+      "size": 12
+    },
+    {
+      "path": "merge5.in",
+      "size": 11
+    },
+    {
+      "path": "merge5.out",
+      "size": 8
+    },
+    {
+      "path": "merge6.in",
+      "size": 18
+    },
+    {
+      "path": "merge6.out",
+      "size": 10
+    },
+    {
+      "path": "merge7.in",
+      "size": 15
+    },
+    {
+      "path": "merge7.out",
+      "size": 13
+    },
+    {
+      "path": "merge8.in",
+      "size": 242
+    },
+    {
+      "path": "merge8.out",
+      "size": 14
+    },
+    {
+      "path": "merge9.in",
+      "size": 15
+    },
+    {
+      "path": "merge9.out",
+      "size": 10
+    }
+  ]
+}

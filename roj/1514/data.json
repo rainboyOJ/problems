@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "semi0.in",
+      "size": 60
+    },
+    {
+      "path": "semi0.out",
+      "size": 6
+    },
+    {
+      "path": "semi1.in",
+      "size": 145
+    },
+    {
+      "path": "semi1.out",
+      "size": 6
+    },
+    {
+      "path": "semi2.in",
+      "size": 301
+    },
+    {
+      "path": "semi2.out",
+      "size": 6
+    },
+    {
+      "path": "semi3.in",
+      "size": 918
+    },
+    {
+      "path": "semi3.out",
+      "size": 7
+    },
+    {
+      "path": "semi4.in",
+      "size": 32548
+    },
+    {
+      "path": "semi4.out",
+      "size": 8
+    },
+    {
+      "path": "semi5.in",
+      "size": 8284797
+    },
+    {
+      "path": "semi5.out",
+      "size": 13
+    },
+    {
+      "path": "semi6.in",
+      "size": 12287385
+    },
+    {
+      "path": "semi6.out",
+      "size": 10
+    },
+    {
+      "path": "semi7.in",
+      "size": 1340218
+    },
+    {
+      "path": "semi7.out",
+      "size": 11
+    },
+    {
+      "path": "semi8.in",
+      "size": 7392646
+    },
+    {
+      "path": "semi8.out",
+      "size": 13
+    },
+    {
+      "path": "semi9.in",
+      "size": 1491796
+    },
+    {
+      "path": "semi9.out",
+      "size": 17
+    }
+  ]
+}

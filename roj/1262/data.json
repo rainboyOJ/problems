@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "landmine0.in",
+      "size": 78405
+    },
+    {
+      "path": "landmine0.out",
+      "size": 341
+    },
+    {
+      "path": "landmine1.in",
+      "size": 361
+    },
+    {
+      "path": "landmine1.out",
+      "size": 29
+    },
+    {
+      "path": "landmine2.in",
+      "size": 84
+    },
+    {
+      "path": "landmine2.out",
+      "size": 12
+    },
+    {
+      "path": "landmine3.in",
+      "size": 42
+    },
+    {
+      "path": "landmine3.out",
+      "size": 14
+    },
+    {
+      "path": "landmine4.in",
+      "size": 42
+    },
+    {
+      "path": "landmine4.out",
+      "size": 13
+    },
+    {
+      "path": "landmine5.in",
+      "size": 37
+    },
+    {
+      "path": "landmine5.out",
+      "size": 5
+    },
+    {
+      "path": "landmine6.in",
+      "size": 54
+    },
+    {
+      "path": "landmine6.out",
+      "size": 15
+    },
+    {
+      "path": "landmine7.in",
+      "size": 16570
+    },
+    {
+      "path": "landmine7.out",
+      "size": 158
+    },
+    {
+      "path": "landmine8.in",
+      "size": 59
+    },
+    {
+      "path": "landmine8.out",
+      "size": 9
+    },
+    {
+      "path": "landmine9.in",
+      "size": 27
+    },
+    {
+      "path": "landmine9.out",
+      "size": 5
+    }
+  ]
+}

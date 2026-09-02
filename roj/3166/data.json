@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "trip1.in",
+      "size": 17
+    },
+    {
+      "path": "trip1.out",
+      "size": 42
+    },
+    {
+      "path": "trip10.in",
+      "size": 141
+    },
+    {
+      "path": "trip10.out",
+      "size": 945
+    },
+    {
+      "path": "trip11.in",
+      "size": 144
+    },
+    {
+      "path": "trip11.out",
+      "size": 3420
+    },
+    {
+      "path": "trip2.in",
+      "size": 17
+    },
+    {
+      "path": "trip2.out",
+      "size": 42
+    },
+    {
+      "path": "trip3.in",
+      "size": 92
+    },
+    {
+      "path": "trip3.out",
+      "size": 36960
+    },
+    {
+      "path": "trip4.in",
+      "size": 162
+    },
+    {
+      "path": "trip4.out",
+      "size": 3000
+    },
+    {
+      "path": "trip5.in",
+      "size": 122
+    },
+    {
+      "path": "trip5.out",
+      "size": 2040
+    },
+    {
+      "path": "trip6.in",
+      "size": 122
+    },
+    {
+      "path": "trip6.out",
+      "size": 475
+    },
+    {
+      "path": "trip7.in",
+      "size": 102
+    },
+    {
+      "path": "trip7.out",
+      "size": 220
+    },
+    {
+      "path": "trip8.in",
+      "size": 82
+    },
+    {
+      "path": "trip8.out",
+      "size": 2070
+    },
+    {
+      "path": "trip9.in",
+      "size": 42
+    },
+    {
+      "path": "trip9.out",
+      "size": 48
+    }
+  ]
+}

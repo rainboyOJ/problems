@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "floodit1.in",
+      "size": 157
+    },
+    {
+      "path": "floodit1.out",
+      "size": 21
+    },
+    {
+      "path": "floodit10.in",
+      "size": 2935
+    },
+    {
+      "path": "floodit10.out",
+      "size": 80
+    },
+    {
+      "path": "floodit2.in",
+      "size": 218
+    },
+    {
+      "path": "floodit2.out",
+      "size": 15
+    },
+    {
+      "path": "floodit3.in",
+      "size": 318
+    },
+    {
+      "path": "floodit3.out",
+      "size": 17
+    },
+    {
+      "path": "floodit4.in",
+      "size": 438
+    },
+    {
+      "path": "floodit4.out",
+      "size": 18
+    },
+    {
+      "path": "floodit5.in",
+      "size": 861
+    },
+    {
+      "path": "floodit5.out",
+      "size": 37
+    },
+    {
+      "path": "floodit6.in",
+      "size": 1153
+    },
+    {
+      "path": "floodit6.out",
+      "size": 39
+    },
+    {
+      "path": "floodit7.in",
+      "size": 2275
+    },
+    {
+      "path": "floodit7.out",
+      "size": 64
+    },
+    {
+      "path": "floodit8.in",
+      "size": 2943
+    },
+    {
+      "path": "floodit8.out",
+      "size": 74
+    },
+    {
+      "path": "floodit9.in",
+      "size": 2935
+    },
+    {
+      "path": "floodit9.out",
+      "size": 78
+    }
+  ]
+}

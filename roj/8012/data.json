@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "gwdml1.in",
+      "size": 6
+    },
+    {
+      "path": "gwdml1.out",
+      "size": 6
+    },
+    {
+      "path": "gwdml2.in",
+      "size": 7
+    },
+    {
+      "path": "gwdml2.out",
+      "size": 9
+    },
+    {
+      "path": "gwdml3.in",
+      "size": 7
+    },
+    {
+      "path": "gwdml3.out",
+      "size": 12
+    },
+    {
+      "path": "gwdml4.in",
+      "size": 7
+    },
+    {
+      "path": "gwdml4.out",
+      "size": 12
+    },
+    {
+      "path": "gwdml5.in",
+      "size": 7
+    },
+    {
+      "path": "gwdml5.out",
+      "size": 5
+    }
+  ]
+}

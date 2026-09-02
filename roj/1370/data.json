@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "minval0.in",
+      "size": 711
+    },
+    {
+      "path": "minval0.out",
+      "size": 45901
+    },
+    {
+      "path": "minval1.in",
+      "size": 12
+    },
+    {
+      "path": "minval1.out",
+      "size": 3
+    },
+    {
+      "path": "minval2.in",
+      "size": 109063
+    },
+    {
+      "path": "minval2.out",
+      "size": 43869
+    },
+    {
+      "path": "minval3.in",
+      "size": 109032
+    },
+    {
+      "path": "minval3.out",
+      "size": 43769
+    },
+    {
+      "path": "minval4.in",
+      "size": 109113
+    },
+    {
+      "path": "minval4.out",
+      "size": 43821
+    },
+    {
+      "path": "minval5.in",
+      "size": 109131
+    },
+    {
+      "path": "minval5.out",
+      "size": 44093
+    },
+    {
+      "path": "minval6.in",
+      "size": 109142
+    },
+    {
+      "path": "minval6.out",
+      "size": 44277
+    },
+    {
+      "path": "minval7.in",
+      "size": 109066
+    },
+    {
+      "path": "minval7.out",
+      "size": 44207
+    },
+    {
+      "path": "minval8.in",
+      "size": 109179
+    },
+    {
+      "path": "minval8.out",
+      "size": 44098
+    },
+    {
+      "path": "minval9.in",
+      "size": 109149
+    },
+    {
+      "path": "minval9.out",
+      "size": 44724
+    }
+  ]
+}

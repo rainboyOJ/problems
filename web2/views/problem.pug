@@ -94,11 +94,12 @@ block content
               h2#download-modal-title 题目 #{problem.id} 的公开数据
             button.icon-button(type="button", data-download-close, aria-label="关闭下载窗口", title="关闭") ×
           .download-modal-summary(data-download-summary, role="status") 正在读取文件列表…
-          .download-modal-warning(data-download-warning, role="note", hidden) 数据总量较大，打包可能需要较长时间。
+          .download-modal-source
+            label(for="download-source") 下载源
+            select#download-source(data-download-source, disabled)
           .download-file-list(data-download-list)
           footer.download-modal-footer
             span.download-modal-status(data-download-status, role="status")
-            button.action-button.action-button-primary(type="button", data-zip-download, disabled) 打包下载
 
     dialog.download-modal.command-modal(data-command-modal, aria-labelledby="command-modal-title")
       .download-modal-panel

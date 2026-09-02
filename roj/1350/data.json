@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "agrinet1.in",
+      "size": 24
+    },
+    {
+      "path": "agrinet1.out",
+      "size": 3
+    },
+    {
+      "path": "agrinet10.in",
+      "size": 49301
+    },
+    {
+      "path": "agrinet10.out",
+      "size": 7
+    },
+    {
+      "path": "agrinet2.in",
+      "size": 45
+    },
+    {
+      "path": "agrinet2.out",
+      "size": 4
+    },
+    {
+      "path": "agrinet3.in",
+      "size": 107
+    },
+    {
+      "path": "agrinet3.out",
+      "size": 4
+    },
+    {
+      "path": "agrinet4.in",
+      "size": 214
+    },
+    {
+      "path": "agrinet4.out",
+      "size": 3
+    },
+    {
+      "path": "agrinet5.in",
+      "size": 572
+    },
+    {
+      "path": "agrinet5.out",
+      "size": 8
+    },
+    {
+      "path": "agrinet6.in",
+      "size": 3659
+    },
+    {
+      "path": "agrinet6.out",
+      "size": 5
+    },
+    {
+      "path": "agrinet7.in",
+      "size": 12154
+    },
+    {
+      "path": "agrinet7.out",
+      "size": 8
+    },
+    {
+      "path": "agrinet8.in",
+      "size": 25484
+    },
+    {
+      "path": "agrinet8.out",
+      "size": 9
+    },
+    {
+      "path": "agrinet9.in",
+      "size": 20305
+    },
+    {
+      "path": "agrinet9.out",
+      "size": 4
+    }
+  ]
+}

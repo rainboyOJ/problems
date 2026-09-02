@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "travel1.in",
+      "size": 3704656
+    },
+    {
+      "path": "travel1.out",
+      "size": 679001
+    },
+    {
+      "path": "travel10.in",
+      "size": 3704761
+    },
+    {
+      "path": "travel10.out",
+      "size": 681447
+    },
+    {
+      "path": "travel2.in",
+      "size": 3704529
+    },
+    {
+      "path": "travel2.out",
+      "size": 680308
+    },
+    {
+      "path": "travel3.in",
+      "size": 969674
+    },
+    {
+      "path": "travel3.out",
+      "size": 220791
+    },
+    {
+      "path": "travel4.in",
+      "size": 3843321
+    },
+    {
+      "path": "travel4.out",
+      "size": 907050
+    },
+    {
+      "path": "travel5.in",
+      "size": 3704986
+    },
+    {
+      "path": "travel5.out",
+      "size": 678343
+    },
+    {
+      "path": "travel6.in",
+      "size": 2243
+    },
+    {
+      "path": "travel6.out",
+      "size": 545
+    },
+    {
+      "path": "travel7.in",
+      "size": 2249
+    },
+    {
+      "path": "travel7.out",
+      "size": 601
+    },
+    {
+      "path": "travel8.in",
+      "size": 303979
+    },
+    {
+      "path": "travel8.out",
+      "size": 77063
+    },
+    {
+      "path": "travel9.in",
+      "size": 2600017
+    },
+    {
+      "path": "travel9.out",
+      "size": 3
+    }
+  ]
+}

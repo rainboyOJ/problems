@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "hotel0.in",
+      "size": 29
+    },
+    {
+      "path": "hotel0.out",
+      "size": 1
+    },
+    {
+      "path": "hotel1.in",
+      "size": 57
+    },
+    {
+      "path": "hotel1.out",
+      "size": 2
+    },
+    {
+      "path": "hotel2.in",
+      "size": 505
+    },
+    {
+      "path": "hotel2.out",
+      "size": 3
+    },
+    {
+      "path": "hotel3.in",
+      "size": 2456
+    },
+    {
+      "path": "hotel3.out",
+      "size": 5
+    },
+    {
+      "path": "hotel4.in",
+      "size": 3951
+    },
+    {
+      "path": "hotel4.out",
+      "size": 5
+    },
+    {
+      "path": "hotel5.in",
+      "size": 5584
+    },
+    {
+      "path": "hotel5.out",
+      "size": 5
+    },
+    {
+      "path": "hotel6.in",
+      "size": 317736
+    },
+    {
+      "path": "hotel6.out",
+      "size": 8
+    },
+    {
+      "path": "hotel7.in",
+      "size": 744265
+    },
+    {
+      "path": "hotel7.out",
+      "size": 9
+    },
+    {
+      "path": "hotel8.in",
+      "size": 1143843
+    },
+    {
+      "path": "hotel8.out",
+      "size": 9
+    },
+    {
+      "path": "hotel9.in",
+      "size": 1143843
+    },
+    {
+      "path": "hotel9.out",
+      "size": 9
+    }
+  ]
+}

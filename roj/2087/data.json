@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "tourus0.in",
+      "size": 253
+    },
+    {
+      "path": "tourus0.out",
+      "size": 1
+    },
+    {
+      "path": "tourus1.in",
+      "size": 58
+    },
+    {
+      "path": "tourus1.out",
+      "size": 1
+    },
+    {
+      "path": "tourus10.in",
+      "size": 7527
+    },
+    {
+      "path": "tourus10.out",
+      "size": 2
+    },
+    {
+      "path": "tourus2.in",
+      "size": 88
+    },
+    {
+      "path": "tourus2.out",
+      "size": 1
+    },
+    {
+      "path": "tourus3.in",
+      "size": 93
+    },
+    {
+      "path": "tourus3.out",
+      "size": 1
+    },
+    {
+      "path": "tourus4.in",
+      "size": 69
+    },
+    {
+      "path": "tourus4.out",
+      "size": 1
+    },
+    {
+      "path": "tourus5.in",
+      "size": 180
+    },
+    {
+      "path": "tourus5.out",
+      "size": 1
+    },
+    {
+      "path": "tourus6.in",
+      "size": 674
+    },
+    {
+      "path": "tourus6.out",
+      "size": 2
+    },
+    {
+      "path": "tourus7.in",
+      "size": 2877
+    },
+    {
+      "path": "tourus7.out",
+      "size": 2
+    },
+    {
+      "path": "tourus8.in",
+      "size": 4162
+    },
+    {
+      "path": "tourus8.out",
+      "size": 2
+    },
+    {
+      "path": "tourus9.in",
+      "size": 2918
+    },
+    {
+      "path": "tourus9.out",
+      "size": 2
+    }
+  ]
+}

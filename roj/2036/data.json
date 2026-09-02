@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "maze10.in",
+      "size": 18
+    },
+    {
+      "path": "maze10.out",
+      "size": 1
+    },
+    {
+      "path": "maze11.in",
+      "size": 15885
+    },
+    {
+      "path": "maze11.out",
+      "size": 2
+    },
+    {
+      "path": "maze12.in",
+      "size": 66
+    },
+    {
+      "path": "maze12.out",
+      "size": 1
+    },
+    {
+      "path": "maze13.in",
+      "size": 66
+    },
+    {
+      "path": "maze13.out",
+      "size": 1
+    },
+    {
+      "path": "maze14.in",
+      "size": 288
+    },
+    {
+      "path": "maze14.out",
+      "size": 2
+    },
+    {
+      "path": "maze15.in",
+      "size": 2708
+    },
+    {
+      "path": "maze15.out",
+      "size": 2
+    },
+    {
+      "path": "maze16.in",
+      "size": 15885
+    },
+    {
+      "path": "maze16.out",
+      "size": 4
+    },
+    {
+      "path": "maze17.in",
+      "size": 9518
+    },
+    {
+      "path": "maze17.out",
+      "size": 2
+    },
+    {
+      "path": "maze18.in",
+      "size": 15885
+    },
+    {
+      "path": "maze18.out",
+      "size": 3
+    },
+    {
+      "path": "maze19.in",
+      "size": 15885
+    },
+    {
+      "path": "maze19.out",
+      "size": 3
+    }
+  ]
+}

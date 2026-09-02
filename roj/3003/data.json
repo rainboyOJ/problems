@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "ham1.in",
+      "size": 52
+    },
+    {
+      "path": "ham1.out",
+      "size": 3
+    },
+    {
+      "path": "ham2.in",
+      "size": 279
+    },
+    {
+      "path": "ham2.out",
+      "size": 4
+    },
+    {
+      "path": "ham3.in",
+      "size": 637
+    },
+    {
+      "path": "ham3.out",
+      "size": 4
+    },
+    {
+      "path": "ham4.in",
+      "size": 1471
+    },
+    {
+      "path": "ham4.out",
+      "size": 5
+    },
+    {
+      "path": "ham5.in",
+      "size": 1925
+    },
+    {
+      "path": "ham5.out",
+      "size": 6
+    }
+  ]
+}

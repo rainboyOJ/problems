@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "equationa0.in",
+      "size": 9
+    },
+    {
+      "path": "equationa0.out",
+      "size": 3
+    },
+    {
+      "path": "equationa1.in",
+      "size": 10
+    },
+    {
+      "path": "equationa1.out",
+      "size": 1
+    },
+    {
+      "path": "equationa2.in",
+      "size": 13
+    },
+    {
+      "path": "equationa2.out",
+      "size": 3
+    },
+    {
+      "path": "equationa3.in",
+      "size": 5029
+    },
+    {
+      "path": "equationa3.out",
+      "size": 15
+    },
+    {
+      "path": "equationa4.in",
+      "size": 9903
+    },
+    {
+      "path": "equationa4.out",
+      "size": 47
+    },
+    {
+      "path": "equationa5.in",
+      "size": 606680
+    },
+    {
+      "path": "equationa5.out",
+      "size": 200
+    },
+    {
+      "path": "equationa6.in",
+      "size": 804300
+    },
+    {
+      "path": "equationa6.out",
+      "size": 291
+    },
+    {
+      "path": "equationa7.in",
+      "size": 707424
+    },
+    {
+      "path": "equationa7.out",
+      "size": 205
+    },
+    {
+      "path": "equationa8.in",
+      "size": 988423
+    },
+    {
+      "path": "equationa8.out",
+      "size": 625
+    },
+    {
+      "path": "equationa9.in",
+      "size": 999120
+    },
+    {
+      "path": "equationa9.out",
+      "size": 347
+    }
+  ]
+}

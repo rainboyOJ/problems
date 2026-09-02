@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "d1.in",
+      "size": 26
+    },
+    {
+      "path": "d1.out",
+      "size": 12
+    },
+    {
+      "path": "d2.in",
+      "size": 13
+    },
+    {
+      "path": "d2.out",
+      "size": 9
+    },
+    {
+      "path": "d3.in",
+      "size": 14
+    },
+    {
+      "path": "d3.out",
+      "size": 9
+    },
+    {
+      "path": "d4.in",
+      "size": 10
+    },
+    {
+      "path": "d4.out",
+      "size": 9
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "sudoku0.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku0.out",
+      "size": 2
+    },
+    {
+      "path": "sudoku1.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku1.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku10.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku10.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku11.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku11.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku12.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku12.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku13.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku13.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku14.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku14.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku15.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku15.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku16.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku16.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku17.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku17.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku18.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku18.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku19.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku19.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku2.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku2.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku3.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku3.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku4.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku4.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku5.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku5.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku6.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku6.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku7.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku7.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku8.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku8.out",
+      "size": 4
+    },
+    {
+      "path": "sudoku9.in",
+      "size": 169
+    },
+    {
+      "path": "sudoku9.out",
+      "size": 4
+    }
+  ]
+}

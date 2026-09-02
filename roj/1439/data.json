@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "walk0.in",
+      "size": 31
+    },
+    {
+      "path": "walk0.out",
+      "size": 7
+    },
+    {
+      "path": "walk1.in",
+      "size": 25
+    },
+    {
+      "path": "walk1.out",
+      "size": 6
+    },
+    {
+      "path": "walk2.in",
+      "size": 32
+    },
+    {
+      "path": "walk2.out",
+      "size": 7
+    },
+    {
+      "path": "walk3.in",
+      "size": 37
+    },
+    {
+      "path": "walk3.out",
+      "size": 8
+    },
+    {
+      "path": "walk4.in",
+      "size": 32
+    },
+    {
+      "path": "walk4.out",
+      "size": 7
+    },
+    {
+      "path": "walk5.in",
+      "size": 33
+    },
+    {
+      "path": "walk5.out",
+      "size": 6
+    },
+    {
+      "path": "walk6.in",
+      "size": 27
+    },
+    {
+      "path": "walk6.out",
+      "size": 6
+    },
+    {
+      "path": "walk7.in",
+      "size": 31
+    },
+    {
+      "path": "walk7.out",
+      "size": 8
+    },
+    {
+      "path": "walk8.in",
+      "size": 31
+    },
+    {
+      "path": "walk8.out",
+      "size": 8
+    },
+    {
+      "path": "walk9.in",
+      "size": 29
+    },
+    {
+      "path": "walk9.out",
+      "size": 7
+    }
+  ]
+}

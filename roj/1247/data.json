@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "stone1.ans",
+      "size": 2
+    },
+    {
+      "path": "stone1.in",
+      "size": 21
+    },
+    {
+      "path": "stone10.ans",
+      "size": 5
+    },
+    {
+      "path": "stone10.in",
+      "size": 489017
+    },
+    {
+      "path": "stone2.ans",
+      "size": 9
+    },
+    {
+      "path": "stone2.in",
+      "size": 13
+    },
+    {
+      "path": "stone3.ans",
+      "size": 7
+    },
+    {
+      "path": "stone3.in",
+      "size": 870
+    },
+    {
+      "path": "stone4.ans",
+      "size": 7
+    },
+    {
+      "path": "stone4.in",
+      "size": 892
+    },
+    {
+      "path": "stone5.ans",
+      "size": 8
+    },
+    {
+      "path": "stone5.in",
+      "size": 893
+    },
+    {
+      "path": "stone6.ans",
+      "size": 5
+    },
+    {
+      "path": "stone6.in",
+      "size": 43593
+    },
+    {
+      "path": "stone7.ans",
+      "size": 4
+    },
+    {
+      "path": "stone7.in",
+      "size": 39167
+    },
+    {
+      "path": "stone8.ans",
+      "size": 2
+    },
+    {
+      "path": "stone8.in",
+      "size": 388981
+    },
+    {
+      "path": "stone9.ans",
+      "size": 5
+    },
+    {
+      "path": "stone9.in",
+      "size": 489016
+    }
+  ]
+}

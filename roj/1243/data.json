@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "expense0.in",
+      "size": 31
+    },
+    {
+      "path": "expense0.out",
+      "size": 3
+    },
+    {
+      "path": "expense1.in",
+      "size": 488997
+    },
+    {
+      "path": "expense1.out",
+      "size": 5
+    },
+    {
+      "path": "expense2.in",
+      "size": 28
+    },
+    {
+      "path": "expense2.out",
+      "size": 5
+    },
+    {
+      "path": "expense3.in",
+      "size": 65
+    },
+    {
+      "path": "expense3.out",
+      "size": 5
+    },
+    {
+      "path": "expense4.in",
+      "size": 2008
+    },
+    {
+      "path": "expense4.out",
+      "size": 2
+    },
+    {
+      "path": "expense5.in",
+      "size": 214
+    },
+    {
+      "path": "expense5.out",
+      "size": 2
+    },
+    {
+      "path": "expense6.in",
+      "size": 2923
+    },
+    {
+      "path": "expense6.out",
+      "size": 3
+    },
+    {
+      "path": "expense7.in",
+      "size": 19452
+    },
+    {
+      "path": "expense7.out",
+      "size": 5
+    },
+    {
+      "path": "expense8.in",
+      "size": 29172
+    },
+    {
+      "path": "expense8.out",
+      "size": 3
+    },
+    {
+      "path": "expense9.in",
+      "size": 105001
+    },
+    {
+      "path": "expense9.out",
+      "size": 2
+    }
+  ]
+}

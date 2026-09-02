@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "peanuts0.in",
+      "size": 98
+    },
+    {
+      "path": "peanuts0.out",
+      "size": 2
+    },
+    {
+      "path": "peanuts1.in",
+      "size": 98
+    },
+    {
+      "path": "peanuts1.out",
+      "size": 2
+    },
+    {
+      "path": "peanuts2.in",
+      "size": 9
+    },
+    {
+      "path": "peanuts2.out",
+      "size": 2
+    },
+    {
+      "path": "peanuts3.in",
+      "size": 17
+    },
+    {
+      "path": "peanuts3.out",
+      "size": 1
+    },
+    {
+      "path": "peanuts4.in",
+      "size": 20
+    },
+    {
+      "path": "peanuts4.out",
+      "size": 1
+    },
+    {
+      "path": "peanuts5.in",
+      "size": 20
+    },
+    {
+      "path": "peanuts5.out",
+      "size": 1
+    },
+    {
+      "path": "peanuts6.in",
+      "size": 264
+    },
+    {
+      "path": "peanuts6.out",
+      "size": 4
+    },
+    {
+      "path": "peanuts7.in",
+      "size": 309
+    },
+    {
+      "path": "peanuts7.out",
+      "size": 4
+    },
+    {
+      "path": "peanuts8.in",
+      "size": 1174
+    },
+    {
+      "path": "peanuts8.out",
+      "size": 5
+    },
+    {
+      "path": "peanuts9.in",
+      "size": 1520
+    },
+    {
+      "path": "peanuts9.out",
+      "size": 5
+    }
+  ]
+}

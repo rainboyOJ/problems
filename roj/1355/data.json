@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "strs1.in",
+      "size": 171
+    },
+    {
+      "path": "strs1.out",
+      "size": 24
+    },
+    {
+      "path": "strs2.in",
+      "size": 181
+    },
+    {
+      "path": "strs2.out",
+      "size": 23
+    },
+    {
+      "path": "strs3.in",
+      "size": 233
+    },
+    {
+      "path": "strs3.out",
+      "size": 22
+    },
+    {
+      "path": "strs4.in",
+      "size": 265
+    },
+    {
+      "path": "strs4.out",
+      "size": 10
+    },
+    {
+      "path": "strs5.in",
+      "size": 113
+    },
+    {
+      "path": "strs5.out",
+      "size": 72
+    }
+  ]
+}

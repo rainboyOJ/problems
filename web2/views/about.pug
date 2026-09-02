@@ -58,7 +58,6 @@ block content
           | python3 ~/.agents/skills/roj/scripts/roj.py list "关键词"
           | python3 ~/.agents/skills/roj/scripts/roj.py get 1000
           | python3 ~/.agents/skills/roj/scripts/roj.py download 1000
-          | python3 ~/.agents/skills/roj/scripts/roj.py download 1000 --zip
           | python3 ~/.agents/skills/roj/scripts/roj.py test 1000 main.cpp
       ul
         li
@@ -71,9 +70,7 @@ block content
           code download &lt;id&gt;
           | 下载公开数据到
           code ./roj-data/&lt;id&gt;/
-          | ，使用
-          code --zip
-          | 下载服务器生成的 ZIP，已有文件默认不会覆盖。
+          | ，默认通过 GitHub 加速源下载，已有文件默认不会覆盖。
         li
           code test &lt;id&gt; &lt;source.cpp&gt;
           | 使用本地公开数据评测 C++；默认离线，需要联网时显式添加

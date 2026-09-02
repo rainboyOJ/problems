@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "relays.1.in",
+      "size": 45
+    },
+    {
+      "path": "relays.1.out",
+      "size": 3
+    },
+    {
+      "path": "relays.10.in",
+      "size": 1176
+    },
+    {
+      "path": "relays.10.out",
+      "size": 10
+    },
+    {
+      "path": "relays.11.in",
+      "size": 1190
+    },
+    {
+      "path": "relays.11.out",
+      "size": 8
+    },
+    {
+      "path": "relays.12.in",
+      "size": 1193
+    },
+    {
+      "path": "relays.12.out",
+      "size": 9
+    },
+    {
+      "path": "relays.2.in",
+      "size": 46
+    },
+    {
+      "path": "relays.2.out",
+      "size": 3
+    },
+    {
+      "path": "relays.3.in",
+      "size": 177
+    },
+    {
+      "path": "relays.3.out",
+      "size": 4
+    },
+    {
+      "path": "relays.4.in",
+      "size": 325
+    },
+    {
+      "path": "relays.4.out",
+      "size": 4
+    },
+    {
+      "path": "relays.5.in",
+      "size": 744
+    },
+    {
+      "path": "relays.5.out",
+      "size": 5
+    },
+    {
+      "path": "relays.6.in",
+      "size": 1113
+    },
+    {
+      "path": "relays.6.out",
+      "size": 6
+    },
+    {
+      "path": "relays.7.in",
+      "size": 1211
+    },
+    {
+      "path": "relays.7.out",
+      "size": 9
+    },
+    {
+      "path": "relays.8.in",
+      "size": 1202
+    },
+    {
+      "path": "relays.8.out",
+      "size": 10
+    },
+    {
+      "path": "relays.9.in",
+      "size": 1203
+    },
+    {
+      "path": "relays.9.out",
+      "size": 10
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "rebxor1.in",
+      "size": 76073
+    },
+    {
+      "path": "rebxor1.out",
+      "size": 9
+    },
+    {
+      "path": "rebxor10.in",
+      "size": 2614739
+    },
+    {
+      "path": "rebxor10.out",
+      "size": 8
+    },
+    {
+      "path": "rebxor2.in",
+      "size": 70843
+    },
+    {
+      "path": "rebxor2.out",
+      "size": 9
+    },
+    {
+      "path": "rebxor3.in",
+      "size": 78496
+    },
+    {
+      "path": "rebxor3.out",
+      "size": 10
+    },
+    {
+      "path": "rebxor4.in",
+      "size": 3257726
+    },
+    {
+      "path": "rebxor4.out",
+      "size": 10
+    },
+    {
+      "path": "rebxor5.in",
+      "size": 3528166
+    },
+    {
+      "path": "rebxor5.out",
+      "size": 11
+    },
+    {
+      "path": "rebxor6.in",
+      "size": 3955308
+    },
+    {
+      "path": "rebxor6.out",
+      "size": 12
+    },
+    {
+      "path": "rebxor7.in",
+      "size": 2730122
+    },
+    {
+      "path": "rebxor7.out",
+      "size": 9
+    },
+    {
+      "path": "rebxor8.in",
+      "size": 2705206
+    },
+    {
+      "path": "rebxor8.out",
+      "size": 9
+    },
+    {
+      "path": "rebxor9.in",
+      "size": 2223946
+    },
+    {
+      "path": "rebxor9.out",
+      "size": 7
+    }
+  ]
+}

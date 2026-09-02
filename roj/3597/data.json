@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "culture0.in",
+      "size": 84
+    },
+    {
+      "path": "culture0.out",
+      "size": 2
+    },
+    {
+      "path": "culture1.in",
+      "size": 128
+    },
+    {
+      "path": "culture1.out",
+      "size": 2
+    },
+    {
+      "path": "culture2.in",
+      "size": 221
+    },
+    {
+      "path": "culture2.out",
+      "size": 2
+    },
+    {
+      "path": "culture3.in",
+      "size": 382
+    },
+    {
+      "path": "culture3.out",
+      "size": 2
+    },
+    {
+      "path": "culture4.in",
+      "size": 660
+    },
+    {
+      "path": "culture4.out",
+      "size": 2
+    },
+    {
+      "path": "culture5.in",
+      "size": 17379
+    },
+    {
+      "path": "culture5.out",
+      "size": 2
+    },
+    {
+      "path": "culture6.in",
+      "size": 13462
+    },
+    {
+      "path": "culture6.out",
+      "size": 2
+    },
+    {
+      "path": "culture7.in",
+      "size": 36308
+    },
+    {
+      "path": "culture7.out",
+      "size": 3
+    },
+    {
+      "path": "culture8.in",
+      "size": 38221
+    },
+    {
+      "path": "culture8.out",
+      "size": 3
+    },
+    {
+      "path": "culture9.in",
+      "size": 37549
+    },
+    {
+      "path": "culture9.out",
+      "size": 2
+    }
+  ]
+}

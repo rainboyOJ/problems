@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "trees0.in",
+      "size": 82479
+    },
+    {
+      "path": "trees0.out",
+      "size": 5
+    },
+    {
+      "path": "trees1.in",
+      "size": 33
+    },
+    {
+      "path": "trees1.out",
+      "size": 3
+    },
+    {
+      "path": "trees10.in",
+      "size": 78106
+    },
+    {
+      "path": "trees10.out",
+      "size": 7
+    },
+    {
+      "path": "trees11.in",
+      "size": 81182
+    },
+    {
+      "path": "trees11.out",
+      "size": 5
+    },
+    {
+      "path": "trees12.in",
+      "size": 85981
+    },
+    {
+      "path": "trees12.out",
+      "size": 5
+    },
+    {
+      "path": "trees2.in",
+      "size": 8509
+    },
+    {
+      "path": "trees2.out",
+      "size": 5
+    },
+    {
+      "path": "trees3.in",
+      "size": 8511
+    },
+    {
+      "path": "trees3.out",
+      "size": 5
+    },
+    {
+      "path": "trees4.in",
+      "size": 10814
+    },
+    {
+      "path": "trees4.out",
+      "size": 5
+    },
+    {
+      "path": "trees5.in",
+      "size": 137826
+    },
+    {
+      "path": "trees5.out",
+      "size": 6
+    },
+    {
+      "path": "trees6.in",
+      "size": 58909
+    },
+    {
+      "path": "trees6.out",
+      "size": 6
+    },
+    {
+      "path": "trees7.in",
+      "size": 70011
+    },
+    {
+      "path": "trees7.out",
+      "size": 3
+    },
+    {
+      "path": "trees8.in",
+      "size": 64458
+    },
+    {
+      "path": "trees8.out",
+      "size": 4
+    },
+    {
+      "path": "trees9.in",
+      "size": 78283
+    },
+    {
+      "path": "trees9.out",
+      "size": 7
+    }
+  ]
+}

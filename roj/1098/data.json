@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "prime1.ans",
+      "size": 2
+    },
+    {
+      "path": "prime1.in",
+      "size": 2
+    },
+    {
+      "path": "prime10.ans",
+      "size": 6
+    },
+    {
+      "path": "prime10.in",
+      "size": 11
+    },
+    {
+      "path": "prime2.ans",
+      "size": 3
+    },
+    {
+      "path": "prime2.in",
+      "size": 4
+    },
+    {
+      "path": "prime3.ans",
+      "size": 3
+    },
+    {
+      "path": "prime3.in",
+      "size": 4
+    },
+    {
+      "path": "prime4.ans",
+      "size": 3
+    },
+    {
+      "path": "prime4.in",
+      "size": 4
+    },
+    {
+      "path": "prime5.ans",
+      "size": 4
+    },
+    {
+      "path": "prime5.in",
+      "size": 4
+    },
+    {
+      "path": "prime6.ans",
+      "size": 4
+    },
+    {
+      "path": "prime6.in",
+      "size": 4
+    },
+    {
+      "path": "prime7.ans",
+      "size": 10
+    },
+    {
+      "path": "prime7.in",
+      "size": 11
+    },
+    {
+      "path": "prime8.ans",
+      "size": 7
+    },
+    {
+      "path": "prime8.in",
+      "size": 11
+    },
+    {
+      "path": "prime9.ans",
+      "size": 6
+    },
+    {
+      "path": "prime9.in",
+      "size": 11
+    }
+  ]
+}

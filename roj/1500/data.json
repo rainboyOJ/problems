@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "newyear1.in",
+      "size": 51
+    },
+    {
+      "path": "newyear1.out",
+      "size": 4
+    },
+    {
+      "path": "newyear10.in",
+      "size": 777804
+    },
+    {
+      "path": "newyear10.out",
+      "size": 9
+    },
+    {
+      "path": "newyear2.in",
+      "size": 131
+    },
+    {
+      "path": "newyear2.out",
+      "size": 5
+    },
+    {
+      "path": "newyear3.in",
+      "size": 6646
+    },
+    {
+      "path": "newyear3.out",
+      "size": 5
+    },
+    {
+      "path": "newyear4.in",
+      "size": 80399
+    },
+    {
+      "path": "newyear4.out",
+      "size": 5
+    },
+    {
+      "path": "newyear5.in",
+      "size": 109758
+    },
+    {
+      "path": "newyear5.out",
+      "size": 5
+    },
+    {
+      "path": "newyear6.in",
+      "size": 1046721
+    },
+    {
+      "path": "newyear6.out",
+      "size": 5
+    },
+    {
+      "path": "newyear7.in",
+      "size": 982197
+    },
+    {
+      "path": "newyear7.out",
+      "size": 7
+    },
+    {
+      "path": "newyear8.in",
+      "size": 1223549
+    },
+    {
+      "path": "newyear8.out",
+      "size": 6
+    },
+    {
+      "path": "newyear9.in",
+      "size": 773852
+    },
+    {
+      "path": "newyear9.out",
+      "size": 9
+    }
+  ]
+}

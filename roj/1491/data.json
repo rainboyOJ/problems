@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "tree1.in",
+      "size": 141
+    },
+    {
+      "path": "tree1.out",
+      "size": 4
+    },
+    {
+      "path": "tree10.in",
+      "size": 62363
+    },
+    {
+      "path": "tree10.out",
+      "size": 6
+    },
+    {
+      "path": "tree11.in",
+      "size": 982005
+    },
+    {
+      "path": "tree11.out",
+      "size": 8
+    },
+    {
+      "path": "tree12.in",
+      "size": 1162955
+    },
+    {
+      "path": "tree12.out",
+      "size": 8
+    },
+    {
+      "path": "tree13.in",
+      "size": 1196441
+    },
+    {
+      "path": "tree13.out",
+      "size": 8
+    },
+    {
+      "path": "tree14.in",
+      "size": 1247008
+    },
+    {
+      "path": "tree14.out",
+      "size": 8
+    },
+    {
+      "path": "tree15.in",
+      "size": 1297772
+    },
+    {
+      "path": "tree15.out",
+      "size": 8
+    },
+    {
+      "path": "tree16.in",
+      "size": 1318165
+    },
+    {
+      "path": "tree16.out",
+      "size": 8
+    },
+    {
+      "path": "tree17.in",
+      "size": 1350988
+    },
+    {
+      "path": "tree17.out",
+      "size": 8
+    },
+    {
+      "path": "tree18.in",
+      "size": 1367384
+    },
+    {
+      "path": "tree18.out",
+      "size": 8
+    },
+    {
+      "path": "tree19.in",
+      "size": 1450046
+    },
+    {
+      "path": "tree19.out",
+      "size": 8
+    },
+    {
+      "path": "tree2.in",
+      "size": 293
+    },
+    {
+      "path": "tree2.out",
+      "size": 4
+    },
+    {
+      "path": "tree20.in",
+      "size": 1647589
+    },
+    {
+      "path": "tree20.out",
+      "size": 8
+    },
+    {
+      "path": "tree3.in",
+      "size": 967
+    },
+    {
+      "path": "tree3.out",
+      "size": 4
+    },
+    {
+      "path": "tree4.in",
+      "size": 958632
+    },
+    {
+      "path": "tree4.out",
+      "size": 3
+    },
+    {
+      "path": "tree5.in",
+      "size": 5964
+    },
+    {
+      "path": "tree5.out",
+      "size": 5
+    },
+    {
+      "path": "tree6.in",
+      "size": 8563
+    },
+    {
+      "path": "tree6.out",
+      "size": 6
+    },
+    {
+      "path": "tree7.in",
+      "size": 20249
+    },
+    {
+      "path": "tree7.out",
+      "size": 6
+    },
+    {
+      "path": "tree8.in",
+      "size": 40065
+    },
+    {
+      "path": "tree8.out",
+      "size": 6
+    },
+    {
+      "path": "tree9.in",
+      "size": 49727
+    },
+    {
+      "path": "tree9.out",
+      "size": 6
+    }
+  ]
+}

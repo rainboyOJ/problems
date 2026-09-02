@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "triangle1.in",
+      "size": 4
+    },
+    {
+      "path": "triangle1.out",
+      "size": 4
+    },
+    {
+      "path": "triangle10.in",
+      "size": 8
+    },
+    {
+      "path": "triangle10.out",
+      "size": 19
+    },
+    {
+      "path": "triangle2.in",
+      "size": 4
+    },
+    {
+      "path": "triangle2.out",
+      "size": 6
+    },
+    {
+      "path": "triangle3.in",
+      "size": 5
+    },
+    {
+      "path": "triangle3.out",
+      "size": 6
+    },
+    {
+      "path": "triangle4.in",
+      "size": 8
+    },
+    {
+      "path": "triangle4.out",
+      "size": 17
+    },
+    {
+      "path": "triangle5.in",
+      "size": 8
+    },
+    {
+      "path": "triangle5.out",
+      "size": 17
+    },
+    {
+      "path": "triangle6.in",
+      "size": 8
+    },
+    {
+      "path": "triangle6.out",
+      "size": 19
+    },
+    {
+      "path": "triangle7.in",
+      "size": 8
+    },
+    {
+      "path": "triangle7.out",
+      "size": 17
+    },
+    {
+      "path": "triangle8.in",
+      "size": 9
+    },
+    {
+      "path": "triangle8.out",
+      "size": 19
+    },
+    {
+      "path": "triangle9.in",
+      "size": 8
+    },
+    {
+      "path": "triangle9.out",
+      "size": 19
+    }
+  ]
+}

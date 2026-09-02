@@ -3,9 +3,3 @@ repository:
 download:
   rawMirrors:
     - https://gh-proxy.com/
-  zip:
-    activeJobs: 1
-    queueSize: 3
-    maxSourceBytes: 1073741824
-    timeoutMs: 900000
-    compressionLevel: 1

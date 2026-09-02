@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "count1.in",
+      "size": 75
+    },
+    {
+      "path": "count1.out",
+      "size": 84
+    },
+    {
+      "path": "count10.in",
+      "size": 14
+    },
+    {
+      "path": "count10.out",
+      "size": 13
+    },
+    {
+      "path": "count2.in",
+      "size": 7315
+    },
+    {
+      "path": "count2.out",
+      "size": 74
+    },
+    {
+      "path": "count3.in",
+      "size": 42006
+    },
+    {
+      "path": "count3.out",
+      "size": 109
+    },
+    {
+      "path": "count4.in",
+      "size": 70432
+    },
+    {
+      "path": "count4.out",
+      "size": 52710
+    },
+    {
+      "path": "count5.in",
+      "size": 355336
+    },
+    {
+      "path": "count5.out",
+      "size": 81537
+    },
+    {
+      "path": "count6.in",
+      "size": 630977
+    },
+    {
+      "path": "count6.out",
+      "size": 85069
+    },
+    {
+      "path": "count7.in",
+      "size": 473766
+    },
+    {
+      "path": "count7.out",
+      "size": 83175
+    },
+    {
+      "path": "count8.in",
+      "size": 1343664
+    },
+    {
+      "path": "count8.out",
+      "size": 89719
+    },
+    {
+      "path": "count9.in",
+      "size": 1415031
+    },
+    {
+      "path": "count9.out",
+      "size": 89828
+    }
+  ]
+}

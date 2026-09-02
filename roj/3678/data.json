@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "struct1.ans",
+      "size": 409
+    },
+    {
+      "path": "struct1.in",
+      "size": 902
+    },
+    {
+      "path": "struct10.ans",
+      "size": 747
+    },
+    {
+      "path": "struct10.in",
+      "size": 30397
+    },
+    {
+      "path": "struct11.ans",
+      "size": 629
+    },
+    {
+      "path": "struct11.in",
+      "size": 39931
+    },
+    {
+      "path": "struct12.ans",
+      "size": 623
+    },
+    {
+      "path": "struct12.in",
+      "size": 34370
+    },
+    {
+      "path": "struct13.ans",
+      "size": 699
+    },
+    {
+      "path": "struct13.in",
+      "size": 30489
+    },
+    {
+      "path": "struct14.ans",
+      "size": 1308
+    },
+    {
+      "path": "struct14.in",
+      "size": 38089
+    },
+    {
+      "path": "struct15.ans",
+      "size": 1506
+    },
+    {
+      "path": "struct15.in",
+      "size": 35233
+    },
+    {
+      "path": "struct16.ans",
+      "size": 1090
+    },
+    {
+      "path": "struct16.in",
+      "size": 37797
+    },
+    {
+      "path": "struct17.ans",
+      "size": 1139
+    },
+    {
+      "path": "struct17.in",
+      "size": 29825
+    },
+    {
+      "path": "struct18.ans",
+      "size": 1021
+    },
+    {
+      "path": "struct18.in",
+      "size": 35764
+    },
+    {
+      "path": "struct19.ans",
+      "size": 1089
+    },
+    {
+      "path": "struct19.in",
+      "size": 37244
+    },
+    {
+      "path": "struct2.ans",
+      "size": 388
+    },
+    {
+      "path": "struct2.in",
+      "size": 903
+    },
+    {
+      "path": "struct20.ans",
+      "size": 1197
+    },
+    {
+      "path": "struct20.in",
+      "size": 37254
+    },
+    {
+      "path": "struct3.ans",
+      "size": 413
+    },
+    {
+      "path": "struct3.in",
+      "size": 965
+    },
+    {
+      "path": "struct4.ans",
+      "size": 685
+    },
+    {
+      "path": "struct4.in",
+      "size": 2302
+    },
+    {
+      "path": "struct5.ans",
+      "size": 646
+    },
+    {
+      "path": "struct5.in",
+      "size": 2110
+    },
+    {
+      "path": "struct6.ans",
+      "size": 585
+    },
+    {
+      "path": "struct6.in",
+      "size": 2354
+    },
+    {
+      "path": "struct7.ans",
+      "size": 598
+    },
+    {
+      "path": "struct7.in",
+      "size": 2092
+    },
+    {
+      "path": "struct8.ans",
+      "size": 583
+    },
+    {
+      "path": "struct8.in",
+      "size": 2158
+    },
+    {
+      "path": "struct9.ans",
+      "size": 735
+    },
+    {
+      "path": "struct9.in",
+      "size": 29211
+    }
+  ]
+}

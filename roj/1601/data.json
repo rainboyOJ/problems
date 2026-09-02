@@ -1,0 +1,172 @@
+{
+  "files": [
+    {
+      "path": "ban0.in",
+      "size": 17
+    },
+    {
+      "path": "ban0.out",
+      "size": 2
+    },
+    {
+      "path": "ban1.in",
+      "size": 26
+    },
+    {
+      "path": "ban1.out",
+      "size": 2
+    },
+    {
+      "path": "ban10.in",
+      "size": 184
+    },
+    {
+      "path": "ban10.out",
+      "size": 4
+    },
+    {
+      "path": "ban11.in",
+      "size": 1144
+    },
+    {
+      "path": "ban11.out",
+      "size": 3
+    },
+    {
+      "path": "ban12.in",
+      "size": 1924
+    },
+    {
+      "path": "ban12.out",
+      "size": 2
+    },
+    {
+      "path": "ban13.in",
+      "size": 1501
+    },
+    {
+      "path": "ban13.out",
+      "size": 3
+    },
+    {
+      "path": "ban14.in",
+      "size": 1440
+    },
+    {
+      "path": "ban14.out",
+      "size": 3
+    },
+    {
+      "path": "ban15.in",
+      "size": 1692
+    },
+    {
+      "path": "ban15.out",
+      "size": 3
+    },
+    {
+      "path": "ban16.in",
+      "size": 154
+    },
+    {
+      "path": "ban16.out",
+      "size": 2
+    },
+    {
+      "path": "ban1ocen.in",
+      "size": 12
+    },
+    {
+      "path": "ban1ocen.out",
+      "size": 2
+    },
+    {
+      "path": "ban2.in",
+      "size": 13
+    },
+    {
+      "path": "ban2.out",
+      "size": 3
+    },
+    {
+      "path": "ban2ocen.in",
+      "size": 25
+    },
+    {
+      "path": "ban2ocen.out",
+      "size": 2
+    },
+    {
+      "path": "ban3.in",
+      "size": 38
+    },
+    {
+      "path": "ban3.out",
+      "size": 3
+    },
+    {
+      "path": "ban3ocen.in",
+      "size": 22
+    },
+    {
+      "path": "ban3ocen.out",
+      "size": 2
+    },
+    {
+      "path": "ban4.in",
+      "size": 82
+    },
+    {
+      "path": "ban4.out",
+      "size": 2
+    },
+    {
+      "path": "ban4ocen.in",
+      "size": 1155
+    },
+    {
+      "path": "ban4ocen.out",
+      "size": 2
+    },
+    {
+      "path": "ban5.in",
+      "size": 307
+    },
+    {
+      "path": "ban5.out",
+      "size": 2
+    },
+    {
+      "path": "ban6.in",
+      "size": 236
+    },
+    {
+      "path": "ban6.out",
+      "size": 3
+    },
+    {
+      "path": "ban7.in",
+      "size": 1100
+    },
+    {
+      "path": "ban7.out",
+      "size": 2
+    },
+    {
+      "path": "ban8.in",
+      "size": 951
+    },
+    {
+      "path": "ban8.out",
+      "size": 3
+    },
+    {
+      "path": "ban9.in",
+      "size": 1126
+    },
+    {
+      "path": "ban9.out",
+      "size": 3
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "trade0.in",
+      "size": 255
+    },
+    {
+      "path": "trade0.out",
+      "size": 7
+    },
+    {
+      "path": "trade1.in",
+      "size": 352
+    },
+    {
+      "path": "trade1.out",
+      "size": 6
+    },
+    {
+      "path": "trade2.in",
+      "size": 698
+    },
+    {
+      "path": "trade2.out",
+      "size": 7
+    },
+    {
+      "path": "trade3.in",
+      "size": 22514
+    },
+    {
+      "path": "trade3.out",
+      "size": 8
+    },
+    {
+      "path": "trade4.in",
+      "size": 18297
+    },
+    {
+      "path": "trade4.out",
+      "size": 3
+    },
+    {
+      "path": "trade5.in",
+      "size": 31099
+    },
+    {
+      "path": "trade5.out",
+      "size": 3
+    },
+    {
+      "path": "trade6.in",
+      "size": 21752
+    },
+    {
+      "path": "trade6.out",
+      "size": 7
+    },
+    {
+      "path": "trade7.in",
+      "size": 30032
+    },
+    {
+      "path": "trade7.out",
+      "size": 10
+    },
+    {
+      "path": "trade8.in",
+      "size": 29157
+    },
+    {
+      "path": "trade8.out",
+      "size": 9
+    },
+    {
+      "path": "trade9.in",
+      "size": 36013
+    },
+    {
+      "path": "trade9.out",
+      "size": 12
+    }
+  ]
+}

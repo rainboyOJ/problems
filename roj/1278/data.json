@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "books0.in",
+      "size": 6
+    },
+    {
+      "path": "books0.out",
+      "size": 4
+    },
+    {
+      "path": "books1.in",
+      "size": 22
+    },
+    {
+      "path": "books1.out",
+      "size": 12
+    },
+    {
+      "path": "books2.in",
+      "size": 21
+    },
+    {
+      "path": "books2.out",
+      "size": 4
+    },
+    {
+      "path": "books3.in",
+      "size": 30
+    },
+    {
+      "path": "books3.out",
+      "size": 8
+    },
+    {
+      "path": "books4.in",
+      "size": 25
+    },
+    {
+      "path": "books4.out",
+      "size": 17
+    },
+    {
+      "path": "books5.in",
+      "size": 3
+    },
+    {
+      "path": "books5.out",
+      "size": 0
+    },
+    {
+      "path": "books6.in",
+      "size": 398
+    },
+    {
+      "path": "books6.out",
+      "size": 178
+    },
+    {
+      "path": "books7.in",
+      "size": 401
+    },
+    {
+      "path": "books7.out",
+      "size": 88
+    },
+    {
+      "path": "books8.in",
+      "size": 399
+    },
+    {
+      "path": "books8.out",
+      "size": 78
+    },
+    {
+      "path": "books9.in",
+      "size": 394
+    },
+    {
+      "path": "books9.out",
+      "size": 294
+    }
+  ]
+}

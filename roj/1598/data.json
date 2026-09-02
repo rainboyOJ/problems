@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "sum1.in",
+      "size": 21
+    },
+    {
+      "path": "sum1.out",
+      "size": 4
+    },
+    {
+      "path": "sum10.in",
+      "size": 83101
+    },
+    {
+      "path": "sum10.out",
+      "size": 6
+    },
+    {
+      "path": "sum11.in",
+      "size": 832641
+    },
+    {
+      "path": "sum11.out",
+      "size": 6
+    },
+    {
+      "path": "sum12.in",
+      "size": 400015
+    },
+    {
+      "path": "sum12.out",
+      "size": 9
+    },
+    {
+      "path": "sum13.in",
+      "size": 402
+    },
+    {
+      "path": "sum13.out",
+      "size": 4
+    },
+    {
+      "path": "sum14.in",
+      "size": 39275
+    },
+    {
+      "path": "sum14.out",
+      "size": 4
+    },
+    {
+      "path": "sum15.in",
+      "size": 784055
+    },
+    {
+      "path": "sum15.out",
+      "size": 4
+    },
+    {
+      "path": "sum16.in",
+      "size": 753266
+    },
+    {
+      "path": "sum16.out",
+      "size": 10
+    },
+    {
+      "path": "sum17.in",
+      "size": 376358
+    },
+    {
+      "path": "sum17.out",
+      "size": 9
+    },
+    {
+      "path": "sum18.in",
+      "size": 753371
+    },
+    {
+      "path": "sum18.out",
+      "size": 8
+    },
+    {
+      "path": "sum19.in",
+      "size": 18834
+    },
+    {
+      "path": "sum19.out",
+      "size": 8
+    },
+    {
+      "path": "sum2.in",
+      "size": 173
+    },
+    {
+      "path": "sum2.out",
+      "size": 5
+    },
+    {
+      "path": "sum20.in",
+      "size": 752691
+    },
+    {
+      "path": "sum20.out",
+      "size": 10
+    },
+    {
+      "path": "sum3.in",
+      "size": 356
+    },
+    {
+      "path": "sum3.out",
+      "size": 5
+    },
+    {
+      "path": "sum4.in",
+      "size": 1812
+    },
+    {
+      "path": "sum4.out",
+      "size": 6
+    },
+    {
+      "path": "sum5.in",
+      "size": 3595
+    },
+    {
+      "path": "sum5.out",
+      "size": 6
+    },
+    {
+      "path": "sum6.in",
+      "size": 18041
+    },
+    {
+      "path": "sum6.out",
+      "size": 7
+    },
+    {
+      "path": "sum7.in",
+      "size": 32598
+    },
+    {
+      "path": "sum7.out",
+      "size": 7
+    },
+    {
+      "path": "sum8.in",
+      "size": 40810
+    },
+    {
+      "path": "sum8.out",
+      "size": 8
+    },
+    {
+      "path": "sum9.in",
+      "size": 61196
+    },
+    {
+      "path": "sum9.out",
+      "size": 8
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "knight0.in",
+      "size": 53
+    },
+    {
+      "path": "knight0.out",
+      "size": 9
+    },
+    {
+      "path": "knight1.in",
+      "size": 103
+    },
+    {
+      "path": "knight1.out",
+      "size": 9
+    },
+    {
+      "path": "knight2.in",
+      "size": 104
+    },
+    {
+      "path": "knight2.out",
+      "size": 9
+    },
+    {
+      "path": "knight3.in",
+      "size": 539
+    },
+    {
+      "path": "knight3.out",
+      "size": 10
+    },
+    {
+      "path": "knight4.in",
+      "size": 653
+    },
+    {
+      "path": "knight4.out",
+      "size": 10
+    },
+    {
+      "path": "knight5.in",
+      "size": 1086
+    },
+    {
+      "path": "knight5.out",
+      "size": 10
+    },
+    {
+      "path": "knight6.in",
+      "size": 37602
+    },
+    {
+      "path": "knight6.out",
+      "size": 11
+    },
+    {
+      "path": "knight7.in",
+      "size": 127889
+    },
+    {
+      "path": "knight7.out",
+      "size": 12
+    },
+    {
+      "path": "knight8.in",
+      "size": 4355674
+    },
+    {
+      "path": "knight8.out",
+      "size": 13
+    },
+    {
+      "path": "knight9.in",
+      "size": 14777227
+    },
+    {
+      "path": "knight9.out",
+      "size": 14
+    }
+  ]
+}

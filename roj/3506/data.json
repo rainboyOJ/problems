@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "nlr0.in",
+      "size": 8
+    },
+    {
+      "path": "nlr0.out",
+      "size": 3
+    },
+    {
+      "path": "nlr1.in",
+      "size": 10
+    },
+    {
+      "path": "nlr1.out",
+      "size": 4
+    },
+    {
+      "path": "nlr2.in",
+      "size": 10
+    },
+    {
+      "path": "nlr2.out",
+      "size": 4
+    },
+    {
+      "path": "nlr3.in",
+      "size": 16
+    },
+    {
+      "path": "nlr3.out",
+      "size": 7
+    },
+    {
+      "path": "nlr4.in",
+      "size": 18
+    },
+    {
+      "path": "nlr4.out",
+      "size": 8
+    }
+  ]
+}

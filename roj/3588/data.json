@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "carpet0.in",
+      "size": 32
+    },
+    {
+      "path": "carpet0.out",
+      "size": 1
+    },
+    {
+      "path": "carpet1.in",
+      "size": 33
+    },
+    {
+      "path": "carpet1.out",
+      "size": 1
+    },
+    {
+      "path": "carpet2.in",
+      "size": 31
+    },
+    {
+      "path": "carpet2.out",
+      "size": 1
+    },
+    {
+      "path": "carpet3.in",
+      "size": 123
+    },
+    {
+      "path": "carpet3.out",
+      "size": 1
+    },
+    {
+      "path": "carpet4.in",
+      "size": 354
+    },
+    {
+      "path": "carpet4.out",
+      "size": 2
+    },
+    {
+      "path": "carpet5.in",
+      "size": 19498
+    },
+    {
+      "path": "carpet5.out",
+      "size": 3
+    },
+    {
+      "path": "carpet6.in",
+      "size": 113022
+    },
+    {
+      "path": "carpet6.out",
+      "size": 4
+    },
+    {
+      "path": "carpet7.in",
+      "size": 178895
+    },
+    {
+      "path": "carpet7.out",
+      "size": 4
+    },
+    {
+      "path": "carpet8.in",
+      "size": 224489
+    },
+    {
+      "path": "carpet8.out",
+      "size": 4
+    },
+    {
+      "path": "carpet9.in",
+      "size": 224013
+    },
+    {
+      "path": "carpet9.out",
+      "size": 4
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "candy1.ans",
+      "size": 3
+    },
+    {
+      "path": "candy1.in",
+      "size": 96
+    },
+    {
+      "path": "candy10.ans",
+      "size": 5
+    },
+    {
+      "path": "candy10.in",
+      "size": 11778755
+    },
+    {
+      "path": "candy2.ans",
+      "size": 4
+    },
+    {
+      "path": "candy2.in",
+      "size": 5858
+    },
+    {
+      "path": "candy3.ans",
+      "size": 6
+    },
+    {
+      "path": "candy3.in",
+      "size": 11696
+    },
+    {
+      "path": "candy4.ans",
+      "size": 3
+    },
+    {
+      "path": "candy4.in",
+      "size": 26292
+    },
+    {
+      "path": "candy5.ans",
+      "size": 3
+    },
+    {
+      "path": "candy5.in",
+      "size": 35055
+    },
+    {
+      "path": "candy6.ans",
+      "size": 4
+    },
+    {
+      "path": "candy6.in",
+      "size": 350558
+    },
+    {
+      "path": "candy7.ans",
+      "size": 5
+    },
+    {
+      "path": "candy7.in",
+      "size": 5867339
+    },
+    {
+      "path": "candy8.ans",
+      "size": 5
+    },
+    {
+      "path": "candy8.in",
+      "size": 9422218
+    },
+    {
+      "path": "candy9.ans",
+      "size": 6
+    },
+    {
+      "path": "candy9.in",
+      "size": 11777748
+    }
+  ]
+}

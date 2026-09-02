@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "qc0.in",
+      "size": 166
+    },
+    {
+      "path": "qc0.out",
+      "size": 5
+    },
+    {
+      "path": "qc1.in",
+      "size": 514
+    },
+    {
+      "path": "qc1.out",
+      "size": 6
+    },
+    {
+      "path": "qc10.in",
+      "size": 168062
+    },
+    {
+      "path": "qc10.out",
+      "size": 7
+    },
+    {
+      "path": "qc11.in",
+      "size": 187286
+    },
+    {
+      "path": "qc11.out",
+      "size": 10
+    },
+    {
+      "path": "qc12.in",
+      "size": 155818
+    },
+    {
+      "path": "qc12.out",
+      "size": 10
+    },
+    {
+      "path": "qc13.in",
+      "size": 210651
+    },
+    {
+      "path": "qc13.out",
+      "size": 10
+    },
+    {
+      "path": "qc14.in",
+      "size": 955218
+    },
+    {
+      "path": "qc14.out",
+      "size": 11
+    },
+    {
+      "path": "qc15.in",
+      "size": 1344555
+    },
+    {
+      "path": "qc15.out",
+      "size": 11
+    },
+    {
+      "path": "qc16.in",
+      "size": 1911004
+    },
+    {
+      "path": "qc16.out",
+      "size": 11
+    },
+    {
+      "path": "qc17.in",
+      "size": 2688881
+    },
+    {
+      "path": "qc17.out",
+      "size": 11
+    },
+    {
+      "path": "qc18.in",
+      "size": 2865829
+    },
+    {
+      "path": "qc18.out",
+      "size": 11
+    },
+    {
+      "path": "qc19.in",
+      "size": 3821493
+    },
+    {
+      "path": "qc19.out",
+      "size": 10
+    },
+    {
+      "path": "qc2.in",
+      "size": 1441
+    },
+    {
+      "path": "qc2.out",
+      "size": 7
+    },
+    {
+      "path": "qc3.in",
+      "size": 3498
+    },
+    {
+      "path": "qc3.out",
+      "size": 7
+    },
+    {
+      "path": "qc4.in",
+      "size": 7044
+    },
+    {
+      "path": "qc4.out",
+      "size": 8
+    },
+    {
+      "path": "qc5.in",
+      "size": 9443
+    },
+    {
+      "path": "qc5.out",
+      "size": 8
+    },
+    {
+      "path": "qc6.in",
+      "size": 19086
+    },
+    {
+      "path": "qc6.out",
+      "size": 8
+    },
+    {
+      "path": "qc7.in",
+      "size": 67373
+    },
+    {
+      "path": "qc7.out",
+      "size": 10
+    },
+    {
+      "path": "qc8.in",
+      "size": 56525
+    },
+    {
+      "path": "qc8.out",
+      "size": 6
+    },
+    {
+      "path": "qc9.in",
+      "size": 104236
+    },
+    {
+      "path": "qc9.out",
+      "size": 9
+    }
+  ]
+}

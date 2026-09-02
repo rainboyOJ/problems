@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "mul1.in",
+      "size": 24
+    },
+    {
+      "path": "mul1.out",
+      "size": 6
+    },
+    {
+      "path": "mul2.in",
+      "size": 21
+    },
+    {
+      "path": "mul2.out",
+      "size": 6
+    },
+    {
+      "path": "mul3.in",
+      "size": 15
+    },
+    {
+      "path": "mul3.out",
+      "size": 2
+    },
+    {
+      "path": "mul4.in",
+      "size": 24
+    },
+    {
+      "path": "mul4.out",
+      "size": 6
+    },
+    {
+      "path": "mul5.in",
+      "size": 18
+    },
+    {
+      "path": "mul5.out",
+      "size": 5
+    }
+  ]
+}

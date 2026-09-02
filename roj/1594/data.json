@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "paint1.in",
+      "size": 11
+    },
+    {
+      "path": "paint1.out",
+      "size": 3
+    },
+    {
+      "path": "paint10.in",
+      "size": 27
+    },
+    {
+      "path": "paint10.out",
+      "size": 8
+    },
+    {
+      "path": "paint2.in",
+      "size": 15
+    },
+    {
+      "path": "paint2.out",
+      "size": 6
+    },
+    {
+      "path": "paint3.in",
+      "size": 15
+    },
+    {
+      "path": "paint3.out",
+      "size": 7
+    },
+    {
+      "path": "paint4.in",
+      "size": 14
+    },
+    {
+      "path": "paint4.out",
+      "size": 8
+    },
+    {
+      "path": "paint5.in",
+      "size": 19
+    },
+    {
+      "path": "paint5.out",
+      "size": 8
+    },
+    {
+      "path": "paint6.in",
+      "size": 16
+    },
+    {
+      "path": "paint6.out",
+      "size": 8
+    },
+    {
+      "path": "paint7.in",
+      "size": 23
+    },
+    {
+      "path": "paint7.out",
+      "size": 8
+    },
+    {
+      "path": "paint8.in",
+      "size": 25
+    },
+    {
+      "path": "paint8.out",
+      "size": 3
+    },
+    {
+      "path": "paint9.in",
+      "size": 22
+    },
+    {
+      "path": "paint9.out",
+      "size": 8
+    }
+  ]
+}

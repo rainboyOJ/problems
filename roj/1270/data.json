@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "mix0.in",
+      "size": 253
+    },
+    {
+      "path": "mix0.out",
+      "size": 6
+    },
+    {
+      "path": "mix1.in",
+      "size": 197
+    },
+    {
+      "path": "mix1.out",
+      "size": 6
+    },
+    {
+      "path": "mix2.in",
+      "size": 37
+    },
+    {
+      "path": "mix2.out",
+      "size": 4
+    },
+    {
+      "path": "mix3.in",
+      "size": 75
+    },
+    {
+      "path": "mix3.out",
+      "size": 5
+    },
+    {
+      "path": "mix4.in",
+      "size": 85
+    },
+    {
+      "path": "mix4.out",
+      "size": 5
+    },
+    {
+      "path": "mix5.in",
+      "size": 78
+    },
+    {
+      "path": "mix5.out",
+      "size": 6
+    },
+    {
+      "path": "mix6.in",
+      "size": 104
+    },
+    {
+      "path": "mix6.out",
+      "size": 6
+    },
+    {
+      "path": "mix7.in",
+      "size": 125
+    },
+    {
+      "path": "mix7.out",
+      "size": 5
+    },
+    {
+      "path": "mix8.in",
+      "size": 176
+    },
+    {
+      "path": "mix8.out",
+      "size": 6
+    },
+    {
+      "path": "mix9.in",
+      "size": 130
+    },
+    {
+      "path": "mix9.out",
+      "size": 6
+    }
+  ]
+}

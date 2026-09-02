@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "latinus0.in",
+      "size": 1
+    },
+    {
+      "path": "latinus0.out",
+      "size": 1
+    },
+    {
+      "path": "latinus1.in",
+      "size": 1
+    },
+    {
+      "path": "latinus1.out",
+      "size": 1
+    },
+    {
+      "path": "latinus2.in",
+      "size": 1
+    },
+    {
+      "path": "latinus2.out",
+      "size": 2
+    },
+    {
+      "path": "latinus3.in",
+      "size": 1
+    },
+    {
+      "path": "latinus3.out",
+      "size": 4
+    },
+    {
+      "path": "latinus4.in",
+      "size": 1
+    },
+    {
+      "path": "latinus4.out",
+      "size": 7
+    },
+    {
+      "path": "latinus5.in",
+      "size": 1
+    },
+    {
+      "path": "latinus5.out",
+      "size": 11
+    }
+  ]
+}

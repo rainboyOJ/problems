@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "mokia1.in",
+      "size": 3752227
+    },
+    {
+      "path": "mokia1.out",
+      "size": 89023
+    },
+    {
+      "path": "mokia10.in",
+      "size": 29591
+    },
+    {
+      "path": "mokia10.out",
+      "size": 7033
+    },
+    {
+      "path": "mokia2.in",
+      "size": 451140
+    },
+    {
+      "path": "mokia2.out",
+      "size": 78250
+    },
+    {
+      "path": "mokia3.in",
+      "size": 3750929
+    },
+    {
+      "path": "mokia3.out",
+      "size": 88420
+    },
+    {
+      "path": "mokia4.in",
+      "size": 645276
+    },
+    {
+      "path": "mokia4.out",
+      "size": 80157
+    },
+    {
+      "path": "mokia5.in",
+      "size": 805732
+    },
+    {
+      "path": "mokia5.out",
+      "size": 81943
+    },
+    {
+      "path": "mokia6.in",
+      "size": 74159
+    },
+    {
+      "path": "mokia6.out",
+      "size": 12552
+    },
+    {
+      "path": "mokia7.in",
+      "size": 3752632
+    },
+    {
+      "path": "mokia7.out",
+      "size": 89415
+    },
+    {
+      "path": "mokia8.in",
+      "size": 889956
+    },
+    {
+      "path": "mokia8.out",
+      "size": 81287
+    },
+    {
+      "path": "mokia9.in",
+      "size": 3752155
+    },
+    {
+      "path": "mokia9.out",
+      "size": 89304
+    }
+  ]
+}

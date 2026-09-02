@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "pet1.in",
+      "size": 203
+    },
+    {
+      "path": "pet1.out",
+      "size": 8
+    },
+    {
+      "path": "pet10.in",
+      "size": 808901
+    },
+    {
+      "path": "pet10.out",
+      "size": 8
+    },
+    {
+      "path": "pet2.in",
+      "size": 11900
+    },
+    {
+      "path": "pet2.out",
+      "size": 8
+    },
+    {
+      "path": "pet3.in",
+      "size": 38899
+    },
+    {
+      "path": "pet3.out",
+      "size": 6
+    },
+    {
+      "path": "pet4.in",
+      "size": 98901
+    },
+    {
+      "path": "pet4.out",
+      "size": 6
+    },
+    {
+      "path": "pet5.in",
+      "size": 428896
+    },
+    {
+      "path": "pet5.out",
+      "size": 8
+    },
+    {
+      "path": "pet6.in",
+      "size": 406689
+    },
+    {
+      "path": "pet6.out",
+      "size": 7
+    },
+    {
+      "path": "pet7.in",
+      "size": 824477
+    },
+    {
+      "path": "pet7.out",
+      "size": 7
+    },
+    {
+      "path": "pet8.in",
+      "size": 708897
+    },
+    {
+      "path": "pet8.out",
+      "size": 3
+    },
+    {
+      "path": "pet9.in",
+      "size": 808901
+    },
+    {
+      "path": "pet9.out",
+      "size": 8
+    }
+  ]
+}

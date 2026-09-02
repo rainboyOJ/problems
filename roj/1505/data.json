@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "bic0.in",
+      "size": 48
+    },
+    {
+      "path": "bic0.out",
+      "size": 2
+    },
+    {
+      "path": "bic1.in",
+      "size": 190
+    },
+    {
+      "path": "bic1.out",
+      "size": 2
+    },
+    {
+      "path": "bic10.in",
+      "size": 3399
+    },
+    {
+      "path": "bic10.out",
+      "size": 3
+    },
+    {
+      "path": "bic11.in",
+      "size": 492
+    },
+    {
+      "path": "bic11.out",
+      "size": 2
+    },
+    {
+      "path": "bic12.in",
+      "size": 3392
+    },
+    {
+      "path": "bic12.out",
+      "size": 2
+    },
+    {
+      "path": "bic2.in",
+      "size": 2968
+    },
+    {
+      "path": "bic2.out",
+      "size": 2
+    },
+    {
+      "path": "bic3.in",
+      "size": 1833
+    },
+    {
+      "path": "bic3.out",
+      "size": 4
+    },
+    {
+      "path": "bic4.in",
+      "size": 612
+    },
+    {
+      "path": "bic4.out",
+      "size": 2
+    },
+    {
+      "path": "bic5.in",
+      "size": 2277
+    },
+    {
+      "path": "bic5.out",
+      "size": 3
+    },
+    {
+      "path": "bic6.in",
+      "size": 1723
+    },
+    {
+      "path": "bic6.out",
+      "size": 3
+    },
+    {
+      "path": "bic7.in",
+      "size": 2809
+    },
+    {
+      "path": "bic7.out",
+      "size": 2
+    },
+    {
+      "path": "bic8.in",
+      "size": 2621
+    },
+    {
+      "path": "bic8.out",
+      "size": 2
+    },
+    {
+      "path": "bic9.in",
+      "size": 3530
+    },
+    {
+      "path": "bic9.out",
+      "size": 4
+    }
+  ]
+}

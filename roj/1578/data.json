@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "strategi1.in",
+      "size": 17284
+    },
+    {
+      "path": "strategi1.out",
+      "size": 5
+    },
+    {
+      "path": "strategi2.in",
+      "size": 17284
+    },
+    {
+      "path": "strategi2.out",
+      "size": 5
+    },
+    {
+      "path": "strategi3.in",
+      "size": 17284
+    },
+    {
+      "path": "strategi3.out",
+      "size": 5
+    },
+    {
+      "path": "strategi4.in",
+      "size": 17433
+    },
+    {
+      "path": "strategi4.out",
+      "size": 5
+    },
+    {
+      "path": "strategi5.in",
+      "size": 99
+    },
+    {
+      "path": "strategi5.out",
+      "size": 3
+    }
+  ]
+}

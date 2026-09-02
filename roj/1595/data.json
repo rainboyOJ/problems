@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "cannon1.ans",
+      "size": 2
+    },
+    {
+      "path": "cannon1.in",
+      "size": 35
+    },
+    {
+      "path": "cannon10.ans",
+      "size": 4
+    },
+    {
+      "path": "cannon10.in",
+      "size": 1107
+    },
+    {
+      "path": "cannon2.ans",
+      "size": 2
+    },
+    {
+      "path": "cannon2.in",
+      "size": 44
+    },
+    {
+      "path": "cannon3.ans",
+      "size": 3
+    },
+    {
+      "path": "cannon3.in",
+      "size": 336
+    },
+    {
+      "path": "cannon4.ans",
+      "size": 4
+    },
+    {
+      "path": "cannon4.in",
+      "size": 556
+    },
+    {
+      "path": "cannon5.ans",
+      "size": 4
+    },
+    {
+      "path": "cannon5.in",
+      "size": 446
+    },
+    {
+      "path": "cannon6.ans",
+      "size": 4
+    },
+    {
+      "path": "cannon6.in",
+      "size": 886
+    },
+    {
+      "path": "cannon7.ans",
+      "size": 4
+    },
+    {
+      "path": "cannon7.in",
+      "size": 886
+    },
+    {
+      "path": "cannon8.ans",
+      "size": 4
+    },
+    {
+      "path": "cannon8.in",
+      "size": 1107
+    },
+    {
+      "path": "cannon9.ans",
+      "size": 4
+    },
+    {
+      "path": "cannon9.in",
+      "size": 995
+    }
+  ]
+}

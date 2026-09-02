@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "rect10.in",
+      "size": 46
+    },
+    {
+      "path": "rect10.out",
+      "size": 23
+    },
+    {
+      "path": "rect11.in",
+      "size": 41
+    },
+    {
+      "path": "rect11.out",
+      "size": 17
+    },
+    {
+      "path": "rect110.in",
+      "size": 24449
+    },
+    {
+      "path": "rect110.out",
+      "size": 1150
+    },
+    {
+      "path": "rect12.in",
+      "size": 150
+    },
+    {
+      "path": "rect12.out",
+      "size": 14
+    },
+    {
+      "path": "rect13.in",
+      "size": 715
+    },
+    {
+      "path": "rect13.out",
+      "size": 13
+    },
+    {
+      "path": "rect14.in",
+      "size": 560
+    },
+    {
+      "path": "rect14.out",
+      "size": 182
+    },
+    {
+      "path": "rect15.in",
+      "size": 1118
+    },
+    {
+      "path": "rect15.out",
+      "size": 239
+    },
+    {
+      "path": "rect16.in",
+      "size": 1338
+    },
+    {
+      "path": "rect16.out",
+      "size": 291
+    },
+    {
+      "path": "rect17.in",
+      "size": 1557
+    },
+    {
+      "path": "rect17.out",
+      "size": 301
+    },
+    {
+      "path": "rect18.in",
+      "size": 1953
+    },
+    {
+      "path": "rect18.out",
+      "size": 317
+    },
+    {
+      "path": "rect19.in",
+      "size": 1952
+    },
+    {
+      "path": "rect19.out",
+      "size": 363
+    }
+  ]
+}

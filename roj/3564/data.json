@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "message0.in",
+      "size": 22
+    },
+    {
+      "path": "message0.out",
+      "size": 2
+    },
+    {
+      "path": "message1.in",
+      "size": 30
+    },
+    {
+      "path": "message1.out",
+      "size": 3
+    },
+    {
+      "path": "message2.in",
+      "size": 149
+    },
+    {
+      "path": "message2.out",
+      "size": 4
+    },
+    {
+      "path": "message3.in",
+      "size": 438
+    },
+    {
+      "path": "message3.out",
+      "size": 4
+    },
+    {
+      "path": "message4.in",
+      "size": 1057
+    },
+    {
+      "path": "message4.out",
+      "size": 4
+    },
+    {
+      "path": "message5.in",
+      "size": 2635
+    },
+    {
+      "path": "message5.out",
+      "size": 4
+    },
+    {
+      "path": "message6.in",
+      "size": 5853
+    },
+    {
+      "path": "message6.out",
+      "size": 5
+    },
+    {
+      "path": "message7.in",
+      "size": 6589
+    },
+    {
+      "path": "message7.out",
+      "size": 5
+    },
+    {
+      "path": "message8.in",
+      "size": 7304
+    },
+    {
+      "path": "message8.out",
+      "size": 5
+    },
+    {
+      "path": "message9.in",
+      "size": 5147
+    },
+    {
+      "path": "message9.out",
+      "size": 4
+    }
+  ]
+}

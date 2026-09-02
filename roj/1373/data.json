@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "fishing0.in",
+      "size": 40
+    },
+    {
+      "path": "fishing0.out",
+      "size": 4
+    },
+    {
+      "path": "fishing1.in",
+      "size": 77
+    },
+    {
+      "path": "fishing1.out",
+      "size": 5
+    },
+    {
+      "path": "fishing2.in",
+      "size": 150
+    },
+    {
+      "path": "fishing2.out",
+      "size": 5
+    },
+    {
+      "path": "fishing3.in",
+      "size": 324
+    },
+    {
+      "path": "fishing3.out",
+      "size": 5
+    },
+    {
+      "path": "fishing4.in",
+      "size": 412
+    },
+    {
+      "path": "fishing4.out",
+      "size": 5
+    },
+    {
+      "path": "fishing5.in",
+      "size": 546
+    },
+    {
+      "path": "fishing5.out",
+      "size": 6
+    },
+    {
+      "path": "fishing6.in",
+      "size": 697
+    },
+    {
+      "path": "fishing6.out",
+      "size": 6
+    },
+    {
+      "path": "fishing7.in",
+      "size": 805
+    },
+    {
+      "path": "fishing7.out",
+      "size": 6
+    },
+    {
+      "path": "fishing8.in",
+      "size": 987
+    },
+    {
+      "path": "fishing8.out",
+      "size": 7
+    },
+    {
+      "path": "fishing9.in",
+      "size": 944
+    },
+    {
+      "path": "fishing9.out",
+      "size": 8
+    }
+  ]
+}

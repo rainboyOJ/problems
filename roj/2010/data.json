@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "barn10.in",
+      "size": 71
+    },
+    {
+      "path": "barn10.out",
+      "size": 2
+    },
+    {
+      "path": "barn11.in",
+      "size": 18
+    },
+    {
+      "path": "barn11.out",
+      "size": 1
+    },
+    {
+      "path": "barn12.in",
+      "size": 65
+    },
+    {
+      "path": "barn12.out",
+      "size": 2
+    },
+    {
+      "path": "barn13.in",
+      "size": 46
+    },
+    {
+      "path": "barn13.out",
+      "size": 1
+    },
+    {
+      "path": "barn14.in",
+      "size": 50
+    },
+    {
+      "path": "barn14.out",
+      "size": 2
+    },
+    {
+      "path": "barn15.in",
+      "size": 30
+    },
+    {
+      "path": "barn15.out",
+      "size": 1
+    },
+    {
+      "path": "barn16.in",
+      "size": 366
+    },
+    {
+      "path": "barn16.out",
+      "size": 3
+    },
+    {
+      "path": "barn17.in",
+      "size": 456
+    },
+    {
+      "path": "barn17.out",
+      "size": 3
+    },
+    {
+      "path": "barn18.in",
+      "size": 455
+    },
+    {
+      "path": "barn18.out",
+      "size": 3
+    },
+    {
+      "path": "barn19.in",
+      "size": 15
+    },
+    {
+      "path": "barn19.out",
+      "size": 3
+    }
+  ]
+}

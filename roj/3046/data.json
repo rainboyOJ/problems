@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "sequence1.in",
+      "size": 5
+    },
+    {
+      "path": "sequence1.out",
+      "size": 3
+    },
+    {
+      "path": "sequence10.in",
+      "size": 10000
+    },
+    {
+      "path": "sequence10.out",
+      "size": 7
+    },
+    {
+      "path": "sequence11.in",
+      "size": 11
+    },
+    {
+      "path": "sequence11.out",
+      "size": 1
+    },
+    {
+      "path": "sequence12.in",
+      "size": 23
+    },
+    {
+      "path": "sequence12.out",
+      "size": 1
+    },
+    {
+      "path": "sequence2.in",
+      "size": 27
+    },
+    {
+      "path": "sequence2.out",
+      "size": 2
+    },
+    {
+      "path": "sequence3.in",
+      "size": 50
+    },
+    {
+      "path": "sequence3.out",
+      "size": 3
+    },
+    {
+      "path": "sequence4.in",
+      "size": 100
+    },
+    {
+      "path": "sequence4.out",
+      "size": 5
+    },
+    {
+      "path": "sequence5.in",
+      "size": 100
+    },
+    {
+      "path": "sequence5.out",
+      "size": 3
+    },
+    {
+      "path": "sequence6.in",
+      "size": 1000
+    },
+    {
+      "path": "sequence6.out",
+      "size": 6
+    },
+    {
+      "path": "sequence7.in",
+      "size": 1000
+    },
+    {
+      "path": "sequence7.out",
+      "size": 3
+    },
+    {
+      "path": "sequence8.in",
+      "size": 10000
+    },
+    {
+      "path": "sequence8.out",
+      "size": 7
+    },
+    {
+      "path": "sequence9.in",
+      "size": 10000
+    },
+    {
+      "path": "sequence9.out",
+      "size": 4
+    }
+  ]
+}

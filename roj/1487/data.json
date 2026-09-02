@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "network1.in",
+      "size": 19
+    },
+    {
+      "path": "network1.out",
+      "size": 8
+    },
+    {
+      "path": "network2.in",
+      "size": 35
+    },
+    {
+      "path": "network2.out",
+      "size": 8
+    },
+    {
+      "path": "network3.in",
+      "size": 1079
+    },
+    {
+      "path": "network3.out",
+      "size": 9
+    },
+    {
+      "path": "network4.in",
+      "size": 5378
+    },
+    {
+      "path": "network4.out",
+      "size": 8
+    },
+    {
+      "path": "network5.in",
+      "size": 5396
+    },
+    {
+      "path": "network5.out",
+      "size": 8
+    },
+    {
+      "path": "network6.in",
+      "size": 5396
+    },
+    {
+      "path": "network6.out",
+      "size": 8
+    }
+  ]
+}

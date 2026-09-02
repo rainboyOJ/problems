@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "date1.ans",
+      "size": 2
+    },
+    {
+      "path": "date1.in",
+      "size": 18
+    },
+    {
+      "path": "date10.ans",
+      "size": 4
+    },
+    {
+      "path": "date10.in",
+      "size": 18
+    },
+    {
+      "path": "date2.ans",
+      "size": 2
+    },
+    {
+      "path": "date2.in",
+      "size": 18
+    },
+    {
+      "path": "date3.ans",
+      "size": 2
+    },
+    {
+      "path": "date3.in",
+      "size": 18
+    },
+    {
+      "path": "date4.ans",
+      "size": 2
+    },
+    {
+      "path": "date4.in",
+      "size": 18
+    },
+    {
+      "path": "date5.ans",
+      "size": 2
+    },
+    {
+      "path": "date5.in",
+      "size": 18
+    },
+    {
+      "path": "date6.ans",
+      "size": 2
+    },
+    {
+      "path": "date6.in",
+      "size": 18
+    },
+    {
+      "path": "date7.ans",
+      "size": 2
+    },
+    {
+      "path": "date7.in",
+      "size": 18
+    },
+    {
+      "path": "date8.ans",
+      "size": 3
+    },
+    {
+      "path": "date8.in",
+      "size": 18
+    },
+    {
+      "path": "date9.ans",
+      "size": 4
+    },
+    {
+      "path": "date9.in",
+      "size": 18
+    }
+  ]
+}

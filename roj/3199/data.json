@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "12.in",
+      "size": 1562
+    },
+    {
+      "path": "12.out",
+      "size": 3
+    },
+    {
+      "path": "15.in",
+      "size": 15600
+    },
+    {
+      "path": "15.out",
+      "size": 3
+    },
+    {
+      "path": "3.in",
+      "size": 156
+    },
+    {
+      "path": "3.out",
+      "size": 124
+    },
+    {
+      "path": "6.in",
+      "size": 1460
+    },
+    {
+      "path": "6.out",
+      "size": 1204
+    },
+    {
+      "path": "8.in",
+      "size": 14006
+    },
+    {
+      "path": "8.out",
+      "size": 12004
+    }
+  ]
+}

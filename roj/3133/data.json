@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "disjoint0.in",
+      "size": 939080
+    },
+    {
+      "path": "disjoint0.out",
+      "size": 66824
+    },
+    {
+      "path": "disjoint1.in",
+      "size": 1741781
+    },
+    {
+      "path": "disjoint1.out",
+      "size": 133260
+    },
+    {
+      "path": "disjoint2.in",
+      "size": 2755981
+    },
+    {
+      "path": "disjoint2.out",
+      "size": 133016
+    },
+    {
+      "path": "disjoint3.in",
+      "size": 1880498
+    },
+    {
+      "path": "disjoint3.out",
+      "size": 133790
+    },
+    {
+      "path": "disjoint4.in",
+      "size": 2977803
+    },
+    {
+      "path": "disjoint4.out",
+      "size": 2
+    }
+  ]
+}

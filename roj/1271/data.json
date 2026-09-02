@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "ple0.in",
+      "size": 12
+    },
+    {
+      "path": "ple0.out",
+      "size": 1
+    },
+    {
+      "path": "ple1.in",
+      "size": 8012
+    },
+    {
+      "path": "ple1.out",
+      "size": 5
+    },
+    {
+      "path": "ple2.in",
+      "size": 71
+    },
+    {
+      "path": "ple2.out",
+      "size": 3
+    },
+    {
+      "path": "ple3.in",
+      "size": 9674
+    },
+    {
+      "path": "ple3.out",
+      "size": 3
+    },
+    {
+      "path": "ple4.in",
+      "size": 8322
+    },
+    {
+      "path": "ple4.out",
+      "size": 2
+    },
+    {
+      "path": "ple5.in",
+      "size": 4853
+    },
+    {
+      "path": "ple5.out",
+      "size": 5
+    },
+    {
+      "path": "ple6.in",
+      "size": 7787
+    },
+    {
+      "path": "ple6.out",
+      "size": 5
+    },
+    {
+      "path": "ple7.in",
+      "size": 7406
+    },
+    {
+      "path": "ple7.out",
+      "size": 2
+    },
+    {
+      "path": "ple8.in",
+      "size": 6546
+    },
+    {
+      "path": "ple8.out",
+      "size": 4
+    },
+    {
+      "path": "ple9.in",
+      "size": 54
+    },
+    {
+      "path": "ple9.out",
+      "size": 3
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "river0.in",
+      "size": 509
+    },
+    {
+      "path": "river0.out",
+      "size": 1
+    },
+    {
+      "path": "river1.in",
+      "size": 496
+    },
+    {
+      "path": "river1.out",
+      "size": 2
+    },
+    {
+      "path": "river2.in",
+      "size": 987
+    },
+    {
+      "path": "river2.out",
+      "size": 2
+    },
+    {
+      "path": "river3.in",
+      "size": 960
+    },
+    {
+      "path": "river3.out",
+      "size": 1
+    },
+    {
+      "path": "river4.in",
+      "size": 969
+    },
+    {
+      "path": "river4.out",
+      "size": 1
+    },
+    {
+      "path": "river5.in",
+      "size": 994
+    },
+    {
+      "path": "river5.out",
+      "size": 1
+    },
+    {
+      "path": "river6.in",
+      "size": 971
+    },
+    {
+      "path": "river6.out",
+      "size": 1
+    },
+    {
+      "path": "river7.in",
+      "size": 993
+    },
+    {
+      "path": "river7.out",
+      "size": 1
+    },
+    {
+      "path": "river8.in",
+      "size": 974
+    },
+    {
+      "path": "river8.out",
+      "size": 2
+    },
+    {
+      "path": "river9.in",
+      "size": 512
+    },
+    {
+      "path": "river9.out",
+      "size": 1
+    }
+  ]
+}

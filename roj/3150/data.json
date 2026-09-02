@@ -1,0 +1,116 @@
+{
+  "files": [
+    {
+      "path": "naptime.1.in",
+      "size": 14
+    },
+    {
+      "path": "naptime.1.out",
+      "size": 2
+    },
+    {
+      "path": "naptime.10.in",
+      "size": 1294
+    },
+    {
+      "path": "naptime.10.out",
+      "size": 8
+    },
+    {
+      "path": "naptime.11.in",
+      "size": 2571
+    },
+    {
+      "path": "naptime.11.out",
+      "size": 9
+    },
+    {
+      "path": "naptime.12.in",
+      "size": 5187
+    },
+    {
+      "path": "naptime.12.out",
+      "size": 9
+    },
+    {
+      "path": "naptime.13.in",
+      "size": 10333
+    },
+    {
+      "path": "naptime.13.out",
+      "size": 10
+    },
+    {
+      "path": "naptime.14.in",
+      "size": 23210
+    },
+    {
+      "path": "naptime.14.out",
+      "size": 10
+    },
+    {
+      "path": "naptime.2.in",
+      "size": 10
+    },
+    {
+      "path": "naptime.2.out",
+      "size": 2
+    },
+    {
+      "path": "naptime.3.in",
+      "size": 45
+    },
+    {
+      "path": "naptime.3.out",
+      "size": 3
+    },
+    {
+      "path": "naptime.4.in",
+      "size": 53
+    },
+    {
+      "path": "naptime.4.out",
+      "size": 7
+    },
+    {
+      "path": "naptime.5.in",
+      "size": 20
+    },
+    {
+      "path": "naptime.5.out",
+      "size": 2
+    },
+    {
+      "path": "naptime.6.in",
+      "size": 48
+    },
+    {
+      "path": "naptime.6.out",
+      "size": 3
+    },
+    {
+      "path": "naptime.7.in",
+      "size": 35
+    },
+    {
+      "path": "naptime.7.out",
+      "size": 4
+    },
+    {
+      "path": "naptime.8.in",
+      "size": 35
+    },
+    {
+      "path": "naptime.8.out",
+      "size": 4
+    },
+    {
+      "path": "naptime.9.in",
+      "size": 648
+    },
+    {
+      "path": "naptime.9.out",
+      "size": 8
+    }
+  ]
+}

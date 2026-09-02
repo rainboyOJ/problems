@@ -1,0 +1,168 @@
+{
+  "files": [
+    {
+      "path": "1.in",
+      "size": 101
+    },
+    {
+      "path": "1.out",
+      "size": 3
+    },
+    {
+      "path": "10.in",
+      "size": 17720
+    },
+    {
+      "path": "10.out",
+      "size": 4
+    },
+    {
+      "path": "11.in",
+      "size": 52487
+    },
+    {
+      "path": "11.out",
+      "size": 5
+    },
+    {
+      "path": "12.in",
+      "size": 51908
+    },
+    {
+      "path": "12.out",
+      "size": 5
+    },
+    {
+      "path": "13.in",
+      "size": 991153
+    },
+    {
+      "path": "13.out",
+      "size": 6
+    },
+    {
+      "path": "14.in",
+      "size": 992458
+    },
+    {
+      "path": "14.out",
+      "size": 6
+    },
+    {
+      "path": "15.in",
+      "size": 633455
+    },
+    {
+      "path": "15.out",
+      "size": 6
+    },
+    {
+      "path": "16.in",
+      "size": 1262117
+    },
+    {
+      "path": "16.out",
+      "size": 6
+    },
+    {
+      "path": "17.in",
+      "size": 1264173
+    },
+    {
+      "path": "17.out",
+      "size": 6
+    },
+    {
+      "path": "18.in",
+      "size": 1261178
+    },
+    {
+      "path": "18.out",
+      "size": 6
+    },
+    {
+      "path": "19.in",
+      "size": 1263489
+    },
+    {
+      "path": "19.out",
+      "size": 6
+    },
+    {
+      "path": "2.in",
+      "size": 161
+    },
+    {
+      "path": "2.out",
+      "size": 3
+    },
+    {
+      "path": "20.in",
+      "size": 16920
+    },
+    {
+      "path": "20.out",
+      "size": 4
+    },
+    {
+      "path": "3.in",
+      "size": 9857
+    },
+    {
+      "path": "3.out",
+      "size": 4
+    },
+    {
+      "path": "4.in",
+      "size": 689237
+    },
+    {
+      "path": "4.out",
+      "size": 6
+    },
+    {
+      "path": "5.in",
+      "size": 783
+    },
+    {
+      "path": "5.out",
+      "size": 3
+    },
+    {
+      "path": "6.in",
+      "size": 2591
+    },
+    {
+      "path": "6.out",
+      "size": 4
+    },
+    {
+      "path": "7.in",
+      "size": 4963
+    },
+    {
+      "path": "7.out",
+      "size": 4
+    },
+    {
+      "path": "8.in",
+      "size": 4943
+    },
+    {
+      "path": "8.out",
+      "size": 4
+    },
+    {
+      "path": "9.in",
+      "size": 17777
+    },
+    {
+      "path": "9.out",
+      "size": 4
+    },
+    {
+      "path": "WEIGHTS.txt",
+      "size": 220
+    }
+  ]
+}

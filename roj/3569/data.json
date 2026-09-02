@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "score0.in",
+      "size": 57
+    },
+    {
+      "path": "score0.out",
+      "size": 49
+    },
+    {
+      "path": "score1.in",
+      "size": 790
+    },
+    {
+      "path": "score1.out",
+      "size": 475
+    },
+    {
+      "path": "score2.in",
+      "size": 907
+    },
+    {
+      "path": "score2.out",
+      "size": 294
+    },
+    {
+      "path": "score3.in",
+      "size": 2253
+    },
+    {
+      "path": "score3.out",
+      "size": 1379
+    },
+    {
+      "path": "score4.in",
+      "size": 3613
+    },
+    {
+      "path": "score4.out",
+      "size": 1740
+    },
+    {
+      "path": "score5.in",
+      "size": 8119
+    },
+    {
+      "path": "score5.out",
+      "size": 4545
+    },
+    {
+      "path": "score6.in",
+      "size": 13525
+    },
+    {
+      "path": "score6.out",
+      "size": 5783
+    },
+    {
+      "path": "score7.in",
+      "size": 29214
+    },
+    {
+      "path": "score7.out",
+      "size": 28798
+    },
+    {
+      "path": "score8.in",
+      "size": 45078
+    },
+    {
+      "path": "score8.out",
+      "size": 14809
+    },
+    {
+      "path": "score9.in",
+      "size": 48
+    },
+    {
+      "path": "score9.out",
+      "size": 40
+    }
+  ]
+}

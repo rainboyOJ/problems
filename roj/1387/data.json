@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "buy1.in",
+      "size": 51
+    },
+    {
+      "path": "buy1.out",
+      "size": 4
+    },
+    {
+      "path": "buy10.in",
+      "size": 125726
+    },
+    {
+      "path": "buy10.out",
+      "size": 6
+    },
+    {
+      "path": "buy2.in",
+      "size": 208
+    },
+    {
+      "path": "buy2.out",
+      "size": 5
+    },
+    {
+      "path": "buy3.in",
+      "size": 883
+    },
+    {
+      "path": "buy3.out",
+      "size": 5
+    },
+    {
+      "path": "buy4.in",
+      "size": 4330
+    },
+    {
+      "path": "buy4.out",
+      "size": 6
+    },
+    {
+      "path": "buy5.in",
+      "size": 8566
+    },
+    {
+      "path": "buy5.out",
+      "size": 6
+    },
+    {
+      "path": "buy6.in",
+      "size": 86787
+    },
+    {
+      "path": "buy6.out",
+      "size": 7
+    },
+    {
+      "path": "buy7.in",
+      "size": 86814
+    },
+    {
+      "path": "buy7.out",
+      "size": 7
+    },
+    {
+      "path": "buy8.in",
+      "size": 46824
+    },
+    {
+      "path": "buy8.out",
+      "size": 3
+    },
+    {
+      "path": "buy9.in",
+      "size": 97525
+    },
+    {
+      "path": "buy9.out",
+      "size": 7
+    }
+  ]
+}

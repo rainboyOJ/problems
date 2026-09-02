@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "friday0.in",
+      "size": 1
+    },
+    {
+      "path": "friday0.out",
+      "size": 13
+    },
+    {
+      "path": "friday1.in",
+      "size": 1
+    },
+    {
+      "path": "friday1.out",
+      "size": 13
+    },
+    {
+      "path": "friday2.in",
+      "size": 1
+    },
+    {
+      "path": "friday2.out",
+      "size": 13
+    },
+    {
+      "path": "friday3.in",
+      "size": 2
+    },
+    {
+      "path": "friday3.out",
+      "size": 20
+    },
+    {
+      "path": "friday4.in",
+      "size": 2
+    },
+    {
+      "path": "friday4.out",
+      "size": 20
+    },
+    {
+      "path": "friday5.in",
+      "size": 3
+    },
+    {
+      "path": "friday5.out",
+      "size": 27
+    },
+    {
+      "path": "friday6.in",
+      "size": 3
+    },
+    {
+      "path": "friday6.out",
+      "size": 27
+    },
+    {
+      "path": "friday7.in",
+      "size": 3
+    },
+    {
+      "path": "friday7.out",
+      "size": 27
+    }
+  ]
+}

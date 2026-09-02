@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "hotel.1.in",
+      "size": 31
+    },
+    {
+      "path": "hotel.1.out",
+      "size": 10
+    },
+    {
+      "path": "hotel.10.in",
+      "size": 271347
+    },
+    {
+      "path": "hotel.10.out",
+      "size": 145497
+    },
+    {
+      "path": "hotel.11.in",
+      "size": 423554
+    },
+    {
+      "path": "hotel.11.out",
+      "size": 130059
+    },
+    {
+      "path": "hotel.12.in",
+      "size": 412053
+    },
+    {
+      "path": "hotel.12.out",
+      "size": 155906
+    },
+    {
+      "path": "hotel.2.in",
+      "size": 1213
+    },
+    {
+      "path": "hotel.2.out",
+      "size": 250
+    },
+    {
+      "path": "hotel.3.in",
+      "size": 12449
+    },
+    {
+      "path": "hotel.3.out",
+      "size": 5045
+    },
+    {
+      "path": "hotel.4.in",
+      "size": 14066
+    },
+    {
+      "path": "hotel.4.out",
+      "size": 5157
+    },
+    {
+      "path": "hotel.5.in",
+      "size": 36119
+    },
+    {
+      "path": "hotel.5.out",
+      "size": 12464
+    },
+    {
+      "path": "hotel.6.in",
+      "size": 67666
+    },
+    {
+      "path": "hotel.6.out",
+      "size": 27222
+    },
+    {
+      "path": "hotel.7.in",
+      "size": 175188
+    },
+    {
+      "path": "hotel.7.out",
+      "size": 50175
+    },
+    {
+      "path": "hotel.8.in",
+      "size": 225174
+    },
+    {
+      "path": "hotel.8.out",
+      "size": 84239
+    },
+    {
+      "path": "hotel.9.in",
+      "size": 345634
+    },
+    {
+      "path": "hotel.9.out",
+      "size": 103780
+    }
+  ]
+}

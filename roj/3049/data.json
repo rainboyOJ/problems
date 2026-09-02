@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "memory1.in",
+      "size": 55
+    },
+    {
+      "path": "memory1.out",
+      "size": 8
+    },
+    {
+      "path": "memory2.in",
+      "size": 207068
+    },
+    {
+      "path": "memory2.out",
+      "size": 16
+    },
+    {
+      "path": "memory3.in",
+      "size": 126640
+    },
+    {
+      "path": "memory3.out",
+      "size": 14
+    },
+    {
+      "path": "memory4.in",
+      "size": 187158
+    },
+    {
+      "path": "memory4.out",
+      "size": 14
+    },
+    {
+      "path": "memory5.in",
+      "size": 154506
+    },
+    {
+      "path": "memory5.out",
+      "size": 11
+    }
+  ]
+}

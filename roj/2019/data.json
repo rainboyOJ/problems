@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "sprime0.in",
+      "size": 1
+    },
+    {
+      "path": "sprime0.out",
+      "size": 94
+    },
+    {
+      "path": "sprime1.in",
+      "size": 1
+    },
+    {
+      "path": "sprime1.out",
+      "size": 103
+    },
+    {
+      "path": "sprime2.in",
+      "size": 1
+    },
+    {
+      "path": "sprime2.out",
+      "size": 94
+    },
+    {
+      "path": "sprime3.in",
+      "size": 1
+    },
+    {
+      "path": "sprime3.out",
+      "size": 70
+    },
+    {
+      "path": "sprime4.in",
+      "size": 1
+    },
+    {
+      "path": "sprime4.out",
+      "size": 48
+    }
+  ]
+}

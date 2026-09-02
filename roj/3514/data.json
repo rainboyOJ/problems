@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "build0.in",
+      "size": 21
+    },
+    {
+      "path": "build0.out",
+      "size": 1
+    },
+    {
+      "path": "build1.in",
+      "size": 51
+    },
+    {
+      "path": "build1.out",
+      "size": 3
+    },
+    {
+      "path": "build2.in",
+      "size": 32
+    },
+    {
+      "path": "build2.out",
+      "size": 7
+    },
+    {
+      "path": "build3.in",
+      "size": 67
+    },
+    {
+      "path": "build3.out",
+      "size": 14
+    },
+    {
+      "path": "build4.in",
+      "size": 106
+    },
+    {
+      "path": "build4.out",
+      "size": 22
+    }
+  ]
+}

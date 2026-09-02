@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "polygon1.in",
+      "size": 24
+    },
+    {
+      "path": "polygon1.out",
+      "size": 8
+    },
+    {
+      "path": "polygon2.in",
+      "size": 29
+    },
+    {
+      "path": "polygon2.out",
+      "size": 9
+    },
+    {
+      "path": "polygon3.in",
+      "size": 17
+    },
+    {
+      "path": "polygon3.out",
+      "size": 6
+    },
+    {
+      "path": "polygon4.in",
+      "size": 125
+    },
+    {
+      "path": "polygon4.out",
+      "size": 63
+    },
+    {
+      "path": "polygon5.in",
+      "size": 209
+    },
+    {
+      "path": "polygon5.out",
+      "size": 11
+    }
+  ]
+}

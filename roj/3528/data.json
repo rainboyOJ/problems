@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "unhappy0.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy0.out",
+      "size": 1
+    },
+    {
+      "path": "unhappy1.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy1.out",
+      "size": 1
+    },
+    {
+      "path": "unhappy2.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy2.out",
+      "size": 1
+    },
+    {
+      "path": "unhappy3.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy3.out",
+      "size": 1
+    },
+    {
+      "path": "unhappy4.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy4.out",
+      "size": 1
+    },
+    {
+      "path": "unhappy5.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy5.out",
+      "size": 1
+    },
+    {
+      "path": "unhappy6.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy6.out",
+      "size": 1
+    },
+    {
+      "path": "unhappy7.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy7.out",
+      "size": 1
+    },
+    {
+      "path": "unhappy8.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy8.out",
+      "size": 1
+    },
+    {
+      "path": "unhappy9.in",
+      "size": 33
+    },
+    {
+      "path": "unhappy9.out",
+      "size": 1
+    }
+  ]
+}

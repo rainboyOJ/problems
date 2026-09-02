@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "gt1.in",
+      "size": 39
+    },
+    {
+      "path": "gt1.out",
+      "size": 6
+    },
+    {
+      "path": "gt10.in",
+      "size": 40
+    },
+    {
+      "path": "gt10.out",
+      "size": 6
+    },
+    {
+      "path": "gt2.in",
+      "size": 15
+    },
+    {
+      "path": "gt2.out",
+      "size": 6
+    },
+    {
+      "path": "gt3.in",
+      "size": 29
+    },
+    {
+      "path": "gt3.out",
+      "size": 6
+    },
+    {
+      "path": "gt4.in",
+      "size": 33
+    },
+    {
+      "path": "gt4.out",
+      "size": 6
+    },
+    {
+      "path": "gt5.in",
+      "size": 30
+    },
+    {
+      "path": "gt5.out",
+      "size": 6
+    },
+    {
+      "path": "gt6.in",
+      "size": 37
+    },
+    {
+      "path": "gt6.out",
+      "size": 6
+    },
+    {
+      "path": "gt7.in",
+      "size": 39
+    },
+    {
+      "path": "gt7.out",
+      "size": 6
+    },
+    {
+      "path": "gt8.in",
+      "size": 40
+    },
+    {
+      "path": "gt8.out",
+      "size": 6
+    },
+    {
+      "path": "gt9.in",
+      "size": 40
+    },
+    {
+      "path": "gt9.out",
+      "size": 6
+    }
+  ]
+}

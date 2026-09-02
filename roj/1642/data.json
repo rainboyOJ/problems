@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "fibo1.in",
+      "size": 9
+    },
+    {
+      "path": "fibo1.out",
+      "size": 4
+    },
+    {
+      "path": "fibo10.in",
+      "size": 23
+    },
+    {
+      "path": "fibo10.out",
+      "size": 11
+    },
+    {
+      "path": "fibo2.in",
+      "size": 10
+    },
+    {
+      "path": "fibo2.out",
+      "size": 6
+    },
+    {
+      "path": "fibo3.in",
+      "size": 11
+    },
+    {
+      "path": "fibo3.out",
+      "size": 6
+    },
+    {
+      "path": "fibo4.in",
+      "size": 14
+    },
+    {
+      "path": "fibo4.out",
+      "size": 8
+    },
+    {
+      "path": "fibo5.in",
+      "size": 15
+    },
+    {
+      "path": "fibo5.out",
+      "size": 8
+    },
+    {
+      "path": "fibo6.in",
+      "size": 21
+    },
+    {
+      "path": "fibo6.out",
+      "size": 10
+    },
+    {
+      "path": "fibo7.in",
+      "size": 21
+    },
+    {
+      "path": "fibo7.out",
+      "size": 11
+    },
+    {
+      "path": "fibo8.in",
+      "size": 22
+    },
+    {
+      "path": "fibo8.out",
+      "size": 11
+    },
+    {
+      "path": "fibo9.in",
+      "size": 22
+    },
+    {
+      "path": "fibo9.out",
+      "size": 11
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "fence90.in",
+      "size": 5
+    },
+    {
+      "path": "fence90.out",
+      "size": 1
+    },
+    {
+      "path": "fence91.in",
+      "size": 5
+    },
+    {
+      "path": "fence91.out",
+      "size": 1
+    },
+    {
+      "path": "fence910.in",
+      "size": 15
+    },
+    {
+      "path": "fence910.out",
+      "size": 7
+    },
+    {
+      "path": "fence911.in",
+      "size": 13
+    },
+    {
+      "path": "fence911.out",
+      "size": 9
+    },
+    {
+      "path": "fence92.in",
+      "size": 8
+    },
+    {
+      "path": "fence92.out",
+      "size": 2
+    },
+    {
+      "path": "fence93.in",
+      "size": 9
+    },
+    {
+      "path": "fence93.out",
+      "size": 4
+    },
+    {
+      "path": "fence94.in",
+      "size": 11
+    },
+    {
+      "path": "fence94.out",
+      "size": 7
+    },
+    {
+      "path": "fence95.in",
+      "size": 10
+    },
+    {
+      "path": "fence95.out",
+      "size": 4
+    },
+    {
+      "path": "fence96.in",
+      "size": 12
+    },
+    {
+      "path": "fence96.out",
+      "size": 3
+    },
+    {
+      "path": "fence97.in",
+      "size": 9
+    },
+    {
+      "path": "fence97.out",
+      "size": 4
+    },
+    {
+      "path": "fence98.in",
+      "size": 15
+    },
+    {
+      "path": "fence98.out",
+      "size": 9
+    },
+    {
+      "path": "fence99.in",
+      "size": 17
+    },
+    {
+      "path": "fence99.out",
+      "size": 9
+    }
+  ]
+}

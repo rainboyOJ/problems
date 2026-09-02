@@ -1,0 +1,260 @@
+{
+  "files": [
+    {
+      "path": "kor0.in",
+      "size": 45
+    },
+    {
+      "path": "kor0.out",
+      "size": 6
+    },
+    {
+      "path": "kor10a.in",
+      "size": 869083
+    },
+    {
+      "path": "kor10a.out",
+      "size": 10
+    },
+    {
+      "path": "kor10b.in",
+      "size": 960127
+    },
+    {
+      "path": "kor10b.out",
+      "size": 70973
+    },
+    {
+      "path": "kor11a.in",
+      "size": 1063496
+    },
+    {
+      "path": "kor11a.out",
+      "size": 11
+    },
+    {
+      "path": "kor11b.in",
+      "size": 1075447
+    },
+    {
+      "path": "kor11b.out",
+      "size": 10864
+    },
+    {
+      "path": "kor12a.in",
+      "size": 1289134
+    },
+    {
+      "path": "kor12a.out",
+      "size": 11
+    },
+    {
+      "path": "kor12b.in",
+      "size": 1019827
+    },
+    {
+      "path": "kor12b.out",
+      "size": 70753
+    },
+    {
+      "path": "kor12c.in",
+      "size": 1200007
+    },
+    {
+      "path": "kor12c.out",
+      "size": 1288904
+    },
+    {
+      "path": "kor1a.in",
+      "size": 53
+    },
+    {
+      "path": "kor1a.out",
+      "size": 7
+    },
+    {
+      "path": "kor1b.in",
+      "size": 63
+    },
+    {
+      "path": "kor1b.out",
+      "size": 6
+    },
+    {
+      "path": "kor1c.in",
+      "size": 43
+    },
+    {
+      "path": "kor1c.out",
+      "size": 56
+    },
+    {
+      "path": "kor1ocen.in",
+      "size": 12
+    },
+    {
+      "path": "kor1ocen.out",
+      "size": 6
+    },
+    {
+      "path": "kor2a.in",
+      "size": 260
+    },
+    {
+      "path": "kor2a.out",
+      "size": 7
+    },
+    {
+      "path": "kor2b.in",
+      "size": 280
+    },
+    {
+      "path": "kor2b.out",
+      "size": 7
+    },
+    {
+      "path": "kor2c.in",
+      "size": 304
+    },
+    {
+      "path": "kor2c.out",
+      "size": 298
+    },
+    {
+      "path": "kor2ocen.in",
+      "size": 16
+    },
+    {
+      "path": "kor2ocen.out",
+      "size": 8
+    },
+    {
+      "path": "kor3a.in",
+      "size": 577
+    },
+    {
+      "path": "kor3a.out",
+      "size": 7
+    },
+    {
+      "path": "kor3b.in",
+      "size": 744
+    },
+    {
+      "path": "kor3b.out",
+      "size": 15
+    },
+    {
+      "path": "kor3ocen.in",
+      "size": 30
+    },
+    {
+      "path": "kor3ocen.out",
+      "size": 6
+    },
+    {
+      "path": "kor4a.in",
+      "size": 1838
+    },
+    {
+      "path": "kor4a.out",
+      "size": 8
+    },
+    {
+      "path": "kor4b.in",
+      "size": 1864
+    },
+    {
+      "path": "kor4b.out",
+      "size": 11
+    },
+    {
+      "path": "kor4ocen.in",
+      "size": 48900
+    },
+    {
+      "path": "kor4ocen.out",
+      "size": 10
+    },
+    {
+      "path": "kor5a.in",
+      "size": 61613
+    },
+    {
+      "path": "kor5a.out",
+      "size": 9
+    },
+    {
+      "path": "kor5b.in",
+      "size": 80006
+    },
+    {
+      "path": "kor5b.out",
+      "size": 1713
+    },
+    {
+      "path": "kor6a.in",
+      "size": 77203
+    },
+    {
+      "path": "kor6a.out",
+      "size": 9
+    },
+    {
+      "path": "kor6b.in",
+      "size": 107826
+    },
+    {
+      "path": "kor6b.out",
+      "size": 132
+    },
+    {
+      "path": "kor7a.in",
+      "size": 178196
+    },
+    {
+      "path": "kor7a.out",
+      "size": 10
+    },
+    {
+      "path": "kor7b.in",
+      "size": 230346
+    },
+    {
+      "path": "kor7b.out",
+      "size": 91
+    },
+    {
+      "path": "kor8a.in",
+      "size": 255637
+    },
+    {
+      "path": "kor8a.out",
+      "size": 10
+    },
+    {
+      "path": "kor8b.in",
+      "size": 289086
+    },
+    {
+      "path": "kor8b.out",
+      "size": 18
+    },
+    {
+      "path": "kor9a.in",
+      "size": 457344
+    },
+    {
+      "path": "kor9a.out",
+      "size": 10
+    },
+    {
+      "path": "kor9b.in",
+      "size": 480006
+    },
+    {
+      "path": "kor9b.out",
+      "size": 3311
+    }
+  ]
+}

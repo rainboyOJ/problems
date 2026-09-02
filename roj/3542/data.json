@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "fire0.in",
+      "size": 587
+    },
+    {
+      "path": "fire0.out",
+      "size": 2
+    },
+    {
+      "path": "fire1.in",
+      "size": 7790
+    },
+    {
+      "path": "fire1.out",
+      "size": 3
+    },
+    {
+      "path": "fire2.in",
+      "size": 577793
+    },
+    {
+      "path": "fire2.out",
+      "size": 5
+    },
+    {
+      "path": "fire3.in",
+      "size": 577793
+    },
+    {
+      "path": "fire3.out",
+      "size": 5
+    },
+    {
+      "path": "fire4.in",
+      "size": 577793
+    },
+    {
+      "path": "fire4.out",
+      "size": 5
+    },
+    {
+      "path": "fire5.in",
+      "size": 577793
+    },
+    {
+      "path": "fire5.out",
+      "size": 5
+    },
+    {
+      "path": "fire6.in",
+      "size": 577793
+    },
+    {
+      "path": "fire6.out",
+      "size": 5
+    },
+    {
+      "path": "fire7.in",
+      "size": 577793
+    },
+    {
+      "path": "fire7.out",
+      "size": 5
+    },
+    {
+      "path": "fire8.in",
+      "size": 577793
+    },
+    {
+      "path": "fire8.out",
+      "size": 1
+    },
+    {
+      "path": "fire9.in",
+      "size": 44
+    },
+    {
+      "path": "fire9.out",
+      "size": 1
+    }
+  ]
+}

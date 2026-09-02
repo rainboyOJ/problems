@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "MatchNOIP20130.in",
+      "size": 45
+    },
+    {
+      "path": "MatchNOIP20130.out",
+      "size": 2
+    },
+    {
+      "path": "MatchNOIP20131.in",
+      "size": 285
+    },
+    {
+      "path": "MatchNOIP20131.out",
+      "size": 3
+    },
+    {
+      "path": "MatchNOIP20132.in",
+      "size": 588
+    },
+    {
+      "path": "MatchNOIP20132.out",
+      "size": 4
+    },
+    {
+      "path": "MatchNOIP20133.in",
+      "size": 3788
+    },
+    {
+      "path": "MatchNOIP20133.out",
+      "size": 5
+    },
+    {
+      "path": "MatchNOIP20134.in",
+      "size": 7791
+    },
+    {
+      "path": "MatchNOIP20134.out",
+      "size": 6
+    },
+    {
+      "path": "MatchNOIP20135.in",
+      "size": 47791
+    },
+    {
+      "path": "MatchNOIP20135.out",
+      "size": 7
+    },
+    {
+      "path": "MatchNOIP20136.in",
+      "size": 97794
+    },
+    {
+      "path": "MatchNOIP20136.out",
+      "size": 8
+    },
+    {
+      "path": "MatchNOIP20137.in",
+      "size": 217794
+    },
+    {
+      "path": "MatchNOIP20137.out",
+      "size": 8
+    },
+    {
+      "path": "MatchNOIP20138.in",
+      "size": 577794
+    },
+    {
+      "path": "MatchNOIP20138.out",
+      "size": 8
+    },
+    {
+      "path": "MatchNOIP20139.in",
+      "size": 1177797
+    },
+    {
+      "path": "MatchNOIP20139.out",
+      "size": 8
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "sanguo0.in",
+      "size": 61
+    },
+    {
+      "path": "sanguo0.out",
+      "size": 12
+    },
+    {
+      "path": "sanguo1.in",
+      "size": 148
+    },
+    {
+      "path": "sanguo1.out",
+      "size": 12
+    },
+    {
+      "path": "sanguo2.in",
+      "size": 275
+    },
+    {
+      "path": "sanguo2.out",
+      "size": 12
+    },
+    {
+      "path": "sanguo3.in",
+      "size": 434
+    },
+    {
+      "path": "sanguo3.out",
+      "size": 12
+    },
+    {
+      "path": "sanguo4.in",
+      "size": 871
+    },
+    {
+      "path": "sanguo4.out",
+      "size": 12
+    },
+    {
+      "path": "sanguo5.in",
+      "size": 1136
+    },
+    {
+      "path": "sanguo5.out",
+      "size": 12
+    },
+    {
+      "path": "sanguo6.in",
+      "size": 1447
+    },
+    {
+      "path": "sanguo6.out",
+      "size": 12
+    },
+    {
+      "path": "sanguo7.in",
+      "size": 46599
+    },
+    {
+      "path": "sanguo7.out",
+      "size": 12
+    },
+    {
+      "path": "sanguo8.in",
+      "size": 421691
+    },
+    {
+      "path": "sanguo8.out",
+      "size": 12
+    },
+    {
+      "path": "sanguo9.in",
+      "size": 1173604
+    },
+    {
+      "path": "sanguo9.out",
+      "size": 12
+    }
+  ]
+}

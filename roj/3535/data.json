@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "alpha0.in",
+      "size": 19
+    },
+    {
+      "path": "alpha0.out",
+      "size": 9
+    },
+    {
+      "path": "alpha1.in",
+      "size": 28
+    },
+    {
+      "path": "alpha1.out",
+      "size": 15
+    },
+    {
+      "path": "alpha2.in",
+      "size": 35
+    },
+    {
+      "path": "alpha2.out",
+      "size": 19
+    },
+    {
+      "path": "alpha3.in",
+      "size": 41
+    },
+    {
+      "path": "alpha3.out",
+      "size": 25
+    },
+    {
+      "path": "alpha4.in",
+      "size": 50
+    },
+    {
+      "path": "alpha4.out",
+      "size": 34
+    },
+    {
+      "path": "alpha5.in",
+      "size": 53
+    },
+    {
+      "path": "alpha5.out",
+      "size": 37
+    },
+    {
+      "path": "alpha6.in",
+      "size": 59
+    },
+    {
+      "path": "alpha6.out",
+      "size": 43
+    },
+    {
+      "path": "alpha7.in",
+      "size": 65
+    },
+    {
+      "path": "alpha7.out",
+      "size": 49
+    },
+    {
+      "path": "alpha8.in",
+      "size": 68
+    },
+    {
+      "path": "alpha8.out",
+      "size": 52
+    },
+    {
+      "path": "alpha9.in",
+      "size": 68
+    },
+    {
+      "path": "alpha9.out",
+      "size": 52
+    }
+  ]
+}

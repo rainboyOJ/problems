@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "problem1.in",
+      "size": 86
+    },
+    {
+      "path": "problem1.out",
+      "size": 6
+    },
+    {
+      "path": "problem10.in",
+      "size": 90
+    },
+    {
+      "path": "problem10.out",
+      "size": 6
+    },
+    {
+      "path": "problem2.in",
+      "size": 89
+    },
+    {
+      "path": "problem2.out",
+      "size": 6
+    },
+    {
+      "path": "problem3.in",
+      "size": 87
+    },
+    {
+      "path": "problem3.out",
+      "size": 7
+    },
+    {
+      "path": "problem4.in",
+      "size": 90
+    },
+    {
+      "path": "problem4.out",
+      "size": 7
+    },
+    {
+      "path": "problem5.in",
+      "size": 88
+    },
+    {
+      "path": "problem5.out",
+      "size": 6
+    },
+    {
+      "path": "problem6.in",
+      "size": 89
+    },
+    {
+      "path": "problem6.out",
+      "size": 6
+    },
+    {
+      "path": "problem7.in",
+      "size": 90
+    },
+    {
+      "path": "problem7.out",
+      "size": 6
+    },
+    {
+      "path": "problem8.in",
+      "size": 89
+    },
+    {
+      "path": "problem8.out",
+      "size": 7
+    },
+    {
+      "path": "problem9.in",
+      "size": 92
+    },
+    {
+      "path": "problem9.out",
+      "size": 7
+    }
+  ]
+}

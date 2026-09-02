@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "gcd0.in",
+      "size": 14
+    },
+    {
+      "path": "gcd0.out",
+      "size": 7
+    },
+    {
+      "path": "gcd1.in",
+      "size": 14
+    },
+    {
+      "path": "gcd1.out",
+      "size": 7
+    },
+    {
+      "path": "gcd2.in",
+      "size": 13
+    },
+    {
+      "path": "gcd2.out",
+      "size": 7
+    },
+    {
+      "path": "gcd3.in",
+      "size": 14
+    },
+    {
+      "path": "gcd3.out",
+      "size": 7
+    },
+    {
+      "path": "gcd4.in",
+      "size": 37
+    },
+    {
+      "path": "gcd4.out",
+      "size": 11
+    },
+    {
+      "path": "gcd5.in",
+      "size": 38
+    },
+    {
+      "path": "gcd5.out",
+      "size": 10
+    },
+    {
+      "path": "gcd6.in",
+      "size": 1997
+    },
+    {
+      "path": "gcd6.out",
+      "size": 10
+    },
+    {
+      "path": "gcd7.in",
+      "size": 1996
+    },
+    {
+      "path": "gcd7.out",
+      "size": 9
+    },
+    {
+      "path": "gcd8.in",
+      "size": 5996
+    },
+    {
+      "path": "gcd8.out",
+      "size": 10
+    },
+    {
+      "path": "gcd9.in",
+      "size": 5996
+    },
+    {
+      "path": "gcd9.out",
+      "size": 10
+    }
+  ]
+}

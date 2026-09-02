@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "sav1.in",
+      "size": 101
+    },
+    {
+      "path": "sav1.out",
+      "size": 494
+    },
+    {
+      "path": "sav10.in",
+      "size": 99992
+    },
+    {
+      "path": "sav10.out",
+      "size": 788820
+    },
+    {
+      "path": "sav11.in",
+      "size": 100001
+    },
+    {
+      "path": "sav11.out",
+      "size": 1139010
+    },
+    {
+      "path": "sav12.in",
+      "size": 200001
+    },
+    {
+      "path": "sav12.out",
+      "size": 2576737
+    },
+    {
+      "path": "sav13.in",
+      "size": 300001
+    },
+    {
+      "path": "sav13.out",
+      "size": 3452475
+    },
+    {
+      "path": "sav14.in",
+      "size": 300001
+    },
+    {
+      "path": "sav14.out",
+      "size": 3976737
+    },
+    {
+      "path": "sav15.in",
+      "size": 100001
+    },
+    {
+      "path": "sav15.out",
+      "size": 1137089
+    },
+    {
+      "path": "sav16.in",
+      "size": 100001
+    },
+    {
+      "path": "sav16.out",
+      "size": 1153590
+    },
+    {
+      "path": "sav17.in",
+      "size": 200001
+    },
+    {
+      "path": "sav17.out",
+      "size": 2083546
+    },
+    {
+      "path": "sav18.in",
+      "size": 200001
+    },
+    {
+      "path": "sav18.out",
+      "size": 2559722
+    },
+    {
+      "path": "sav19.in",
+      "size": 300001
+    },
+    {
+      "path": "sav19.out",
+      "size": 3494945
+    },
+    {
+      "path": "sav2.in",
+      "size": 201
+    },
+    {
+      "path": "sav2.out",
+      "size": 1296
+    },
+    {
+      "path": "sav20.in",
+      "size": 300001
+    },
+    {
+      "path": "sav20.out",
+      "size": 3930847
+    },
+    {
+      "path": "sav3.in",
+      "size": 501
+    },
+    {
+      "path": "sav3.out",
+      "size": 3699
+    },
+    {
+      "path": "sav4.in",
+      "size": 751
+    },
+    {
+      "path": "sav4.out",
+      "size": 5634
+    },
+    {
+      "path": "sav5.in",
+      "size": 1001
+    },
+    {
+      "path": "sav5.out",
+      "size": 7648
+    },
+    {
+      "path": "sav6.in",
+      "size": 1001
+    },
+    {
+      "path": "sav6.out",
+      "size": 7584
+    },
+    {
+      "path": "sav7.in",
+      "size": 2001
+    },
+    {
+      "path": "sav7.out",
+      "size": 17342
+    },
+    {
+      "path": "sav8.in",
+      "size": 2001
+    },
+    {
+      "path": "sav8.out",
+      "size": 17270
+    },
+    {
+      "path": "sav9.in",
+      "size": 99992
+    },
+    {
+      "path": "sav9.out",
+      "size": 788820
+    }
+  ]
+}

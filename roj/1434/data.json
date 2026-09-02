@@ -1,0 +1,116 @@
+{
+  "files": [
+    {
+      "path": "cowfnc.1.in",
+      "size": 27
+    },
+    {
+      "path": "cowfnc.1.out",
+      "size": 5
+    },
+    {
+      "path": "cowfnc.10.in",
+      "size": 19334
+    },
+    {
+      "path": "cowfnc.10.out",
+      "size": 7
+    },
+    {
+      "path": "cowfnc.11.in",
+      "size": 68938
+    },
+    {
+      "path": "cowfnc.11.out",
+      "size": 6
+    },
+    {
+      "path": "cowfnc.12.in",
+      "size": 180008
+    },
+    {
+      "path": "cowfnc.12.out",
+      "size": 5
+    },
+    {
+      "path": "cowfnc.13.in",
+      "size": 180012
+    },
+    {
+      "path": "cowfnc.13.out",
+      "size": 5
+    },
+    {
+      "path": "cowfnc.14.in",
+      "size": 200019
+    },
+    {
+      "path": "cowfnc.14.out",
+      "size": 3
+    },
+    {
+      "path": "cowfnc.2.in",
+      "size": 27
+    },
+    {
+      "path": "cowfnc.2.out",
+      "size": 5
+    },
+    {
+      "path": "cowfnc.3.in",
+      "size": 26
+    },
+    {
+      "path": "cowfnc.3.out",
+      "size": 6
+    },
+    {
+      "path": "cowfnc.4.in",
+      "size": 29
+    },
+    {
+      "path": "cowfnc.4.out",
+      "size": 5
+    },
+    {
+      "path": "cowfnc.5.in",
+      "size": 73
+    },
+    {
+      "path": "cowfnc.5.out",
+      "size": 7
+    },
+    {
+      "path": "cowfnc.6.in",
+      "size": 113
+    },
+    {
+      "path": "cowfnc.6.out",
+      "size": 7
+    },
+    {
+      "path": "cowfnc.7.in",
+      "size": 44357
+    },
+    {
+      "path": "cowfnc.7.out",
+      "size": 8
+    },
+    {
+      "path": "cowfnc.8.in",
+      "size": 444456
+    },
+    {
+      "path": "cowfnc.8.out",
+      "size": 8
+    },
+    {
+      "path": "cowfnc.9.in",
+      "size": 19286
+    },
+    {
+      "path": "cowfnc.9.out",
+      "size": 7
+    }
+  ]
+}

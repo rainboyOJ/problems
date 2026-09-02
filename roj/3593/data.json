@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "bus1.ans",
+      "size": 3
+    },
+    {
+      "path": "bus1.in",
+      "size": 58
+    },
+    {
+      "path": "bus10.ans",
+      "size": 6
+    },
+    {
+      "path": "bus10.in",
+      "size": 2877
+    },
+    {
+      "path": "bus11.ans",
+      "size": 7
+    },
+    {
+      "path": "bus11.in",
+      "size": 3794
+    },
+    {
+      "path": "bus12.ans",
+      "size": 7
+    },
+    {
+      "path": "bus12.in",
+      "size": 7198
+    },
+    {
+      "path": "bus13.ans",
+      "size": 8
+    },
+    {
+      "path": "bus13.in",
+      "size": 11646
+    },
+    {
+      "path": "bus14.ans",
+      "size": 9
+    },
+    {
+      "path": "bus14.in",
+      "size": 19365
+    },
+    {
+      "path": "bus15.ans",
+      "size": 10
+    },
+    {
+      "path": "bus15.in",
+      "size": 64170
+    },
+    {
+      "path": "bus16.ans",
+      "size": 10
+    },
+    {
+      "path": "bus16.in",
+      "size": 64911
+    },
+    {
+      "path": "bus17.ans",
+      "size": 10
+    },
+    {
+      "path": "bus17.in",
+      "size": 65309
+    },
+    {
+      "path": "bus18.ans",
+      "size": 10
+    },
+    {
+      "path": "bus18.in",
+      "size": 128718
+    },
+    {
+      "path": "bus19.ans",
+      "size": 10
+    },
+    {
+      "path": "bus19.in",
+      "size": 129924
+    },
+    {
+      "path": "bus2.ans",
+      "size": 4
+    },
+    {
+      "path": "bus2.in",
+      "size": 98
+    },
+    {
+      "path": "bus20.ans",
+      "size": 10
+    },
+    {
+      "path": "bus20.in",
+      "size": 130156
+    },
+    {
+      "path": "bus3.ans",
+      "size": 5
+    },
+    {
+      "path": "bus3.in",
+      "size": 742
+    },
+    {
+      "path": "bus4.ans",
+      "size": 7
+    },
+    {
+      "path": "bus4.in",
+      "size": 8474
+    },
+    {
+      "path": "bus5.ans",
+      "size": 6
+    },
+    {
+      "path": "bus5.in",
+      "size": 1635
+    },
+    {
+      "path": "bus6.ans",
+      "size": 6
+    },
+    {
+      "path": "bus6.in",
+      "size": 1073
+    },
+    {
+      "path": "bus7.ans",
+      "size": 6
+    },
+    {
+      "path": "bus7.in",
+      "size": 5863
+    },
+    {
+      "path": "bus8.ans",
+      "size": 7
+    },
+    {
+      "path": "bus8.in",
+      "size": 8443
+    },
+    {
+      "path": "bus9.ans",
+      "size": 6
+    },
+    {
+      "path": "bus9.in",
+      "size": 1886
+    }
+  ]
+}

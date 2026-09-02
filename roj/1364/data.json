@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "flist1.in",
+      "size": 14
+    },
+    {
+      "path": "flist1.out",
+      "size": 7
+    },
+    {
+      "path": "flist2.in",
+      "size": 18
+    },
+    {
+      "path": "flist2.out",
+      "size": 9
+    },
+    {
+      "path": "flist3.in",
+      "size": 18
+    },
+    {
+      "path": "flist3.out",
+      "size": 9
+    },
+    {
+      "path": "flist4.in",
+      "size": 24
+    },
+    {
+      "path": "flist4.out",
+      "size": 11
+    },
+    {
+      "path": "flist5.in",
+      "size": 30
+    },
+    {
+      "path": "flist5.out",
+      "size": 14
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "ex_tree1.in",
+      "size": 58654
+    },
+    {
+      "path": "ex_tree1.out",
+      "size": 8
+    },
+    {
+      "path": "tree1.in",
+      "size": 126
+    },
+    {
+      "path": "tree1.out",
+      "size": 5
+    },
+    {
+      "path": "tree10.in",
+      "size": 5908616
+    },
+    {
+      "path": "tree10.out",
+      "size": 13
+    },
+    {
+      "path": "tree2.in",
+      "size": 27258
+    },
+    {
+      "path": "tree2.out",
+      "size": 9
+    },
+    {
+      "path": "tree3.in",
+      "size": 13481
+    },
+    {
+      "path": "tree3.out",
+      "size": 9
+    },
+    {
+      "path": "tree4.in",
+      "size": 41050
+    },
+    {
+      "path": "tree4.out",
+      "size": 9
+    },
+    {
+      "path": "tree5.in",
+      "size": 45144
+    },
+    {
+      "path": "tree5.out",
+      "size": 9
+    },
+    {
+      "path": "tree6.in",
+      "size": 1798503
+    },
+    {
+      "path": "tree6.out",
+      "size": 11
+    },
+    {
+      "path": "tree7.in",
+      "size": 1798625
+    },
+    {
+      "path": "tree7.out",
+      "size": 11
+    },
+    {
+      "path": "tree8.in",
+      "size": 1929880
+    },
+    {
+      "path": "tree8.out",
+      "size": 12
+    },
+    {
+      "path": "tree9.in",
+      "size": 5759972
+    },
+    {
+      "path": "tree9.out",
+      "size": 11
+    }
+  ]
+}

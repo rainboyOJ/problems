@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "magic1.ans",
+      "size": 18
+    },
+    {
+      "path": "magic1.in",
+      "size": 2
+    },
+    {
+      "path": "magic10.ans",
+      "size": 6498
+    },
+    {
+      "path": "magic10.in",
+      "size": 3
+    },
+    {
+      "path": "magic2.ans",
+      "size": 2
+    },
+    {
+      "path": "magic2.in",
+      "size": 2
+    },
+    {
+      "path": "magic3.ans",
+      "size": 66
+    },
+    {
+      "path": "magic3.in",
+      "size": 1
+    },
+    {
+      "path": "magic4.ans",
+      "size": 138
+    },
+    {
+      "path": "magic4.in",
+      "size": 2
+    },
+    {
+      "path": "magic5.ans",
+      "size": 1336
+    },
+    {
+      "path": "magic5.in",
+      "size": 3
+    },
+    {
+      "path": "magic6.ans",
+      "size": 1656
+    },
+    {
+      "path": "magic6.in",
+      "size": 3
+    },
+    {
+      "path": "magic7.ans",
+      "size": 3736
+    },
+    {
+      "path": "magic7.in",
+      "size": 3
+    },
+    {
+      "path": "magic8.ans",
+      "size": 4338
+    },
+    {
+      "path": "magic8.in",
+      "size": 3
+    },
+    {
+      "path": "magic9.ans",
+      "size": 5738
+    },
+    {
+      "path": "magic9.in",
+      "size": 3
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "park1.ans",
+      "size": 10
+    },
+    {
+      "path": "park1.in",
+      "size": 387
+    },
+    {
+      "path": "park10.ans",
+      "size": 20
+    },
+    {
+      "path": "park10.in",
+      "size": 7820734
+    },
+    {
+      "path": "park2.ans",
+      "size": 10
+    },
+    {
+      "path": "park2.in",
+      "size": 77832
+    },
+    {
+      "path": "park3.ans",
+      "size": 41
+    },
+    {
+      "path": "park3.in",
+      "size": 95998
+    },
+    {
+      "path": "park4.ans",
+      "size": 46
+    },
+    {
+      "path": "park4.in",
+      "size": 92799
+    },
+    {
+      "path": "park5.ans",
+      "size": 43
+    },
+    {
+      "path": "park5.in",
+      "size": 92404
+    },
+    {
+      "path": "park6.ans",
+      "size": 38
+    },
+    {
+      "path": "park6.in",
+      "size": 95526
+    },
+    {
+      "path": "park7.ans",
+      "size": 12
+    },
+    {
+      "path": "park7.in",
+      "size": 11237384
+    },
+    {
+      "path": "park8.ans",
+      "size": 25
+    },
+    {
+      "path": "park8.in",
+      "size": 8203440
+    },
+    {
+      "path": "park9.ans",
+      "size": 21
+    },
+    {
+      "path": "park9.in",
+      "size": 7914685
+    }
+  ]
+}

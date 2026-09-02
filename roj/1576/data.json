@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "choose0.in",
+      "size": 40
+    },
+    {
+      "path": "choose0.out",
+      "size": 4
+    },
+    {
+      "path": "choose1.in",
+      "size": 25
+    },
+    {
+      "path": "choose1.out",
+      "size": 4
+    },
+    {
+      "path": "choose2.in",
+      "size": 15
+    },
+    {
+      "path": "choose2.out",
+      "size": 3
+    },
+    {
+      "path": "choose3.in",
+      "size": 15
+    },
+    {
+      "path": "choose3.out",
+      "size": 3
+    },
+    {
+      "path": "choose4.in",
+      "size": 30
+    },
+    {
+      "path": "choose4.out",
+      "size": 4
+    },
+    {
+      "path": "choose5.in",
+      "size": 603
+    },
+    {
+      "path": "choose5.out",
+      "size": 5
+    }
+  ]
+}

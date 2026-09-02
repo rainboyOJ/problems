@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "budget0.in",
+      "size": 62
+    },
+    {
+      "path": "budget0.out",
+      "size": 4
+    },
+    {
+      "path": "budget1.in",
+      "size": 87
+    },
+    {
+      "path": "budget1.out",
+      "size": 4
+    },
+    {
+      "path": "budget2.in",
+      "size": 108
+    },
+    {
+      "path": "budget2.out",
+      "size": 5
+    },
+    {
+      "path": "budget3.in",
+      "size": 134
+    },
+    {
+      "path": "budget3.out",
+      "size": 5
+    },
+    {
+      "path": "budget4.in",
+      "size": 177
+    },
+    {
+      "path": "budget4.out",
+      "size": 5
+    },
+    {
+      "path": "budget5.in",
+      "size": 224
+    },
+    {
+      "path": "budget5.out",
+      "size": 5
+    },
+    {
+      "path": "budget6.in",
+      "size": 266
+    },
+    {
+      "path": "budget6.out",
+      "size": 5
+    },
+    {
+      "path": "budget7.in",
+      "size": 351
+    },
+    {
+      "path": "budget7.out",
+      "size": 5
+    },
+    {
+      "path": "budget8.in",
+      "size": 438
+    },
+    {
+      "path": "budget8.out",
+      "size": 6
+    },
+    {
+      "path": "budget9.in",
+      "size": 46
+    },
+    {
+      "path": "budget9.out",
+      "size": 4
+    }
+  ]
+}

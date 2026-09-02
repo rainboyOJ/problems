@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "butter0.in",
+      "size": 41
+    },
+    {
+      "path": "butter0.out",
+      "size": 1
+    },
+    {
+      "path": "butter1.in",
+      "size": 205
+    },
+    {
+      "path": "butter1.out",
+      "size": 3
+    },
+    {
+      "path": "butter2.in",
+      "size": 932
+    },
+    {
+      "path": "butter2.out",
+      "size": 3
+    },
+    {
+      "path": "butter3.in",
+      "size": 1889
+    },
+    {
+      "path": "butter3.out",
+      "size": 4
+    },
+    {
+      "path": "butter4.in",
+      "size": 3620
+    },
+    {
+      "path": "butter4.out",
+      "size": 4
+    },
+    {
+      "path": "butter5.in",
+      "size": 5576
+    },
+    {
+      "path": "butter5.out",
+      "size": 5
+    },
+    {
+      "path": "butter6.in",
+      "size": 10600
+    },
+    {
+      "path": "butter6.out",
+      "size": 5
+    },
+    {
+      "path": "butter7.in",
+      "size": 14779
+    },
+    {
+      "path": "butter7.out",
+      "size": 6
+    },
+    {
+      "path": "butter8.in",
+      "size": 18289
+    },
+    {
+      "path": "butter8.out",
+      "size": 6
+    },
+    {
+      "path": "butter9.in",
+      "size": 18232
+    },
+    {
+      "path": "butter9.out",
+      "size": 6
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "isbn0.in",
+      "size": 13
+    },
+    {
+      "path": "isbn0.out",
+      "size": 5
+    },
+    {
+      "path": "isbn1.in",
+      "size": 13
+    },
+    {
+      "path": "isbn1.out",
+      "size": 13
+    },
+    {
+      "path": "isbn2.in",
+      "size": 13
+    },
+    {
+      "path": "isbn2.out",
+      "size": 13
+    },
+    {
+      "path": "isbn3.in",
+      "size": 13
+    },
+    {
+      "path": "isbn3.out",
+      "size": 5
+    },
+    {
+      "path": "isbn4.in",
+      "size": 13
+    },
+    {
+      "path": "isbn4.out",
+      "size": 13
+    },
+    {
+      "path": "isbn5.in",
+      "size": 13
+    },
+    {
+      "path": "isbn5.out",
+      "size": 13
+    },
+    {
+      "path": "isbn6.in",
+      "size": 13
+    },
+    {
+      "path": "isbn6.out",
+      "size": 5
+    },
+    {
+      "path": "isbn7.in",
+      "size": 13
+    },
+    {
+      "path": "isbn7.out",
+      "size": 13
+    },
+    {
+      "path": "isbn8.in",
+      "size": 13
+    },
+    {
+      "path": "isbn8.out",
+      "size": 13
+    },
+    {
+      "path": "isbn9.in",
+      "size": 13
+    },
+    {
+      "path": "isbn9.out",
+      "size": 13
+    }
+  ]
+}

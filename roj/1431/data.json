@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "fish1.in",
+      "size": 20
+    },
+    {
+      "path": "fish1.out",
+      "size": 4
+    },
+    {
+      "path": "fish10.in",
+      "size": 77
+    },
+    {
+      "path": "fish10.out",
+      "size": 5
+    },
+    {
+      "path": "fish2.in",
+      "size": 35
+    },
+    {
+      "path": "fish2.out",
+      "size": 5
+    },
+    {
+      "path": "fish3.in",
+      "size": 36
+    },
+    {
+      "path": "fish3.out",
+      "size": 5
+    },
+    {
+      "path": "fish4.in",
+      "size": 22
+    },
+    {
+      "path": "fish4.out",
+      "size": 5
+    },
+    {
+      "path": "fish5.in",
+      "size": 28
+    },
+    {
+      "path": "fish5.out",
+      "size": 5
+    },
+    {
+      "path": "fish6.in",
+      "size": 200
+    },
+    {
+      "path": "fish6.out",
+      "size": 7
+    },
+    {
+      "path": "fish7.in",
+      "size": 192
+    },
+    {
+      "path": "fish7.out",
+      "size": 6
+    },
+    {
+      "path": "fish8.in",
+      "size": 96
+    },
+    {
+      "path": "fish8.out",
+      "size": 6
+    },
+    {
+      "path": "fish9.in",
+      "size": 223
+    },
+    {
+      "path": "fish9.out",
+      "size": 3
+    }
+  ]
+}

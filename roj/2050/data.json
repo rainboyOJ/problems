@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "msquare0.in",
+      "size": 15
+    },
+    {
+      "path": "msquare0.out",
+      "size": 10
+    },
+    {
+      "path": "msquare1.in",
+      "size": 15
+    },
+    {
+      "path": "msquare1.out",
+      "size": 1
+    },
+    {
+      "path": "msquare2.in",
+      "size": 15
+    },
+    {
+      "path": "msquare2.out",
+      "size": 8
+    },
+    {
+      "path": "msquare3.in",
+      "size": 15
+    },
+    {
+      "path": "msquare3.out",
+      "size": 11
+    },
+    {
+      "path": "msquare4.in",
+      "size": 15
+    },
+    {
+      "path": "msquare4.out",
+      "size": 18
+    },
+    {
+      "path": "msquare5.in",
+      "size": 15
+    },
+    {
+      "path": "msquare5.out",
+      "size": 19
+    },
+    {
+      "path": "msquare6.in",
+      "size": 15
+    },
+    {
+      "path": "msquare6.out",
+      "size": 22
+    },
+    {
+      "path": "msquare7.in",
+      "size": 15
+    },
+    {
+      "path": "msquare7.out",
+      "size": 26
+    }
+  ]
+}

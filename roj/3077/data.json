@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "alpha1.in",
+      "size": 20
+    },
+    {
+      "path": "alpha10.in",
+      "size": 69
+    },
+    {
+      "path": "alpha2.in",
+      "size": 29
+    },
+    {
+      "path": "alpha3.in",
+      "size": 36
+    },
+    {
+      "path": "alpha4.in",
+      "size": 41
+    },
+    {
+      "path": "alpha5.in",
+      "size": 51
+    },
+    {
+      "path": "alpha6.in",
+      "size": 54
+    },
+    {
+      "path": "alpha7.in",
+      "size": 60
+    },
+    {
+      "path": "alpha8.in",
+      "size": 66
+    },
+    {
+      "path": "alpha9.in",
+      "size": 69
+    }
+  ]
+}

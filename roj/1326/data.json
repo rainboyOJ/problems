@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "path": "TESTDATA.TXT",
+      "size": 411
+    },
+    {
+      "path": "mod1.in",
+      "size": 7
+    },
+    {
+      "path": "mod1.out",
+      "size": 13
+    },
+    {
+      "path": "mod2.in",
+      "size": 9
+    },
+    {
+      "path": "mod2.out",
+      "size": 14
+    },
+    {
+      "path": "mod3.in",
+      "size": 14
+    },
+    {
+      "path": "mod3.out",
+      "size": 23
+    },
+    {
+      "path": "mod4.in",
+      "size": 22
+    },
+    {
+      "path": "mod4.out",
+      "size": 31
+    },
+    {
+      "path": "mod5.in",
+      "size": 24
+    },
+    {
+      "path": "mod5.out",
+      "size": 33
+    }
+  ]
+}

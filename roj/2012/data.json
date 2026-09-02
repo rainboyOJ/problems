@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "crypt10.in",
+      "size": 12
+    },
+    {
+      "path": "crypt10.out",
+      "size": 1
+    },
+    {
+      "path": "crypt11.in",
+      "size": 10
+    },
+    {
+      "path": "crypt11.out",
+      "size": 1
+    },
+    {
+      "path": "crypt12.in",
+      "size": 4
+    },
+    {
+      "path": "crypt12.out",
+      "size": 1
+    },
+    {
+      "path": "crypt13.in",
+      "size": 16
+    },
+    {
+      "path": "crypt13.out",
+      "size": 3
+    },
+    {
+      "path": "crypt14.in",
+      "size": 18
+    },
+    {
+      "path": "crypt14.out",
+      "size": 3
+    },
+    {
+      "path": "crypt15.in",
+      "size": 14
+    },
+    {
+      "path": "crypt15.out",
+      "size": 2
+    },
+    {
+      "path": "crypt16.in",
+      "size": 20
+    },
+    {
+      "path": "crypt16.out",
+      "size": 4
+    }
+  ]
+}

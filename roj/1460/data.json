@@ -1,0 +1,244 @@
+{
+  "files": [
+    {
+      "path": "okr0.in",
+      "size": 25
+    },
+    {
+      "path": "okr0.out",
+      "size": 6
+    },
+    {
+      "path": "okr10.in",
+      "size": 1077961
+    },
+    {
+      "path": "okr10.out",
+      "size": 379381
+    },
+    {
+      "path": "okr11.in",
+      "size": 1126085
+    },
+    {
+      "path": "okr11.out",
+      "size": 532747
+    },
+    {
+      "path": "okr111.in",
+      "size": 119
+    },
+    {
+      "path": "okr111.out",
+      "size": 17
+    },
+    {
+      "path": "okr112.in",
+      "size": 10
+    },
+    {
+      "path": "okr112.out",
+      "size": 2
+    },
+    {
+      "path": "okr113.in",
+      "size": 37
+    },
+    {
+      "path": "okr113.out",
+      "size": 9
+    },
+    {
+      "path": "okr115.in",
+      "size": 62
+    },
+    {
+      "path": "okr115.out",
+      "size": 18
+    },
+    {
+      "path": "okr12.in",
+      "size": 6634111
+    },
+    {
+      "path": "okr12.out",
+      "size": 3286833
+    },
+    {
+      "path": "okr13.in",
+      "size": 8106558
+    },
+    {
+      "path": "okr13.out",
+      "size": 3700797
+    },
+    {
+      "path": "okr14.in",
+      "size": 13271235
+    },
+    {
+      "path": "okr14.out",
+      "size": 5870989
+    },
+    {
+      "path": "okr1511.in",
+      "size": 13092174
+    },
+    {
+      "path": "okr1511.out",
+      "size": 5836405
+    },
+    {
+      "path": "okr1512.in",
+      "size": 25073685
+    },
+    {
+      "path": "okr1512.out",
+      "size": 13953524
+    },
+    {
+      "path": "okr1611.in",
+      "size": 13324799
+    },
+    {
+      "path": "okr1611.out",
+      "size": 5961634
+    },
+    {
+      "path": "okr1612.in",
+      "size": 25075761
+    },
+    {
+      "path": "okr1612.out",
+      "size": 13953273
+    },
+    {
+      "path": "okr2.in",
+      "size": 1897
+    },
+    {
+      "path": "okr2.out",
+      "size": 615
+    },
+    {
+      "path": "okr215.in",
+      "size": 196
+    },
+    {
+      "path": "okr215.out",
+      "size": 70
+    },
+    {
+      "path": "okr3.in",
+      "size": 30988
+    },
+    {
+      "path": "okr3.out",
+      "size": 9216
+    },
+    {
+      "path": "okr315.in",
+      "size": 276
+    },
+    {
+      "path": "okr315.out",
+      "size": 93
+    },
+    {
+      "path": "okr411.in",
+      "size": 106505
+    },
+    {
+      "path": "okr411.out",
+      "size": 41384
+    },
+    {
+      "path": "okr412.in",
+      "size": 105517
+    },
+    {
+      "path": "okr412.out",
+      "size": 41294
+    },
+    {
+      "path": "okr415.in",
+      "size": 160
+    },
+    {
+      "path": "okr415.out",
+      "size": 46
+    },
+    {
+      "path": "okr511.in",
+      "size": 105257
+    },
+    {
+      "path": "okr511.out",
+      "size": 45057
+    },
+    {
+      "path": "okr512.in",
+      "size": 105076
+    },
+    {
+      "path": "okr512.out",
+      "size": 42209
+    },
+    {
+      "path": "okr515.in",
+      "size": 779375
+    },
+    {
+      "path": "okr515.out",
+      "size": 122000
+    },
+    {
+      "path": "okr611.in",
+      "size": 852134
+    },
+    {
+      "path": "okr611.out",
+      "size": 418957
+    },
+    {
+      "path": "okr612.in",
+      "size": 966688
+    },
+    {
+      "path": "okr612.out",
+      "size": 467152
+    },
+    {
+      "path": "okr711.in",
+      "size": 901863
+    },
+    {
+      "path": "okr711.out",
+      "size": 464978
+    },
+    {
+      "path": "okr712.in",
+      "size": 966610
+    },
+    {
+      "path": "okr712.out",
+      "size": 480143
+    },
+    {
+      "path": "okr8.in",
+      "size": 944767
+    },
+    {
+      "path": "okr8.out",
+      "size": 422131
+    },
+    {
+      "path": "okr9.in",
+      "size": 1200195
+    },
+    {
+      "path": "okr9.out",
+      "size": 513267
+    }
+  ]
+}

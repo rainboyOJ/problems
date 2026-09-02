@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "nocows0.in",
+      "size": 3
+    },
+    {
+      "path": "nocows0.out",
+      "size": 1
+    },
+    {
+      "path": "nocows1.in",
+      "size": 3
+    },
+    {
+      "path": "nocows1.out",
+      "size": 1
+    },
+    {
+      "path": "nocows10.in",
+      "size": 6
+    },
+    {
+      "path": "nocows10.out",
+      "size": 4
+    },
+    {
+      "path": "nocows11.in",
+      "size": 6
+    },
+    {
+      "path": "nocows11.out",
+      "size": 4
+    },
+    {
+      "path": "nocows2.in",
+      "size": 4
+    },
+    {
+      "path": "nocows2.out",
+      "size": 4
+    },
+    {
+      "path": "nocows3.in",
+      "size": 4
+    },
+    {
+      "path": "nocows3.out",
+      "size": 1
+    },
+    {
+      "path": "nocows4.in",
+      "size": 5
+    },
+    {
+      "path": "nocows4.out",
+      "size": 1
+    },
+    {
+      "path": "nocows5.in",
+      "size": 5
+    },
+    {
+      "path": "nocows5.out",
+      "size": 1
+    },
+    {
+      "path": "nocows6.in",
+      "size": 6
+    },
+    {
+      "path": "nocows6.out",
+      "size": 1
+    },
+    {
+      "path": "nocows7.in",
+      "size": 6
+    },
+    {
+      "path": "nocows7.out",
+      "size": 4
+    },
+    {
+      "path": "nocows8.in",
+      "size": 6
+    },
+    {
+      "path": "nocows8.out",
+      "size": 4
+    },
+    {
+      "path": "nocows9.in",
+      "size": 6
+    },
+    {
+      "path": "nocows9.out",
+      "size": 1
+    }
+  ]
+}

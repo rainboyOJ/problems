@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "song1.in",
+      "size": 352
+    },
+    {
+      "path": "song1.out",
+      "size": 2
+    },
+    {
+      "path": "song10.in",
+      "size": 183926
+    },
+    {
+      "path": "song10.out",
+      "size": 2
+    },
+    {
+      "path": "song2.in",
+      "size": 406
+    },
+    {
+      "path": "song2.out",
+      "size": 2
+    },
+    {
+      "path": "song3.in",
+      "size": 426
+    },
+    {
+      "path": "song3.out",
+      "size": 2
+    },
+    {
+      "path": "song4.in",
+      "size": 200006
+    },
+    {
+      "path": "song4.out",
+      "size": 2
+    },
+    {
+      "path": "song5.in",
+      "size": 200007
+    },
+    {
+      "path": "song5.out",
+      "size": 2
+    },
+    {
+      "path": "song6.in",
+      "size": 200013
+    },
+    {
+      "path": "song6.out",
+      "size": 2
+    },
+    {
+      "path": "song7.in",
+      "size": 200012
+    },
+    {
+      "path": "song7.out",
+      "size": 2
+    },
+    {
+      "path": "song8.in",
+      "size": 200014
+    },
+    {
+      "path": "song8.out",
+      "size": 2
+    },
+    {
+      "path": "song9.in",
+      "size": 138461
+    },
+    {
+      "path": "song9.out",
+      "size": 2
+    }
+  ]
+}

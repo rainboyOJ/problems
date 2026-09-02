@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "spy0.in",
+      "size": 7
+    },
+    {
+      "path": "spy0.out",
+      "size": 6
+    },
+    {
+      "path": "spy1.in",
+      "size": 65
+    },
+    {
+      "path": "spy1.out",
+      "size": 6
+    },
+    {
+      "path": "spy2.in",
+      "size": 62
+    },
+    {
+      "path": "spy2.out",
+      "size": 6
+    },
+    {
+      "path": "spy3.in",
+      "size": 66
+    },
+    {
+      "path": "spy3.out",
+      "size": 10
+    },
+    {
+      "path": "spy4.in",
+      "size": 105
+    },
+    {
+      "path": "spy4.out",
+      "size": 1
+    },
+    {
+      "path": "spy5.in",
+      "size": 74
+    },
+    {
+      "path": "spy5.out",
+      "size": 10
+    },
+    {
+      "path": "spy6.in",
+      "size": 114
+    },
+    {
+      "path": "spy6.out",
+      "size": 30
+    },
+    {
+      "path": "spy7.in",
+      "size": 194
+    },
+    {
+      "path": "spy7.out",
+      "size": 70
+    },
+    {
+      "path": "spy8.in",
+      "size": 254
+    },
+    {
+      "path": "spy8.out",
+      "size": 90
+    },
+    {
+      "path": "spy9.in",
+      "size": 304
+    },
+    {
+      "path": "spy9.out",
+      "size": 100
+    }
+  ]
+}

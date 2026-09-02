@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "horse0.in",
+      "size": 6
+    },
+    {
+      "path": "horse0.out",
+      "size": 3
+    },
+    {
+      "path": "horse1.in",
+      "size": 4
+    },
+    {
+      "path": "horse1.out",
+      "size": 4
+    },
+    {
+      "path": "horse10.in",
+      "size": 6
+    },
+    {
+      "path": "horse10.out",
+      "size": 14
+    },
+    {
+      "path": "horse2.in",
+      "size": 4
+    },
+    {
+      "path": "horse2.out",
+      "size": 4
+    },
+    {
+      "path": "horse3.in",
+      "size": 4
+    },
+    {
+      "path": "horse3.out",
+      "size": 11
+    },
+    {
+      "path": "horse4.in",
+      "size": 4
+    },
+    {
+      "path": "horse4.out",
+      "size": 7
+    },
+    {
+      "path": "horse5.in",
+      "size": 4
+    },
+    {
+      "path": "horse5.out",
+      "size": 7
+    },
+    {
+      "path": "horse6.in",
+      "size": 5
+    },
+    {
+      "path": "horse6.out",
+      "size": 11
+    },
+    {
+      "path": "horse7.in",
+      "size": 5
+    },
+    {
+      "path": "horse7.out",
+      "size": 13
+    },
+    {
+      "path": "horse8.in",
+      "size": 5
+    },
+    {
+      "path": "horse8.out",
+      "size": 10
+    },
+    {
+      "path": "horse9.in",
+      "size": 6
+    },
+    {
+      "path": "horse9.out",
+      "size": 15
+    }
+  ]
+}

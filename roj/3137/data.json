@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "grading.1.in",
+      "size": 16
+    },
+    {
+      "path": "grading.1.out",
+      "size": 2
+    },
+    {
+      "path": "grading.10.in",
+      "size": 10005
+    },
+    {
+      "path": "grading.10.out",
+      "size": 10
+    },
+    {
+      "path": "grading.2.in",
+      "size": 62
+    },
+    {
+      "path": "grading.2.out",
+      "size": 5
+    },
+    {
+      "path": "grading.3.in",
+      "size": 201
+    },
+    {
+      "path": "grading.3.out",
+      "size": 5
+    },
+    {
+      "path": "grading.4.in",
+      "size": 495
+    },
+    {
+      "path": "grading.4.out",
+      "size": 9
+    },
+    {
+      "path": "grading.5.in",
+      "size": 588
+    },
+    {
+      "path": "grading.5.out",
+      "size": 5
+    },
+    {
+      "path": "grading.6.in",
+      "size": 3156
+    },
+    {
+      "path": "grading.6.out",
+      "size": 8
+    },
+    {
+      "path": "grading.7.in",
+      "size": 5604
+    },
+    {
+      "path": "grading.7.out",
+      "size": 2
+    },
+    {
+      "path": "grading.8.in",
+      "size": 5654
+    },
+    {
+      "path": "grading.8.out",
+      "size": 8
+    },
+    {
+      "path": "grading.9.in",
+      "size": 11258
+    },
+    {
+      "path": "grading.9.out",
+      "size": 9
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "stars1.in",
+      "size": 28
+    },
+    {
+      "path": "stars1.out",
+      "size": 15
+    },
+    {
+      "path": "stars10.in",
+      "size": 190610
+    },
+    {
+      "path": "stars10.out",
+      "size": 45000
+    },
+    {
+      "path": "stars2.in",
+      "size": 11
+    },
+    {
+      "path": "stars2.out",
+      "size": 3
+    },
+    {
+      "path": "stars3.in",
+      "size": 70
+    },
+    {
+      "path": "stars3.out",
+      "size": 21
+    },
+    {
+      "path": "stars4.in",
+      "size": 17
+    },
+    {
+      "path": "stars4.out",
+      "size": 6
+    },
+    {
+      "path": "stars5.in",
+      "size": 185438
+    },
+    {
+      "path": "stars5.out",
+      "size": 45004
+    },
+    {
+      "path": "stars6.in",
+      "size": 186200
+    },
+    {
+      "path": "stars6.out",
+      "size": 45000
+    },
+    {
+      "path": "stars7.in",
+      "size": 173021
+    },
+    {
+      "path": "stars7.out",
+      "size": 45020
+    },
+    {
+      "path": "stars8.in",
+      "size": 135007
+    },
+    {
+      "path": "stars8.out",
+      "size": 45001
+    },
+    {
+      "path": "stars9.in",
+      "size": 144419
+    },
+    {
+      "path": "stars9.out",
+      "size": 45000
+    }
+  ]
+}

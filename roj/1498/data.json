@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "block.1.in",
+      "size": 36
+    },
+    {
+      "path": "block.1.out",
+      "size": 4
+    },
+    {
+      "path": "block.10.in",
+      "size": 1414712
+    },
+    {
+      "path": "block.10.out",
+      "size": 5
+    },
+    {
+      "path": "block.2.in",
+      "size": 95
+    },
+    {
+      "path": "block.2.out",
+      "size": 5
+    },
+    {
+      "path": "block.3.in",
+      "size": 95
+    },
+    {
+      "path": "block.3.out",
+      "size": 5
+    },
+    {
+      "path": "block.4.in",
+      "size": 95
+    },
+    {
+      "path": "block.4.out",
+      "size": 5
+    },
+    {
+      "path": "block.5.in",
+      "size": 95
+    },
+    {
+      "path": "block.5.out",
+      "size": 5
+    },
+    {
+      "path": "block.6.in",
+      "size": 10353
+    },
+    {
+      "path": "block.6.out",
+      "size": 5
+    },
+    {
+      "path": "block.7.in",
+      "size": 10364
+    },
+    {
+      "path": "block.7.out",
+      "size": 5
+    },
+    {
+      "path": "block.8.in",
+      "size": 121828
+    },
+    {
+      "path": "block.8.out",
+      "size": 5
+    },
+    {
+      "path": "block.9.in",
+      "size": 121786
+    },
+    {
+      "path": "block.9.out",
+      "size": 5
+    },
+    {
+      "path": "hack.1.in",
+      "size": 50
+    },
+    {
+      "path": "hack.1.out",
+      "size": 3
+    }
+  ]
+}

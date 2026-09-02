@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "swiss0.in",
+      "size": 36
+    },
+    {
+      "path": "swiss0.out",
+      "size": 1
+    },
+    {
+      "path": "swiss1.in",
+      "size": 103
+    },
+    {
+      "path": "swiss1.out",
+      "size": 2
+    },
+    {
+      "path": "swiss2.in",
+      "size": 1158
+    },
+    {
+      "path": "swiss2.out",
+      "size": 3
+    },
+    {
+      "path": "swiss3.in",
+      "size": 74408
+    },
+    {
+      "path": "swiss3.out",
+      "size": 4
+    },
+    {
+      "path": "swiss4.in",
+      "size": 238504
+    },
+    {
+      "path": "swiss4.out",
+      "size": 5
+    },
+    {
+      "path": "swiss5.in",
+      "size": 588785
+    },
+    {
+      "path": "swiss5.out",
+      "size": 5
+    },
+    {
+      "path": "swiss6.in",
+      "size": 788909
+    },
+    {
+      "path": "swiss6.out",
+      "size": 5
+    },
+    {
+      "path": "swiss7.in",
+      "size": 1688909
+    },
+    {
+      "path": "swiss7.out",
+      "size": 6
+    },
+    {
+      "path": "swiss8.in",
+      "size": 1744030
+    },
+    {
+      "path": "swiss8.out",
+      "size": 5
+    },
+    {
+      "path": "swiss9.in",
+      "size": 1744642
+    },
+    {
+      "path": "swiss9.out",
+      "size": 5
+    }
+  ]
+}

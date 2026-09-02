@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "rps0.in",
+      "size": 32
+    },
+    {
+      "path": "rps0.out",
+      "size": 3
+    },
+    {
+      "path": "rps1.in",
+      "size": 106
+    },
+    {
+      "path": "rps1.out",
+      "size": 3
+    },
+    {
+      "path": "rps2.in",
+      "size": 37
+    },
+    {
+      "path": "rps2.out",
+      "size": 3
+    },
+    {
+      "path": "rps3.in",
+      "size": 174
+    },
+    {
+      "path": "rps3.out",
+      "size": 3
+    },
+    {
+      "path": "rps4.in",
+      "size": 143
+    },
+    {
+      "path": "rps4.out",
+      "size": 5
+    },
+    {
+      "path": "rps5.in",
+      "size": 109
+    },
+    {
+      "path": "rps5.out",
+      "size": 5
+    },
+    {
+      "path": "rps6.in",
+      "size": 129
+    },
+    {
+      "path": "rps6.out",
+      "size": 5
+    },
+    {
+      "path": "rps7.in",
+      "size": 359
+    },
+    {
+      "path": "rps7.out",
+      "size": 3
+    },
+    {
+      "path": "rps8.in",
+      "size": 401
+    },
+    {
+      "path": "rps8.out",
+      "size": 5
+    },
+    {
+      "path": "rps9.in",
+      "size": 130
+    },
+    {
+      "path": "rps9.out",
+      "size": 5
+    }
+  ]
+}

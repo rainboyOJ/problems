@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "path": "namenum0.in",
+      "size": 35252
+    },
+    {
+      "path": "namenum0.out",
+      "size": 4
+    },
+    {
+      "path": "namenum1.in",
+      "size": 35260
+    },
+    {
+      "path": "namenum1.out",
+      "size": 12
+    },
+    {
+      "path": "namenum10.in",
+      "size": 35251
+    },
+    {
+      "path": "namenum10.out",
+      "size": 13
+    },
+    {
+      "path": "namenum11.in",
+      "size": 35251
+    },
+    {
+      "path": "namenum11.out",
+      "size": 23
+    },
+    {
+      "path": "namenum12.in",
+      "size": 35253
+    },
+    {
+      "path": "namenum12.out",
+      "size": 26
+    },
+    {
+      "path": "namenum13.in",
+      "size": 35255
+    },
+    {
+      "path": "namenum13.out",
+      "size": 25
+    },
+    {
+      "path": "namenum14.in",
+      "size": 35259
+    },
+    {
+      "path": "namenum14.out",
+      "size": 11
+    },
+    {
+      "path": "namenum2.in",
+      "size": 35257
+    },
+    {
+      "path": "namenum2.out",
+      "size": 9
+    },
+    {
+      "path": "namenum3.in",
+      "size": 35260
+    },
+    {
+      "path": "namenum3.out",
+      "size": 12
+    },
+    {
+      "path": "namenum4.in",
+      "size": 35249
+    },
+    {
+      "path": "namenum4.out",
+      "size": 4
+    },
+    {
+      "path": "namenum5.in",
+      "size": 35252
+    },
+    {
+      "path": "namenum5.out",
+      "size": 10
+    },
+    {
+      "path": "namenum6.in",
+      "size": 35251
+    },
+    {
+      "path": "namenum6.out",
+      "size": 13
+    },
+    {
+      "path": "namenum7.in",
+      "size": 35254
+    },
+    {
+      "path": "namenum7.out",
+      "size": 4
+    },
+    {
+      "path": "namenum8.in",
+      "size": 35258
+    },
+    {
+      "path": "namenum8.out",
+      "size": 10
+    },
+    {
+      "path": "namenum9.in",
+      "size": 35251
+    },
+    {
+      "path": "namenum9.out",
+      "size": 8
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "A.in",
+      "size": 78
+    },
+    {
+      "path": "B.in",
+      "size": 1024
+    },
+    {
+      "path": "C.in",
+      "size": 615
+    },
+    {
+      "path": "D.in",
+      "size": 2183
+    },
+    {
+      "path": "E.in",
+      "size": 739
+    },
+    {
+      "path": "F.in",
+      "size": 1832
+    },
+    {
+      "path": "G.in",
+      "size": 15465
+    },
+    {
+      "path": "G.out",
+      "size": 71
+    },
+    {
+      "path": "H.in",
+      "size": 674
+    },
+    {
+      "path": "I.in",
+      "size": 1269
+    }
+  ]
+}

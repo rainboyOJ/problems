@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "expr1.ans",
+      "size": 33332
+    },
+    {
+      "path": "expr1.in",
+      "size": 261121
+    },
+    {
+      "path": "expr10.ans",
+      "size": 222
+    },
+    {
+      "path": "expr10.in",
+      "size": 1448
+    },
+    {
+      "path": "expr11.ans",
+      "size": 16666
+    },
+    {
+      "path": "expr11.in",
+      "size": 156320
+    },
+    {
+      "path": "expr12.ans",
+      "size": 15384
+    },
+    {
+      "path": "expr12.in",
+      "size": 159475
+    },
+    {
+      "path": "expr13.ans",
+      "size": 16666
+    },
+    {
+      "path": "expr13.in",
+      "size": 156550
+    },
+    {
+      "path": "expr14.ans",
+      "size": 15384
+    },
+    {
+      "path": "expr14.in",
+      "size": 159223
+    },
+    {
+      "path": "expr15.ans",
+      "size": 142856
+    },
+    {
+      "path": "expr15.in",
+      "size": 1334945
+    },
+    {
+      "path": "expr16.ans",
+      "size": 125000
+    },
+    {
+      "path": "expr16.in",
+      "size": 1415107
+    },
+    {
+      "path": "expr17.ans",
+      "size": 142856
+    },
+    {
+      "path": "expr17.in",
+      "size": 1334951
+    },
+    {
+      "path": "expr18.ans",
+      "size": 125000
+    },
+    {
+      "path": "expr18.in",
+      "size": 1415231
+    },
+    {
+      "path": "expr19.ans",
+      "size": 142856
+    },
+    {
+      "path": "expr19.in",
+      "size": 1335319
+    },
+    {
+      "path": "expr2.ans",
+      "size": 33332
+    },
+    {
+      "path": "expr2.in",
+      "size": 261121
+    },
+    {
+      "path": "expr20.ans",
+      "size": 117646
+    },
+    {
+      "path": "expr20.in",
+      "size": 1446648
+    },
+    {
+      "path": "expr3.ans",
+      "size": 33332
+    },
+    {
+      "path": "expr3.in",
+      "size": 261121
+    },
+    {
+      "path": "expr4.ans",
+      "size": 33332
+    },
+    {
+      "path": "expr4.in",
+      "size": 261121
+    },
+    {
+      "path": "expr5.ans",
+      "size": 222
+    },
+    {
+      "path": "expr5.in",
+      "size": 1442
+    },
+    {
+      "path": "expr6.ans",
+      "size": 222
+    },
+    {
+      "path": "expr6.in",
+      "size": 1446
+    },
+    {
+      "path": "expr7.ans",
+      "size": 222
+    },
+    {
+      "path": "expr7.in",
+      "size": 1472
+    },
+    {
+      "path": "expr8.ans",
+      "size": 222
+    },
+    {
+      "path": "expr8.in",
+      "size": 1462
+    },
+    {
+      "path": "expr9.ans",
+      "size": 222
+    },
+    {
+      "path": "expr9.in",
+      "size": 1472
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "kimbits0.in",
+      "size": 5
+    },
+    {
+      "path": "kimbits0.out",
+      "size": 4
+    },
+    {
+      "path": "kimbits1.in",
+      "size": 5
+    },
+    {
+      "path": "kimbits1.out",
+      "size": 1
+    },
+    {
+      "path": "kimbits10.in",
+      "size": 14
+    },
+    {
+      "path": "kimbits10.out",
+      "size": 31
+    },
+    {
+      "path": "kimbits11.in",
+      "size": 15
+    },
+    {
+      "path": "kimbits11.out",
+      "size": 31
+    },
+    {
+      "path": "kimbits12.in",
+      "size": 16
+    },
+    {
+      "path": "kimbits12.out",
+      "size": 31
+    },
+    {
+      "path": "kimbits2.in",
+      "size": 6
+    },
+    {
+      "path": "kimbits2.out",
+      "size": 8
+    },
+    {
+      "path": "kimbits3.in",
+      "size": 7
+    },
+    {
+      "path": "kimbits3.out",
+      "size": 10
+    },
+    {
+      "path": "kimbits4.in",
+      "size": 6
+    },
+    {
+      "path": "kimbits4.out",
+      "size": 7
+    },
+    {
+      "path": "kimbits5.in",
+      "size": 8
+    },
+    {
+      "path": "kimbits5.out",
+      "size": 18
+    },
+    {
+      "path": "kimbits6.in",
+      "size": 13
+    },
+    {
+      "path": "kimbits6.out",
+      "size": 21
+    },
+    {
+      "path": "kimbits7.in",
+      "size": 14
+    },
+    {
+      "path": "kimbits7.out",
+      "size": 24
+    },
+    {
+      "path": "kimbits8.in",
+      "size": 14
+    },
+    {
+      "path": "kimbits8.out",
+      "size": 31
+    },
+    {
+      "path": "kimbits9.in",
+      "size": 16
+    },
+    {
+      "path": "kimbits9.out",
+      "size": 31
+    }
+  ]
+}

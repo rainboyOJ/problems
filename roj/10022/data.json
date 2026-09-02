@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "network1.in",
+      "size": 162
+    },
+    {
+      "path": "network1.out",
+      "size": 3
+    },
+    {
+      "path": "network10.in",
+      "size": 7793777
+    },
+    {
+      "path": "network10.out",
+      "size": 8
+    },
+    {
+      "path": "network2.in",
+      "size": 136
+    },
+    {
+      "path": "network2.out",
+      "size": 3
+    },
+    {
+      "path": "network3.in",
+      "size": 188
+    },
+    {
+      "path": "network3.out",
+      "size": 3
+    },
+    {
+      "path": "network4.in",
+      "size": 699289
+    },
+    {
+      "path": "network4.out",
+      "size": 5
+    },
+    {
+      "path": "network5.in",
+      "size": 726693
+    },
+    {
+      "path": "network5.out",
+      "size": 5
+    },
+    {
+      "path": "network6.in",
+      "size": 679360
+    },
+    {
+      "path": "network6.out",
+      "size": 5
+    },
+    {
+      "path": "network7.in",
+      "size": 8664829
+    },
+    {
+      "path": "network7.out",
+      "size": 8
+    },
+    {
+      "path": "network8.in",
+      "size": 9082273
+    },
+    {
+      "path": "network8.out",
+      "size": 8
+    },
+    {
+      "path": "network9.in",
+      "size": 7802010
+    },
+    {
+      "path": "network9.out",
+      "size": 8
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "a1.in",
+      "size": 37
+    },
+    {
+      "path": "a1.out",
+      "size": 10
+    },
+    {
+      "path": "a2.in",
+      "size": 68
+    },
+    {
+      "path": "a2.out",
+      "size": 17
+    },
+    {
+      "path": "a3.in",
+      "size": 129
+    },
+    {
+      "path": "a3.out",
+      "size": 26
+    },
+    {
+      "path": "a4.in",
+      "size": 1649
+    },
+    {
+      "path": "a4.out",
+      "size": 387
+    },
+    {
+      "path": "a5.in",
+      "size": 4913
+    },
+    {
+      "path": "a5.out",
+      "size": 1173
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "energy0.in",
+      "size": 25
+    },
+    {
+      "path": "energy0.out",
+      "size": 8
+    },
+    {
+      "path": "energy1.in",
+      "size": 37
+    },
+    {
+      "path": "energy1.out",
+      "size": 7
+    },
+    {
+      "path": "energy2.in",
+      "size": 51
+    },
+    {
+      "path": "energy2.out",
+      "size": 7
+    },
+    {
+      "path": "energy3.in",
+      "size": 65
+    },
+    {
+      "path": "energy3.out",
+      "size": 8
+    },
+    {
+      "path": "energy4.in",
+      "size": 95
+    },
+    {
+      "path": "energy4.out",
+      "size": 8
+    },
+    {
+      "path": "energy5.in",
+      "size": 126
+    },
+    {
+      "path": "energy5.out",
+      "size": 8
+    },
+    {
+      "path": "energy6.in",
+      "size": 157
+    },
+    {
+      "path": "energy6.out",
+      "size": 9
+    },
+    {
+      "path": "energy7.in",
+      "size": 216
+    },
+    {
+      "path": "energy7.out",
+      "size": 9
+    },
+    {
+      "path": "energy8.in",
+      "size": 243
+    },
+    {
+      "path": "energy8.out",
+      "size": 10
+    },
+    {
+      "path": "energy9.in",
+      "size": 10
+    },
+    {
+      "path": "energy9.out",
+      "size": 3
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "apple0.in",
+      "size": 44
+    },
+    {
+      "path": "apple0.out",
+      "size": 1
+    },
+    {
+      "path": "apple1.in",
+      "size": 44
+    },
+    {
+      "path": "apple1.out",
+      "size": 1
+    },
+    {
+      "path": "apple2.in",
+      "size": 44
+    },
+    {
+      "path": "apple2.out",
+      "size": 1
+    },
+    {
+      "path": "apple3.in",
+      "size": 44
+    },
+    {
+      "path": "apple3.out",
+      "size": 1
+    },
+    {
+      "path": "apple4.in",
+      "size": 44
+    },
+    {
+      "path": "apple4.out",
+      "size": 1
+    },
+    {
+      "path": "apple5.in",
+      "size": 44
+    },
+    {
+      "path": "apple5.out",
+      "size": 1
+    },
+    {
+      "path": "apple6.in",
+      "size": 44
+    },
+    {
+      "path": "apple6.out",
+      "size": 1
+    },
+    {
+      "path": "apple7.in",
+      "size": 44
+    },
+    {
+      "path": "apple7.out",
+      "size": 1
+    },
+    {
+      "path": "apple8.in",
+      "size": 44
+    },
+    {
+      "path": "apple8.out",
+      "size": 1
+    },
+    {
+      "path": "apple9.in",
+      "size": 44
+    },
+    {
+      "path": "apple9.out",
+      "size": 1
+    }
+  ]
+}

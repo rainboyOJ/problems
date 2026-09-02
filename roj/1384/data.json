@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "BEAD0.IN",
+      "size": 25
+    },
+    {
+      "path": "BEAD0.OUT",
+      "size": 3
+    },
+    {
+      "path": "BEAD1.IN",
+      "size": 2033
+    },
+    {
+      "path": "BEAD1.OUT",
+      "size": 4
+    },
+    {
+      "path": "BEAD2.IN",
+      "size": 32
+    },
+    {
+      "path": "BEAD2.OUT",
+      "size": 3
+    },
+    {
+      "path": "BEAD3.IN",
+      "size": 676
+    },
+    {
+      "path": "BEAD3.OUT",
+      "size": 4
+    },
+    {
+      "path": "BEAD4.IN",
+      "size": 173
+    },
+    {
+      "path": "BEAD4.OUT",
+      "size": 3
+    },
+    {
+      "path": "BEAD5.IN",
+      "size": 391
+    },
+    {
+      "path": "BEAD5.OUT",
+      "size": 3
+    },
+    {
+      "path": "BEAD6.IN",
+      "size": 33084
+    },
+    {
+      "path": "BEAD6.OUT",
+      "size": 4
+    },
+    {
+      "path": "BEAD7.IN",
+      "size": 3077
+    },
+    {
+      "path": "BEAD7.OUT",
+      "size": 3
+    },
+    {
+      "path": "BEAD8.IN",
+      "size": 3365
+    },
+    {
+      "path": "BEAD8.OUT",
+      "size": 4
+    },
+    {
+      "path": "BEAD9.IN",
+      "size": 3386
+    },
+    {
+      "path": "BEAD9.OUT",
+      "size": 4
+    }
+  ]
+}

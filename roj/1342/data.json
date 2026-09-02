@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "short1.in",
+      "size": 26
+    },
+    {
+      "path": "short1.out",
+      "size": 6
+    },
+    {
+      "path": "short2.in",
+      "size": 61
+    },
+    {
+      "path": "short2.out",
+      "size": 6
+    },
+    {
+      "path": "short3.in",
+      "size": 1274
+    },
+    {
+      "path": "short3.out",
+      "size": 10
+    },
+    {
+      "path": "short4.in",
+      "size": 2977
+    },
+    {
+      "path": "short4.out",
+      "size": 10
+    },
+    {
+      "path": "short5.in",
+      "size": 8033
+    },
+    {
+      "path": "short5.out",
+      "size": 10
+    }
+  ]
+}

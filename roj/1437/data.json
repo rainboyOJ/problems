@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "ppg0.in",
+      "size": 22
+    },
+    {
+      "path": "ppg0.out",
+      "size": 3
+    },
+    {
+      "path": "ppg1.in",
+      "size": 31
+    },
+    {
+      "path": "ppg1.out",
+      "size": 4
+    },
+    {
+      "path": "ppg2.in",
+      "size": 156
+    },
+    {
+      "path": "ppg2.out",
+      "size": 4
+    },
+    {
+      "path": "ppg3.in",
+      "size": 231
+    },
+    {
+      "path": "ppg3.out",
+      "size": 4
+    },
+    {
+      "path": "ppg4.in",
+      "size": 286
+    },
+    {
+      "path": "ppg4.out",
+      "size": 5
+    },
+    {
+      "path": "ppg5.in",
+      "size": 391
+    },
+    {
+      "path": "ppg5.out",
+      "size": 5
+    },
+    {
+      "path": "ppg6.in",
+      "size": 469
+    },
+    {
+      "path": "ppg6.out",
+      "size": 7
+    },
+    {
+      "path": "ppg7.in",
+      "size": 693
+    },
+    {
+      "path": "ppg7.out",
+      "size": 8
+    },
+    {
+      "path": "ppg8.in",
+      "size": 889
+    },
+    {
+      "path": "ppg8.out",
+      "size": 10
+    },
+    {
+      "path": "ppg9.in",
+      "size": 992
+    },
+    {
+      "path": "ppg9.out",
+      "size": 11
+    }
+  ]
+}

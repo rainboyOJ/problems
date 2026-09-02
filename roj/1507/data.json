@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "wormhole.1.in",
+      "size": 56
+    },
+    {
+      "path": "wormhole.1.out",
+      "size": 7
+    },
+    {
+      "path": "wormhole.2.in",
+      "size": 564
+    },
+    {
+      "path": "wormhole.2.out",
+      "size": 17
+    },
+    {
+      "path": "wormhole.3.in",
+      "size": 5812
+    },
+    {
+      "path": "wormhole.3.out",
+      "size": 17
+    },
+    {
+      "path": "wormhole.4.in",
+      "size": 11050
+    },
+    {
+      "path": "wormhole.4.out",
+      "size": 18
+    },
+    {
+      "path": "wormhole.5.in",
+      "size": 27942
+    },
+    {
+      "path": "wormhole.5.out",
+      "size": 19
+    },
+    {
+      "path": "wormhole.6.in",
+      "size": 158135
+    },
+    {
+      "path": "wormhole.6.out",
+      "size": 17
+    },
+    {
+      "path": "wormhole.7.in",
+      "size": 54247
+    },
+    {
+      "path": "wormhole.7.out",
+      "size": 19
+    },
+    {
+      "path": "wormhole.8.in",
+      "size": 158287
+    },
+    {
+      "path": "wormhole.8.out",
+      "size": 17
+    }
+  ]
+}

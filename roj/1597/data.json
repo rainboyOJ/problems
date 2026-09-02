@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "window1.in",
+      "size": 3316
+    },
+    {
+      "path": "window1.out",
+      "size": 3181
+    },
+    {
+      "path": "window10.in",
+      "size": 4970805
+    },
+    {
+      "path": "window10.out",
+      "size": 5656820
+    },
+    {
+      "path": "window2.in",
+      "size": 3316
+    },
+    {
+      "path": "window2.out",
+      "size": 3181
+    },
+    {
+      "path": "window3.in",
+      "size": 660995
+    },
+    {
+      "path": "window3.out",
+      "size": 629580
+    },
+    {
+      "path": "window4.in",
+      "size": 531040
+    },
+    {
+      "path": "window4.out",
+      "size": 1045349
+    },
+    {
+      "path": "window5.in",
+      "size": 332462
+    },
+    {
+      "path": "window5.out",
+      "size": 64721
+    },
+    {
+      "path": "window6.in",
+      "size": 3887068
+    },
+    {
+      "path": "window6.out",
+      "size": 2423012
+    },
+    {
+      "path": "window7.in",
+      "size": 3921018
+    },
+    {
+      "path": "window7.out",
+      "size": 4172992
+    },
+    {
+      "path": "window8.in",
+      "size": 6943950
+    },
+    {
+      "path": "window8.out",
+      "size": 5101396
+    },
+    {
+      "path": "window9.in",
+      "size": 7862821
+    },
+    {
+      "path": "window9.out",
+      "size": 13374786
+    }
+  ]
+}

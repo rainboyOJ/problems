@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "drawingu0.in",
+      "size": 7
+    },
+    {
+      "path": "drawingu0.out",
+      "size": 52
+    },
+    {
+      "path": "drawingu1.in",
+      "size": 14
+    },
+    {
+      "path": "drawingu1.out",
+      "size": 163
+    },
+    {
+      "path": "drawingu2.in",
+      "size": 8
+    },
+    {
+      "path": "drawingu2.out",
+      "size": 295
+    },
+    {
+      "path": "drawingu3.in",
+      "size": 13
+    },
+    {
+      "path": "drawingu3.out",
+      "size": 208
+    },
+    {
+      "path": "drawingu4.in",
+      "size": 275
+    },
+    {
+      "path": "drawingu4.out",
+      "size": 3724
+    },
+    {
+      "path": "drawingu5.in",
+      "size": 12
+    },
+    {
+      "path": "drawingu5.out",
+      "size": 502
+    },
+    {
+      "path": "drawingu6.in",
+      "size": 24
+    },
+    {
+      "path": "drawingu6.out",
+      "size": 670
+    },
+    {
+      "path": "drawingu7.in",
+      "size": 48
+    },
+    {
+      "path": "drawingu7.out",
+      "size": 926
+    },
+    {
+      "path": "drawingu8.in",
+      "size": 69
+    },
+    {
+      "path": "drawingu8.out",
+      "size": 1071
+    },
+    {
+      "path": "drawingu9.in",
+      "size": 945
+    },
+    {
+      "path": "drawingu9.out",
+      "size": 9124
+    }
+  ]
+}

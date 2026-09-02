@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "kh1.in",
+      "size": 100
+    },
+    {
+      "path": "kh1.out",
+      "size": 4
+    },
+    {
+      "path": "kh2.in",
+      "size": 100
+    },
+    {
+      "path": "kh2.out",
+      "size": 4
+    },
+    {
+      "path": "kh3.in",
+      "size": 100
+    },
+    {
+      "path": "kh3.out",
+      "size": 4
+    },
+    {
+      "path": "kh4.in",
+      "size": 68
+    },
+    {
+      "path": "kh4.out",
+      "size": 3
+    },
+    {
+      "path": "kh5.in",
+      "size": 16
+    },
+    {
+      "path": "kh5.out",
+      "size": 3
+    }
+  ]
+}

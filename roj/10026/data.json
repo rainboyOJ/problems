@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "clock0.in",
+      "size": 9
+    },
+    {
+      "path": "clock0.out",
+      "size": 38
+    },
+    {
+      "path": "clock1.in",
+      "size": 9
+    },
+    {
+      "path": "clock1.out",
+      "size": 38
+    },
+    {
+      "path": "clock2.in",
+      "size": 9
+    },
+    {
+      "path": "clock2.out",
+      "size": 38
+    },
+    {
+      "path": "clock3.in",
+      "size": 9
+    },
+    {
+      "path": "clock3.out",
+      "size": 38
+    },
+    {
+      "path": "clock4.in",
+      "size": 9
+    },
+    {
+      "path": "clock4.out",
+      "size": 38
+    },
+    {
+      "path": "clock5.in",
+      "size": 9
+    },
+    {
+      "path": "clock5.out",
+      "size": 38
+    },
+    {
+      "path": "clock6.in",
+      "size": 9
+    },
+    {
+      "path": "clock6.out",
+      "size": 38
+    },
+    {
+      "path": "clock7.in",
+      "size": 9
+    },
+    {
+      "path": "clock7.out",
+      "size": 38
+    },
+    {
+      "path": "clock8.in",
+      "size": 9
+    },
+    {
+      "path": "clock8.out",
+      "size": 38
+    },
+    {
+      "path": "clock9.in",
+      "size": 9
+    },
+    {
+      "path": "clock9.out",
+      "size": 38
+    }
+  ]
+}

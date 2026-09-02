@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "grid0.in",
+      "size": 32
+    },
+    {
+      "path": "grid0.out",
+      "size": 3
+    },
+    {
+      "path": "grid1.in",
+      "size": 32
+    },
+    {
+      "path": "grid1.out",
+      "size": 6
+    },
+    {
+      "path": "grid2.in",
+      "size": 41
+    },
+    {
+      "path": "grid2.out",
+      "size": 3
+    },
+    {
+      "path": "grid3.in",
+      "size": 177
+    },
+    {
+      "path": "grid3.out",
+      "size": 9
+    },
+    {
+      "path": "grid4.in",
+      "size": 1672
+    },
+    {
+      "path": "grid4.out",
+      "size": 9
+    },
+    {
+      "path": "grid5.in",
+      "size": 16565
+    },
+    {
+      "path": "grid5.out",
+      "size": 8
+    },
+    {
+      "path": "grid6.in",
+      "size": 33198
+    },
+    {
+      "path": "grid6.out",
+      "size": 8
+    },
+    {
+      "path": "grid7.in",
+      "size": 82830
+    },
+    {
+      "path": "grid7.out",
+      "size": 8
+    },
+    {
+      "path": "grid8.in",
+      "size": 165615
+    },
+    {
+      "path": "grid8.out",
+      "size": 8
+    },
+    {
+      "path": "grid9.in",
+      "size": 165708
+    },
+    {
+      "path": "grid9.out",
+      "size": 8
+    }
+  ]
+}

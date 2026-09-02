@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "patheads.1.in",
+      "size": 12
+    },
+    {
+      "path": "patheads.1.out",
+      "size": 10
+    },
+    {
+      "path": "patheads.10.in",
+      "size": 409530
+    },
+    {
+      "path": "patheads.10.out",
+      "size": 448432
+    },
+    {
+      "path": "patheads.11.in",
+      "size": 301989
+    },
+    {
+      "path": "patheads.11.out",
+      "size": 528162
+    },
+    {
+      "path": "patheads.12.in",
+      "size": 588902
+    },
+    {
+      "path": "patheads.12.out",
+      "size": 238057
+    },
+    {
+      "path": "patheads.13.in",
+      "size": 588903
+    },
+    {
+      "path": "patheads.13.out",
+      "size": 238057
+    },
+    {
+      "path": "patheads.2.in",
+      "size": 33
+    },
+    {
+      "path": "patheads.2.out",
+      "size": 24
+    },
+    {
+      "path": "patheads.3.in",
+      "size": 133
+    },
+    {
+      "path": "patheads.3.out",
+      "size": 115
+    },
+    {
+      "path": "patheads.4.in",
+      "size": 348
+    },
+    {
+      "path": "patheads.4.out",
+      "size": 200
+    },
+    {
+      "path": "patheads.5.in",
+      "size": 1957
+    },
+    {
+      "path": "patheads.5.out",
+      "size": 1011
+    },
+    {
+      "path": "patheads.6.in",
+      "size": 26296
+    },
+    {
+      "path": "patheads.6.out",
+      "size": 10179
+    },
+    {
+      "path": "patheads.7.in",
+      "size": 147263
+    },
+    {
+      "path": "patheads.7.out",
+      "size": 50850
+    },
+    {
+      "path": "patheads.8.in",
+      "size": 344407
+    },
+    {
+      "path": "patheads.8.out",
+      "size": 100017
+    },
+    {
+      "path": "patheads.9.in",
+      "size": 299753
+    },
+    {
+      "path": "patheads.9.out",
+      "size": 573458
+    }
+  ]
+}

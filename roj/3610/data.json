@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "truck0.in",
+      "size": 89
+    },
+    {
+      "path": "truck0.out",
+      "size": 20
+    },
+    {
+      "path": "truck1.in",
+      "size": 285
+    },
+    {
+      "path": "truck1.out",
+      "size": 53
+    },
+    {
+      "path": "truck10.in",
+      "size": 652991
+    },
+    {
+      "path": "truck10.out",
+      "size": 5435
+    },
+    {
+      "path": "truck11.in",
+      "size": 641620
+    },
+    {
+      "path": "truck11.out",
+      "size": 5033
+    },
+    {
+      "path": "truck12.in",
+      "size": 1036807
+    },
+    {
+      "path": "truck12.out",
+      "size": 166368
+    },
+    {
+      "path": "truck13.in",
+      "size": 987123
+    },
+    {
+      "path": "truck13.out",
+      "size": 169687
+    },
+    {
+      "path": "truck14.in",
+      "size": 878132
+    },
+    {
+      "path": "truck14.out",
+      "size": 155009
+    },
+    {
+      "path": "truck15.in",
+      "size": 913122
+    },
+    {
+      "path": "truck15.out",
+      "size": 153799
+    },
+    {
+      "path": "truck16.in",
+      "size": 981834
+    },
+    {
+      "path": "truck16.out",
+      "size": 157276
+    },
+    {
+      "path": "truck17.in",
+      "size": 961717
+    },
+    {
+      "path": "truck17.out",
+      "size": 157082
+    },
+    {
+      "path": "truck18.in",
+      "size": 879252
+    },
+    {
+      "path": "truck18.out",
+      "size": 163326
+    },
+    {
+      "path": "truck19.in",
+      "size": 922063
+    },
+    {
+      "path": "truck19.out",
+      "size": 158563
+    },
+    {
+      "path": "truck2.in",
+      "size": 98491
+    },
+    {
+      "path": "truck2.out",
+      "size": 3629
+    },
+    {
+      "path": "truck3.in",
+      "size": 85236
+    },
+    {
+      "path": "truck3.out",
+      "size": 4193
+    },
+    {
+      "path": "truck4.in",
+      "size": 135012
+    },
+    {
+      "path": "truck4.out",
+      "size": 4715
+    },
+    {
+      "path": "truck5.in",
+      "size": 85566
+    },
+    {
+      "path": "truck5.out",
+      "size": 3839
+    },
+    {
+      "path": "truck6.in",
+      "size": 677128
+    },
+    {
+      "path": "truck6.out",
+      "size": 5147
+    },
+    {
+      "path": "truck7.in",
+      "size": 602665
+    },
+    {
+      "path": "truck7.out",
+      "size": 5885
+    },
+    {
+      "path": "truck8.in",
+      "size": 602836
+    },
+    {
+      "path": "truck8.out",
+      "size": 5357
+    },
+    {
+      "path": "truck9.in",
+      "size": 584539
+    },
+    {
+      "path": "truck9.out",
+      "size": 5081
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "taiko0.in",
+      "size": 3
+    },
+    {
+      "path": "taiko0.out",
+      "size": 8
+    },
+    {
+      "path": "taiko1.in",
+      "size": 3
+    },
+    {
+      "path": "taiko1.out",
+      "size": 12
+    },
+    {
+      "path": "taiko2.in",
+      "size": 3
+    },
+    {
+      "path": "taiko2.out",
+      "size": 21
+    },
+    {
+      "path": "taiko3.in",
+      "size": 3
+    },
+    {
+      "path": "taiko3.out",
+      "size": 37
+    },
+    {
+      "path": "taiko4.in",
+      "size": 3
+    },
+    {
+      "path": "taiko4.out",
+      "size": 69
+    },
+    {
+      "path": "taiko5.in",
+      "size": 3
+    },
+    {
+      "path": "taiko5.out",
+      "size": 134
+    },
+    {
+      "path": "taiko6.in",
+      "size": 3
+    },
+    {
+      "path": "taiko6.out",
+      "size": 262
+    },
+    {
+      "path": "taiko7.in",
+      "size": 3
+    },
+    {
+      "path": "taiko7.out",
+      "size": 518
+    },
+    {
+      "path": "taiko8.in",
+      "size": 4
+    },
+    {
+      "path": "taiko8.out",
+      "size": 1031
+    },
+    {
+      "path": "taiko9.in",
+      "size": 4
+    },
+    {
+      "path": "taiko9.out",
+      "size": 2055
+    }
+  ]
+}

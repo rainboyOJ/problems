@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "fbi1.in",
+      "size": 13
+    },
+    {
+      "path": "fbi1.out",
+      "size": 17
+    },
+    {
+      "path": "fbi10.in",
+      "size": 1030
+    },
+    {
+      "path": "fbi10.out",
+      "size": 2049
+    },
+    {
+      "path": "fbi2.in",
+      "size": 6
+    },
+    {
+      "path": "fbi2.out",
+      "size": 3
+    },
+    {
+      "path": "fbi3.in",
+      "size": 7
+    },
+    {
+      "path": "fbi3.out",
+      "size": 5
+    },
+    {
+      "path": "fbi4.in",
+      "size": 9
+    },
+    {
+      "path": "fbi4.out",
+      "size": 9
+    },
+    {
+      "path": "fbi5.in",
+      "size": 9
+    },
+    {
+      "path": "fbi5.out",
+      "size": 9
+    },
+    {
+      "path": "fbi6.in",
+      "size": 13
+    },
+    {
+      "path": "fbi6.out",
+      "size": 17
+    },
+    {
+      "path": "fbi7.in",
+      "size": 37
+    },
+    {
+      "path": "fbi7.out",
+      "size": 65
+    },
+    {
+      "path": "fbi8.in",
+      "size": 69
+    },
+    {
+      "path": "fbi8.out",
+      "size": 129
+    },
+    {
+      "path": "fbi9.in",
+      "size": 517
+    },
+    {
+      "path": "fbi9.out",
+      "size": 1025
+    }
+  ]
+}

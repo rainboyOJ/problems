@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "concom0.in",
+      "size": 12
+    },
+    {
+      "path": "concom0.out",
+      "size": 5
+    },
+    {
+      "path": "concom1.in",
+      "size": 25
+    },
+    {
+      "path": "concom1.out",
+      "size": 13
+    },
+    {
+      "path": "concom2.in",
+      "size": 49
+    },
+    {
+      "path": "concom2.out",
+      "size": 28
+    },
+    {
+      "path": "concom3.in",
+      "size": 57
+    },
+    {
+      "path": "concom3.out",
+      "size": 13
+    },
+    {
+      "path": "concom4.in",
+      "size": 466
+    },
+    {
+      "path": "concom4.out",
+      "size": 40
+    },
+    {
+      "path": "concom5.in",
+      "size": 1373
+    },
+    {
+      "path": "concom5.out",
+      "size": 105
+    },
+    {
+      "path": "concom6.in",
+      "size": 3601
+    },
+    {
+      "path": "concom6.out",
+      "size": 124
+    },
+    {
+      "path": "concom7.in",
+      "size": 22550
+    },
+    {
+      "path": "concom7.out",
+      "size": 1368
+    },
+    {
+      "path": "concom8.in",
+      "size": 1087
+    },
+    {
+      "path": "concom8.out",
+      "size": 67714
+    }
+  ]
+}

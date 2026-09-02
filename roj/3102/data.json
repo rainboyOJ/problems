@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "guard (1).in",
+      "size": 33
+    },
+    {
+      "path": "guard (1).out",
+      "size": 10
+    },
+    {
+      "path": "guard (10).in",
+      "size": 1119
+    },
+    {
+      "path": "guard (10).out",
+      "size": 10
+    },
+    {
+      "path": "guard (2).in",
+      "size": 56
+    },
+    {
+      "path": "guard (2).out",
+      "size": 10
+    },
+    {
+      "path": "guard (3).in",
+      "size": 11
+    },
+    {
+      "path": "guard (3).out",
+      "size": 10
+    },
+    {
+      "path": "guard (4).in",
+      "size": 181
+    },
+    {
+      "path": "guard (4).out",
+      "size": 10
+    },
+    {
+      "path": "guard (5).in",
+      "size": 200
+    },
+    {
+      "path": "guard (5).out",
+      "size": 10
+    },
+    {
+      "path": "guard (6).in",
+      "size": 293
+    },
+    {
+      "path": "guard (6).out",
+      "size": 10
+    },
+    {
+      "path": "guard (7).in",
+      "size": 570
+    },
+    {
+      "path": "guard (7).out",
+      "size": 10
+    },
+    {
+      "path": "guard (8).in",
+      "size": 556
+    },
+    {
+      "path": "guard (8).out",
+      "size": 10
+    },
+    {
+      "path": "guard (9).in",
+      "size": 854
+    },
+    {
+      "path": "guard (9).out",
+      "size": 10
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "CDROM1.IN",
+      "size": 127
+    },
+    {
+      "path": "CDROM1.OUT",
+      "size": 3
+    },
+    {
+      "path": "CDROM2.IN",
+      "size": 195
+    },
+    {
+      "path": "CDROM2.OUT",
+      "size": 3
+    },
+    {
+      "path": "CDROM3.IN",
+      "size": 45
+    },
+    {
+      "path": "CDROM3.OUT",
+      "size": 2
+    },
+    {
+      "path": "CDROM4.IN",
+      "size": 59
+    },
+    {
+      "path": "CDROM4.OUT",
+      "size": 1
+    },
+    {
+      "path": "CDROM5.IN",
+      "size": 230
+    },
+    {
+      "path": "CDROM5.OUT",
+      "size": 1
+    },
+    {
+      "path": "CDROM6.IN",
+      "size": 130
+    },
+    {
+      "path": "CDROM6.OUT",
+      "size": 1
+    },
+    {
+      "path": "CDROM7.IN",
+      "size": 510
+    },
+    {
+      "path": "CDROM7.OUT",
+      "size": 2
+    },
+    {
+      "path": "CDROM8.IN",
+      "size": 456
+    },
+    {
+      "path": "CDROM8.OUT",
+      "size": 2
+    },
+    {
+      "path": "CDROM9.IN",
+      "size": 402
+    },
+    {
+      "path": "CDROM9.OUT",
+      "size": 1
+    },
+    {
+      "path": "Cdrom10.in",
+      "size": 7571
+    },
+    {
+      "path": "Cdrom10.out",
+      "size": 1
+    }
+  ]
+}

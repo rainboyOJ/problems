@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "seqgame0.in",
+      "size": 54
+    },
+    {
+      "path": "seqgame0.out",
+      "size": 1
+    },
+    {
+      "path": "seqgame1.in",
+      "size": 3798
+    },
+    {
+      "path": "seqgame1.out",
+      "size": 2
+    },
+    {
+      "path": "seqgame2.in",
+      "size": 3795
+    },
+    {
+      "path": "seqgame2.out",
+      "size": 3
+    },
+    {
+      "path": "seqgame3.in",
+      "size": 6
+    },
+    {
+      "path": "seqgame3.out",
+      "size": 1
+    },
+    {
+      "path": "seqgame4.in",
+      "size": 296
+    },
+    {
+      "path": "seqgame4.out",
+      "size": 1
+    },
+    {
+      "path": "seqgame5.in",
+      "size": 295
+    },
+    {
+      "path": "seqgame5.out",
+      "size": 2
+    },
+    {
+      "path": "seqgame6.in",
+      "size": 234
+    },
+    {
+      "path": "seqgame6.out",
+      "size": 1
+    },
+    {
+      "path": "seqgame7.in",
+      "size": 339
+    },
+    {
+      "path": "seqgame7.out",
+      "size": 1
+    },
+    {
+      "path": "seqgame8.in",
+      "size": 1896
+    },
+    {
+      "path": "seqgame8.out",
+      "size": 2
+    },
+    {
+      "path": "seqgame9.in",
+      "size": 3910
+    },
+    {
+      "path": "seqgame9.out",
+      "size": 2
+    }
+  ]
+}

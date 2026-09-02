@@ -1454,7 +1454,6 @@ p {
 }
 
 .download-modal-summary,
-.download-modal-warning,
 .download-modal-status {
   color: var(--text-soft);
   font-size: 0.84rem;
@@ -1464,13 +1463,35 @@ p {
   padding: 14px 24px 6px;
 }
 
-.download-modal-warning {
-  margin: 8px 24px 2px;
-  padding: 9px 11px;
-  border: 1px solid color-mix(in srgb, var(--warning) 35%, var(--border));
-  border-radius: 5px;
-  background: var(--warning-soft);
-  color: var(--warning);
+.download-modal-source {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 24px 4px;
+}
+
+.download-modal-source label {
+  color: var(--text-soft);
+  font-size: 0.82rem;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.download-modal-source select {
+  min-width: 0;
+  max-width: 100%;
+  padding: 6px 30px 6px 9px;
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.82rem;
+}
+
+.download-modal-source select:disabled {
+  cursor: wait;
+  opacity: 0.6;
 }
 
 .download-file-list {
@@ -1540,9 +1561,15 @@ p {
 
 .download-file-link {
   color: var(--accent);
+  cursor: pointer;
   font-size: 0.84rem;
   font-weight: 650;
   white-space: nowrap;
+}
+
+.download-file-link.is-busy {
+  cursor: wait;
+  opacity: 0.55;
 }
 
 .download-empty {
@@ -1837,9 +1864,10 @@ p {
     padding-left: 18px;
   }
 
-  .download-modal-warning {
-    margin-right: 18px;
-    margin-left: 18px;
+
+  .download-modal-source {
+    padding-right: 18px;
+    padding-left: 18px;
   }
 
   .download-file-list {

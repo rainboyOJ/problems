@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "lgame0.in",
+      "size": 7
+    },
+    {
+      "path": "lgame0.out",
+      "size": 11
+    },
+    {
+      "path": "lgame1.in",
+      "size": 5
+    },
+    {
+      "path": "lgame1.out",
+      "size": 9
+    },
+    {
+      "path": "lgame10.in",
+      "size": 7
+    },
+    {
+      "path": "lgame10.out",
+      "size": 62
+    },
+    {
+      "path": "lgame11.in",
+      "size": 7
+    },
+    {
+      "path": "lgame11.out",
+      "size": 110
+    },
+    {
+      "path": "lgame2.in",
+      "size": 5
+    },
+    {
+      "path": "lgame2.out",
+      "size": 7
+    },
+    {
+      "path": "lgame3.in",
+      "size": 7
+    },
+    {
+      "path": "lgame3.out",
+      "size": 12
+    },
+    {
+      "path": "lgame4.in",
+      "size": 6
+    },
+    {
+      "path": "lgame4.out",
+      "size": 11
+    },
+    {
+      "path": "lgame5.in",
+      "size": 7
+    },
+    {
+      "path": "lgame5.out",
+      "size": 11
+    },
+    {
+      "path": "lgame6.in",
+      "size": 7
+    },
+    {
+      "path": "lgame6.out",
+      "size": 12
+    },
+    {
+      "path": "lgame7.in",
+      "size": 5
+    },
+    {
+      "path": "lgame7.out",
+      "size": 7
+    },
+    {
+      "path": "lgame8.in",
+      "size": 6
+    },
+    {
+      "path": "lgame8.out",
+      "size": 14
+    },
+    {
+      "path": "lgame9.in",
+      "size": 7
+    },
+    {
+      "path": "lgame9.out",
+      "size": 41
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "dualpal0.in",
+      "size": 3
+    },
+    {
+      "path": "dualpal0.out",
+      "size": 13
+    },
+    {
+      "path": "dualpal1.in",
+      "size": 4
+    },
+    {
+      "path": "dualpal1.out",
+      "size": 34
+    },
+    {
+      "path": "dualpal2.in",
+      "size": 7
+    },
+    {
+      "path": "dualpal2.out",
+      "size": 102
+    },
+    {
+      "path": "dualpal3.in",
+      "size": 5
+    },
+    {
+      "path": "dualpal3.out",
+      "size": 43
+    },
+    {
+      "path": "dualpal4.in",
+      "size": 6
+    },
+    {
+      "path": "dualpal4.out",
+      "size": 58
+    },
+    {
+      "path": "dualpal5.in",
+      "size": 7
+    },
+    {
+      "path": "dualpal5.out",
+      "size": 70
+    },
+    {
+      "path": "dualpal6.in",
+      "size": 5
+    },
+    {
+      "path": "dualpal6.out",
+      "size": 38
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "files": [
+    {
+      "path": "friends.1.in",
+      "size": 9
+    },
+    {
+      "path": "friends.1.out",
+      "size": 5
+    },
+    {
+      "path": "friends.10.in",
+      "size": 11
+    },
+    {
+      "path": "friends.10.out",
+      "size": 6
+    },
+    {
+      "path": "friends.11.in",
+      "size": 11
+    },
+    {
+      "path": "friends.11.out",
+      "size": 6
+    },
+    {
+      "path": "friends.12.in",
+      "size": 11
+    },
+    {
+      "path": "friends.12.out",
+      "size": 6
+    },
+    {
+      "path": "friends.13.in",
+      "size": 11
+    },
+    {
+      "path": "friends.13.out",
+      "size": 6
+    },
+    {
+      "path": "friends.14.in",
+      "size": 11
+    },
+    {
+      "path": "friends.14.out",
+      "size": 6
+    },
+    {
+      "path": "friends.15.in",
+      "size": 11
+    },
+    {
+      "path": "friends.15.out",
+      "size": 6
+    },
+    {
+      "path": "friends.16.in",
+      "size": 11
+    },
+    {
+      "path": "friends.16.out",
+      "size": 6
+    },
+    {
+      "path": "friends.17.in",
+      "size": 5
+    },
+    {
+      "path": "friends.17.out",
+      "size": 3
+    },
+    {
+      "path": "friends.18.in",
+      "size": 7
+    },
+    {
+      "path": "friends.18.out",
+      "size": 12
+    },
+    {
+      "path": "friends.19.in",
+      "size": 9
+    },
+    {
+      "path": "friends.19.out",
+      "size": 5
+    },
+    {
+      "path": "friends.2.in",
+      "size": 9
+    },
+    {
+      "path": "friends.2.out",
+      "size": 5
+    },
+    {
+      "path": "friends.20.in",
+      "size": 11
+    },
+    {
+      "path": "friends.20.out",
+      "size": 12
+    },
+    {
+      "path": "friends.21.in",
+      "size": 11
+    },
+    {
+      "path": "friends.21.out",
+      "size": 12
+    },
+    {
+      "path": "friends.22.in",
+      "size": 16
+    },
+    {
+      "path": "friends.22.out",
+      "size": 12
+    },
+    {
+      "path": "friends.23.in",
+      "size": 7
+    },
+    {
+      "path": "friends.23.out",
+      "size": 14
+    },
+    {
+      "path": "friends.24.in",
+      "size": 8
+    },
+    {
+      "path": "friends.24.out",
+      "size": 14
+    },
+    {
+      "path": "friends.25.in",
+      "size": 10
+    },
+    {
+      "path": "friends.25.out",
+      "size": 14
+    },
+    {
+      "path": "friends.26.in",
+      "size": 10
+    },
+    {
+      "path": "friends.26.out",
+      "size": 14
+    },
+    {
+      "path": "friends.27.in",
+      "size": 9
+    },
+    {
+      "path": "friends.27.out",
+      "size": 14
+    },
+    {
+      "path": "friends.28.in",
+      "size": 9
+    },
+    {
+      "path": "friends.28.out",
+      "size": 14
+    },
+    {
+      "path": "friends.29.in",
+      "size": 9
+    },
+    {
+      "path": "friends.29.out",
+      "size": 14
+    },
+    {
+      "path": "friends.3.in",
+      "size": 9
+    },
+    {
+      "path": "friends.3.out",
+      "size": 5
+    },
+    {
+      "path": "friends.30.in",
+      "size": 9
+    },
+    {
+      "path": "friends.30.out",
+      "size": 14
+    },
+    {
+      "path": "friends.31.in",
+      "size": 9
+    },
+    {
+      "path": "friends.31.out",
+      "size": 14
+    },
+    {
+      "path": "friends.32.in",
+      "size": 9
+    },
+    {
+      "path": "friends.32.out",
+      "size": 14
+    },
+    {
+      "path": "friends.33.in",
+      "size": 9
+    },
+    {
+      "path": "friends.33.out",
+      "size": 14
+    },
+    {
+      "path": "friends.34.in",
+      "size": 11
+    },
+    {
+      "path": "friends.34.out",
+      "size": 14
+    },
+    {
+      "path": "friends.35.in",
+      "size": 11
+    },
+    {
+      "path": "friends.35.out",
+      "size": 14
+    },
+    {
+      "path": "friends.36.in",
+      "size": 11
+    },
+    {
+      "path": "friends.36.out",
+      "size": 14
+    },
+    {
+      "path": "friends.37.in",
+      "size": 11
+    },
+    {
+      "path": "friends.37.out",
+      "size": 14
+    },
+    {
+      "path": "friends.38.in",
+      "size": 11
+    },
+    {
+      "path": "friends.38.out",
+      "size": 14
+    },
+    {
+      "path": "friends.39.in",
+      "size": 11
+    },
+    {
+      "path": "friends.39.out",
+      "size": 14
+    },
+    {
+      "path": "friends.4.in",
+      "size": 9
+    },
+    {
+      "path": "friends.4.out",
+      "size": 5
+    },
+    {
+      "path": "friends.40.in",
+      "size": 11
+    },
+    {
+      "path": "friends.40.out",
+      "size": 14
+    },
+    {
+      "path": "friends.41.in",
+      "size": 11
+    },
+    {
+      "path": "friends.41.out",
+      "size": 14
+    },
+    {
+      "path": "friends.42.in",
+      "size": 11
+    },
+    {
+      "path": "friends.42.out",
+      "size": 14
+    },
+    {
+      "path": "friends.43.in",
+      "size": 8
+    },
+    {
+      "path": "friends.43.out",
+      "size": 16
+    },
+    {
+      "path": "friends.5.in",
+      "size": 9
+    },
+    {
+      "path": "friends.5.out",
+      "size": 5
+    },
+    {
+      "path": "friends.6.in",
+      "size": 9
+    },
+    {
+      "path": "friends.6.out",
+      "size": 5
+    },
+    {
+      "path": "friends.7.in",
+      "size": 9
+    },
+    {
+      "path": "friends.7.out",
+      "size": 5
+    },
+    {
+      "path": "friends.8.in",
+      "size": 11
+    },
+    {
+      "path": "friends.8.out",
+      "size": 6
+    },
+    {
+      "path": "friends.9.in",
+      "size": 11
+    },
+    {
+      "path": "friends.9.out",
+      "size": 6
+    }
+  ]
+}

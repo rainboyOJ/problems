@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "Euler1.in",
+      "size": 30
+    },
+    {
+      "path": "Euler1.out",
+      "size": 14
+    },
+    {
+      "path": "Euler2.in",
+      "size": 40
+    },
+    {
+      "path": "Euler2.out",
+      "size": 18
+    },
+    {
+      "path": "Euler3.in",
+      "size": 76
+    },
+    {
+      "path": "Euler3.out",
+      "size": 32
+    },
+    {
+      "path": "Euler4.in",
+      "size": 81
+    },
+    {
+      "path": "Euler4.out",
+      "size": 34
+    },
+    {
+      "path": "Euler5.in",
+      "size": 73
+    },
+    {
+      "path": "Euler5.out",
+      "size": 31
+    }
+  ]
+}

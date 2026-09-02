@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "betsy0.in",
+      "size": 1
+    },
+    {
+      "path": "betsy0.out",
+      "size": 1
+    },
+    {
+      "path": "betsy1.in",
+      "size": 1
+    },
+    {
+      "path": "betsy1.out",
+      "size": 1
+    },
+    {
+      "path": "betsy2.in",
+      "size": 1
+    },
+    {
+      "path": "betsy2.out",
+      "size": 1
+    },
+    {
+      "path": "betsy3.in",
+      "size": 1
+    },
+    {
+      "path": "betsy3.out",
+      "size": 1
+    },
+    {
+      "path": "betsy4.in",
+      "size": 1
+    },
+    {
+      "path": "betsy4.out",
+      "size": 2
+    },
+    {
+      "path": "betsy5.in",
+      "size": 1
+    },
+    {
+      "path": "betsy5.out",
+      "size": 4
+    },
+    {
+      "path": "betsy6.in",
+      "size": 1
+    },
+    {
+      "path": "betsy6.out",
+      "size": 5
+    }
+  ]
+}

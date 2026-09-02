@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "coin1.ans",
+      "size": 3
+    },
+    {
+      "path": "coin1.in",
+      "size": 2
+    },
+    {
+      "path": "coin10.ans",
+      "size": 3
+    },
+    {
+      "path": "coin10.in",
+      "size": 3
+    },
+    {
+      "path": "coin2.ans",
+      "size": 2
+    },
+    {
+      "path": "coin2.in",
+      "size": 2
+    },
+    {
+      "path": "coin3.ans",
+      "size": 3
+    },
+    {
+      "path": "coin3.in",
+      "size": 3
+    },
+    {
+      "path": "coin4.ans",
+      "size": 3
+    },
+    {
+      "path": "coin4.in",
+      "size": 3
+    },
+    {
+      "path": "coin5.ans",
+      "size": 3
+    },
+    {
+      "path": "coin5.in",
+      "size": 3
+    },
+    {
+      "path": "coin6.ans",
+      "size": 4
+    },
+    {
+      "path": "coin6.in",
+      "size": 4
+    },
+    {
+      "path": "coin7.ans",
+      "size": 7
+    },
+    {
+      "path": "coin7.in",
+      "size": 6
+    },
+    {
+      "path": "coin8.ans",
+      "size": 6
+    },
+    {
+      "path": "coin8.in",
+      "size": 5
+    },
+    {
+      "path": "coin9.ans",
+      "size": 3
+    },
+    {
+      "path": "coin9.in",
+      "size": 3
+    }
+  ]
+}

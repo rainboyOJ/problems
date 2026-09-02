@@ -1,0 +1,452 @@
+{
+  "files": [
+    {
+      "path": "teams01.in",
+      "size": 52
+    },
+    {
+      "path": "teams01.out",
+      "size": 13
+    },
+    {
+      "path": "teams02.in",
+      "size": 52
+    },
+    {
+      "path": "teams02.out",
+      "size": 16
+    },
+    {
+      "path": "teams03.in",
+      "size": 9
+    },
+    {
+      "path": "teams03.out",
+      "size": 10
+    },
+    {
+      "path": "teams04.in",
+      "size": 11
+    },
+    {
+      "path": "teams04.out",
+      "size": 10
+    },
+    {
+      "path": "teams05.in",
+      "size": 13
+    },
+    {
+      "path": "teams05.out",
+      "size": 10
+    },
+    {
+      "path": "teams06.in",
+      "size": 12
+    },
+    {
+      "path": "teams06.out",
+      "size": 13
+    },
+    {
+      "path": "teams07.in",
+      "size": 14
+    },
+    {
+      "path": "teams07.out",
+      "size": 13
+    },
+    {
+      "path": "teams08.in",
+      "size": 18
+    },
+    {
+      "path": "teams08.out",
+      "size": 13
+    },
+    {
+      "path": "teams09.in",
+      "size": 16
+    },
+    {
+      "path": "teams09.out",
+      "size": 12
+    },
+    {
+      "path": "teams10.in",
+      "size": 39
+    },
+    {
+      "path": "teams10.out",
+      "size": 14
+    },
+    {
+      "path": "teams11.in",
+      "size": 277
+    },
+    {
+      "path": "teams11.out",
+      "size": 30
+    },
+    {
+      "path": "teams12.in",
+      "size": 28525
+    },
+    {
+      "path": "teams12.out",
+      "size": 296
+    },
+    {
+      "path": "teams13.in",
+      "size": 29213
+    },
+    {
+      "path": "teams13.out",
+      "size": 300
+    },
+    {
+      "path": "teams14.in",
+      "size": 305
+    },
+    {
+      "path": "teams14.out",
+      "size": 13
+    },
+    {
+      "path": "teams15.in",
+      "size": 29159
+    },
+    {
+      "path": "teams15.out",
+      "size": 300
+    },
+    {
+      "path": "teams16.in",
+      "size": 1597
+    },
+    {
+      "path": "teams16.out",
+      "size": 73
+    },
+    {
+      "path": "teams17.in",
+      "size": 4406
+    },
+    {
+      "path": "teams17.out",
+      "size": 13
+    },
+    {
+      "path": "teams18.in",
+      "size": 28919
+    },
+    {
+      "path": "teams18.out",
+      "size": 299
+    },
+    {
+      "path": "teams19.in",
+      "size": 22222
+    },
+    {
+      "path": "teams19.out",
+      "size": 296
+    },
+    {
+      "path": "teams20.in",
+      "size": 21901
+    },
+    {
+      "path": "teams20.out",
+      "size": 300
+    },
+    {
+      "path": "teams21.in",
+      "size": 21925
+    },
+    {
+      "path": "teams21.out",
+      "size": 13
+    },
+    {
+      "path": "teams22.in",
+      "size": 28681
+    },
+    {
+      "path": "teams22.out",
+      "size": 299
+    },
+    {
+      "path": "teams23.in",
+      "size": 22091
+    },
+    {
+      "path": "teams23.out",
+      "size": 296
+    },
+    {
+      "path": "teams24.in",
+      "size": 22089
+    },
+    {
+      "path": "teams24.out",
+      "size": 300
+    },
+    {
+      "path": "teams25.in",
+      "size": 29001
+    },
+    {
+      "path": "teams25.out",
+      "size": 300
+    },
+    {
+      "path": "teams26.in",
+      "size": 28874
+    },
+    {
+      "path": "teams26.out",
+      "size": 300
+    },
+    {
+      "path": "teams27.in",
+      "size": 27572
+    },
+    {
+      "path": "teams27.out",
+      "size": 300
+    },
+    {
+      "path": "teams28.in",
+      "size": 27913
+    },
+    {
+      "path": "teams28.out",
+      "size": 300
+    },
+    {
+      "path": "teams29.in",
+      "size": 27735
+    },
+    {
+      "path": "teams29.out",
+      "size": 300
+    },
+    {
+      "path": "teams30.in",
+      "size": 28152
+    },
+    {
+      "path": "teams30.out",
+      "size": 300
+    },
+    {
+      "path": "teams31.in",
+      "size": 28545
+    },
+    {
+      "path": "teams31.out",
+      "size": 300
+    },
+    {
+      "path": "teams32.in",
+      "size": 28536
+    },
+    {
+      "path": "teams32.out",
+      "size": 300
+    },
+    {
+      "path": "teams33.in",
+      "size": 28478
+    },
+    {
+      "path": "teams33.out",
+      "size": 300
+    },
+    {
+      "path": "teams34.in",
+      "size": 28515
+    },
+    {
+      "path": "teams34.out",
+      "size": 300
+    },
+    {
+      "path": "teams35.in",
+      "size": 28457
+    },
+    {
+      "path": "teams35.out",
+      "size": 300
+    },
+    {
+      "path": "teams36.in",
+      "size": 28499
+    },
+    {
+      "path": "teams36.out",
+      "size": 300
+    },
+    {
+      "path": "teams37.in",
+      "size": 27819
+    },
+    {
+      "path": "teams37.out",
+      "size": 296
+    },
+    {
+      "path": "teams38.in",
+      "size": 27857
+    },
+    {
+      "path": "teams38.out",
+      "size": 296
+    },
+    {
+      "path": "teams39.in",
+      "size": 6358
+    },
+    {
+      "path": "teams39.out",
+      "size": 143
+    },
+    {
+      "path": "teams40.in",
+      "size": 28240
+    },
+    {
+      "path": "teams40.out",
+      "size": 296
+    },
+    {
+      "path": "teams41.in",
+      "size": 28921
+    },
+    {
+      "path": "teams41.out",
+      "size": 300
+    },
+    {
+      "path": "teams42.in",
+      "size": 28921
+    },
+    {
+      "path": "teams42.out",
+      "size": 300
+    },
+    {
+      "path": "teams43.in",
+      "size": 28141
+    },
+    {
+      "path": "teams43.out",
+      "size": 296
+    },
+    {
+      "path": "teams44.in",
+      "size": 28825
+    },
+    {
+      "path": "teams44.out",
+      "size": 300
+    },
+    {
+      "path": "teams45.in",
+      "size": 28789
+    },
+    {
+      "path": "teams45.out",
+      "size": 300
+    },
+    {
+      "path": "teams46.in",
+      "size": 28805
+    },
+    {
+      "path": "teams46.out",
+      "size": 300
+    },
+    {
+      "path": "teams47.in",
+      "size": 28839
+    },
+    {
+      "path": "teams47.out",
+      "size": 300
+    },
+    {
+      "path": "teams48.in",
+      "size": 28726
+    },
+    {
+      "path": "teams48.out",
+      "size": 300
+    },
+    {
+      "path": "teams49.in",
+      "size": 27576
+    },
+    {
+      "path": "teams49.out",
+      "size": 300
+    },
+    {
+      "path": "teams50.in",
+      "size": 28608
+    },
+    {
+      "path": "teams50.out",
+      "size": 13
+    },
+    {
+      "path": "teams51.in",
+      "size": 24599
+    },
+    {
+      "path": "teams51.out",
+      "size": 300
+    },
+    {
+      "path": "teams52.in",
+      "size": 24574
+    },
+    {
+      "path": "teams52.out",
+      "size": 300
+    },
+    {
+      "path": "teams53.in",
+      "size": 28262
+    },
+    {
+      "path": "teams53.out",
+      "size": 296
+    },
+    {
+      "path": "teams54.in",
+      "size": 28892
+    },
+    {
+      "path": "teams54.out",
+      "size": 300
+    },
+    {
+      "path": "teams55.in",
+      "size": 28799
+    },
+    {
+      "path": "teams55.out",
+      "size": 300
+    },
+    {
+      "path": "teams56.in",
+      "size": 28122
+    },
+    {
+      "path": "teams56.out",
+      "size": 300
+    }
+  ]
+}

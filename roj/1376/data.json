@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "MSNER1.IN",
+      "size": 33
+    },
+    {
+      "path": "MSNER1.OUT",
+      "size": 4
+    },
+    {
+      "path": "MSNER2.IN",
+      "size": 128
+    },
+    {
+      "path": "MSNER2.OUT",
+      "size": 5
+    },
+    {
+      "path": "MSNER3.IN",
+      "size": 717
+    },
+    {
+      "path": "MSNER3.OUT",
+      "size": 4
+    },
+    {
+      "path": "MSNER4.IN",
+      "size": 894
+    },
+    {
+      "path": "MSNER4.OUT",
+      "size": 5
+    },
+    {
+      "path": "MSNER5.IN",
+      "size": 939
+    },
+    {
+      "path": "MSNER5.OUT",
+      "size": 5
+    },
+    {
+      "path": "MSNER6.IN",
+      "size": 884
+    },
+    {
+      "path": "MSNER6.OUT",
+      "size": 5
+    },
+    {
+      "path": "MSNER7.IN",
+      "size": 1049
+    },
+    {
+      "path": "MSNER7.OUT",
+      "size": 6
+    },
+    {
+      "path": "MSNER8.IN",
+      "size": 1070
+    },
+    {
+      "path": "MSNER8.OUT",
+      "size": 5
+    },
+    {
+      "path": "MSNER9.IN",
+      "size": 985
+    },
+    {
+      "path": "MSNER9.OUT",
+      "size": 6
+    },
+    {
+      "path": "Msner10.in",
+      "size": 1394
+    },
+    {
+      "path": "Msner10.out",
+      "size": 6
+    }
+  ]
+}

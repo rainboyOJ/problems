@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "live1.ans",
+      "size": 20
+    },
+    {
+      "path": "live1.in",
+      "size": 28
+    },
+    {
+      "path": "live10.ans",
+      "size": 8000
+    },
+    {
+      "path": "live10.in",
+      "size": 7926
+    },
+    {
+      "path": "live11.ans",
+      "size": 40000
+    },
+    {
+      "path": "live11.in",
+      "size": 38201
+    },
+    {
+      "path": "live12.ans",
+      "size": 30105
+    },
+    {
+      "path": "live12.in",
+      "size": 38174
+    },
+    {
+      "path": "live13.ans",
+      "size": 29472
+    },
+    {
+      "path": "live13.in",
+      "size": 30607
+    },
+    {
+      "path": "live14.ans",
+      "size": 29998
+    },
+    {
+      "path": "live14.in",
+      "size": 30007
+    },
+    {
+      "path": "live15.ans",
+      "size": 40000
+    },
+    {
+      "path": "live15.in",
+      "size": 38050
+    },
+    {
+      "path": "live16.ans",
+      "size": 40000
+    },
+    {
+      "path": "live16.in",
+      "size": 39728
+    },
+    {
+      "path": "live17.ans",
+      "size": 29998
+    },
+    {
+      "path": "live17.in",
+      "size": 30007
+    },
+    {
+      "path": "live18.ans",
+      "size": 200000
+    },
+    {
+      "path": "live18.in",
+      "size": 200010
+    },
+    {
+      "path": "live19.ans",
+      "size": 363676
+    },
+    {
+      "path": "live19.in",
+      "size": 236008
+    },
+    {
+      "path": "live2.ans",
+      "size": 30
+    },
+    {
+      "path": "live2.in",
+      "size": 36
+    },
+    {
+      "path": "live20.ans",
+      "size": 300000
+    },
+    {
+      "path": "live20.in",
+      "size": 381631
+    },
+    {
+      "path": "live3.ans",
+      "size": 36
+    },
+    {
+      "path": "live3.in",
+      "size": 36
+    },
+    {
+      "path": "live4.ans",
+      "size": 2000
+    },
+    {
+      "path": "live4.in",
+      "size": 1902
+    },
+    {
+      "path": "live5.ans",
+      "size": 2000
+    },
+    {
+      "path": "live5.in",
+      "size": 1932
+    },
+    {
+      "path": "live6.ans",
+      "size": 1542
+    },
+    {
+      "path": "live6.in",
+      "size": 1455
+    },
+    {
+      "path": "live7.ans",
+      "size": 4840
+    },
+    {
+      "path": "live7.in",
+      "size": 7126
+    },
+    {
+      "path": "live8.ans",
+      "size": 5998
+    },
+    {
+      "path": "live8.in",
+      "size": 6006
+    },
+    {
+      "path": "live9.ans",
+      "size": 6000
+    },
+    {
+      "path": "live9.in",
+      "size": 5814
+    }
+  ]
+}

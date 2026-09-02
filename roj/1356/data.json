@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "calc1.in",
+      "size": 21
+    },
+    {
+      "path": "calc1.out",
+      "size": 4
+    },
+    {
+      "path": "calc2.in",
+      "size": 50
+    },
+    {
+      "path": "calc2.out",
+      "size": 5
+    },
+    {
+      "path": "calc3.in",
+      "size": 32
+    },
+    {
+      "path": "calc3.out",
+      "size": 6
+    },
+    {
+      "path": "calc4.in",
+      "size": 19
+    },
+    {
+      "path": "calc4.out",
+      "size": 11
+    },
+    {
+      "path": "calc5.in",
+      "size": 41
+    },
+    {
+      "path": "calc5.out",
+      "size": 8
+    }
+  ]
+}

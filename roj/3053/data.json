@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "mgrid.1.in",
+      "size": 16
+    },
+    {
+      "path": "mgrid.1.out",
+      "size": 2
+    },
+    {
+      "path": "mgrid.10.in",
+      "size": 760009
+    },
+    {
+      "path": "mgrid.10.out",
+      "size": 4
+    },
+    {
+      "path": "mgrid.11.in",
+      "size": 22
+    },
+    {
+      "path": "mgrid.11.out",
+      "size": 3
+    },
+    {
+      "path": "mgrid.12.in",
+      "size": 18
+    },
+    {
+      "path": "mgrid.12.out",
+      "size": 3
+    },
+    {
+      "path": "mgrid.13.in",
+      "size": 22
+    },
+    {
+      "path": "mgrid.13.out",
+      "size": 3
+    },
+    {
+      "path": "mgrid.2.in",
+      "size": 24
+    },
+    {
+      "path": "mgrid.2.out",
+      "size": 3
+    },
+    {
+      "path": "mgrid.3.in",
+      "size": 426
+    },
+    {
+      "path": "mgrid.3.out",
+      "size": 3
+    },
+    {
+      "path": "mgrid.4.in",
+      "size": 7607
+    },
+    {
+      "path": "mgrid.4.out",
+      "size": 2
+    },
+    {
+      "path": "mgrid.5.in",
+      "size": 7607
+    },
+    {
+      "path": "mgrid.5.out",
+      "size": 5
+    },
+    {
+      "path": "mgrid.6.in",
+      "size": 19007
+    },
+    {
+      "path": "mgrid.6.out",
+      "size": 6
+    },
+    {
+      "path": "mgrid.7.in",
+      "size": 30407
+    },
+    {
+      "path": "mgrid.7.out",
+      "size": 5
+    },
+    {
+      "path": "mgrid.8.in",
+      "size": 760009
+    },
+    {
+      "path": "mgrid.8.out",
+      "size": 7
+    },
+    {
+      "path": "mgrid.9.in",
+      "size": 760009
+    },
+    {
+      "path": "mgrid.9.out",
+      "size": 7
+    }
+  ]
+}

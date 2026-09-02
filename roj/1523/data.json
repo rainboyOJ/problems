@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "sniffer1.in",
+      "size": 153
+    },
+    {
+      "path": "sniffer1.out",
+      "size": 1
+    },
+    {
+      "path": "sniffer10.in",
+      "size": 7271
+    },
+    {
+      "path": "sniffer10.out",
+      "size": 4
+    },
+    {
+      "path": "sniffer2.in",
+      "size": 128
+    },
+    {
+      "path": "sniffer2.out",
+      "size": 3
+    },
+    {
+      "path": "sniffer3.in",
+      "size": 1242
+    },
+    {
+      "path": "sniffer3.out",
+      "size": 11
+    },
+    {
+      "path": "sniffer4.in",
+      "size": 2065
+    },
+    {
+      "path": "sniffer4.out",
+      "size": 4
+    },
+    {
+      "path": "sniffer5.in",
+      "size": 2038
+    },
+    {
+      "path": "sniffer5.out",
+      "size": 4
+    },
+    {
+      "path": "sniffer6.in",
+      "size": 3103
+    },
+    {
+      "path": "sniffer6.out",
+      "size": 4
+    },
+    {
+      "path": "sniffer7.in",
+      "size": 2712
+    },
+    {
+      "path": "sniffer7.out",
+      "size": 4
+    },
+    {
+      "path": "sniffer8.in",
+      "size": 3560
+    },
+    {
+      "path": "sniffer8.out",
+      "size": 4
+    },
+    {
+      "path": "sniffer9.in",
+      "size": 5129
+    },
+    {
+      "path": "sniffer9.out",
+      "size": 4
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "npack0.in",
+      "size": 14
+    },
+    {
+      "path": "npack0.out",
+      "size": 1
+    },
+    {
+      "path": "npack1.in",
+      "size": 43
+    },
+    {
+      "path": "npack1.out",
+      "size": 2
+    },
+    {
+      "path": "npack2.in",
+      "size": 69
+    },
+    {
+      "path": "npack2.out",
+      "size": 1
+    },
+    {
+      "path": "npack3.in",
+      "size": 84
+    },
+    {
+      "path": "npack3.out",
+      "size": 1
+    },
+    {
+      "path": "npack4.in",
+      "size": 180
+    },
+    {
+      "path": "npack4.out",
+      "size": 1
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "liaison1.in",
+      "size": 59
+    },
+    {
+      "path": "liaison1.out",
+      "size": 4
+    },
+    {
+      "path": "liaison10.in",
+      "size": 145829
+    },
+    {
+      "path": "liaison10.out",
+      "size": 10
+    },
+    {
+      "path": "liaison2.in",
+      "size": 59
+    },
+    {
+      "path": "liaison2.out",
+      "size": 4
+    },
+    {
+      "path": "liaison3.in",
+      "size": 172
+    },
+    {
+      "path": "liaison3.out",
+      "size": 4
+    },
+    {
+      "path": "liaison4.in",
+      "size": 8867
+    },
+    {
+      "path": "liaison4.out",
+      "size": 9
+    },
+    {
+      "path": "liaison5.in",
+      "size": 8873
+    },
+    {
+      "path": "liaison5.out",
+      "size": 9
+    },
+    {
+      "path": "liaison6.in",
+      "size": 129905
+    },
+    {
+      "path": "liaison6.out",
+      "size": 10
+    },
+    {
+      "path": "liaison7.in",
+      "size": 105377
+    },
+    {
+      "path": "liaison7.out",
+      "size": 10
+    },
+    {
+      "path": "liaison8.in",
+      "size": 110635
+    },
+    {
+      "path": "liaison8.out",
+      "size": 10
+    },
+    {
+      "path": "liaison9.in",
+      "size": 125988
+    },
+    {
+      "path": "liaison9.out",
+      "size": 10
+    }
+  ]
+}

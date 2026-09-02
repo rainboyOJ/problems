@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "son0.in",
+      "size": 10
+    },
+    {
+      "path": "son0.out",
+      "size": 1
+    },
+    {
+      "path": "son1.in",
+      "size": 24
+    },
+    {
+      "path": "son1.out",
+      "size": 4
+    },
+    {
+      "path": "son2.in",
+      "size": 134
+    },
+    {
+      "path": "son2.out",
+      "size": 28
+    },
+    {
+      "path": "son3.in",
+      "size": 660
+    },
+    {
+      "path": "son3.out",
+      "size": 150
+    },
+    {
+      "path": "son4.in",
+      "size": 1338
+    },
+    {
+      "path": "son4.out",
+      "size": 300
+    },
+    {
+      "path": "son5.in",
+      "size": 2367
+    },
+    {
+      "path": "son5.out",
+      "size": 309
+    },
+    {
+      "path": "son6.in",
+      "size": 7127
+    },
+    {
+      "path": "son6.out",
+      "size": 953
+    },
+    {
+      "path": "son7.in",
+      "size": 14279
+    },
+    {
+      "path": "son7.out",
+      "size": 1913
+    },
+    {
+      "path": "son8.in",
+      "size": 42056
+    },
+    {
+      "path": "son8.out",
+      "size": 5998
+    },
+    {
+      "path": "son9.in",
+      "size": 59312
+    },
+    {
+      "path": "son9.out",
+      "size": 6418
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "ju1.in",
+      "size": 182551
+    },
+    {
+      "path": "ju1.out",
+      "size": 4
+    },
+    {
+      "path": "ju2.in",
+      "size": 139649
+    },
+    {
+      "path": "ju2.out",
+      "size": 4
+    },
+    {
+      "path": "ju3.in",
+      "size": 137822
+    },
+    {
+      "path": "ju3.out",
+      "size": 4
+    },
+    {
+      "path": "ju4.in",
+      "size": 98108
+    },
+    {
+      "path": "ju4.out",
+      "size": 3
+    },
+    {
+      "path": "ju5.in",
+      "size": 147209
+    },
+    {
+      "path": "ju5.out",
+      "size": 4
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "delete1.in",
+      "size": 13
+    },
+    {
+      "path": "delete1.out",
+      "size": 4
+    },
+    {
+      "path": "delete2.in",
+      "size": 13
+    },
+    {
+      "path": "delete2.out",
+      "size": 6
+    },
+    {
+      "path": "delete3.in",
+      "size": 14
+    },
+    {
+      "path": "delete3.out",
+      "size": 6
+    },
+    {
+      "path": "delete4.in",
+      "size": 16
+    },
+    {
+      "path": "delete4.out",
+      "size": 5
+    },
+    {
+      "path": "delete5.in",
+      "size": 27
+    },
+    {
+      "path": "delete5.out",
+      "size": 9
+    },
+    {
+      "path": "delete6.in",
+      "size": 48
+    },
+    {
+      "path": "delete6.out",
+      "size": 9
+    }
+  ]
+}

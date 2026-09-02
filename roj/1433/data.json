@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "aggr.1.in",
+      "size": 14
+    },
+    {
+      "path": "aggr.1.out",
+      "size": 2
+    },
+    {
+      "path": "aggr.10.in",
+      "size": 39
+    },
+    {
+      "path": "aggr.10.out",
+      "size": 3
+    },
+    {
+      "path": "aggr.2.in",
+      "size": 254
+    },
+    {
+      "path": "aggr.2.out",
+      "size": 3
+    },
+    {
+      "path": "aggr.3.in",
+      "size": 1525
+    },
+    {
+      "path": "aggr.3.out",
+      "size": 3
+    },
+    {
+      "path": "aggr.4.in",
+      "size": 4615
+    },
+    {
+      "path": "aggr.4.out",
+      "size": 2
+    },
+    {
+      "path": "aggr.5.in",
+      "size": 161910
+    },
+    {
+      "path": "aggr.5.out",
+      "size": 4
+    },
+    {
+      "path": "aggr.6.in",
+      "size": 691359
+    },
+    {
+      "path": "aggr.6.out",
+      "size": 6
+    },
+    {
+      "path": "aggr.7.in",
+      "size": 988920
+    },
+    {
+      "path": "aggr.7.out",
+      "size": 6
+    },
+    {
+      "path": "aggr.8.in",
+      "size": 71
+    },
+    {
+      "path": "aggr.8.out",
+      "size": 2
+    },
+    {
+      "path": "aggr.9.in",
+      "size": 134
+    },
+    {
+      "path": "aggr.9.out",
+      "size": 7
+    }
+  ]
+}

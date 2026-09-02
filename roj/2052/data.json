@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "fenceus0.in",
+      "size": 16
+    },
+    {
+      "path": "fenceus0.out",
+      "size": 10
+    },
+    {
+      "path": "fenceus1.in",
+      "size": 8
+    },
+    {
+      "path": "fenceus1.out",
+      "size": 6
+    },
+    {
+      "path": "fenceus2.in",
+      "size": 46
+    },
+    {
+      "path": "fenceus2.out",
+      "size": 28
+    },
+    {
+      "path": "fenceus3.in",
+      "size": 81
+    },
+    {
+      "path": "fenceus3.out",
+      "size": 48
+    },
+    {
+      "path": "fenceus4.in",
+      "size": 673
+    },
+    {
+      "path": "fenceus4.out",
+      "size": 387
+    },
+    {
+      "path": "fenceus5.in",
+      "size": 417
+    },
+    {
+      "path": "fenceus5.out",
+      "size": 250
+    },
+    {
+      "path": "fenceus6.in",
+      "size": 4185
+    },
+    {
+      "path": "fenceus6.out",
+      "size": 2344
+    },
+    {
+      "path": "fenceus7.in",
+      "size": 8760
+    },
+    {
+      "path": "fenceus7.out",
+      "size": 4893
+    }
+  ]
+}

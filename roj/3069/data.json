@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "cir0.in",
+      "size": 64
+    },
+    {
+      "path": "cir0.out",
+      "size": 8
+    },
+    {
+      "path": "cir1.in",
+      "size": 94
+    },
+    {
+      "path": "cir1.out",
+      "size": 8
+    },
+    {
+      "path": "cir2.in",
+      "size": 94
+    },
+    {
+      "path": "cir2.out",
+      "size": 8
+    },
+    {
+      "path": "cir3.in",
+      "size": 100
+    },
+    {
+      "path": "cir3.out",
+      "size": 18
+    },
+    {
+      "path": "cir4.in",
+      "size": 6002
+    },
+    {
+      "path": "cir4.out",
+      "size": 9
+    },
+    {
+      "path": "cir5.in",
+      "size": 39781
+    },
+    {
+      "path": "cir5.out",
+      "size": 19
+    },
+    {
+      "path": "cir6.in",
+      "size": 473952
+    },
+    {
+      "path": "cir6.out",
+      "size": 12
+    },
+    {
+      "path": "cir7.in",
+      "size": 693160
+    },
+    {
+      "path": "cir7.out",
+      "size": 11
+    },
+    {
+      "path": "cir8.in",
+      "size": 937970
+    },
+    {
+      "path": "cir8.out",
+      "size": 11
+    },
+    {
+      "path": "cir9.in",
+      "size": 996040
+    },
+    {
+      "path": "cir9.out",
+      "size": 11
+    }
+  ]
+}

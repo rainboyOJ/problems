@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "act0.in",
+      "size": 1733
+    },
+    {
+      "path": "act0.out",
+      "size": 4
+    },
+    {
+      "path": "act1.in",
+      "size": 3521
+    },
+    {
+      "path": "act1.out",
+      "size": 4
+    },
+    {
+      "path": "act2.in",
+      "size": 2477
+    },
+    {
+      "path": "act2.out",
+      "size": 4
+    },
+    {
+      "path": "act3.in",
+      "size": 546
+    },
+    {
+      "path": "act3.out",
+      "size": 3
+    },
+    {
+      "path": "act4.in",
+      "size": 2836
+    },
+    {
+      "path": "act4.out",
+      "size": 4
+    },
+    {
+      "path": "act5.in",
+      "size": 5121
+    },
+    {
+      "path": "act5.out",
+      "size": 4
+    },
+    {
+      "path": "act6.in",
+      "size": 2593
+    },
+    {
+      "path": "act6.out",
+      "size": 4
+    },
+    {
+      "path": "act7.in",
+      "size": 4416
+    },
+    {
+      "path": "act7.out",
+      "size": 4
+    },
+    {
+      "path": "act8.in",
+      "size": 7182
+    },
+    {
+      "path": "act8.out",
+      "size": 4
+    },
+    {
+      "path": "act9.in",
+      "size": 5944
+    },
+    {
+      "path": "act9.out",
+      "size": 4
+    }
+  ]
+}

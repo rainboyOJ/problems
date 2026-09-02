@@ -1,0 +1,116 @@
+{
+  "files": [
+    {
+      "path": "snow0.in",
+      "size": 3889482
+    },
+    {
+      "path": "snow0.out",
+      "size": 5
+    },
+    {
+      "path": "snow1.in",
+      "size": 28
+    },
+    {
+      "path": "snow1.out",
+      "size": 3
+    },
+    {
+      "path": "snow10.in",
+      "size": 10888913
+    },
+    {
+      "path": "snow10.out",
+      "size": 7
+    },
+    {
+      "path": "snow11.in",
+      "size": 10888917
+    },
+    {
+      "path": "snow11.out",
+      "size": 7
+    },
+    {
+      "path": "snow12.in",
+      "size": 10888495
+    },
+    {
+      "path": "snow12.out",
+      "size": 7
+    },
+    {
+      "path": "snow13.in",
+      "size": 9880623
+    },
+    {
+      "path": "snow13.out",
+      "size": 6
+    },
+    {
+      "path": "snow2.in",
+      "size": 3900
+    },
+    {
+      "path": "snow2.out",
+      "size": 5
+    },
+    {
+      "path": "snow3.in",
+      "size": 700008
+    },
+    {
+      "path": "snow3.out",
+      "size": 5
+    },
+    {
+      "path": "snow4.in",
+      "size": 900008
+    },
+    {
+      "path": "snow4.out",
+      "size": 5
+    },
+    {
+      "path": "snow5.in",
+      "size": 5661455
+    },
+    {
+      "path": "snow5.out",
+      "size": 5
+    },
+    {
+      "path": "snow6.in",
+      "size": 2831160
+    },
+    {
+      "path": "snow6.out",
+      "size": 5
+    },
+    {
+      "path": "snow7.in",
+      "size": 5661387
+    },
+    {
+      "path": "snow7.out",
+      "size": 5
+    },
+    {
+      "path": "snow8.in",
+      "size": 9000009
+    },
+    {
+      "path": "snow8.out",
+      "size": 5
+    },
+    {
+      "path": "snow9.in",
+      "size": 9000009
+    },
+    {
+      "path": "snow9.out",
+      "size": 5
+    }
+  ]
+}

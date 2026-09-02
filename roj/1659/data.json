@@ -1,0 +1,300 @@
+{
+  "files": [
+    {
+      "path": "gift1.in",
+      "size": 25
+    },
+    {
+      "path": "gift1.out",
+      "size": 9
+    },
+    {
+      "path": "gift10.in",
+      "size": 30
+    },
+    {
+      "path": "gift10.out",
+      "size": 10
+    },
+    {
+      "path": "gift11.in",
+      "size": 29
+    },
+    {
+      "path": "gift11.out",
+      "size": 5
+    },
+    {
+      "path": "gift12.in",
+      "size": 33
+    },
+    {
+      "path": "gift12.out",
+      "size": 9
+    },
+    {
+      "path": "gift13.in",
+      "size": 32
+    },
+    {
+      "path": "gift13.out",
+      "size": 9
+    },
+    {
+      "path": "gift14.in",
+      "size": 32
+    },
+    {
+      "path": "gift14.out",
+      "size": 9
+    },
+    {
+      "path": "gift15.in",
+      "size": 30
+    },
+    {
+      "path": "gift15.out",
+      "size": 8
+    },
+    {
+      "path": "gift16.in",
+      "size": 41
+    },
+    {
+      "path": "gift16.out",
+      "size": 9
+    },
+    {
+      "path": "gift17.in",
+      "size": 31
+    },
+    {
+      "path": "gift17.out",
+      "size": 9
+    },
+    {
+      "path": "gift18.in",
+      "size": 32
+    },
+    {
+      "path": "gift18.out",
+      "size": 9
+    },
+    {
+      "path": "gift19.in",
+      "size": 23
+    },
+    {
+      "path": "gift19.out",
+      "size": 11
+    },
+    {
+      "path": "gift2.in",
+      "size": 21
+    },
+    {
+      "path": "gift2.out",
+      "size": 9
+    },
+    {
+      "path": "gift20.in",
+      "size": 31
+    },
+    {
+      "path": "gift20.out",
+      "size": 8
+    },
+    {
+      "path": "gift21.in",
+      "size": 41
+    },
+    {
+      "path": "gift21.out",
+      "size": 9
+    },
+    {
+      "path": "gift22.in",
+      "size": 33
+    },
+    {
+      "path": "gift22.out",
+      "size": 9
+    },
+    {
+      "path": "gift23.in",
+      "size": 29
+    },
+    {
+      "path": "gift23.out",
+      "size": 5
+    },
+    {
+      "path": "gift24.in",
+      "size": 32
+    },
+    {
+      "path": "gift24.out",
+      "size": 10
+    },
+    {
+      "path": "gift25.in",
+      "size": 31
+    },
+    {
+      "path": "gift25.out",
+      "size": 8
+    },
+    {
+      "path": "gift26.in",
+      "size": 30
+    },
+    {
+      "path": "gift26.out",
+      "size": 8
+    },
+    {
+      "path": "gift27.in",
+      "size": 22
+    },
+    {
+      "path": "gift27.out",
+      "size": 9
+    },
+    {
+      "path": "gift28.in",
+      "size": 32
+    },
+    {
+      "path": "gift28.out",
+      "size": 9
+    },
+    {
+      "path": "gift29.in",
+      "size": 25
+    },
+    {
+      "path": "gift29.out",
+      "size": 9
+    },
+    {
+      "path": "gift3.in",
+      "size": 23
+    },
+    {
+      "path": "gift3.out",
+      "size": 11
+    },
+    {
+      "path": "gift30.in",
+      "size": 30
+    },
+    {
+      "path": "gift30.out",
+      "size": 10
+    },
+    {
+      "path": "gift31.in",
+      "size": 33
+    },
+    {
+      "path": "gift31.out",
+      "size": 10
+    },
+    {
+      "path": "gift32.in",
+      "size": 40
+    },
+    {
+      "path": "gift32.out",
+      "size": 9
+    },
+    {
+      "path": "gift33.in",
+      "size": 33
+    },
+    {
+      "path": "gift33.out",
+      "size": 10
+    },
+    {
+      "path": "gift34.in",
+      "size": 31
+    },
+    {
+      "path": "gift34.out",
+      "size": 9
+    },
+    {
+      "path": "gift35.in",
+      "size": 32
+    },
+    {
+      "path": "gift35.out",
+      "size": 10
+    },
+    {
+      "path": "gift36.in",
+      "size": 32
+    },
+    {
+      "path": "gift36.out",
+      "size": 8
+    },
+    {
+      "path": "gift37.in",
+      "size": 32
+    },
+    {
+      "path": "gift37.out",
+      "size": 9
+    },
+    {
+      "path": "gift4.in",
+      "size": 32
+    },
+    {
+      "path": "gift4.out",
+      "size": 10
+    },
+    {
+      "path": "gift5.in",
+      "size": 32
+    },
+    {
+      "path": "gift5.out",
+      "size": 10
+    },
+    {
+      "path": "gift6.in",
+      "size": 33
+    },
+    {
+      "path": "gift6.out",
+      "size": 10
+    },
+    {
+      "path": "gift7.in",
+      "size": 31
+    },
+    {
+      "path": "gift7.out",
+      "size": 8
+    },
+    {
+      "path": "gift8.in",
+      "size": 32
+    },
+    {
+      "path": "gift8.out",
+      "size": 9
+    },
+    {
+      "path": "gift9.in",
+      "size": 31
+    },
+    {
+      "path": "gift9.out",
+      "size": 8
+    }
+  ]
+}

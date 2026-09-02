@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "btout1.in",
+      "size": 16
+    },
+    {
+      "path": "btout1.out",
+      "size": 20
+    },
+    {
+      "path": "btout2.in",
+      "size": 20
+    },
+    {
+      "path": "btout2.out",
+      "size": 28
+    },
+    {
+      "path": "btout3.in",
+      "size": 20
+    },
+    {
+      "path": "btout3.out",
+      "size": 26
+    },
+    {
+      "path": "btout4.in",
+      "size": 22
+    },
+    {
+      "path": "btout4.out",
+      "size": 38
+    },
+    {
+      "path": "btout5.in",
+      "size": 28
+    },
+    {
+      "path": "btout5.out",
+      "size": 50
+    }
+  ]
+}

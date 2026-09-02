@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "treasures0.in",
+      "size": 417
+    },
+    {
+      "path": "treasures0.out",
+      "size": 2
+    },
+    {
+      "path": "treasures1.in",
+      "size": 4925
+    },
+    {
+      "path": "treasures1.out",
+      "size": 4
+    },
+    {
+      "path": "treasures2.in",
+      "size": 32002
+    },
+    {
+      "path": "treasures2.out",
+      "size": 5
+    },
+    {
+      "path": "treasures3.in",
+      "size": 255309
+    },
+    {
+      "path": "treasures3.out",
+      "size": 5
+    },
+    {
+      "path": "treasures4.in",
+      "size": 562716
+    },
+    {
+      "path": "treasures4.out",
+      "size": 4
+    },
+    {
+      "path": "treasures5.in",
+      "size": 5873314
+    },
+    {
+      "path": "treasures5.out",
+      "size": 5
+    },
+    {
+      "path": "treasures6.in",
+      "size": 6862426
+    },
+    {
+      "path": "treasures6.out",
+      "size": 3
+    },
+    {
+      "path": "treasures7.in",
+      "size": 7173208
+    },
+    {
+      "path": "treasures7.out",
+      "size": 4
+    },
+    {
+      "path": "treasures8.in",
+      "size": 8131595
+    },
+    {
+      "path": "treasures8.out",
+      "size": 4
+    },
+    {
+      "path": "treasures9.in",
+      "size": 8661929
+    },
+    {
+      "path": "treasures9.out",
+      "size": 4
+    }
+  ]
+}

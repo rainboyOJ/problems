@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "updown1.in",
+      "size": 14
+    },
+    {
+      "path": "updown1.out",
+      "size": 4
+    },
+    {
+      "path": "updown10.in",
+      "size": 82
+    },
+    {
+      "path": "updown10.out",
+      "size": 6
+    },
+    {
+      "path": "updown2.in",
+      "size": 17
+    },
+    {
+      "path": "updown2.out",
+      "size": 4
+    },
+    {
+      "path": "updown3.in",
+      "size": 17
+    },
+    {
+      "path": "updown3.out",
+      "size": 4
+    },
+    {
+      "path": "updown4.in",
+      "size": 39
+    },
+    {
+      "path": "updown4.out",
+      "size": 5
+    },
+    {
+      "path": "updown5.in",
+      "size": 41
+    },
+    {
+      "path": "updown5.out",
+      "size": 5
+    },
+    {
+      "path": "updown6.in",
+      "size": 63
+    },
+    {
+      "path": "updown6.out",
+      "size": 6
+    },
+    {
+      "path": "updown7.in",
+      "size": 63
+    },
+    {
+      "path": "updown7.out",
+      "size": 6
+    },
+    {
+      "path": "updown8.in",
+      "size": 81
+    },
+    {
+      "path": "updown8.out",
+      "size": 6
+    },
+    {
+      "path": "updown9.in",
+      "size": 84
+    },
+    {
+      "path": "updown9.out",
+      "size": 6
+    }
+  ]
+}

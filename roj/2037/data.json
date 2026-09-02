@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "comehome0.in",
+      "size": 30
+    },
+    {
+      "path": "comehome0.out",
+      "size": 4
+    },
+    {
+      "path": "comehome1.in",
+      "size": 229
+    },
+    {
+      "path": "comehome1.out",
+      "size": 6
+    },
+    {
+      "path": "comehome2.in",
+      "size": 282
+    },
+    {
+      "path": "comehome2.out",
+      "size": 7
+    },
+    {
+      "path": "comehome3.in",
+      "size": 461
+    },
+    {
+      "path": "comehome3.out",
+      "size": 6
+    },
+    {
+      "path": "comehome4.in",
+      "size": 5781
+    },
+    {
+      "path": "comehome4.out",
+      "size": 5
+    },
+    {
+      "path": "comehome5.in",
+      "size": 24340
+    },
+    {
+      "path": "comehome5.out",
+      "size": 5
+    },
+    {
+      "path": "comehome6.in",
+      "size": 90005
+    },
+    {
+      "path": "comehome6.out",
+      "size": 5
+    },
+    {
+      "path": "comehome7.in",
+      "size": 201
+    },
+    {
+      "path": "comehome7.out",
+      "size": 4
+    },
+    {
+      "path": "comehome8.in",
+      "size": 92
+    },
+    {
+      "path": "comehome8.out",
+      "size": 6
+    }
+  ]
+}

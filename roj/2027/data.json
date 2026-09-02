@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "subsetz0.in",
+      "size": 1
+    },
+    {
+      "path": "subsetz0.out",
+      "size": 1
+    },
+    {
+      "path": "subsetz1.in",
+      "size": 2
+    },
+    {
+      "path": "subsetz1.out",
+      "size": 3
+    },
+    {
+      "path": "subsetz2.in",
+      "size": 2
+    },
+    {
+      "path": "subsetz2.out",
+      "size": 5
+    },
+    {
+      "path": "subsetz3.in",
+      "size": 2
+    },
+    {
+      "path": "subsetz3.out",
+      "size": 7
+    },
+    {
+      "path": "subsetz4.in",
+      "size": 2
+    },
+    {
+      "path": "subsetz4.out",
+      "size": 9
+    },
+    {
+      "path": "subsetz5.in",
+      "size": 2
+    },
+    {
+      "path": "subsetz5.out",
+      "size": 10
+    },
+    {
+      "path": "subsetz6.in",
+      "size": 2
+    },
+    {
+      "path": "subsetz6.out",
+      "size": 1
+    }
+  ]
+}

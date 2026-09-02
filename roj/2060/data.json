@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "rockers0.in",
+      "size": 14
+    },
+    {
+      "path": "rockers0.out",
+      "size": 1
+    },
+    {
+      "path": "rockers1.in",
+      "size": 8
+    },
+    {
+      "path": "rockers1.out",
+      "size": 1
+    },
+    {
+      "path": "rockers10.in",
+      "size": 58
+    },
+    {
+      "path": "rockers10.out",
+      "size": 2
+    },
+    {
+      "path": "rockers11.in",
+      "size": 61
+    },
+    {
+      "path": "rockers11.out",
+      "size": 2
+    },
+    {
+      "path": "rockers2.in",
+      "size": 27
+    },
+    {
+      "path": "rockers2.out",
+      "size": 1
+    },
+    {
+      "path": "rockers3.in",
+      "size": 29
+    },
+    {
+      "path": "rockers3.out",
+      "size": 1
+    },
+    {
+      "path": "rockers4.in",
+      "size": 28
+    },
+    {
+      "path": "rockers4.out",
+      "size": 1
+    },
+    {
+      "path": "rockers5.in",
+      "size": 39
+    },
+    {
+      "path": "rockers5.out",
+      "size": 1
+    },
+    {
+      "path": "rockers6.in",
+      "size": 68
+    },
+    {
+      "path": "rockers6.out",
+      "size": 1
+    },
+    {
+      "path": "rockers7.in",
+      "size": 64
+    },
+    {
+      "path": "rockers7.out",
+      "size": 2
+    },
+    {
+      "path": "rockers8.in",
+      "size": 45
+    },
+    {
+      "path": "rockers8.out",
+      "size": 2
+    },
+    {
+      "path": "rockers9.in",
+      "size": 31
+    },
+    {
+      "path": "rockers9.out",
+      "size": 2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "chessman1.in",
+      "size": 3
+    },
+    {
+      "path": "chessman1.out",
+      "size": 168
+    },
+    {
+      "path": "chessman2.in",
+      "size": 3
+    },
+    {
+      "path": "chessman2.out",
+      "size": 230
+    },
+    {
+      "path": "chessman3.in",
+      "size": 3
+    },
+    {
+      "path": "chessman3.out",
+      "size": 300
+    },
+    {
+      "path": "chessman4.in",
+      "size": 3
+    },
+    {
+      "path": "chessman4.out",
+      "size": 378
+    },
+    {
+      "path": "chessman5.in",
+      "size": 3
+    },
+    {
+      "path": "chessman5.out",
+      "size": 464
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "dri1.in",
+      "size": 25
+    },
+    {
+      "path": "dri1.out",
+      "size": 36
+    },
+    {
+      "path": "dri10.in",
+      "size": 989
+    },
+    {
+      "path": "dri10.out",
+      "size": 1054
+    },
+    {
+      "path": "dri11.in",
+      "size": 9949
+    },
+    {
+      "path": "dri11.out",
+      "size": 10686
+    },
+    {
+      "path": "dri12.in",
+      "size": 7961
+    },
+    {
+      "path": "dri12.out",
+      "size": 8620
+    },
+    {
+      "path": "dri13.in",
+      "size": 8946
+    },
+    {
+      "path": "dri13.out",
+      "size": 9582
+    },
+    {
+      "path": "dri14.in",
+      "size": 9953
+    },
+    {
+      "path": "dri14.out",
+      "size": 10688
+    },
+    {
+      "path": "dri15.in",
+      "size": 497437
+    },
+    {
+      "path": "dri15.out",
+      "size": 553007
+    },
+    {
+      "path": "dri16.in",
+      "size": 497117
+    },
+    {
+      "path": "dri16.out",
+      "size": 552503
+    },
+    {
+      "path": "dri17.in",
+      "size": 795803
+    },
+    {
+      "path": "dri17.out",
+      "size": 861876
+    },
+    {
+      "path": "dri18.in",
+      "size": 895073
+    },
+    {
+      "path": "dri18.out",
+      "size": 960280
+    },
+    {
+      "path": "dri19.in",
+      "size": 994265
+    },
+    {
+      "path": "dri19.out",
+      "size": 1065988
+    },
+    {
+      "path": "dri2.in",
+      "size": 49
+    },
+    {
+      "path": "dri2.out",
+      "size": 33
+    },
+    {
+      "path": "dri20.in",
+      "size": 994545
+    },
+    {
+      "path": "dri20.out",
+      "size": 1066281
+    },
+    {
+      "path": "dri3.in",
+      "size": 198
+    },
+    {
+      "path": "dri3.out",
+      "size": 211
+    },
+    {
+      "path": "dri4.in",
+      "size": 149
+    },
+    {
+      "path": "dri4.out",
+      "size": 158
+    },
+    {
+      "path": "dri5.in",
+      "size": 126
+    },
+    {
+      "path": "dri5.out",
+      "size": 131
+    },
+    {
+      "path": "dri6.in",
+      "size": 177
+    },
+    {
+      "path": "dri6.out",
+      "size": 190
+    },
+    {
+      "path": "dri7.in",
+      "size": 999
+    },
+    {
+      "path": "dri7.out",
+      "size": 1058
+    },
+    {
+      "path": "dri8.in",
+      "size": 957
+    },
+    {
+      "path": "dri8.out",
+      "size": 1026
+    },
+    {
+      "path": "dri9.in",
+      "size": 996
+    },
+    {
+      "path": "dri9.out",
+      "size": 1063
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "poly0.in",
+      "size": 12
+    },
+    {
+      "path": "poly0.out",
+      "size": 8
+    },
+    {
+      "path": "poly1.in",
+      "size": 13
+    },
+    {
+      "path": "poly1.out",
+      "size": 10
+    },
+    {
+      "path": "poly2.in",
+      "size": 207
+    },
+    {
+      "path": "poly2.out",
+      "size": 22
+    },
+    {
+      "path": "poly3.in",
+      "size": 31
+    },
+    {
+      "path": "poly3.out",
+      "size": 47
+    },
+    {
+      "path": "poly4.in",
+      "size": 53
+    },
+    {
+      "path": "poly4.out",
+      "size": 98
+    },
+    {
+      "path": "poly5.in",
+      "size": 79
+    },
+    {
+      "path": "poly5.out",
+      "size": 150
+    },
+    {
+      "path": "poly6.in",
+      "size": 103
+    },
+    {
+      "path": "poly6.out",
+      "size": 207
+    },
+    {
+      "path": "poly7.in",
+      "size": 133
+    },
+    {
+      "path": "poly7.out",
+      "size": 278
+    },
+    {
+      "path": "poly8.in",
+      "size": 205
+    },
+    {
+      "path": "poly8.out",
+      "size": 418
+    },
+    {
+      "path": "poly9.in",
+      "size": 256
+    },
+    {
+      "path": "poly9.out",
+      "size": 519
+    }
+  ]
+}

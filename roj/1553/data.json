@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "yam0.in",
+      "size": 154
+    },
+    {
+      "path": "yam0.out",
+      "size": 4
+    },
+    {
+      "path": "yam1.in",
+      "size": 1350
+    },
+    {
+      "path": "yam1.out",
+      "size": 5
+    },
+    {
+      "path": "yam2.in",
+      "size": 96257
+    },
+    {
+      "path": "yam2.out",
+      "size": 8
+    },
+    {
+      "path": "yam3.in",
+      "size": 1105651
+    },
+    {
+      "path": "yam3.out",
+      "size": 10
+    },
+    {
+      "path": "yam4.in",
+      "size": 1376862
+    },
+    {
+      "path": "yam4.out",
+      "size": 11
+    },
+    {
+      "path": "yam5.in",
+      "size": 2527235
+    },
+    {
+      "path": "yam5.out",
+      "size": 11
+    },
+    {
+      "path": "yam6.in",
+      "size": 2527001
+    },
+    {
+      "path": "yam6.out",
+      "size": 11
+    },
+    {
+      "path": "yam7.in",
+      "size": 1262066
+    },
+    {
+      "path": "yam7.out",
+      "size": 10
+    },
+    {
+      "path": "yam8.in",
+      "size": 3805247
+    },
+    {
+      "path": "yam8.out",
+      "size": 11
+    },
+    {
+      "path": "yam9.in",
+      "size": 3804578
+    },
+    {
+      "path": "yam9.out",
+      "size": 11
+    }
+  ]
+}

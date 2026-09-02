@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "pie0.in",
+      "size": 62
+    },
+    {
+      "path": "pie0.out",
+      "size": 4
+    },
+    {
+      "path": "pie1.in",
+      "size": 11
+    },
+    {
+      "path": "pie1.out",
+      "size": 3
+    },
+    {
+      "path": "pie2.in",
+      "size": 21
+    },
+    {
+      "path": "pie2.out",
+      "size": 3
+    },
+    {
+      "path": "pie3.in",
+      "size": 146
+    },
+    {
+      "path": "pie3.out",
+      "size": 4
+    },
+    {
+      "path": "pie4.in",
+      "size": 2399
+    },
+    {
+      "path": "pie4.out",
+      "size": 5
+    },
+    {
+      "path": "pie5.in",
+      "size": 454
+    },
+    {
+      "path": "pie5.out",
+      "size": 4
+    },
+    {
+      "path": "pie6.in",
+      "size": 14146
+    },
+    {
+      "path": "pie6.out",
+      "size": 6
+    },
+    {
+      "path": "pie7.in",
+      "size": 87750
+    },
+    {
+      "path": "pie7.out",
+      "size": 7
+    },
+    {
+      "path": "pie8.in",
+      "size": 436612
+    },
+    {
+      "path": "pie8.out",
+      "size": 7
+    }
+  ]
+}

@@ -1,6 +1,10 @@
 # Generate problem data packages on demand from the VPS
 
-Status: accepted and implemented in `web2`.
+> Superseded by [ADR 0004](0004-github-raw-problem-data-downloads.md). This file
+> records the previous VPS/ZIP design for historical context; it is not the active
+> download contract.
+
+Status: superseded by ADR 0004.
 
 ## Decision
 

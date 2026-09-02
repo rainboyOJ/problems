@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "reverse0.in",
+      "size": 4
+    },
+    {
+      "path": "reverse0.out",
+      "size": 3
+    },
+    {
+      "path": "reverse1.in",
+      "size": 9
+    },
+    {
+      "path": "reverse1.out",
+      "size": 1
+    },
+    {
+      "path": "reverse2.in",
+      "size": 6
+    },
+    {
+      "path": "reverse2.out",
+      "size": 6
+    },
+    {
+      "path": "reverse3.in",
+      "size": 4
+    },
+    {
+      "path": "reverse3.out",
+      "size": 4
+    },
+    {
+      "path": "reverse4.in",
+      "size": 6
+    },
+    {
+      "path": "reverse4.out",
+      "size": 5
+    },
+    {
+      "path": "reverse5.in",
+      "size": 8
+    },
+    {
+      "path": "reverse5.out",
+      "size": 7
+    },
+    {
+      "path": "reverse6.in",
+      "size": 4
+    },
+    {
+      "path": "reverse6.out",
+      "size": 4
+    },
+    {
+      "path": "reverse7.in",
+      "size": 9
+    },
+    {
+      "path": "reverse7.out",
+      "size": 8
+    },
+    {
+      "path": "reverse8.in",
+      "size": 10
+    },
+    {
+      "path": "reverse8.out",
+      "size": 9
+    },
+    {
+      "path": "reverse9.in",
+      "size": 10
+    },
+    {
+      "path": "reverse9.out",
+      "size": 5
+    }
+  ]
+}

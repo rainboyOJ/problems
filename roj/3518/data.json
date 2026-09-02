@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "freefaller0.in",
+      "size": 17
+    },
+    {
+      "path": "freefaller0.out",
+      "size": 1
+    },
+    {
+      "path": "freefaller1.in",
+      "size": 20
+    },
+    {
+      "path": "freefaller1.out",
+      "size": 1
+    },
+    {
+      "path": "freefaller2.in",
+      "size": 17
+    },
+    {
+      "path": "freefaller2.out",
+      "size": 2
+    },
+    {
+      "path": "freefaller3.in",
+      "size": 20
+    },
+    {
+      "path": "freefaller3.out",
+      "size": 2
+    },
+    {
+      "path": "freefaller4.in",
+      "size": 25
+    },
+    {
+      "path": "freefaller4.out",
+      "size": 4
+    }
+  ]
+}

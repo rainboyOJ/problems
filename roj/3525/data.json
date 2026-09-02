@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "logic0.in",
+      "size": 113
+    },
+    {
+      "path": "logic0.out",
+      "size": 5
+    },
+    {
+      "path": "logic1.in",
+      "size": 43
+    },
+    {
+      "path": "logic1.out",
+      "size": 10
+    },
+    {
+      "path": "logic10.in",
+      "size": 194
+    },
+    {
+      "path": "logic10.out",
+      "size": 10
+    },
+    {
+      "path": "logic11.in",
+      "size": 213
+    },
+    {
+      "path": "logic11.out",
+      "size": 10
+    },
+    {
+      "path": "logic12.in",
+      "size": 3029
+    },
+    {
+      "path": "logic12.out",
+      "size": 5
+    },
+    {
+      "path": "logic2.in",
+      "size": 117
+    },
+    {
+      "path": "logic2.out",
+      "size": 1
+    },
+    {
+      "path": "logic3.in",
+      "size": 365
+    },
+    {
+      "path": "logic3.out",
+      "size": 6
+    },
+    {
+      "path": "logic4.in",
+      "size": 143
+    },
+    {
+      "path": "logic4.out",
+      "size": 6
+    },
+    {
+      "path": "logic5.in",
+      "size": 580
+    },
+    {
+      "path": "logic5.out",
+      "size": 4
+    },
+    {
+      "path": "logic6.in",
+      "size": 58
+    },
+    {
+      "path": "logic6.out",
+      "size": 4
+    },
+    {
+      "path": "logic7.in",
+      "size": 90
+    },
+    {
+      "path": "logic7.out",
+      "size": 16
+    },
+    {
+      "path": "logic8.in",
+      "size": 195
+    },
+    {
+      "path": "logic8.out",
+      "size": 1
+    },
+    {
+      "path": "logic9.in",
+      "size": 897
+    },
+    {
+      "path": "logic9.out",
+      "size": 204
+    }
+  ]
+}

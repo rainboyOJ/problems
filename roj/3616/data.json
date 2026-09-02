@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "matrixc0.in",
+      "size": 5
+    },
+    {
+      "path": "matrixc0.out",
+      "size": 2
+    },
+    {
+      "path": "matrixc1.in",
+      "size": 5
+    },
+    {
+      "path": "matrixc1.out",
+      "size": 1
+    },
+    {
+      "path": "matrixc2.in",
+      "size": 8
+    },
+    {
+      "path": "matrixc2.out",
+      "size": 4
+    },
+    {
+      "path": "matrixc3.in",
+      "size": 9
+    },
+    {
+      "path": "matrixc3.out",
+      "size": 4
+    },
+    {
+      "path": "matrixc4.in",
+      "size": 9
+    },
+    {
+      "path": "matrixc4.out",
+      "size": 4
+    },
+    {
+      "path": "matrixc5.in",
+      "size": 17
+    },
+    {
+      "path": "matrixc5.out",
+      "size": 9
+    },
+    {
+      "path": "matrixc6.in",
+      "size": 17
+    },
+    {
+      "path": "matrixc6.out",
+      "size": 9
+    },
+    {
+      "path": "matrixc7.in",
+      "size": 17
+    },
+    {
+      "path": "matrixc7.out",
+      "size": 9
+    },
+    {
+      "path": "matrixc8.in",
+      "size": 17
+    },
+    {
+      "path": "matrixc8.out",
+      "size": 9
+    },
+    {
+      "path": "matrixc9.in",
+      "size": 17
+    },
+    {
+      "path": "matrixc9.out",
+      "size": 9
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "kinggame0.in",
+      "size": 17
+    },
+    {
+      "path": "kinggame0.out",
+      "size": 1
+    },
+    {
+      "path": "kinggame1.in",
+      "size": 46
+    },
+    {
+      "path": "kinggame1.out",
+      "size": 6
+    },
+    {
+      "path": "kinggame2.in",
+      "size": 66
+    },
+    {
+      "path": "kinggame2.out",
+      "size": 8
+    },
+    {
+      "path": "kinggame3.in",
+      "size": 86
+    },
+    {
+      "path": "kinggame3.out",
+      "size": 8
+    },
+    {
+      "path": "kinggame4.in",
+      "size": 588
+    },
+    {
+      "path": "kinggame4.out",
+      "size": 154
+    },
+    {
+      "path": "kinggame5.in",
+      "size": 407
+    },
+    {
+      "path": "kinggame5.out",
+      "size": 9
+    },
+    {
+      "path": "kinggame6.in",
+      "size": 5848
+    },
+    {
+      "path": "kinggame6.out",
+      "size": 1578
+    },
+    {
+      "path": "kinggame7.in",
+      "size": 9725
+    },
+    {
+      "path": "kinggame7.out",
+      "size": 3514
+    },
+    {
+      "path": "kinggame8.in",
+      "size": 9733
+    },
+    {
+      "path": "kinggame8.out",
+      "size": 3505
+    },
+    {
+      "path": "kinggame9.in",
+      "size": 589249
+    },
+    {
+      "path": "kinggame9.out",
+      "size": 1
+    }
+  ]
+}

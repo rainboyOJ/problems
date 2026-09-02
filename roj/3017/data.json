@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "geniusacm1.in",
+      "size": 51
+    },
+    {
+      "path": "geniusacm1.out",
+      "size": 6
+    },
+    {
+      "path": "geniusacm10.in",
+      "size": 20651992
+    },
+    {
+      "path": "geniusacm10.out",
+      "size": 27
+    },
+    {
+      "path": "geniusacm2.in",
+      "size": 3171
+    },
+    {
+      "path": "geniusacm2.out",
+      "size": 24
+    },
+    {
+      "path": "geniusacm3.in",
+      "size": 17532
+    },
+    {
+      "path": "geniusacm3.out",
+      "size": 41
+    },
+    {
+      "path": "geniusacm4.in",
+      "size": 35017
+    },
+    {
+      "path": "geniusacm4.out",
+      "size": 44
+    },
+    {
+      "path": "geniusacm5.in",
+      "size": 400033
+    },
+    {
+      "path": "geniusacm5.out",
+      "size": 12
+    },
+    {
+      "path": "geniusacm6.in",
+      "size": 800066
+    },
+    {
+      "path": "geniusacm6.out",
+      "size": 24
+    },
+    {
+      "path": "geniusacm7.in",
+      "size": 1131981
+    },
+    {
+      "path": "geniusacm7.out",
+      "size": 12
+    },
+    {
+      "path": "geniusacm8.in",
+      "size": 2264163
+    },
+    {
+      "path": "geniusacm8.out",
+      "size": 24
+    },
+    {
+      "path": "geniusacm9.in",
+      "size": 16917013
+    },
+    {
+      "path": "geniusacm9.out",
+      "size": 32
+    }
+  ]
+}

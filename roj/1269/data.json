@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "party1.in",
+      "size": 51
+    },
+    {
+      "path": "party1.out",
+      "size": 6
+    },
+    {
+      "path": "party10.in",
+      "size": 2797
+    },
+    {
+      "path": "party10.out",
+      "size": 8
+    },
+    {
+      "path": "party2.in",
+      "size": 3373
+    },
+    {
+      "path": "party2.out",
+      "size": 7
+    },
+    {
+      "path": "party3.in",
+      "size": 3287
+    },
+    {
+      "path": "party3.out",
+      "size": 7
+    },
+    {
+      "path": "party4.in",
+      "size": 2608
+    },
+    {
+      "path": "party4.out",
+      "size": 8
+    },
+    {
+      "path": "party5.in",
+      "size": 630
+    },
+    {
+      "path": "party5.out",
+      "size": 7
+    },
+    {
+      "path": "party6.in",
+      "size": 3054
+    },
+    {
+      "path": "party6.out",
+      "size": 8
+    },
+    {
+      "path": "party7.in",
+      "size": 2378
+    },
+    {
+      "path": "party7.out",
+      "size": 7
+    },
+    {
+      "path": "party8.in",
+      "size": 426
+    },
+    {
+      "path": "party8.out",
+      "size": 7
+    },
+    {
+      "path": "party9.in",
+      "size": 2317
+    },
+    {
+      "path": "party9.out",
+      "size": 8
+    },
+    {
+      "path": "problem1.in",
+      "size": 1540
+    },
+    {
+      "path": "problem1.out",
+      "size": 7
+    },
+    {
+      "path": "problem10.in",
+      "size": 3049
+    },
+    {
+      "path": "problem10.out",
+      "size": 7
+    },
+    {
+      "path": "problem2.in",
+      "size": 1206
+    },
+    {
+      "path": "problem2.out",
+      "size": 7
+    },
+    {
+      "path": "problem3.in",
+      "size": 1313
+    },
+    {
+      "path": "problem3.out",
+      "size": 7
+    },
+    {
+      "path": "problem4.in",
+      "size": 4201
+    },
+    {
+      "path": "problem4.out",
+      "size": 7
+    },
+    {
+      "path": "problem5.in",
+      "size": 3522
+    },
+    {
+      "path": "problem5.out",
+      "size": 7
+    },
+    {
+      "path": "problem6.in",
+      "size": 1804
+    },
+    {
+      "path": "problem6.out",
+      "size": 7
+    },
+    {
+      "path": "problem7.in",
+      "size": 3300
+    },
+    {
+      "path": "problem7.out",
+      "size": 7
+    },
+    {
+      "path": "problem8.in",
+      "size": 2631
+    },
+    {
+      "path": "problem8.out",
+      "size": 7
+    },
+    {
+      "path": "problem9.in",
+      "size": 1931
+    },
+    {
+      "path": "problem9.out",
+      "size": 6
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "ride0.in",
+      "size": 13
+    },
+    {
+      "path": "ride0.out",
+      "size": 2
+    },
+    {
+      "path": "ride1.in",
+      "size": 12
+    },
+    {
+      "path": "ride1.out",
+      "size": 4
+    },
+    {
+      "path": "ride2.in",
+      "size": 11
+    },
+    {
+      "path": "ride2.out",
+      "size": 2
+    },
+    {
+      "path": "ride3.in",
+      "size": 12
+    },
+    {
+      "path": "ride3.out",
+      "size": 4
+    },
+    {
+      "path": "ride4.in",
+      "size": 11
+    },
+    {
+      "path": "ride4.out",
+      "size": 4
+    },
+    {
+      "path": "ride5.in",
+      "size": 10
+    },
+    {
+      "path": "ride5.out",
+      "size": 2
+    },
+    {
+      "path": "ride6.in",
+      "size": 9
+    },
+    {
+      "path": "ride6.out",
+      "size": 4
+    },
+    {
+      "path": "ride7.in",
+      "size": 12
+    },
+    {
+      "path": "ride7.out",
+      "size": 4
+    },
+    {
+      "path": "ride8.in",
+      "size": 12
+    },
+    {
+      "path": "ride8.out",
+      "size": 2
+    },
+    {
+      "path": "ride9.in",
+      "size": 13
+    },
+    {
+      "path": "ride9.out",
+      "size": 4
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "edita0.in",
+      "size": 22
+    },
+    {
+      "path": "edita0.out",
+      "size": 1
+    },
+    {
+      "path": "edita1.in",
+      "size": 82
+    },
+    {
+      "path": "edita1.out",
+      "size": 2
+    },
+    {
+      "path": "edita2.in",
+      "size": 122
+    },
+    {
+      "path": "edita2.out",
+      "size": 2
+    },
+    {
+      "path": "edita3.in",
+      "size": 557
+    },
+    {
+      "path": "edita3.out",
+      "size": 3
+    },
+    {
+      "path": "edita4.in",
+      "size": 681
+    },
+    {
+      "path": "edita4.out",
+      "size": 3
+    },
+    {
+      "path": "edita5.in",
+      "size": 946
+    },
+    {
+      "path": "edita5.out",
+      "size": 3
+    },
+    {
+      "path": "edita6.in",
+      "size": 1353
+    },
+    {
+      "path": "edita6.out",
+      "size": 3
+    },
+    {
+      "path": "edita7.in",
+      "size": 1768
+    },
+    {
+      "path": "edita7.out",
+      "size": 3
+    },
+    {
+      "path": "edita8.in",
+      "size": 1942
+    },
+    {
+      "path": "edita8.out",
+      "size": 3
+    },
+    {
+      "path": "edita9.in",
+      "size": 2002
+    },
+    {
+      "path": "edita9.out",
+      "size": 3
+    }
+  ]
+}

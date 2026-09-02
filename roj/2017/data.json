@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "numtri0.in",
+      "size": 36
+    },
+    {
+      "path": "numtri0.out",
+      "size": 2
+    },
+    {
+      "path": "numtri1.in",
+      "size": 9
+    },
+    {
+      "path": "numtri1.out",
+      "size": 1
+    },
+    {
+      "path": "numtri2.in",
+      "size": 4
+    },
+    {
+      "path": "numtri2.out",
+      "size": 1
+    },
+    {
+      "path": "numtri3.in",
+      "size": 123
+    },
+    {
+      "path": "numtri3.out",
+      "size": 3
+    },
+    {
+      "path": "numtri4.in",
+      "size": 371
+    },
+    {
+      "path": "numtri4.out",
+      "size": 4
+    },
+    {
+      "path": "numtri5.in",
+      "size": 40002
+    },
+    {
+      "path": "numtri5.out",
+      "size": 3
+    },
+    {
+      "path": "numtri6.in",
+      "size": 177528
+    },
+    {
+      "path": "numtri6.out",
+      "size": 5
+    },
+    {
+      "path": "numtri7.in",
+      "size": 22803
+    },
+    {
+      "path": "numtri7.out",
+      "size": 1
+    },
+    {
+      "path": "numtri8.in",
+      "size": 1457855
+    },
+    {
+      "path": "numtri8.out",
+      "size": 5
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "wire1.in",
+      "size": 24
+    },
+    {
+      "path": "wire1.out",
+      "size": 3
+    },
+    {
+      "path": "wire2.in",
+      "size": 1936
+    },
+    {
+      "path": "wire2.out",
+      "size": 6
+    },
+    {
+      "path": "wire3.in",
+      "size": 7770
+    },
+    {
+      "path": "wire3.out",
+      "size": 7
+    },
+    {
+      "path": "wire4.in",
+      "size": 31216
+    },
+    {
+      "path": "wire4.out",
+      "size": 7
+    },
+    {
+      "path": "wire5.in",
+      "size": 48845
+    },
+    {
+      "path": "wire5.out",
+      "size": 7
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "jxfg0.in",
+      "size": 76
+    },
+    {
+      "path": "jxfg0.out",
+      "size": 5
+    },
+    {
+      "path": "jxfg1.in",
+      "size": 23
+    },
+    {
+      "path": "jxfg1.out",
+      "size": 1
+    },
+    {
+      "path": "jxfg2.in",
+      "size": 48
+    },
+    {
+      "path": "jxfg2.out",
+      "size": 2
+    },
+    {
+      "path": "jxfg3.in",
+      "size": 81
+    },
+    {
+      "path": "jxfg3.out",
+      "size": 2
+    },
+    {
+      "path": "jxfg4.in",
+      "size": 433
+    },
+    {
+      "path": "jxfg4.out",
+      "size": 6
+    },
+    {
+      "path": "jxfg5.in",
+      "size": 383
+    },
+    {
+      "path": "jxfg5.out",
+      "size": 6
+    },
+    {
+      "path": "jxfg6.in",
+      "size": 66
+    },
+    {
+      "path": "jxfg6.out",
+      "size": 4
+    }
+  ]
+}

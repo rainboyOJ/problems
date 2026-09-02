@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "ab1.in",
+      "size": 22
+    },
+    {
+      "path": "ab1.out",
+      "size": 2
+    },
+    {
+      "path": "ab2.in",
+      "size": 13
+    },
+    {
+      "path": "ab2.out",
+      "size": 2
+    },
+    {
+      "path": "ab3.in",
+      "size": 13
+    },
+    {
+      "path": "ab3.out",
+      "size": 2
+    },
+    {
+      "path": "ab4.in",
+      "size": 29
+    },
+    {
+      "path": "ab4.out",
+      "size": 10
+    },
+    {
+      "path": "ab5.in",
+      "size": 29
+    },
+    {
+      "path": "ab5.out",
+      "size": 9
+    }
+  ]
+}

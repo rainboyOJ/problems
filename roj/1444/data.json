@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "fraction0.in",
+      "size": 7
+    },
+    {
+      "path": "fraction0.out",
+      "size": 8
+    },
+    {
+      "path": "fraction1.in",
+      "size": 8
+    },
+    {
+      "path": "fraction1.out",
+      "size": 11
+    },
+    {
+      "path": "fraction2.in",
+      "size": 7
+    },
+    {
+      "path": "fraction2.out",
+      "size": 12
+    },
+    {
+      "path": "fraction3.in",
+      "size": 8
+    },
+    {
+      "path": "fraction3.out",
+      "size": 15
+    },
+    {
+      "path": "fraction4.in",
+      "size": 9
+    },
+    {
+      "path": "fraction4.out",
+      "size": 16
+    },
+    {
+      "path": "fraction5.in",
+      "size": 9
+    },
+    {
+      "path": "fraction5.out",
+      "size": 22
+    },
+    {
+      "path": "fraction6.in",
+      "size": 9
+    },
+    {
+      "path": "fraction6.out",
+      "size": 20
+    },
+    {
+      "path": "fraction7.in",
+      "size": 9
+    },
+    {
+      "path": "fraction7.out",
+      "size": 19
+    },
+    {
+      "path": "fraction8.in",
+      "size": 9
+    },
+    {
+      "path": "fraction8.out",
+      "size": 22
+    },
+    {
+      "path": "fraction9.in",
+      "size": 7
+    },
+    {
+      "path": "fraction9.out",
+      "size": 17
+    }
+  ]
+}

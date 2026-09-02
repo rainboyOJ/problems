@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "tanning.1.in",
+      "size": 25
+    },
+    {
+      "path": "tanning.1.out",
+      "size": 2
+    },
+    {
+      "path": "tanning.10.in",
+      "size": 12195
+    },
+    {
+      "path": "tanning.10.out",
+      "size": 4
+    },
+    {
+      "path": "tanning.11.in",
+      "size": 25782
+    },
+    {
+      "path": "tanning.11.out",
+      "size": 5
+    },
+    {
+      "path": "tanning.12.in",
+      "size": 34225
+    },
+    {
+      "path": "tanning.12.out",
+      "size": 5
+    },
+    {
+      "path": "tanning.13.in",
+      "size": 34783
+    },
+    {
+      "path": "tanning.13.out",
+      "size": 5
+    },
+    {
+      "path": "tanning.2.in",
+      "size": 427
+    },
+    {
+      "path": "tanning.2.out",
+      "size": 3
+    },
+    {
+      "path": "tanning.3.in",
+      "size": 1078
+    },
+    {
+      "path": "tanning.3.out",
+      "size": 3
+    },
+    {
+      "path": "tanning.4.in",
+      "size": 1378
+    },
+    {
+      "path": "tanning.4.out",
+      "size": 3
+    },
+    {
+      "path": "tanning.5.in",
+      "size": 3183
+    },
+    {
+      "path": "tanning.5.out",
+      "size": 4
+    },
+    {
+      "path": "tanning.6.in",
+      "size": 5055
+    },
+    {
+      "path": "tanning.6.out",
+      "size": 4
+    },
+    {
+      "path": "tanning.7.in",
+      "size": 7417
+    },
+    {
+      "path": "tanning.7.out",
+      "size": 4
+    },
+    {
+      "path": "tanning.8.in",
+      "size": 19660
+    },
+    {
+      "path": "tanning.8.out",
+      "size": 5
+    },
+    {
+      "path": "tanning.9.in",
+      "size": 16693
+    },
+    {
+      "path": "tanning.9.out",
+      "size": 4
+    }
+  ]
+}

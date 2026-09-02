@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "birda0.in",
+      "size": 25
+    },
+    {
+      "path": "birda0.out",
+      "size": 3
+    },
+    {
+      "path": "birda1.in",
+      "size": 29
+    },
+    {
+      "path": "birda1.out",
+      "size": 3
+    },
+    {
+      "path": "birda10.in",
+      "size": 3065
+    },
+    {
+      "path": "birda10.out",
+      "size": 4
+    },
+    {
+      "path": "birda11.in",
+      "size": 5215
+    },
+    {
+      "path": "birda11.out",
+      "size": 5
+    },
+    {
+      "path": "birda12.in",
+      "size": 2827
+    },
+    {
+      "path": "birda12.out",
+      "size": 5
+    },
+    {
+      "path": "birda13.in",
+      "size": 5440
+    },
+    {
+      "path": "birda13.out",
+      "size": 5
+    },
+    {
+      "path": "birda14.in",
+      "size": 25320
+    },
+    {
+      "path": "birda14.out",
+      "size": 6
+    },
+    {
+      "path": "birda15.in",
+      "size": 64161
+    },
+    {
+      "path": "birda15.out",
+      "size": 5
+    },
+    {
+      "path": "birda16.in",
+      "size": 40630
+    },
+    {
+      "path": "birda16.out",
+      "size": 3
+    },
+    {
+      "path": "birda17.in",
+      "size": 59992
+    },
+    {
+      "path": "birda17.out",
+      "size": 6
+    },
+    {
+      "path": "birda18.in",
+      "size": 47953
+    },
+    {
+      "path": "birda18.out",
+      "size": 6
+    },
+    {
+      "path": "birda19.in",
+      "size": 61260
+    },
+    {
+      "path": "birda19.out",
+      "size": 6
+    },
+    {
+      "path": "birda2.in",
+      "size": 37
+    },
+    {
+      "path": "birda2.out",
+      "size": 3
+    },
+    {
+      "path": "birda3.in",
+      "size": 47
+    },
+    {
+      "path": "birda3.out",
+      "size": 3
+    },
+    {
+      "path": "birda4.in",
+      "size": 47
+    },
+    {
+      "path": "birda4.out",
+      "size": 3
+    },
+    {
+      "path": "birda5.in",
+      "size": 47
+    },
+    {
+      "path": "birda5.out",
+      "size": 3
+    },
+    {
+      "path": "birda6.in",
+      "size": 73
+    },
+    {
+      "path": "birda6.out",
+      "size": 3
+    },
+    {
+      "path": "birda7.in",
+      "size": 92
+    },
+    {
+      "path": "birda7.out",
+      "size": 3
+    },
+    {
+      "path": "birda8.in",
+      "size": 94
+    },
+    {
+      "path": "birda8.out",
+      "size": 3
+    },
+    {
+      "path": "birda9.in",
+      "size": 109
+    },
+    {
+      "path": "birda9.out",
+      "size": 3
+    }
+  ]
+}

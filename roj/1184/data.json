@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "random1.in",
+      "size": 40
+    },
+    {
+      "path": "random1.out",
+      "size": 32
+    },
+    {
+      "path": "random10.in",
+      "size": 31
+    },
+    {
+      "path": "random10.out",
+      "size": 24
+    },
+    {
+      "path": "random2.in",
+      "size": 76
+    },
+    {
+      "path": "random2.out",
+      "size": 45
+    },
+    {
+      "path": "random3.in",
+      "size": 114
+    },
+    {
+      "path": "random3.out",
+      "size": 57
+    },
+    {
+      "path": "random4.in",
+      "size": 152
+    },
+    {
+      "path": "random4.out",
+      "size": 81
+    },
+    {
+      "path": "random5.in",
+      "size": 189
+    },
+    {
+      "path": "random5.out",
+      "size": 100
+    },
+    {
+      "path": "random6.in",
+      "size": 225
+    },
+    {
+      "path": "random6.out",
+      "size": 125
+    },
+    {
+      "path": "random7.in",
+      "size": 265
+    },
+    {
+      "path": "random7.out",
+      "size": 155
+    },
+    {
+      "path": "random8.in",
+      "size": 300
+    },
+    {
+      "path": "random8.out",
+      "size": 168
+    },
+    {
+      "path": "random9.in",
+      "size": 339
+    },
+    {
+      "path": "random9.out",
+      "size": 183
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "heritage0.in",
+      "size": 18
+    },
+    {
+      "path": "heritage0.out",
+      "size": 8
+    },
+    {
+      "path": "heritage1.in",
+      "size": 4
+    },
+    {
+      "path": "heritage1.out",
+      "size": 1
+    },
+    {
+      "path": "heritage2.in",
+      "size": 10
+    },
+    {
+      "path": "heritage2.out",
+      "size": 4
+    },
+    {
+      "path": "heritage3.in",
+      "size": 16
+    },
+    {
+      "path": "heritage3.out",
+      "size": 7
+    },
+    {
+      "path": "heritage4.in",
+      "size": 20
+    },
+    {
+      "path": "heritage4.out",
+      "size": 9
+    },
+    {
+      "path": "heritage5.in",
+      "size": 32
+    },
+    {
+      "path": "heritage5.out",
+      "size": 15
+    },
+    {
+      "path": "heritage6.in",
+      "size": 40
+    },
+    {
+      "path": "heritage6.out",
+      "size": 19
+    },
+    {
+      "path": "heritage7.in",
+      "size": 54
+    },
+    {
+      "path": "heritage7.out",
+      "size": 26
+    },
+    {
+      "path": "heritage8.in",
+      "size": 54
+    },
+    {
+      "path": "heritage8.out",
+      "size": 26
+    }
+  ]
+}

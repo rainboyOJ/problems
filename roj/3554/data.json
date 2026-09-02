@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "escape0.in",
+      "size": 7
+    },
+    {
+      "path": "escape0.out",
+      "size": 5
+    },
+    {
+      "path": "escape1.in",
+      "size": 6
+    },
+    {
+      "path": "escape1.out",
+      "size": 5
+    },
+    {
+      "path": "escape2.in",
+      "size": 11
+    },
+    {
+      "path": "escape2.out",
+      "size": 7
+    },
+    {
+      "path": "escape3.in",
+      "size": 12
+    },
+    {
+      "path": "escape3.out",
+      "size": 7
+    },
+    {
+      "path": "escape4.in",
+      "size": 16
+    },
+    {
+      "path": "escape4.out",
+      "size": 7
+    },
+    {
+      "path": "escape5.in",
+      "size": 17
+    },
+    {
+      "path": "escape5.out",
+      "size": 10
+    },
+    {
+      "path": "escape6.in",
+      "size": 16
+    },
+    {
+      "path": "escape6.out",
+      "size": 8
+    },
+    {
+      "path": "escape7.in",
+      "size": 12
+    },
+    {
+      "path": "escape7.out",
+      "size": 7
+    },
+    {
+      "path": "escape8.in",
+      "size": 18
+    },
+    {
+      "path": "escape8.out",
+      "size": 10
+    },
+    {
+      "path": "escape9.in",
+      "size": 6
+    },
+    {
+      "path": "escape9.out",
+      "size": 5
+    }
+  ]
+}

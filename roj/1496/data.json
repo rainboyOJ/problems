@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "phoneline.1.in",
+      "size": 48
+    },
+    {
+      "path": "phoneline.1.out",
+      "size": 2
+    },
+    {
+      "path": "phoneline.10.in",
+      "size": 29246
+    },
+    {
+      "path": "phoneline.10.out",
+      "size": 6
+    },
+    {
+      "path": "phoneline.2.in",
+      "size": 36
+    },
+    {
+      "path": "phoneline.2.out",
+      "size": 2
+    },
+    {
+      "path": "phoneline.3.in",
+      "size": 30
+    },
+    {
+      "path": "phoneline.3.out",
+      "size": 3
+    },
+    {
+      "path": "phoneline.4.in",
+      "size": 135
+    },
+    {
+      "path": "phoneline.4.out",
+      "size": 2
+    },
+    {
+      "path": "phoneline.5.in",
+      "size": 423
+    },
+    {
+      "path": "phoneline.5.out",
+      "size": 3
+    },
+    {
+      "path": "phoneline.6.in",
+      "size": 1918
+    },
+    {
+      "path": "phoneline.6.out",
+      "size": 3
+    },
+    {
+      "path": "phoneline.7.in",
+      "size": 3529
+    },
+    {
+      "path": "phoneline.7.out",
+      "size": 4
+    },
+    {
+      "path": "phoneline.8.in",
+      "size": 10018
+    },
+    {
+      "path": "phoneline.8.out",
+      "size": 6
+    },
+    {
+      "path": "phoneline.9.in",
+      "size": 14562
+    },
+    {
+      "path": "phoneline.9.out",
+      "size": 7
+    }
+  ]
+}

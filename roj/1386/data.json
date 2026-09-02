@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "black0.in",
+      "size": 19234
+    },
+    {
+      "path": "black0.out",
+      "size": 5
+    },
+    {
+      "path": "black1.in",
+      "size": 19297
+    },
+    {
+      "path": "black1.out",
+      "size": 5
+    },
+    {
+      "path": "black2.in",
+      "size": 19304
+    },
+    {
+      "path": "black2.out",
+      "size": 5
+    },
+    {
+      "path": "black3.in",
+      "size": 19316
+    },
+    {
+      "path": "black3.out",
+      "size": 5
+    },
+    {
+      "path": "black4.in",
+      "size": 19285
+    },
+    {
+      "path": "black4.out",
+      "size": 5
+    },
+    {
+      "path": "black5.in",
+      "size": 19284
+    },
+    {
+      "path": "black5.out",
+      "size": 5
+    },
+    {
+      "path": "black6.in",
+      "size": 19290
+    },
+    {
+      "path": "black6.out",
+      "size": 5
+    },
+    {
+      "path": "black7.in",
+      "size": 19281
+    },
+    {
+      "path": "black7.out",
+      "size": 5
+    },
+    {
+      "path": "black8.in",
+      "size": 19283
+    },
+    {
+      "path": "black8.out",
+      "size": 5
+    },
+    {
+      "path": "black9.in",
+      "size": 19316
+    },
+    {
+      "path": "black9.out",
+      "size": 5
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "seats0.in",
+      "size": 27
+    },
+    {
+      "path": "seats0.out",
+      "size": 4
+    },
+    {
+      "path": "seats1.in",
+      "size": 300
+    },
+    {
+      "path": "seats1.out",
+      "size": 30
+    },
+    {
+      "path": "seats2.in",
+      "size": 603
+    },
+    {
+      "path": "seats2.out",
+      "size": 79
+    },
+    {
+      "path": "seats3.in",
+      "size": 573
+    },
+    {
+      "path": "seats3.out",
+      "size": 74
+    },
+    {
+      "path": "seats4.in",
+      "size": 1286
+    },
+    {
+      "path": "seats4.out",
+      "size": 153
+    },
+    {
+      "path": "seats5.in",
+      "size": 1284
+    },
+    {
+      "path": "seats5.out",
+      "size": 237
+    },
+    {
+      "path": "seats6.in",
+      "size": 12690
+    },
+    {
+      "path": "seats6.out",
+      "size": 148
+    },
+    {
+      "path": "seats7.in",
+      "size": 7502
+    },
+    {
+      "path": "seats7.out",
+      "size": 224
+    },
+    {
+      "path": "seats8.in",
+      "size": 14851
+    },
+    {
+      "path": "seats8.out",
+      "size": 241
+    },
+    {
+      "path": "seats9.in",
+      "size": 29739
+    },
+    {
+      "path": "seats9.out",
+      "size": 465
+    }
+  ]
+}

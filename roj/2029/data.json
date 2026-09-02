@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "lamps0.in",
+      "size": 13
+    },
+    {
+      "path": "lamps0.out",
+      "size": 10
+    },
+    {
+      "path": "lamps1.in",
+      "size": 15
+    },
+    {
+      "path": "lamps1.out",
+      "size": 10
+    },
+    {
+      "path": "lamps2.in",
+      "size": 19
+    },
+    {
+      "path": "lamps2.out",
+      "size": 42
+    },
+    {
+      "path": "lamps3.in",
+      "size": 17
+    },
+    {
+      "path": "lamps3.out",
+      "size": 206
+    },
+    {
+      "path": "lamps4.in",
+      "size": 15
+    },
+    {
+      "path": "lamps4.out",
+      "size": 614
+    },
+    {
+      "path": "lamps5.in",
+      "size": 48
+    },
+    {
+      "path": "lamps5.out",
+      "size": 202
+    },
+    {
+      "path": "lamps6.in",
+      "size": 29
+    },
+    {
+      "path": "lamps6.out",
+      "size": 10
+    },
+    {
+      "path": "lamps7.in",
+      "size": 17
+    },
+    {
+      "path": "lamps7.out",
+      "size": 814
+    }
+  ]
+}

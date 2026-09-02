@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "guard1.in",
+      "size": 118
+    },
+    {
+      "path": "guard1.out",
+      "size": 3
+    },
+    {
+      "path": "guard2.in",
+      "size": 97
+    },
+    {
+      "path": "guard2.out",
+      "size": 6
+    },
+    {
+      "path": "guard3.in",
+      "size": 10
+    },
+    {
+      "path": "guard3.out",
+      "size": 3
+    },
+    {
+      "path": "guard4.in",
+      "size": 20290
+    },
+    {
+      "path": "guard4.out",
+      "size": 6
+    },
+    {
+      "path": "guard5.in",
+      "size": 20290
+    },
+    {
+      "path": "guard5.out",
+      "size": 5
+    },
+    {
+      "path": "guard6.in",
+      "size": 7735
+    },
+    {
+      "path": "guard6.out",
+      "size": 8
+    },
+    {
+      "path": "guard7.in",
+      "size": 169
+    },
+    {
+      "path": "guard7.out",
+      "size": 3
+    }
+  ]
+}

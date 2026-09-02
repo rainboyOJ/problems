@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "windy0.in",
+      "size": 9
+    },
+    {
+      "path": "windy0.out",
+      "size": 8
+    },
+    {
+      "path": "windy1.in",
+      "size": 9
+    },
+    {
+      "path": "windy1.out",
+      "size": 7
+    },
+    {
+      "path": "windy2.in",
+      "size": 12
+    },
+    {
+      "path": "windy2.out",
+      "size": 11
+    },
+    {
+      "path": "windy3.in",
+      "size": 14
+    },
+    {
+      "path": "windy3.out",
+      "size": 10
+    },
+    {
+      "path": "windy4.in",
+      "size": 21
+    },
+    {
+      "path": "windy4.out",
+      "size": 3
+    },
+    {
+      "path": "windy5.in",
+      "size": 17
+    },
+    {
+      "path": "windy5.out",
+      "size": 10
+    },
+    {
+      "path": "windy6.in",
+      "size": 19
+    },
+    {
+      "path": "windy6.out",
+      "size": 10
+    },
+    {
+      "path": "windy7.in",
+      "size": 16
+    },
+    {
+      "path": "windy7.out",
+      "size": 11
+    },
+    {
+      "path": "windy8.in",
+      "size": 17
+    },
+    {
+      "path": "windy8.out",
+      "size": 11
+    },
+    {
+      "path": "windy9.in",
+      "size": 19
+    },
+    {
+      "path": "windy9.out",
+      "size": 11
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "expr1.in",
+      "size": 11
+    },
+    {
+      "path": "expr1.out",
+      "size": 2
+    },
+    {
+      "path": "expr2.in",
+      "size": 16
+    },
+    {
+      "path": "expr2.out",
+      "size": 2
+    },
+    {
+      "path": "expr3.in",
+      "size": 16
+    },
+    {
+      "path": "expr3.out",
+      "size": 3
+    },
+    {
+      "path": "expr4.in",
+      "size": 13
+    },
+    {
+      "path": "expr4.out",
+      "size": 2
+    },
+    {
+      "path": "expr5.in",
+      "size": 18
+    },
+    {
+      "path": "expr5.out",
+      "size": 3
+    }
+  ]
+}

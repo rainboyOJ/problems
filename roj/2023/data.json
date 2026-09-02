@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "sort30.in",
+      "size": 10
+    },
+    {
+      "path": "sort30.out",
+      "size": 1
+    },
+    {
+      "path": "sort31.in",
+      "size": 7
+    },
+    {
+      "path": "sort31.out",
+      "size": 1
+    },
+    {
+      "path": "sort32.in",
+      "size": 19
+    },
+    {
+      "path": "sort32.out",
+      "size": 1
+    },
+    {
+      "path": "sort33.in",
+      "size": 28
+    },
+    {
+      "path": "sort33.out",
+      "size": 1
+    },
+    {
+      "path": "sort34.in",
+      "size": 62
+    },
+    {
+      "path": "sort34.out",
+      "size": 1
+    },
+    {
+      "path": "sort35.in",
+      "size": 152
+    },
+    {
+      "path": "sort35.out",
+      "size": 2
+    },
+    {
+      "path": "sort36.in",
+      "size": 303
+    },
+    {
+      "path": "sort36.out",
+      "size": 2
+    },
+    {
+      "path": "sort37.in",
+      "size": 3004
+    },
+    {
+      "path": "sort37.out",
+      "size": 3
+    }
+  ]
+}

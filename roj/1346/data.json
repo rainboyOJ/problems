@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "relation0.in",
+      "size": 724
+    },
+    {
+      "path": "relation0.out",
+      "size": 372
+    },
+    {
+      "path": "relation1.in",
+      "size": 1383
+    },
+    {
+      "path": "relation1.out",
+      "size": 470
+    },
+    {
+      "path": "relation10.in",
+      "size": 24656181
+    },
+    {
+      "path": "relation10.out",
+      "size": 4610391
+    },
+    {
+      "path": "relation2.in",
+      "size": 11854
+    },
+    {
+      "path": "relation2.out",
+      "size": 3236
+    },
+    {
+      "path": "relation3.in",
+      "size": 267036
+    },
+    {
+      "path": "relation3.out",
+      "size": 92675
+    },
+    {
+      "path": "relation4.in",
+      "size": 315991
+    },
+    {
+      "path": "relation4.out",
+      "size": 91758
+    },
+    {
+      "path": "relation5.in",
+      "size": 2143288
+    },
+    {
+      "path": "relation5.out",
+      "size": 460933
+    },
+    {
+      "path": "relation6.in",
+      "size": 2164324
+    },
+    {
+      "path": "relation6.out",
+      "size": 460954
+    },
+    {
+      "path": "relation7.in",
+      "size": 10868232
+    },
+    {
+      "path": "relation7.out",
+      "size": 2305329
+    },
+    {
+      "path": "relation8.in",
+      "size": 112081
+    },
+    {
+      "path": "relation8.out",
+      "size": 1302
+    },
+    {
+      "path": "relation9.in",
+      "size": 21759333
+    },
+    {
+      "path": "relation9.out",
+      "size": 4610571
+    }
+  ]
+}

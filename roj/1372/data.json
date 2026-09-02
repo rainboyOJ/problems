@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "bill0.in",
+      "size": 3269
+    },
+    {
+      "path": "bill0.out",
+      "size": 108
+    },
+    {
+      "path": "bill1.in",
+      "size": 12618
+    },
+    {
+      "path": "bill1.out",
+      "size": 542
+    },
+    {
+      "path": "bill2.in",
+      "size": 24314
+    },
+    {
+      "path": "bill2.out",
+      "size": 1087
+    },
+    {
+      "path": "bill3.in",
+      "size": 285509
+    },
+    {
+      "path": "bill3.out",
+      "size": 10855
+    },
+    {
+      "path": "bill4.in",
+      "size": 556775
+    },
+    {
+      "path": "bill4.out",
+      "size": 21674
+    },
+    {
+      "path": "bill5.in",
+      "size": 1413763
+    },
+    {
+      "path": "bill5.out",
+      "size": 54172
+    },
+    {
+      "path": "bill6.in",
+      "size": 2822959
+    },
+    {
+      "path": "bill6.out",
+      "size": 108281
+    },
+    {
+      "path": "bill7.in",
+      "size": 3400689
+    },
+    {
+      "path": "bill7.out",
+      "size": 130033
+    },
+    {
+      "path": "bill8.in",
+      "size": 3984684
+    },
+    {
+      "path": "bill8.out",
+      "size": 151612
+    },
+    {
+      "path": "bill9.in",
+      "size": 4252628
+    },
+    {
+      "path": "bill9.out",
+      "size": 162536
+    }
+  ]
+}

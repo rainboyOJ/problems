@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "lift1.in",
+      "size": 31
+    },
+    {
+      "path": "lift1.out",
+      "size": 3
+    },
+    {
+      "path": "lift2.in",
+      "size": 413
+    },
+    {
+      "path": "lift2.out",
+      "size": 4
+    },
+    {
+      "path": "lift3.in",
+      "size": 170
+    },
+    {
+      "path": "lift3.out",
+      "size": 4
+    },
+    {
+      "path": "lift4.in",
+      "size": 212
+    },
+    {
+      "path": "lift4.out",
+      "size": 4
+    },
+    {
+      "path": "lift5.in",
+      "size": 412
+    },
+    {
+      "path": "lift5.out",
+      "size": 5
+    }
+  ]
+}

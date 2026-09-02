@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "tortoise0.in",
+      "size": 53
+    },
+    {
+      "path": "tortoise0.out",
+      "size": 3
+    },
+    {
+      "path": "tortoise1.in",
+      "size": 81
+    },
+    {
+      "path": "tortoise1.out",
+      "size": 3
+    },
+    {
+      "path": "tortoise2.in",
+      "size": 115
+    },
+    {
+      "path": "tortoise2.out",
+      "size": 3
+    },
+    {
+      "path": "tortoise3.in",
+      "size": 227
+    },
+    {
+      "path": "tortoise3.out",
+      "size": 4
+    },
+    {
+      "path": "tortoise4.in",
+      "size": 427
+    },
+    {
+      "path": "tortoise4.out",
+      "size": 4
+    },
+    {
+      "path": "tortoise5.in",
+      "size": 750
+    },
+    {
+      "path": "tortoise5.out",
+      "size": 4
+    },
+    {
+      "path": "tortoise6.in",
+      "size": 948
+    },
+    {
+      "path": "tortoise6.out",
+      "size": 4
+    },
+    {
+      "path": "tortoise7.in",
+      "size": 1172
+    },
+    {
+      "path": "tortoise7.out",
+      "size": 4
+    },
+    {
+      "path": "tortoise8.in",
+      "size": 1109
+    },
+    {
+      "path": "tortoise8.out",
+      "size": 4
+    },
+    {
+      "path": "tortoise9.in",
+      "size": 1103
+    },
+    {
+      "path": "tortoise9.out",
+      "size": 4
+    }
+  ]
+}

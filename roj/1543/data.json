@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "diff0.in",
+      "size": 1437
+    },
+    {
+      "path": "diff0.out",
+      "size": 384
+    },
+    {
+      "path": "diff1.in",
+      "size": 1427
+    },
+    {
+      "path": "diff1.out",
+      "size": 384
+    },
+    {
+      "path": "diff2.in",
+      "size": 1201395
+    },
+    {
+      "path": "diff2.out",
+      "size": 357584
+    },
+    {
+      "path": "diff3.in",
+      "size": 1608964
+    },
+    {
+      "path": "diff3.out",
+      "size": 477677
+    },
+    {
+      "path": "diff4.in",
+      "size": 2016461
+    },
+    {
+      "path": "diff4.out",
+      "size": 597573
+    },
+    {
+      "path": "diff5.in",
+      "size": 2464367
+    },
+    {
+      "path": "diff5.out",
+      "size": 717707
+    },
+    {
+      "path": "diff6.in",
+      "size": 2912146
+    },
+    {
+      "path": "diff6.out",
+      "size": 837559
+    },
+    {
+      "path": "diff7.in",
+      "size": 3360537
+    },
+    {
+      "path": "diff7.out",
+      "size": 957641
+    },
+    {
+      "path": "diff8.in",
+      "size": 3807466
+    },
+    {
+      "path": "diff8.out",
+      "size": 1077636
+    },
+    {
+      "path": "diff9.in",
+      "size": 4255383
+    },
+    {
+      "path": "diff9.out",
+      "size": 1197614
+    }
+  ]
+}

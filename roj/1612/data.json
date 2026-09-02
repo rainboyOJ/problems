@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "commando1.ans",
+      "size": 8
+    },
+    {
+      "path": "commando1.in",
+      "size": 1474
+    },
+    {
+      "path": "commando10.ans",
+      "size": 14
+    },
+    {
+      "path": "commando10.in",
+      "size": 2919648
+    },
+    {
+      "path": "commando2.ans",
+      "size": 9
+    },
+    {
+      "path": "commando2.in",
+      "size": 2947
+    },
+    {
+      "path": "commando3.ans",
+      "size": 9
+    },
+    {
+      "path": "commando3.in",
+      "size": 14604
+    },
+    {
+      "path": "commando4.ans",
+      "size": 10
+    },
+    {
+      "path": "commando4.in",
+      "size": 23400
+    },
+    {
+      "path": "commando5.ans",
+      "size": 10
+    },
+    {
+      "path": "commando5.in",
+      "size": 29250
+    },
+    {
+      "path": "commando6.ans",
+      "size": 12
+    },
+    {
+      "path": "commando6.in",
+      "size": 291869
+    },
+    {
+      "path": "commando7.ans",
+      "size": 13
+    },
+    {
+      "path": "commando7.in",
+      "size": 1460038
+    },
+    {
+      "path": "commando8.ans",
+      "size": 13
+    },
+    {
+      "path": "commando8.in",
+      "size": 2335858
+    },
+    {
+      "path": "commando9.ans",
+      "size": 13
+    },
+    {
+      "path": "commando9.in",
+      "size": 2920373
+    }
+  ]
+}

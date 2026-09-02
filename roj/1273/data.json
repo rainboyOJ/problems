@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "money0.in",
+      "size": 15
+    },
+    {
+      "path": "money0.out",
+      "size": 4
+    },
+    {
+      "path": "money1.in",
+      "size": 24
+    },
+    {
+      "path": "money1.out",
+      "size": 3
+    },
+    {
+      "path": "money2.in",
+      "size": 17
+    },
+    {
+      "path": "money2.out",
+      "size": 7
+    },
+    {
+      "path": "money3.in",
+      "size": 54
+    },
+    {
+      "path": "money3.out",
+      "size": 8
+    },
+    {
+      "path": "money4.in",
+      "size": 45
+    },
+    {
+      "path": "money4.out",
+      "size": 4
+    },
+    {
+      "path": "money5.in",
+      "size": 54
+    },
+    {
+      "path": "money5.out",
+      "size": 15
+    },
+    {
+      "path": "money6.in",
+      "size": 22
+    },
+    {
+      "path": "money6.out",
+      "size": 3
+    },
+    {
+      "path": "money7.in",
+      "size": 23
+    },
+    {
+      "path": "money7.out",
+      "size": 3
+    },
+    {
+      "path": "money8.in",
+      "size": 45
+    },
+    {
+      "path": "money8.out",
+      "size": 15
+    },
+    {
+      "path": "money9.in",
+      "size": 56
+    },
+    {
+      "path": "money9.out",
+      "size": 14
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "librarian1.ans",
+      "size": 45
+    },
+    {
+      "path": "librarian1.in",
+      "size": 87
+    },
+    {
+      "path": "librarian10.ans",
+      "size": 4665
+    },
+    {
+      "path": "librarian10.in",
+      "size": 14841
+    },
+    {
+      "path": "librarian2.ans",
+      "size": 85
+    },
+    {
+      "path": "librarian2.in",
+      "size": 174
+    },
+    {
+      "path": "librarian3.ans",
+      "size": 6
+    },
+    {
+      "path": "librarian3.in",
+      "size": 3936
+    },
+    {
+      "path": "librarian4.ans",
+      "size": 4
+    },
+    {
+      "path": "librarian4.in",
+      "size": 7844
+    },
+    {
+      "path": "librarian5.ans",
+      "size": 3310
+    },
+    {
+      "path": "librarian5.in",
+      "size": 5959
+    },
+    {
+      "path": "librarian6.ans",
+      "size": 6448
+    },
+    {
+      "path": "librarian6.in",
+      "size": 11893
+    },
+    {
+      "path": "librarian7.ans",
+      "size": 2780
+    },
+    {
+      "path": "librarian7.in",
+      "size": 8888
+    },
+    {
+      "path": "librarian8.ans",
+      "size": 3777
+    },
+    {
+      "path": "librarian8.in",
+      "size": 13358
+    },
+    {
+      "path": "librarian9.ans",
+      "size": 3754
+    },
+    {
+      "path": "librarian9.in",
+      "size": 11929
+    }
+  ]
+}

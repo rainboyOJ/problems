@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "nuggets0.in",
+      "size": 11
+    },
+    {
+      "path": "nuggets0.out",
+      "size": 2
+    },
+    {
+      "path": "nuggets1.in",
+      "size": 7
+    },
+    {
+      "path": "nuggets1.out",
+      "size": 1
+    },
+    {
+      "path": "nuggets2.in",
+      "size": 4
+    },
+    {
+      "path": "nuggets2.out",
+      "size": 1
+    },
+    {
+      "path": "nuggets3.in",
+      "size": 21
+    },
+    {
+      "path": "nuggets3.out",
+      "size": 1
+    },
+    {
+      "path": "nuggets4.in",
+      "size": 11
+    },
+    {
+      "path": "nuggets4.out",
+      "size": 5
+    },
+    {
+      "path": "nuggets5.in",
+      "size": 26
+    },
+    {
+      "path": "nuggets5.out",
+      "size": 5
+    },
+    {
+      "path": "nuggets6.in",
+      "size": 52
+    },
+    {
+      "path": "nuggets6.out",
+      "size": 4
+    }
+  ]
+}

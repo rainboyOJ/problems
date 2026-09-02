@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "scholar1.in",
+      "size": 104
+    },
+    {
+      "path": "scholar1.out",
+      "size": 36
+    },
+    {
+      "path": "scholar10.in",
+      "size": 73
+    },
+    {
+      "path": "scholar10.out",
+      "size": 35
+    },
+    {
+      "path": "scholar2.in",
+      "size": 204
+    },
+    {
+      "path": "scholar2.out",
+      "size": 39
+    },
+    {
+      "path": "scholar3.in",
+      "size": 304
+    },
+    {
+      "path": "scholar3.out",
+      "size": 39
+    },
+    {
+      "path": "scholar4.in",
+      "size": 404
+    },
+    {
+      "path": "scholar4.out",
+      "size": 39
+    },
+    {
+      "path": "scholar5.in",
+      "size": 1105
+    },
+    {
+      "path": "scholar5.out",
+      "size": 41
+    },
+    {
+      "path": "scholar6.in",
+      "size": 1405
+    },
+    {
+      "path": "scholar6.out",
+      "size": 40
+    },
+    {
+      "path": "scholar7.in",
+      "size": 1807
+    },
+    {
+      "path": "scholar7.out",
+      "size": 43
+    },
+    {
+      "path": "scholar8.in",
+      "size": 2215
+    },
+    {
+      "path": "scholar8.out",
+      "size": 42
+    },
+    {
+      "path": "scholar9.in",
+      "size": 2715
+    },
+    {
+      "path": "scholar9.out",
+      "size": 42
+    }
+  ]
+}

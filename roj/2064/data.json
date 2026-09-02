@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "cryptcow0.in",
+      "size": 47
+    },
+    {
+      "path": "cryptcow0.out",
+      "size": 3
+    },
+    {
+      "path": "cryptcow1.in",
+      "size": 53
+    },
+    {
+      "path": "cryptcow1.out",
+      "size": 3
+    },
+    {
+      "path": "cryptcow2.in",
+      "size": 50
+    },
+    {
+      "path": "cryptcow2.out",
+      "size": 3
+    },
+    {
+      "path": "cryptcow3.in",
+      "size": 65
+    },
+    {
+      "path": "cryptcow3.out",
+      "size": 3
+    },
+    {
+      "path": "cryptcow4.in",
+      "size": 59
+    },
+    {
+      "path": "cryptcow4.out",
+      "size": 3
+    },
+    {
+      "path": "cryptcow5.in",
+      "size": 71
+    },
+    {
+      "path": "cryptcow5.out",
+      "size": 3
+    },
+    {
+      "path": "cryptcow6.in",
+      "size": 68
+    },
+    {
+      "path": "cryptcow6.out",
+      "size": 3
+    },
+    {
+      "path": "cryptcow7.in",
+      "size": 74
+    },
+    {
+      "path": "cryptcow7.out",
+      "size": 3
+    },
+    {
+      "path": "cryptcow8.in",
+      "size": 74
+    },
+    {
+      "path": "cryptcow8.out",
+      "size": 3
+    },
+    {
+      "path": "cryptcow9.in",
+      "size": 74
+    },
+    {
+      "path": "cryptcow9.out",
+      "size": 3
+    }
+  ]
+}

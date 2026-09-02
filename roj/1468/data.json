@@ -1,0 +1,156 @@
+{
+  "files": [
+    {
+      "path": "okr0.in",
+      "size": 11
+    },
+    {
+      "path": "okr0.out",
+      "size": 3
+    },
+    {
+      "path": "okr1.in",
+      "size": 14
+    },
+    {
+      "path": "okr1.out",
+      "size": 3
+    },
+    {
+      "path": "okr10.in",
+      "size": 949729
+    },
+    {
+      "path": "okr10.out",
+      "size": 13
+    },
+    {
+      "path": "okr11.in",
+      "size": 129970
+    },
+    {
+      "path": "okr11.out",
+      "size": 11
+    },
+    {
+      "path": "okr12.in",
+      "size": 331340
+    },
+    {
+      "path": "okr12.out",
+      "size": 12
+    },
+    {
+      "path": "okr13.in",
+      "size": 614627
+    },
+    {
+      "path": "okr13.out",
+      "size": 13
+    },
+    {
+      "path": "okr14.in",
+      "size": 923395
+    },
+    {
+      "path": "okr14.out",
+      "size": 13
+    },
+    {
+      "path": "okr1ocen.in",
+      "size": 5
+    },
+    {
+      "path": "okr1ocen.out",
+      "size": 2
+    },
+    {
+      "path": "okr2.in",
+      "size": 40
+    },
+    {
+      "path": "okr2.out",
+      "size": 4
+    },
+    {
+      "path": "okr2ocen.in",
+      "size": 23
+    },
+    {
+      "path": "okr2ocen.out",
+      "size": 3
+    },
+    {
+      "path": "okr3.in",
+      "size": 446
+    },
+    {
+      "path": "okr3.out",
+      "size": 6
+    },
+    {
+      "path": "okr3ocen.in",
+      "size": 17
+    },
+    {
+      "path": "okr3ocen.out",
+      "size": 3
+    },
+    {
+      "path": "okr4.in",
+      "size": 1030
+    },
+    {
+      "path": "okr4.out",
+      "size": 7
+    },
+    {
+      "path": "okr4ocen.in",
+      "size": 900609
+    },
+    {
+      "path": "okr4ocen.out",
+      "size": 13
+    },
+    {
+      "path": "okr5.in",
+      "size": 501272
+    },
+    {
+      "path": "okr5.out",
+      "size": 13
+    },
+    {
+      "path": "okr6.in",
+      "size": 970233
+    },
+    {
+      "path": "okr6.out",
+      "size": 13
+    },
+    {
+      "path": "okr7.in",
+      "size": 100395
+    },
+    {
+      "path": "okr7.out",
+      "size": 11
+    },
+    {
+      "path": "okr8.in",
+      "size": 299817
+    },
+    {
+      "path": "okr8.out",
+      "size": 12
+    },
+    {
+      "path": "okr9.in",
+      "size": 599984
+    },
+    {
+      "path": "okr9.out",
+      "size": 13
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "files": [
+    {
+      "path": "spo0.in",
+      "size": 15
+    },
+    {
+      "path": "spo0.out",
+      "size": 9
+    },
+    {
+      "path": "spo1.in",
+      "size": 157
+    },
+    {
+      "path": "spo1.out",
+      "size": 36
+    },
+    {
+      "path": "spo10.in",
+      "size": 26438
+    },
+    {
+      "path": "spo10.out",
+      "size": 1947
+    },
+    {
+      "path": "spo11.in",
+      "size": 9947
+    },
+    {
+      "path": "spo11.out",
+      "size": 5446
+    },
+    {
+      "path": "spo12.in",
+      "size": 191333
+    },
+    {
+      "path": "spo12.out",
+      "size": 50445
+    },
+    {
+      "path": "spo13.in",
+      "size": 173612
+    },
+    {
+      "path": "spo13.out",
+      "size": 50448
+    },
+    {
+      "path": "spo2.in",
+      "size": 708
+    },
+    {
+      "path": "spo2.out",
+      "size": 128
+    },
+    {
+      "path": "spo3.in",
+      "size": 8132
+    },
+    {
+      "path": "spo3.out",
+      "size": 446
+    },
+    {
+      "path": "spo4.in",
+      "size": 383
+    },
+    {
+      "path": "spo4.out",
+      "size": 5
+    },
+    {
+      "path": "spo5.in",
+      "size": 2234
+    },
+    {
+      "path": "spo5.out",
+      "size": 5
+    },
+    {
+      "path": "spo6.in",
+      "size": 8210
+    },
+    {
+      "path": "spo6.out",
+      "size": 5
+    },
+    {
+      "path": "spo7.in",
+      "size": 232232
+    },
+    {
+      "path": "spo7.out",
+      "size": 50446
+    },
+    {
+      "path": "spo8.in",
+      "size": 191329
+    },
+    {
+      "path": "spo8.out",
+      "size": 50449
+    },
+    {
+      "path": "spo9.in",
+      "size": 838
+    },
+    {
+      "path": "spo9.out",
+      "size": 445
+    }
+  ]
+}

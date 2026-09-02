@@ -1,0 +1,188 @@
+{
+  "files": [
+    {
+      "path": "grz0.in",
+      "size": 52
+    },
+    {
+      "path": "grz0.out",
+      "size": 4
+    },
+    {
+      "path": "grz0a.in",
+      "size": 52
+    },
+    {
+      "path": "grz0a.out",
+      "size": 4
+    },
+    {
+      "path": "grz10a.in",
+      "size": 2416665
+    },
+    {
+      "path": "grz10a.out",
+      "size": 9
+    },
+    {
+      "path": "grz10b.in",
+      "size": 11000005
+    },
+    {
+      "path": "grz10b.out",
+      "size": 4
+    },
+    {
+      "path": "grz1a.in",
+      "size": 130
+    },
+    {
+      "path": "grz1a.out",
+      "size": 4
+    },
+    {
+      "path": "grz1b.in",
+      "size": 246
+    },
+    {
+      "path": "grz1b.out",
+      "size": 5
+    },
+    {
+      "path": "grz1ocen.in",
+      "size": 52
+    },
+    {
+      "path": "grz1ocen.out",
+      "size": 4
+    },
+    {
+      "path": "grz2a.in",
+      "size": 903
+    },
+    {
+      "path": "grz2a.out",
+      "size": 4
+    },
+    {
+      "path": "grz2b.in",
+      "size": 1027
+    },
+    {
+      "path": "grz2b.out",
+      "size": 4
+    },
+    {
+      "path": "grz2c.in",
+      "size": 429
+    },
+    {
+      "path": "grz2c.out",
+      "size": 6
+    },
+    {
+      "path": "grz2ocen.in",
+      "size": 488
+    },
+    {
+      "path": "grz2ocen.out",
+      "size": 6
+    },
+    {
+      "path": "grz3a.in",
+      "size": 2003
+    },
+    {
+      "path": "grz3a.out",
+      "size": 4
+    },
+    {
+      "path": "grz3b.in",
+      "size": 5872
+    },
+    {
+      "path": "grz3b.out",
+      "size": 6
+    },
+    {
+      "path": "grz3ocen.in",
+      "size": 3203
+    },
+    {
+      "path": "grz3ocen.out",
+      "size": 6
+    },
+    {
+      "path": "grz4.in",
+      "size": 58845
+    },
+    {
+      "path": "grz4.out",
+      "size": 10
+    },
+    {
+      "path": "grz4ocen.in",
+      "size": 2000005
+    },
+    {
+      "path": "grz4ocen.out",
+      "size": 4
+    },
+    {
+      "path": "grz5.in",
+      "size": 70145
+    },
+    {
+      "path": "grz5.out",
+      "size": 6
+    },
+    {
+      "path": "grz6.in",
+      "size": 275367
+    },
+    {
+      "path": "grz6.out",
+      "size": 8
+    },
+    {
+      "path": "grz7.in",
+      "size": 1260239
+    },
+    {
+      "path": "grz7.out",
+      "size": 12
+    },
+    {
+      "path": "grz8a.in",
+      "size": 5686773
+    },
+    {
+      "path": "grz8a.out",
+      "size": 12
+    },
+    {
+      "path": "grz8b.in",
+      "size": 4414388
+    },
+    {
+      "path": "grz8b.out",
+      "size": 8
+    },
+    {
+      "path": "grz9a.in",
+      "size": 3500005
+    },
+    {
+      "path": "grz9a.out",
+      "size": 4
+    },
+    {
+      "path": "grz9b.in",
+      "size": 5538062
+    },
+    {
+      "path": "grz9b.out",
+      "size": 12
+    }
+  ]
+}

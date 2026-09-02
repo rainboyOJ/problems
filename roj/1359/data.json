@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "area1.in",
+      "size": 208
+    },
+    {
+      "path": "area1.out",
+      "size": 4
+    },
+    {
+      "path": "area2.in",
+      "size": 187
+    },
+    {
+      "path": "area2.out",
+      "size": 1
+    },
+    {
+      "path": "area3.in",
+      "size": 187
+    },
+    {
+      "path": "area3.out",
+      "size": 2
+    },
+    {
+      "path": "area4.in",
+      "size": 208
+    },
+    {
+      "path": "area4.out",
+      "size": 1
+    },
+    {
+      "path": "area5.in",
+      "size": 187
+    },
+    {
+      "path": "area5.out",
+      "size": 2
+    }
+  ]
+}

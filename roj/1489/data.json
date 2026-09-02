@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "tree1.in",
+      "size": 59
+    },
+    {
+      "path": "tree1.out",
+      "size": 5
+    },
+    {
+      "path": "tree10.in",
+      "size": 23
+    },
+    {
+      "path": "tree10.out",
+      "size": 4
+    },
+    {
+      "path": "tree2.in",
+      "size": 11695
+    },
+    {
+      "path": "tree2.out",
+      "size": 11
+    },
+    {
+      "path": "tree3.in",
+      "size": 11676
+    },
+    {
+      "path": "tree3.out",
+      "size": 11
+    },
+    {
+      "path": "tree4.in",
+      "size": 11681
+    },
+    {
+      "path": "tree4.out",
+      "size": 11
+    },
+    {
+      "path": "tree5.in",
+      "size": 866765
+    },
+    {
+      "path": "tree5.out",
+      "size": 16
+    },
+    {
+      "path": "tree6.in",
+      "size": 866603
+    },
+    {
+      "path": "tree6.out",
+      "size": 16
+    },
+    {
+      "path": "tree7.in",
+      "size": 1135126
+    },
+    {
+      "path": "tree7.out",
+      "size": 17
+    },
+    {
+      "path": "tree8.in",
+      "size": 1766548
+    },
+    {
+      "path": "tree8.out",
+      "size": 17
+    },
+    {
+      "path": "tree9.in",
+      "size": 1766488
+    },
+    {
+      "path": "tree9.out",
+      "size": 17
+    }
+  ]
+}

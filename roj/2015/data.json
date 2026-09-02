@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "ariprog0.in",
+      "size": 4
+    },
+    {
+      "path": "ariprog0.out",
+      "size": 18
+    },
+    {
+      "path": "ariprog1.in",
+      "size": 4
+    },
+    {
+      "path": "ariprog1.out",
+      "size": 58
+    },
+    {
+      "path": "ariprog2.in",
+      "size": 6
+    },
+    {
+      "path": "ariprog2.out",
+      "size": 4
+    },
+    {
+      "path": "ariprog3.in",
+      "size": 6
+    },
+    {
+      "path": "ariprog3.out",
+      "size": 24
+    },
+    {
+      "path": "ariprog4.in",
+      "size": 6
+    },
+    {
+      "path": "ariprog4.out",
+      "size": 100
+    },
+    {
+      "path": "ariprog5.in",
+      "size": 7
+    },
+    {
+      "path": "ariprog5.out",
+      "size": 93
+    },
+    {
+      "path": "ariprog6.in",
+      "size": 7
+    },
+    {
+      "path": "ariprog6.out",
+      "size": 92
+    },
+    {
+      "path": "ariprog7.in",
+      "size": 7
+    },
+    {
+      "path": "ariprog7.out",
+      "size": 10
+    },
+    {
+      "path": "ariprog8.in",
+      "size": 7
+    },
+    {
+      "path": "ariprog8.out",
+      "size": 4
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "windowus0.in",
+      "size": 41
+    },
+    {
+      "path": "windowus0.out",
+      "size": 6
+    },
+    {
+      "path": "windowus1.in",
+      "size": 62
+    },
+    {
+      "path": "windowus1.out",
+      "size": 23
+    },
+    {
+      "path": "windowus10.in",
+      "size": 6229
+    },
+    {
+      "path": "windowus10.out",
+      "size": 2286
+    },
+    {
+      "path": "windowus2.in",
+      "size": 94
+    },
+    {
+      "path": "windowus2.out",
+      "size": 30
+    },
+    {
+      "path": "windowus3.in",
+      "size": 139
+    },
+    {
+      "path": "windowus3.out",
+      "size": 49
+    },
+    {
+      "path": "windowus4.in",
+      "size": 189
+    },
+    {
+      "path": "windowus4.out",
+      "size": 31
+    },
+    {
+      "path": "windowus5.in",
+      "size": 166
+    },
+    {
+      "path": "windowus5.out",
+      "size": 55
+    },
+    {
+      "path": "windowus6.in",
+      "size": 209
+    },
+    {
+      "path": "windowus6.out",
+      "size": 94
+    },
+    {
+      "path": "windowus7.in",
+      "size": 636
+    },
+    {
+      "path": "windowus7.out",
+      "size": 229
+    },
+    {
+      "path": "windowus8.in",
+      "size": 975
+    },
+    {
+      "path": "windowus8.out",
+      "size": 511
+    },
+    {
+      "path": "windowus9.in",
+      "size": 3780
+    },
+    {
+      "path": "windowus9.out",
+      "size": 2037
+    }
+  ]
+}

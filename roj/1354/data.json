@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "check1.in",
+      "size": 16
+    },
+    {
+      "path": "check1.out",
+      "size": 4
+    },
+    {
+      "path": "check2.in",
+      "size": 6
+    },
+    {
+      "path": "check2.out",
+      "size": 7
+    },
+    {
+      "path": "check3.in",
+      "size": 9
+    },
+    {
+      "path": "check3.out",
+      "size": 7
+    },
+    {
+      "path": "check4.in",
+      "size": 20
+    },
+    {
+      "path": "check4.out",
+      "size": 4
+    },
+    {
+      "path": "check5.in",
+      "size": 7
+    },
+    {
+      "path": "check5.out",
+      "size": 7
+    },
+    {
+      "path": "check6.in",
+      "size": 22
+    },
+    {
+      "path": "check6.out",
+      "size": 4
+    }
+  ]
+}

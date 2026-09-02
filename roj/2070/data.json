@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "prime30.in",
+      "size": 4
+    },
+    {
+      "path": "prime30.out",
+      "size": 33
+    },
+    {
+      "path": "prime31.in",
+      "size": 4
+    },
+    {
+      "path": "prime31.out",
+      "size": 107
+    },
+    {
+      "path": "prime32.in",
+      "size": 4
+    },
+    {
+      "path": "prime32.out",
+      "size": 144
+    },
+    {
+      "path": "prime33.in",
+      "size": 4
+    },
+    {
+      "path": "prime33.out",
+      "size": 736
+    },
+    {
+      "path": "prime34.in",
+      "size": 4
+    },
+    {
+      "path": "prime34.out",
+      "size": 329
+    },
+    {
+      "path": "prime35.in",
+      "size": 4
+    },
+    {
+      "path": "prime35.out",
+      "size": 1883
+    },
+    {
+      "path": "prime36.in",
+      "size": 4
+    },
+    {
+      "path": "prime36.out",
+      "size": 1920
+    },
+    {
+      "path": "prime37.in",
+      "size": 4
+    },
+    {
+      "path": "prime37.out",
+      "size": 5472
+    },
+    {
+      "path": "prime38.in",
+      "size": 4
+    },
+    {
+      "path": "prime38.out",
+      "size": 3252
+    },
+    {
+      "path": "prime39.in",
+      "size": 4
+    },
+    {
+      "path": "prime39.out",
+      "size": 5620
+    }
+  ]
+}

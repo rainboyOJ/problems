@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "radio1.ans",
+      "size": 2
+    },
+    {
+      "path": "radio1.in",
+      "size": 4
+    },
+    {
+      "path": "radio2.ans",
+      "size": 2
+    },
+    {
+      "path": "radio2.in",
+      "size": 8
+    },
+    {
+      "path": "radio3.ans",
+      "size": 2
+    },
+    {
+      "path": "radio3.in",
+      "size": 8
+    },
+    {
+      "path": "radio4.ans",
+      "size": 3
+    },
+    {
+      "path": "radio4.in",
+      "size": 24
+    },
+    {
+      "path": "radio5.ans",
+      "size": 3
+    },
+    {
+      "path": "radio5.in",
+      "size": 28
+    },
+    {
+      "path": "radio6.ans",
+      "size": 3
+    },
+    {
+      "path": "radio6.in",
+      "size": 105
+    },
+    {
+      "path": "radio7.ans",
+      "size": 6
+    },
+    {
+      "path": "radio7.in",
+      "size": 100008
+    },
+    {
+      "path": "radio8.ans",
+      "size": 7
+    },
+    {
+      "path": "radio8.in",
+      "size": 200009
+    },
+    {
+      "path": "radio9.ans",
+      "size": 7
+    },
+    {
+      "path": "radio9.in",
+      "size": 1000009
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "deseq1.in",
+      "size": 688807
+    },
+    {
+      "path": "deseq1.out",
+      "size": 12
+    },
+    {
+      "path": "deseq10.in",
+      "size": 688919
+    },
+    {
+      "path": "deseq10.out",
+      "size": 12
+    },
+    {
+      "path": "deseq2.in",
+      "size": 687
+    },
+    {
+      "path": "deseq2.out",
+      "size": 8
+    },
+    {
+      "path": "deseq3.in",
+      "size": 6909
+    },
+    {
+      "path": "deseq3.out",
+      "size": 10
+    },
+    {
+      "path": "deseq4.in",
+      "size": 68847
+    },
+    {
+      "path": "deseq4.out",
+      "size": 12
+    },
+    {
+      "path": "deseq5.in",
+      "size": 688992
+    },
+    {
+      "path": "deseq5.out",
+      "size": 14
+    },
+    {
+      "path": "deseq6.in",
+      "size": 688990
+    },
+    {
+      "path": "deseq6.out",
+      "size": 14
+    },
+    {
+      "path": "deseq7.in",
+      "size": 688697
+    },
+    {
+      "path": "deseq7.out",
+      "size": 14
+    },
+    {
+      "path": "deseq8.in",
+      "size": 688892
+    },
+    {
+      "path": "deseq8.out",
+      "size": 14
+    },
+    {
+      "path": "deseq9.in",
+      "size": 688966
+    },
+    {
+      "path": "deseq9.out",
+      "size": 12
+    }
+  ]
+}

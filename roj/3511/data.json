@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "cardlxlx0.in",
+      "size": 25
+    },
+    {
+      "path": "cardlxlx0.out",
+      "size": 3
+    },
+    {
+      "path": "cardlxlx1.in",
+      "size": 64
+    },
+    {
+      "path": "cardlxlx1.out",
+      "size": 5
+    },
+    {
+      "path": "cardlxlx2.in",
+      "size": 69
+    },
+    {
+      "path": "cardlxlx2.out",
+      "size": 5
+    },
+    {
+      "path": "cardlxlx3.in",
+      "size": 261
+    },
+    {
+      "path": "cardlxlx3.out",
+      "size": 6
+    },
+    {
+      "path": "cardlxlx4.in",
+      "size": 297
+    },
+    {
+      "path": "cardlxlx4.out",
+      "size": 6
+    }
+  ]
+}

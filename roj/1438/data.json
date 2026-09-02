@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "data1.in",
+      "size": 45
+    },
+    {
+      "path": "data1.out",
+      "size": 37
+    },
+    {
+      "path": "data2.in",
+      "size": 67
+    },
+    {
+      "path": "data2.out",
+      "size": 40
+    },
+    {
+      "path": "data3.in",
+      "size": 1040
+    },
+    {
+      "path": "data3.out",
+      "size": 798
+    },
+    {
+      "path": "data4.in",
+      "size": 1566
+    },
+    {
+      "path": "data4.out",
+      "size": 795
+    }
+  ]
+}

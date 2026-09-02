@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "twofive0.in",
+      "size": 4
+    },
+    {
+      "path": "twofive0.out",
+      "size": 25
+    },
+    {
+      "path": "twofive1.in",
+      "size": 28
+    },
+    {
+      "path": "twofive1.out",
+      "size": 1
+    },
+    {
+      "path": "twofive10.in",
+      "size": 12
+    },
+    {
+      "path": "twofive10.out",
+      "size": 25
+    },
+    {
+      "path": "twofive11.in",
+      "size": 28
+    },
+    {
+      "path": "twofive11.out",
+      "size": 8
+    },
+    {
+      "path": "twofive2.in",
+      "size": 6
+    },
+    {
+      "path": "twofive2.out",
+      "size": 25
+    },
+    {
+      "path": "twofive3.in",
+      "size": 28
+    },
+    {
+      "path": "twofive3.out",
+      "size": 3
+    },
+    {
+      "path": "twofive4.in",
+      "size": 8
+    },
+    {
+      "path": "twofive4.out",
+      "size": 25
+    },
+    {
+      "path": "twofive5.in",
+      "size": 28
+    },
+    {
+      "path": "twofive5.out",
+      "size": 5
+    },
+    {
+      "path": "twofive6.in",
+      "size": 12
+    },
+    {
+      "path": "twofive6.out",
+      "size": 25
+    },
+    {
+      "path": "twofive7.in",
+      "size": 28
+    },
+    {
+      "path": "twofive7.out",
+      "size": 9
+    },
+    {
+      "path": "twofive8.in",
+      "size": 12
+    },
+    {
+      "path": "twofive8.out",
+      "size": 25
+    },
+    {
+      "path": "twofive9.in",
+      "size": 28
+    },
+    {
+      "path": "twofive9.out",
+      "size": 9
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "jfecs0.in",
+      "size": 13
+    },
+    {
+      "path": "jfecs0.out",
+      "size": 13
+    },
+    {
+      "path": "jfecs1.in",
+      "size": 26
+    },
+    {
+      "path": "jfecs1.out",
+      "size": 27
+    },
+    {
+      "path": "jfecs2.in",
+      "size": 35
+    },
+    {
+      "path": "jfecs2.out",
+      "size": 43
+    },
+    {
+      "path": "jfecs3.in",
+      "size": 45
+    },
+    {
+      "path": "jfecs3.out",
+      "size": 60
+    },
+    {
+      "path": "jfecs4.in",
+      "size": 52
+    },
+    {
+      "path": "jfecs4.out",
+      "size": 75
+    },
+    {
+      "path": "jfecs5.in",
+      "size": 62
+    },
+    {
+      "path": "jfecs5.out",
+      "size": 87
+    },
+    {
+      "path": "jfecs6.in",
+      "size": 62
+    },
+    {
+      "path": "jfecs6.out",
+      "size": 90
+    }
+  ]
+}

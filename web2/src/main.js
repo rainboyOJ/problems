@@ -274,9 +274,8 @@ function initDownloadModal() {
   const closeButton = modal.querySelector('[data-download-close]');
   const list = modal.querySelector('[data-download-list]');
   const summary = modal.querySelector('[data-download-summary]');
-  const warning = modal.querySelector('[data-download-warning]');
+  const sourceSelect = modal.querySelector('[data-download-source]');
   const status = modal.querySelector('[data-download-status]');
-  const zipButton = modal.querySelector('[data-zip-download]');
   let manifest = null;
   let lastFocused = null;
   let loading = null;
@@ -296,6 +295,14 @@ function initDownloadModal() {
     const separator = filePath.lastIndexOf('/');
     const dot = filePath.lastIndexOf('.');
     return dot > separator ? filePath.slice(dot).toLowerCase() : '';
+  }
+
+  function encodedPath(filePath) {
+    return filePath.split('/').map((part) => encodeURIComponent(part)).join('/');
+  }
+
+  function selectedSource() {
+    return manifest?.sources?.find((source) => source.id === sourceSelect.value) || manifest?.sources?.[0] || null;
   }
 
   function pairFiles(files) {
@@ -347,10 +354,45 @@ function initDownloadModal() {
 
     const link = document.createElement('a');
     link.className = 'download-file-link';
-    link.href = file.downloadUrl;
-    link.download = file.path.split('/').pop() || 'download';
+    link.href = '#';
     link.textContent = '下载';
     link.setAttribute('aria-label', `下载 ${file.path}`);
+    link.addEventListener('click', async (event) => {
+      event.preventDefault();
+      if (link.dataset.busy === 'true') return;
+      const source = selectedSource();
+      if (!source) {
+        setStatus('没有可用的下载源。', 'error');
+        return;
+      }
+      link.dataset.busy = 'true';
+      link.setAttribute('aria-busy', 'true');
+      link.classList.add('is-busy');
+      setStatus(`正在下载 ${file.path}…`, 'working');
+      try {
+        const response = await fetch(`${source.baseUrl}${encodedPath(file.path)}`, {
+          headers: { Accept: 'application/octet-stream' },
+          mode: 'cors'
+        });
+        if (!response.ok) throw new Error(`下载失败（HTTP ${response.status}）。`);
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
+        const download = document.createElement('a');
+        download.href = url;
+        download.download = file.path.split('/').pop() || 'download';
+        document.body.append(download);
+        download.click();
+        download.remove();
+        window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+        setStatus(`${file.path} 下载已开始。`, 'success');
+      } catch (error) {
+        setStatus(error.name === 'TypeError' ? '下载源暂时无法访问，请切换其他源重试。' : (error.message || '文件暂时无法下载。'), 'error');
+      } finally {
+        link.dataset.busy = 'false';
+        link.removeAttribute('aria-busy');
+        link.classList.remove('is-busy');
+      }
+    });
     action.append(link);
     row.append(cell, action);
   }
@@ -402,60 +444,28 @@ function initDownloadModal() {
       .then((payload) => {
         manifest = payload;
         summary.textContent = `${payload.totalFiles} 个文件，共 ${formatBytes(payload.totalBytes)}`;
-        warning.hidden = payload.totalBytes <= 100 * 1024 * 1024;
+        sourceSelect.replaceChildren();
+        for (const source of payload.sources || []) {
+          const option = document.createElement('option');
+          option.value = source.id;
+          option.textContent = source.label;
+          option.title = source.baseUrl;
+          sourceSelect.append(option);
+        }
+        sourceSelect.disabled = !payload.sources?.length;
         renderFiles(payload.files || []);
-        zipButton.disabled = !payload.files?.length;
         return payload;
       })
       .catch((error) => {
         summary.textContent = '文件列表读取失败';
         setStatus(error.message || '文件列表暂时无法读取。', 'error');
+        sourceSelect.replaceChildren();
+        sourceSelect.disabled = true;
         list.replaceChildren();
         return null;
       })
       .finally(() => { loading = null; });
     return loading;
-  }
-
-  async function downloadZip() {
-    if (!manifest || !manifest.files?.length || zipButton.disabled) return;
-    zipButton.disabled = true;
-    setStatus('正在准备 ZIP…', 'working');
-    try {
-      const response = await fetch(manifest.zipUrl, { headers: { Accept: 'application/zip, application/json' } });
-      const contentType = response.headers.get('content-type') || '';
-      if (!response.ok || contentType.includes('application/json')) {
-        const payload = await response.json().catch(() => null);
-        throw new Error(downloadErrorMessage(payload, 'ZIP 暂时无法生成。'));
-      }
-      if (!response.body) throw new Error('浏览器不支持流式下载。');
-      const reader = response.body.getReader();
-      const chunks = [];
-      let loaded = 0;
-      const total = Number(response.headers.get('content-length')) || 0;
-      setStatus('正在下载 ZIP…', 'working');
-      while (true) {
-        const result = await reader.read();
-        if (result.done) break;
-        chunks.push(result.value);
-        loaded += result.value.byteLength;
-        setStatus(total ? `正在下载 ZIP… ${formatBytes(loaded)} / ${formatBytes(total)}` : `正在下载 ZIP… ${formatBytes(loaded)}`, 'working');
-      }
-      const blob = new Blob(chunks, { type: 'application/zip' });
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = `roj-${problemId}-data.zip`;
-      document.body.append(link);
-      link.click();
-      link.remove();
-      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
-      setStatus('ZIP 下载已开始。', 'success');
-    } catch (error) {
-      setStatus(error.message || 'ZIP 暂时无法生成。', 'error');
-    } finally {
-      zipButton.disabled = false;
-    }
   }
 
   function closeModal() {
@@ -478,7 +488,6 @@ function initDownloadModal() {
     lastFocused?.focus?.();
     lastFocused = null;
   });
-  zipButton.addEventListener('click', downloadZip);
 }
 
 document.addEventListener('DOMContentLoaded', () => {

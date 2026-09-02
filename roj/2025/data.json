@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "hamming0.in",
+      "size": 6
+    },
+    {
+      "path": "hamming0.out",
+      "size": 49
+    },
+    {
+      "path": "hamming1.in",
+      "size": 5
+    },
+    {
+      "path": "hamming1.out",
+      "size": 5
+    },
+    {
+      "path": "hamming10.in",
+      "size": 6
+    },
+    {
+      "path": "hamming10.out",
+      "size": 53
+    },
+    {
+      "path": "hamming2.in",
+      "size": 5
+    },
+    {
+      "path": "hamming2.out",
+      "size": 7
+    },
+    {
+      "path": "hamming3.in",
+      "size": 5
+    },
+    {
+      "path": "hamming3.out",
+      "size": 9
+    },
+    {
+      "path": "hamming4.in",
+      "size": 6
+    },
+    {
+      "path": "hamming4.out",
+      "size": 32
+    },
+    {
+      "path": "hamming5.in",
+      "size": 6
+    },
+    {
+      "path": "hamming5.out",
+      "size": 55
+    },
+    {
+      "path": "hamming6.in",
+      "size": 6
+    },
+    {
+      "path": "hamming6.out",
+      "size": 88
+    },
+    {
+      "path": "hamming7.in",
+      "size": 6
+    },
+    {
+      "path": "hamming7.out",
+      "size": 148
+    },
+    {
+      "path": "hamming8.in",
+      "size": 6
+    },
+    {
+      "path": "hamming8.out",
+      "size": 189
+    },
+    {
+      "path": "hamming9.in",
+      "size": 6
+    },
+    {
+      "path": "hamming9.out",
+      "size": 49
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "move1.in",
+      "size": 48
+    },
+    {
+      "path": "move1.out",
+      "size": 3
+    },
+    {
+      "path": "move10.in",
+      "size": 50
+    },
+    {
+      "path": "move10.out",
+      "size": 4
+    },
+    {
+      "path": "move2.in",
+      "size": 50
+    },
+    {
+      "path": "move2.out",
+      "size": 3
+    },
+    {
+      "path": "move3.in",
+      "size": 52
+    },
+    {
+      "path": "move3.out",
+      "size": 3
+    },
+    {
+      "path": "move4.in",
+      "size": 50
+    },
+    {
+      "path": "move4.out",
+      "size": 3
+    },
+    {
+      "path": "move5.in",
+      "size": 50
+    },
+    {
+      "path": "move5.out",
+      "size": 3
+    },
+    {
+      "path": "move6.in",
+      "size": 48
+    },
+    {
+      "path": "move6.out",
+      "size": 3
+    },
+    {
+      "path": "move7.in",
+      "size": 50
+    },
+    {
+      "path": "move7.out",
+      "size": 3
+    },
+    {
+      "path": "move8.in",
+      "size": 48
+    },
+    {
+      "path": "move8.out",
+      "size": 3
+    },
+    {
+      "path": "move9.in",
+      "size": 48
+    },
+    {
+      "path": "move9.out",
+      "size": 4
+    }
+  ]
+}

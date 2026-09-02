@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "sdhf0.in",
+      "size": 3
+    },
+    {
+      "path": "sdhf0.out",
+      "size": 1
+    },
+    {
+      "path": "sdhf1.in",
+      "size": 4
+    },
+    {
+      "path": "sdhf1.out",
+      "size": 2
+    },
+    {
+      "path": "sdhf2.in",
+      "size": 5
+    },
+    {
+      "path": "sdhf2.out",
+      "size": 5
+    },
+    {
+      "path": "sdhf3.in",
+      "size": 5
+    },
+    {
+      "path": "sdhf3.out",
+      "size": 6
+    },
+    {
+      "path": "sdhf4.in",
+      "size": 5
+    },
+    {
+      "path": "sdhf4.out",
+      "size": 7
+    }
+  ]
+}

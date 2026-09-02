@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "prefix0.in",
+      "size": 32
+    },
+    {
+      "path": "prefix0.out",
+      "size": 1
+    },
+    {
+      "path": "prefix1.in",
+      "size": 31
+    },
+    {
+      "path": "prefix1.out",
+      "size": 2
+    },
+    {
+      "path": "prefix2.in",
+      "size": 764
+    },
+    {
+      "path": "prefix2.out",
+      "size": 3
+    },
+    {
+      "path": "prefix3.in",
+      "size": 2150
+    },
+    {
+      "path": "prefix3.out",
+      "size": 4
+    },
+    {
+      "path": "prefix4.in",
+      "size": 4829
+    },
+    {
+      "path": "prefix4.out",
+      "size": 4
+    },
+    {
+      "path": "prefix5.in",
+      "size": 206324
+    },
+    {
+      "path": "prefix5.out",
+      "size": 6
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "transport1.ans",
+      "size": 3
+    },
+    {
+      "path": "transport1.in",
+      "size": 788
+    },
+    {
+      "path": "transport10.ans",
+      "size": 8
+    },
+    {
+      "path": "transport10.in",
+      "size": 68004
+    },
+    {
+      "path": "transport11.ans",
+      "size": 8
+    },
+    {
+      "path": "transport11.in",
+      "size": 1249016
+    },
+    {
+      "path": "transport12.ans",
+      "size": 8
+    },
+    {
+      "path": "transport12.in",
+      "size": 1567079
+    },
+    {
+      "path": "transport13.ans",
+      "size": 7
+    },
+    {
+      "path": "transport13.in",
+      "size": 2062131
+    },
+    {
+      "path": "transport14.ans",
+      "size": 7
+    },
+    {
+      "path": "transport14.in",
+      "size": 2362605
+    },
+    {
+      "path": "transport15.ans",
+      "size": 7
+    },
+    {
+      "path": "transport15.in",
+      "size": 2663642
+    },
+    {
+      "path": "transport16.ans",
+      "size": 7
+    },
+    {
+      "path": "transport16.in",
+      "size": 2965014
+    },
+    {
+      "path": "transport17.ans",
+      "size": 9
+    },
+    {
+      "path": "transport17.in",
+      "size": 2207995
+    },
+    {
+      "path": "transport18.ans",
+      "size": 9
+    },
+    {
+      "path": "transport18.in",
+      "size": 2489406
+    },
+    {
+      "path": "transport19.ans",
+      "size": 9
+    },
+    {
+      "path": "transport19.in",
+      "size": 2771376
+    },
+    {
+      "path": "transport2.ans",
+      "size": 4
+    },
+    {
+      "path": "transport2.in",
+      "size": 1572
+    },
+    {
+      "path": "transport20.ans",
+      "size": 10
+    },
+    {
+      "path": "transport20.in",
+      "size": 9202028
+    },
+    {
+      "path": "transport3.ans",
+      "size": 3
+    },
+    {
+      "path": "transport3.in",
+      "size": 1364
+    },
+    {
+      "path": "transport4.ans",
+      "size": 2
+    },
+    {
+      "path": "transport4.in",
+      "size": 25546
+    },
+    {
+      "path": "transport5.ans",
+      "size": 7
+    },
+    {
+      "path": "transport5.in",
+      "size": 21714
+    },
+    {
+      "path": "transport6.ans",
+      "size": 7
+    },
+    {
+      "path": "transport6.in",
+      "size": 47779
+    },
+    {
+      "path": "transport7.ans",
+      "size": 7
+    },
+    {
+      "path": "transport7.in",
+      "size": 73826
+    },
+    {
+      "path": "transport8.ans",
+      "size": 7
+    },
+    {
+      "path": "transport8.in",
+      "size": 19734
+    },
+    {
+      "path": "transport9.ans",
+      "size": 7
+    },
+    {
+      "path": "transport9.in",
+      "size": 43836
+    }
+  ]
+}

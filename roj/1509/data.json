@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "Interval0.out",
+      "size": 3
+    },
+    {
+      "path": "interval0.in",
+      "size": 41
+    },
+    {
+      "path": "interval1.in",
+      "size": 20
+    },
+    {
+      "path": "interval1.out",
+      "size": 3
+    },
+    {
+      "path": "interval2.in",
+      "size": 33
+    },
+    {
+      "path": "interval2.out",
+      "size": 3
+    },
+    {
+      "path": "interval3.in",
+      "size": 68
+    },
+    {
+      "path": "interval3.out",
+      "size": 3
+    },
+    {
+      "path": "interval4.in",
+      "size": 179
+    },
+    {
+      "path": "interval4.out",
+      "size": 3
+    },
+    {
+      "path": "interval5.in",
+      "size": 13791
+    },
+    {
+      "path": "interval5.out",
+      "size": 6
+    }
+  ]
+}

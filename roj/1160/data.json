@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "num1.in",
+      "size": 5
+    },
+    {
+      "path": "num1.out",
+      "size": 5
+    },
+    {
+      "path": "num2.in",
+      "size": 8
+    },
+    {
+      "path": "num2.out",
+      "size": 8
+    },
+    {
+      "path": "num3.in",
+      "size": 9
+    },
+    {
+      "path": "num3.out",
+      "size": 9
+    },
+    {
+      "path": "num4.in",
+      "size": 10
+    },
+    {
+      "path": "num4.out",
+      "size": 12
+    },
+    {
+      "path": "num5.in",
+      "size": 10
+    },
+    {
+      "path": "num5.out",
+      "size": 12
+    }
+  ]
+}

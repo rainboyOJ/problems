@@ -1,0 +1,132 @@
+{
+  "files": [
+    {
+      "path": "roadplane.1.in",
+      "size": 53
+    },
+    {
+      "path": "roadplane.1.out",
+      "size": 29
+    },
+    {
+      "path": "roadplane.10.in",
+      "size": 1600691
+    },
+    {
+      "path": "roadplane.10.out",
+      "size": 190568
+    },
+    {
+      "path": "roadplane.11.in",
+      "size": 1548293
+    },
+    {
+      "path": "roadplane.11.out",
+      "size": 115825
+    },
+    {
+      "path": "roadplane.12.in",
+      "size": 1582941
+    },
+    {
+      "path": "roadplane.12.out",
+      "size": 147696
+    },
+    {
+      "path": "roadplane.13.in",
+      "size": 940683
+    },
+    {
+      "path": "roadplane.13.out",
+      "size": 195995
+    },
+    {
+      "path": "roadplane.14.in",
+      "size": 778691
+    },
+    {
+      "path": "roadplane.14.out",
+      "size": 179939
+    },
+    {
+      "path": "roadplane.15.in",
+      "size": 822725
+    },
+    {
+      "path": "roadplane.15.out",
+      "size": 247276
+    },
+    {
+      "path": "roadplane.16.in",
+      "size": 1610792
+    },
+    {
+      "path": "roadplane.16.out",
+      "size": 228390
+    },
+    {
+      "path": "roadplane.2.in",
+      "size": 310
+    },
+    {
+      "path": "roadplane.2.out",
+      "size": 53
+    },
+    {
+      "path": "roadplane.3.in",
+      "size": 1321
+    },
+    {
+      "path": "roadplane.3.out",
+      "size": 255
+    },
+    {
+      "path": "roadplane.4.in",
+      "size": 10026
+    },
+    {
+      "path": "roadplane.4.out",
+      "size": 590
+    },
+    {
+      "path": "roadplane.5.in",
+      "size": 36609
+    },
+    {
+      "path": "roadplane.5.out",
+      "size": 1956
+    },
+    {
+      "path": "roadplane.6.in",
+      "size": 166290
+    },
+    {
+      "path": "roadplane.6.out",
+      "size": 7450
+    },
+    {
+      "path": "roadplane.7.in",
+      "size": 567427
+    },
+    {
+      "path": "roadplane.7.out",
+      "size": 19247
+    },
+    {
+      "path": "roadplane.8.in",
+      "size": 881965
+    },
+    {
+      "path": "roadplane.8.out",
+      "size": 38724
+    },
+    {
+      "path": "roadplane.9.in",
+      "size": 1193593
+    },
+    {
+      "path": "roadplane.9.out",
+      "size": 75642
+    }
+  ]
+}

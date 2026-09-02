@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "meal1.in",
+      "size": 41
+    },
+    {
+      "path": "meal1.out",
+      "size": 3
+    },
+    {
+      "path": "meal10.in",
+      "size": 3770
+    },
+    {
+      "path": "meal10.out",
+      "size": 5
+    },
+    {
+      "path": "meal2.in",
+      "size": 40
+    },
+    {
+      "path": "meal2.out",
+      "size": 3
+    },
+    {
+      "path": "meal3.in",
+      "size": 151
+    },
+    {
+      "path": "meal3.out",
+      "size": 4
+    },
+    {
+      "path": "meal4.in",
+      "size": 158
+    },
+    {
+      "path": "meal4.out",
+      "size": 4
+    },
+    {
+      "path": "meal5.in",
+      "size": 3891
+    },
+    {
+      "path": "meal5.out",
+      "size": 5
+    },
+    {
+      "path": "meal6.in",
+      "size": 3400
+    },
+    {
+      "path": "meal6.out",
+      "size": 5
+    },
+    {
+      "path": "meal7.in",
+      "size": 3772
+    },
+    {
+      "path": "meal7.out",
+      "size": 5
+    },
+    {
+      "path": "meal8.in",
+      "size": 3797
+    },
+    {
+      "path": "meal8.out",
+      "size": 5
+    },
+    {
+      "path": "meal9.in",
+      "size": 3786
+    },
+    {
+      "path": "meal9.out",
+      "size": 5
+    }
+  ]
+}

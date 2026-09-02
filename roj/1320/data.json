@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "Playcard1.in",
+      "size": 16
+    },
+    {
+      "path": "Playcard1.out",
+      "size": 3
+    },
+    {
+      "path": "Playcard2.in",
+      "size": 19
+    },
+    {
+      "path": "Playcard2.out",
+      "size": 1
+    },
+    {
+      "path": "Playcard3.in",
+      "size": 33
+    },
+    {
+      "path": "Playcard3.out",
+      "size": 1
+    },
+    {
+      "path": "Playcard4.in",
+      "size": 133
+    },
+    {
+      "path": "Playcard4.out",
+      "size": 4
+    },
+    {
+      "path": "Playcard5.in",
+      "size": 502
+    },
+    {
+      "path": "Playcard5.out",
+      "size": 4
+    }
+  ]
+}

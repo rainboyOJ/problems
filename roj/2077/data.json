@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "starry0.in",
+      "size": 126
+    },
+    {
+      "path": "starry0.out",
+      "size": 118
+    },
+    {
+      "path": "starry1.in",
+      "size": 226
+    },
+    {
+      "path": "starry1.out",
+      "size": 218
+    },
+    {
+      "path": "starry2.in",
+      "size": 336
+    },
+    {
+      "path": "starry2.out",
+      "size": 328
+    },
+    {
+      "path": "starry3.in",
+      "size": 406
+    },
+    {
+      "path": "starry3.out",
+      "size": 398
+    },
+    {
+      "path": "starry4.in",
+      "size": 6886
+    },
+    {
+      "path": "starry4.out",
+      "size": 6878
+    }
+  ]
+}

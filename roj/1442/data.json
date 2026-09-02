@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "stick1.in",
+      "size": 15
+    },
+    {
+      "path": "stick1.out",
+      "size": 4
+    },
+    {
+      "path": "stick10.in",
+      "size": 125
+    },
+    {
+      "path": "stick10.out",
+      "size": 4
+    },
+    {
+      "path": "stick11.in",
+      "size": 25
+    },
+    {
+      "path": "stick11.out",
+      "size": 2
+    },
+    {
+      "path": "stick12.in",
+      "size": 50
+    },
+    {
+      "path": "stick12.out",
+      "size": 2
+    },
+    {
+      "path": "stick13.in",
+      "size": 58
+    },
+    {
+      "path": "stick13.out",
+      "size": 2
+    },
+    {
+      "path": "stick14.in",
+      "size": 88
+    },
+    {
+      "path": "stick14.out",
+      "size": 3
+    },
+    {
+      "path": "stick15.in",
+      "size": 87
+    },
+    {
+      "path": "stick15.out",
+      "size": 3
+    },
+    {
+      "path": "stick16.in",
+      "size": 113
+    },
+    {
+      "path": "stick16.out",
+      "size": 3
+    },
+    {
+      "path": "stick17.in",
+      "size": 116
+    },
+    {
+      "path": "stick17.out",
+      "size": 2
+    },
+    {
+      "path": "stick18.in",
+      "size": 173
+    },
+    {
+      "path": "stick18.out",
+      "size": 3
+    },
+    {
+      "path": "stick19.in",
+      "size": 172
+    },
+    {
+      "path": "stick19.out",
+      "size": 3
+    },
+    {
+      "path": "stick2.in",
+      "size": 10
+    },
+    {
+      "path": "stick2.out",
+      "size": 4
+    },
+    {
+      "path": "stick20.in",
+      "size": 174
+    },
+    {
+      "path": "stick20.out",
+      "size": 3
+    },
+    {
+      "path": "stick3.in",
+      "size": 75
+    },
+    {
+      "path": "stick3.out",
+      "size": 4
+    },
+    {
+      "path": "stick4.in",
+      "size": 70
+    },
+    {
+      "path": "stick4.out",
+      "size": 5
+    },
+    {
+      "path": "stick5.in",
+      "size": 28
+    },
+    {
+      "path": "stick5.out",
+      "size": 5
+    },
+    {
+      "path": "stick6.in",
+      "size": 77
+    },
+    {
+      "path": "stick6.out",
+      "size": 5
+    },
+    {
+      "path": "stick7.in",
+      "size": 78
+    },
+    {
+      "path": "stick7.out",
+      "size": 4
+    },
+    {
+      "path": "stick8.in",
+      "size": 123
+    },
+    {
+      "path": "stick8.out",
+      "size": 4
+    },
+    {
+      "path": "stick9.in",
+      "size": 115
+    },
+    {
+      "path": "stick9.out",
+      "size": 4
+    }
+  ]
+}

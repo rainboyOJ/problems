@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "mod0.in",
+      "size": 4
+    },
+    {
+      "path": "mod0.out",
+      "size": 1
+    },
+    {
+      "path": "mod1.in",
+      "size": 5
+    },
+    {
+      "path": "mod1.out",
+      "size": 2
+    },
+    {
+      "path": "mod2.in",
+      "size": 7
+    },
+    {
+      "path": "mod2.out",
+      "size": 3
+    },
+    {
+      "path": "mod3.in",
+      "size": 8
+    },
+    {
+      "path": "mod3.out",
+      "size": 3
+    },
+    {
+      "path": "mod4.in",
+      "size": 15
+    },
+    {
+      "path": "mod4.out",
+      "size": 7
+    },
+    {
+      "path": "mod5.in",
+      "size": 14
+    },
+    {
+      "path": "mod5.out",
+      "size": 8
+    },
+    {
+      "path": "mod6.in",
+      "size": 18
+    },
+    {
+      "path": "mod6.out",
+      "size": 9
+    },
+    {
+      "path": "mod7.in",
+      "size": 21
+    },
+    {
+      "path": "mod7.out",
+      "size": 10
+    },
+    {
+      "path": "mod8.in",
+      "size": 21
+    },
+    {
+      "path": "mod8.out",
+      "size": 9
+    },
+    {
+      "path": "mod9.in",
+      "size": 21
+    },
+    {
+      "path": "mod9.out",
+      "size": 10
+    }
+  ]
+}

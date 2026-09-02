@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "carpet1.ans",
+      "size": 2
+    },
+    {
+      "path": "carpet1.in",
+      "size": 33
+    },
+    {
+      "path": "carpet10.ans",
+      "size": 5
+    },
+    {
+      "path": "carpet10.in",
+      "size": 224014
+    },
+    {
+      "path": "carpet2.ans",
+      "size": 1
+    },
+    {
+      "path": "carpet2.in",
+      "size": 34
+    },
+    {
+      "path": "carpet3.ans",
+      "size": 2
+    },
+    {
+      "path": "carpet3.in",
+      "size": 32
+    },
+    {
+      "path": "carpet4.ans",
+      "size": 2
+    },
+    {
+      "path": "carpet4.in",
+      "size": 124
+    },
+    {
+      "path": "carpet5.ans",
+      "size": 3
+    },
+    {
+      "path": "carpet5.in",
+      "size": 355
+    },
+    {
+      "path": "carpet6.ans",
+      "size": 4
+    },
+    {
+      "path": "carpet6.in",
+      "size": 19499
+    },
+    {
+      "path": "carpet7.ans",
+      "size": 5
+    },
+    {
+      "path": "carpet7.in",
+      "size": 113023
+    },
+    {
+      "path": "carpet8.ans",
+      "size": 5
+    },
+    {
+      "path": "carpet8.in",
+      "size": 178896
+    },
+    {
+      "path": "carpet9.ans",
+      "size": 5
+    },
+    {
+      "path": "carpet9.in",
+      "size": 224490
+    }
+  ]
+}

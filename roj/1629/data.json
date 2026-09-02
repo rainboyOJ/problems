@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "swallow1.in",
+      "size": 119
+    },
+    {
+      "path": "swallow1.out",
+      "size": 2043302
+    },
+    {
+      "path": "swallow10.in",
+      "size": 494
+    },
+    {
+      "path": "swallow10.out",
+      "size": 9967
+    },
+    {
+      "path": "swallow11.in",
+      "size": 491
+    },
+    {
+      "path": "swallow11.out",
+      "size": 128208
+    },
+    {
+      "path": "swallow2.in",
+      "size": 496
+    },
+    {
+      "path": "swallow2.out",
+      "size": 439
+    },
+    {
+      "path": "swallow3.in",
+      "size": 492
+    },
+    {
+      "path": "swallow3.out",
+      "size": 522
+    },
+    {
+      "path": "swallow4.in",
+      "size": 492
+    },
+    {
+      "path": "swallow4.out",
+      "size": 523
+    },
+    {
+      "path": "swallow5.in",
+      "size": 296
+    },
+    {
+      "path": "swallow5.out",
+      "size": 1437
+    },
+    {
+      "path": "swallow6.in",
+      "size": 296
+    },
+    {
+      "path": "swallow6.out",
+      "size": 1510
+    },
+    {
+      "path": "swallow7.in",
+      "size": 295
+    },
+    {
+      "path": "swallow7.out",
+      "size": 3331
+    },
+    {
+      "path": "swallow8.in",
+      "size": 298
+    },
+    {
+      "path": "swallow8.out",
+      "size": 3367
+    },
+    {
+      "path": "swallow9.in",
+      "size": 497
+    },
+    {
+      "path": "swallow9.out",
+      "size": 16081
+    }
+  ]
+}

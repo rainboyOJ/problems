@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "slides0.in",
+      "size": 17
+    },
+    {
+      "path": "slides0.out",
+      "size": 3
+    },
+    {
+      "path": "slides1.in",
+      "size": 49
+    },
+    {
+      "path": "slides1.out",
+      "size": 4
+    },
+    {
+      "path": "slides2.in",
+      "size": 49
+    },
+    {
+      "path": "slides2.out",
+      "size": 13
+    }
+  ]
+}

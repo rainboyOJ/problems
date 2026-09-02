@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "preface0.in",
+      "size": 1
+    },
+    {
+      "path": "preface0.out",
+      "size": 3
+    },
+    {
+      "path": "preface1.in",
+      "size": 2
+    },
+    {
+      "path": "preface1.out",
+      "size": 16
+    },
+    {
+      "path": "preface2.in",
+      "size": 3
+    },
+    {
+      "path": "preface2.out",
+      "size": 30
+    },
+    {
+      "path": "preface3.in",
+      "size": 3
+    },
+    {
+      "path": "preface3.out",
+      "size": 40
+    },
+    {
+      "path": "preface4.in",
+      "size": 4
+    },
+    {
+      "path": "preface4.out",
+      "size": 50
+    },
+    {
+      "path": "preface5.in",
+      "size": 4
+    },
+    {
+      "path": "preface5.out",
+      "size": 54
+    },
+    {
+      "path": "preface6.in",
+      "size": 4
+    },
+    {
+      "path": "preface6.out",
+      "size": 54
+    },
+    {
+      "path": "preface7.in",
+      "size": 4
+    },
+    {
+      "path": "preface7.out",
+      "size": 54
+    }
+  ]
+}

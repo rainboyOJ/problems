@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "fgqs0.in",
+      "size": 44
+    },
+    {
+      "path": "fgqs0.out",
+      "size": 2
+    },
+    {
+      "path": "fgqs1.in",
+      "size": 56
+    },
+    {
+      "path": "fgqs1.out",
+      "size": 2
+    },
+    {
+      "path": "fgqs2.in",
+      "size": 55
+    },
+    {
+      "path": "fgqs2.out",
+      "size": 2
+    },
+    {
+      "path": "fgqs3.in",
+      "size": 64
+    },
+    {
+      "path": "fgqs3.out",
+      "size": 2
+    },
+    {
+      "path": "fgqs4.in",
+      "size": 79
+    },
+    {
+      "path": "fgqs4.out",
+      "size": 2
+    },
+    {
+      "path": "fgqs5.in",
+      "size": 113
+    },
+    {
+      "path": "fgqs5.out",
+      "size": 3
+    }
+  ]
+}

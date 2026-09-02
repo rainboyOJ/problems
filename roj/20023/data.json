@@ -1,0 +1,96 @@
+{
+  "files": [
+    {
+      "path": "instrument1.in",
+      "size": 8424
+    },
+    {
+      "path": "instrument1.out",
+      "size": 2949
+    },
+    {
+      "path": "instrument10.in",
+      "size": 1174218
+    },
+    {
+      "path": "instrument10.out",
+      "size": 499024
+    },
+    {
+      "path": "instrument2.in",
+      "size": 7791
+    },
+    {
+      "path": "instrument2.out",
+      "size": 2338
+    },
+    {
+      "path": "instrument3.in",
+      "size": 8127
+    },
+    {
+      "path": "instrument3.out",
+      "size": 2928
+    },
+    {
+      "path": "instrument4.in",
+      "size": 955262
+    },
+    {
+      "path": "instrument4.out",
+      "size": 404827
+    },
+    {
+      "path": "instrument5.in",
+      "size": 989115
+    },
+    {
+      "path": "instrument5.out",
+      "size": 440407
+    },
+    {
+      "path": "instrument6.in",
+      "size": 1175834
+    },
+    {
+      "path": "instrument6.out",
+      "size": 502364
+    },
+    {
+      "path": "instrument7.in",
+      "size": 1268939
+    },
+    {
+      "path": "instrument7.out",
+      "size": 529416
+    },
+    {
+      "path": "instrument8.in",
+      "size": 1405521
+    },
+    {
+      "path": "instrument8.out",
+      "size": 605657
+    },
+    {
+      "path": "instrument9.in",
+      "size": 1492078
+    },
+    {
+      "path": "instrument9.out",
+      "size": 626049
+    },
+    {
+      "path": "大样例/1.out",
+      "size": 515868
+    },
+    {
+      "path": "大样例/ex.in",
+      "size": 1242649
+    },
+    {
+      "path": "大样例/ex.out",
+      "size": 515868
+    }
+  ]
+}

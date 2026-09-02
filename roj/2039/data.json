@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "fracdec0.in",
+      "size": 4
+    },
+    {
+      "path": "fracdec0.out",
+      "size": 3
+    },
+    {
+      "path": "fracdec1.in",
+      "size": 3
+    },
+    {
+      "path": "fracdec1.out",
+      "size": 10
+    },
+    {
+      "path": "fracdec2.in",
+      "size": 9
+    },
+    {
+      "path": "fracdec2.out",
+      "size": 65
+    },
+    {
+      "path": "fracdec3.in",
+      "size": 8
+    },
+    {
+      "path": "fracdec3.out",
+      "size": 7
+    },
+    {
+      "path": "fracdec4.in",
+      "size": 3
+    },
+    {
+      "path": "fracdec4.out",
+      "size": 3
+    },
+    {
+      "path": "fracdec5.in",
+      "size": 6
+    },
+    {
+      "path": "fracdec5.out",
+      "size": 7
+    },
+    {
+      "path": "fracdec6.in",
+      "size": 11
+    },
+    {
+      "path": "fracdec6.out",
+      "size": 10079
+    },
+    {
+      "path": "fracdec7.in",
+      "size": 7
+    },
+    {
+      "path": "fracdec7.out",
+      "size": 51313
+    },
+    {
+      "path": "fracdec8.in",
+      "size": 8
+    },
+    {
+      "path": "fracdec8.out",
+      "size": 1005
+    }
+  ]
+}

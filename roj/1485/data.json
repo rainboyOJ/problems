@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "generator1.in",
+      "size": 18
+    },
+    {
+      "path": "generator1.out",
+      "size": 6
+    },
+    {
+      "path": "generator10.in",
+      "size": 383
+    },
+    {
+      "path": "generator10.out",
+      "size": 6
+    },
+    {
+      "path": "generator2.in",
+      "size": 22
+    },
+    {
+      "path": "generator2.out",
+      "size": 6
+    },
+    {
+      "path": "generator3.in",
+      "size": 65
+    },
+    {
+      "path": "generator3.out",
+      "size": 3
+    },
+    {
+      "path": "generator4.in",
+      "size": 143
+    },
+    {
+      "path": "generator4.out",
+      "size": 6
+    },
+    {
+      "path": "generator5.in",
+      "size": 814
+    },
+    {
+      "path": "generator5.out",
+      "size": 6
+    },
+    {
+      "path": "generator6.in",
+      "size": 350
+    },
+    {
+      "path": "generator6.out",
+      "size": 6
+    },
+    {
+      "path": "generator7.in",
+      "size": 685
+    },
+    {
+      "path": "generator7.out",
+      "size": 6
+    },
+    {
+      "path": "generator8.in",
+      "size": 3139
+    },
+    {
+      "path": "generator8.out",
+      "size": 6
+    },
+    {
+      "path": "generator9.in",
+      "size": 4963
+    },
+    {
+      "path": "generator9.out",
+      "size": 6
+    }
+  ]
+}

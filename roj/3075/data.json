@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "mag0.in",
+      "size": 88
+    },
+    {
+      "path": "mag0.out",
+      "size": 30
+    },
+    {
+      "path": "mag1.in",
+      "size": 111
+    },
+    {
+      "path": "mag1.out",
+      "size": 30
+    },
+    {
+      "path": "mag2.in",
+      "size": 95
+    },
+    {
+      "path": "mag2.out",
+      "size": 30
+    },
+    {
+      "path": "mag3.in",
+      "size": 134
+    },
+    {
+      "path": "mag3.out",
+      "size": 30
+    },
+    {
+      "path": "mag4.in",
+      "size": 95
+    },
+    {
+      "path": "mag4.out",
+      "size": 30
+    },
+    {
+      "path": "mag5.in",
+      "size": 155
+    },
+    {
+      "path": "mag5.out",
+      "size": 30
+    },
+    {
+      "path": "mag6.in",
+      "size": 192
+    },
+    {
+      "path": "mag6.out",
+      "size": 30
+    },
+    {
+      "path": "mag7.in",
+      "size": 104
+    },
+    {
+      "path": "mag7.out",
+      "size": 40
+    },
+    {
+      "path": "mag8.in",
+      "size": 238
+    },
+    {
+      "path": "mag8.out",
+      "size": 34
+    },
+    {
+      "path": "mag9.in",
+      "size": 252
+    },
+    {
+      "path": "mag9.out",
+      "size": 37
+    }
+  ]
+}

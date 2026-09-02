@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "milk0.in",
+      "size": 35
+    },
+    {
+      "path": "milk0.out",
+      "size": 3
+    },
+    {
+      "path": "milk1.in",
+      "size": 3
+    },
+    {
+      "path": "milk1.out",
+      "size": 1
+    },
+    {
+      "path": "milk2.in",
+      "size": 9
+    },
+    {
+      "path": "milk2.out",
+      "size": 2
+    },
+    {
+      "path": "milk3.in",
+      "size": 42
+    },
+    {
+      "path": "milk3.out",
+      "size": 1
+    },
+    {
+      "path": "milk4.in",
+      "size": 12905
+    },
+    {
+      "path": "milk4.out",
+      "size": 7
+    },
+    {
+      "path": "milk5.in",
+      "size": 70012
+    },
+    {
+      "path": "milk5.out",
+      "size": 1
+    },
+    {
+      "path": "milk6.in",
+      "size": 9765
+    },
+    {
+      "path": "milk6.out",
+      "size": 1
+    },
+    {
+      "path": "milk7.in",
+      "size": 48817
+    },
+    {
+      "path": "milk7.out",
+      "size": 1
+    }
+  ]
+}

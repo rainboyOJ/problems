@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "date1.in",
+      "size": 10
+    },
+    {
+      "path": "date1.out",
+      "size": 3
+    },
+    {
+      "path": "date2.in",
+      "size": 82
+    },
+    {
+      "path": "date2.out",
+      "size": 3
+    },
+    {
+      "path": "date3.in",
+      "size": 81
+    },
+    {
+      "path": "date3.out",
+      "size": 4
+    },
+    {
+      "path": "date4.in",
+      "size": 155
+    },
+    {
+      "path": "date4.out",
+      "size": 3
+    },
+    {
+      "path": "date5.in",
+      "size": 87664
+    },
+    {
+      "path": "date5.out",
+      "size": 3
+    },
+    {
+      "path": "sample.in",
+      "size": 22
+    },
+    {
+      "path": "sample.out",
+      "size": 3
+    }
+  ]
+}

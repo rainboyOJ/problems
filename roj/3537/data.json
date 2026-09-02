@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "tsuri0.in",
+      "size": 50
+    },
+    {
+      "path": "tsuri0.out",
+      "size": 1
+    },
+    {
+      "path": "tsuri1.in",
+      "size": 116
+    },
+    {
+      "path": "tsuri1.out",
+      "size": 4
+    },
+    {
+      "path": "tsuri2.in",
+      "size": 1085
+    },
+    {
+      "path": "tsuri2.out",
+      "size": 2
+    },
+    {
+      "path": "tsuri3.in",
+      "size": 1078
+    },
+    {
+      "path": "tsuri3.out",
+      "size": 2
+    },
+    {
+      "path": "tsuri4.in",
+      "size": 1078
+    },
+    {
+      "path": "tsuri4.out",
+      "size": 2
+    },
+    {
+      "path": "tsuri5.in",
+      "size": 1083
+    },
+    {
+      "path": "tsuri5.out",
+      "size": 2
+    },
+    {
+      "path": "tsuri6.in",
+      "size": 1082
+    },
+    {
+      "path": "tsuri6.out",
+      "size": 1
+    },
+    {
+      "path": "tsuri7.in",
+      "size": 1087
+    },
+    {
+      "path": "tsuri7.out",
+      "size": 3
+    },
+    {
+      "path": "tsuri8.in",
+      "size": 1084
+    },
+    {
+      "path": "tsuri8.out",
+      "size": 3
+    },
+    {
+      "path": "tsuri9.in",
+      "size": 1074
+    },
+    {
+      "path": "tsuri9.out",
+      "size": 2
+    }
+  ]
+}

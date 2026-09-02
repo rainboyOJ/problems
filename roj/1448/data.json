@@ -1,0 +1,432 @@
+{
+  "files": [
+    {
+      "path": "lamp-testdata.txt",
+      "size": 327
+    },
+    {
+      "path": "lamp.g01A.in",
+      "size": 23
+    },
+    {
+      "path": "lamp.g01A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g02A.in",
+      "size": 16
+    },
+    {
+      "path": "lamp.g02A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g02B.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g02B.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g02C.in",
+      "size": 22
+    },
+    {
+      "path": "lamp.g02C.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g02D.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g02D.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g02E.in",
+      "size": 8651
+    },
+    {
+      "path": "lamp.g02E.out",
+      "size": 12
+    },
+    {
+      "path": "lamp.g02F.in",
+      "size": 172628
+    },
+    {
+      "path": "lamp.g02F.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g02G.in",
+      "size": 233774
+    },
+    {
+      "path": "lamp.g02G.out",
+      "size": 4
+    },
+    {
+      "path": "lamp.g02H.in",
+      "size": 248510
+    },
+    {
+      "path": "lamp.g02H.out",
+      "size": 3
+    },
+    {
+      "path": "lamp.g03A.in",
+      "size": 16
+    },
+    {
+      "path": "lamp.g03A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g03B.in",
+      "size": 16
+    },
+    {
+      "path": "lamp.g03B.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g03C.in",
+      "size": 14
+    },
+    {
+      "path": "lamp.g03C.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g03D.in",
+      "size": 16
+    },
+    {
+      "path": "lamp.g03D.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g04A.in",
+      "size": 22
+    },
+    {
+      "path": "lamp.g04A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g04B.in",
+      "size": 22
+    },
+    {
+      "path": "lamp.g04B.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g04C.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g04C.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g04D.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g04D.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g05A.in",
+      "size": 22
+    },
+    {
+      "path": "lamp.g05A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g05B.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g05B.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g05C.in",
+      "size": 22
+    },
+    {
+      "path": "lamp.g05C.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g05D.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g05D.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g06A.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g06A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g06B.in",
+      "size": 22
+    },
+    {
+      "path": "lamp.g06B.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g06C.in",
+      "size": 28
+    },
+    {
+      "path": "lamp.g06C.out",
+      "size": 12
+    },
+    {
+      "path": "lamp.g06D.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g06D.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g07A.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g07A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g07B.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g07B.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g07C.in",
+      "size": 24
+    },
+    {
+      "path": "lamp.g07C.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g07D.in",
+      "size": 22
+    },
+    {
+      "path": "lamp.g07D.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g08A.in",
+      "size": 1646
+    },
+    {
+      "path": "lamp.g08A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g08B.in",
+      "size": 1296
+    },
+    {
+      "path": "lamp.g08B.out",
+      "size": 3
+    },
+    {
+      "path": "lamp.g08C.in",
+      "size": 1812
+    },
+    {
+      "path": "lamp.g08C.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g08D.in",
+      "size": 1246
+    },
+    {
+      "path": "lamp.g08D.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g09A.in",
+      "size": 8651
+    },
+    {
+      "path": "lamp.g09A.out",
+      "size": 12
+    },
+    {
+      "path": "lamp.g09B.in",
+      "size": 10101
+    },
+    {
+      "path": "lamp.g09B.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g09C.in",
+      "size": 10922
+    },
+    {
+      "path": "lamp.g09C.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g09D.in",
+      "size": 10105
+    },
+    {
+      "path": "lamp.g09D.out",
+      "size": 3
+    },
+    {
+      "path": "lamp.g10A.in",
+      "size": 122858
+    },
+    {
+      "path": "lamp.g10A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g10B.in",
+      "size": 125198
+    },
+    {
+      "path": "lamp.g10B.out",
+      "size": 3
+    },
+    {
+      "path": "lamp.g10C.in",
+      "size": 99536
+    },
+    {
+      "path": "lamp.g10C.out",
+      "size": 3
+    },
+    {
+      "path": "lamp.g10D.in",
+      "size": 126358
+    },
+    {
+      "path": "lamp.g10D.out",
+      "size": 4
+    },
+    {
+      "path": "lamp.g11A.in",
+      "size": 176828
+    },
+    {
+      "path": "lamp.g11A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g11B.in",
+      "size": 166874
+    },
+    {
+      "path": "lamp.g11B.out",
+      "size": 4
+    },
+    {
+      "path": "lamp.g11C.in",
+      "size": 176828
+    },
+    {
+      "path": "lamp.g11C.out",
+      "size": 3
+    },
+    {
+      "path": "lamp.g11D.in",
+      "size": 172628
+    },
+    {
+      "path": "lamp.g11D.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g12A.in",
+      "size": 235698
+    },
+    {
+      "path": "lamp.g12A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g12B.in",
+      "size": 233774
+    },
+    {
+      "path": "lamp.g12B.out",
+      "size": 4
+    },
+    {
+      "path": "lamp.g12C.in",
+      "size": 232808
+    },
+    {
+      "path": "lamp.g12C.out",
+      "size": 3
+    },
+    {
+      "path": "lamp.g12D.in",
+      "size": 235688
+    },
+    {
+      "path": "lamp.g12D.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g13A.in",
+      "size": 249506
+    },
+    {
+      "path": "lamp.g13A.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g13B.in",
+      "size": 247514
+    },
+    {
+      "path": "lamp.g13B.out",
+      "size": 2
+    },
+    {
+      "path": "lamp.g13C.in",
+      "size": 248510
+    },
+    {
+      "path": "lamp.g13C.out",
+      "size": 3
+    },
+    {
+      "path": "lamp.g13D.in",
+      "size": 250508
+    },
+    {
+      "path": "lamp.g13D.out",
+      "size": 4
+    }
+  ]
+}

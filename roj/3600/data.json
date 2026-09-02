@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "drive0.in",
+      "size": 69
+    },
+    {
+      "path": "drive0.out",
+      "size": 41
+    },
+    {
+      "path": "drive1.in",
+      "size": 133
+    },
+    {
+      "path": "drive1.out",
+      "size": 46
+    },
+    {
+      "path": "drive10.in",
+      "size": 104993
+    },
+    {
+      "path": "drive10.out",
+      "size": 123892
+    },
+    {
+      "path": "drive11.in",
+      "size": 143168
+    },
+    {
+      "path": "drive11.out",
+      "size": 175880
+    },
+    {
+      "path": "drive12.in",
+      "size": 103744
+    },
+    {
+      "path": "drive12.out",
+      "size": 122883
+    },
+    {
+      "path": "drive13.in",
+      "size": 145242
+    },
+    {
+      "path": "drive13.out",
+      "size": 175992
+    },
+    {
+      "path": "drive14.in",
+      "size": 729064
+    },
+    {
+      "path": "drive14.out",
+      "size": 266667
+    },
+    {
+      "path": "drive15.in",
+      "size": 806014
+    },
+    {
+      "path": "drive15.out",
+      "size": 355374
+    },
+    {
+      "path": "drive16.in",
+      "size": 2348584
+    },
+    {
+      "path": "drive16.out",
+      "size": 1776406
+    },
+    {
+      "path": "drive17.in",
+      "size": 1982655
+    },
+    {
+      "path": "drive17.out",
+      "size": 1252490
+    },
+    {
+      "path": "drive18.in",
+      "size": 2393971
+    },
+    {
+      "path": "drive18.out",
+      "size": 1596623
+    },
+    {
+      "path": "drive19.in",
+      "size": 2548833
+    },
+    {
+      "path": "drive19.out",
+      "size": 1774230
+    },
+    {
+      "path": "drive2.in",
+      "size": 447
+    },
+    {
+      "path": "drive2.out",
+      "size": 207
+    },
+    {
+      "path": "drive3.in",
+      "size": 344
+    },
+    {
+      "path": "drive3.out",
+      "size": 229
+    },
+    {
+      "path": "drive4.in",
+      "size": 319
+    },
+    {
+      "path": "drive4.out",
+      "size": 207
+    },
+    {
+      "path": "drive5.in",
+      "size": 434
+    },
+    {
+      "path": "drive5.out",
+      "size": 289
+    },
+    {
+      "path": "drive6.in",
+      "size": 2260
+    },
+    {
+      "path": "drive6.out",
+      "size": 1656
+    },
+    {
+      "path": "drive7.in",
+      "size": 1954
+    },
+    {
+      "path": "drive7.out",
+      "size": 1298
+    },
+    {
+      "path": "drive8.in",
+      "size": 13591
+    },
+    {
+      "path": "drive8.out",
+      "size": 16592
+    },
+    {
+      "path": "drive9.in",
+      "size": 12234
+    },
+    {
+      "path": "drive9.out",
+      "size": 14470
+    }
+  ]
+}

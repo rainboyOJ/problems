@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "happy0.in",
+      "size": 54
+    },
+    {
+      "path": "happy0.out",
+      "size": 4
+    },
+    {
+      "path": "happy1.in",
+      "size": 79
+    },
+    {
+      "path": "happy1.out",
+      "size": 5
+    },
+    {
+      "path": "happy2.in",
+      "size": 97
+    },
+    {
+      "path": "happy2.out",
+      "size": 5
+    },
+    {
+      "path": "happy3.in",
+      "size": 115
+    },
+    {
+      "path": "happy3.out",
+      "size": 5
+    },
+    {
+      "path": "happy4.in",
+      "size": 121
+    },
+    {
+      "path": "happy4.out",
+      "size": 5
+    },
+    {
+      "path": "happy5.in",
+      "size": 127
+    },
+    {
+      "path": "happy5.out",
+      "size": 5
+    },
+    {
+      "path": "happy6.in",
+      "size": 141
+    },
+    {
+      "path": "happy6.out",
+      "size": 5
+    },
+    {
+      "path": "happy7.in",
+      "size": 162
+    },
+    {
+      "path": "happy7.out",
+      "size": 5
+    },
+    {
+      "path": "happy8.in",
+      "size": 170
+    },
+    {
+      "path": "happy8.out",
+      "size": 6
+    },
+    {
+      "path": "happy9.in",
+      "size": 36
+    },
+    {
+      "path": "happy9.out",
+      "size": 4
+    }
+  ]
+}

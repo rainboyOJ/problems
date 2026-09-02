@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "B.1.in",
+      "size": 27
+    },
+    {
+      "path": "B.1.out",
+      "size": 23
+    },
+    {
+      "path": "B.10.in",
+      "size": 286682
+    },
+    {
+      "path": "B.10.out",
+      "size": 23
+    },
+    {
+      "path": "B.11.in",
+      "size": 1466830
+    },
+    {
+      "path": "B.11.out",
+      "size": 29
+    },
+    {
+      "path": "B.12.in",
+      "size": 1466480
+    },
+    {
+      "path": "B.12.out",
+      "size": 23
+    },
+    {
+      "path": "B.13.in",
+      "size": 2440040
+    },
+    {
+      "path": "B.13.out",
+      "size": 29
+    },
+    {
+      "path": "B.14.in",
+      "size": 2440310
+    },
+    {
+      "path": "B.14.out",
+      "size": 23
+    },
+    {
+      "path": "B.15.in",
+      "size": 3306521
+    },
+    {
+      "path": "B.15.out",
+      "size": 29
+    },
+    {
+      "path": "B.16.in",
+      "size": 3306697
+    },
+    {
+      "path": "B.16.out",
+      "size": 23
+    },
+    {
+      "path": "B.17.in",
+      "size": 4133007
+    },
+    {
+      "path": "B.17.out",
+      "size": 29
+    },
+    {
+      "path": "B.18.in",
+      "size": 4133998
+    },
+    {
+      "path": "B.18.out",
+      "size": 23
+    },
+    {
+      "path": "B.19.in",
+      "size": 4733374
+    },
+    {
+      "path": "B.19.out",
+      "size": 29
+    },
+    {
+      "path": "B.2.in",
+      "size": 27
+    },
+    {
+      "path": "B.2.out",
+      "size": 23
+    },
+    {
+      "path": "B.20.in",
+      "size": 4733522
+    },
+    {
+      "path": "B.20.out",
+      "size": 23
+    },
+    {
+      "path": "B.3.in",
+      "size": 27
+    },
+    {
+      "path": "B.3.out",
+      "size": 29
+    },
+    {
+      "path": "B.4.in",
+      "size": 123
+    },
+    {
+      "path": "B.4.out",
+      "size": 23
+    },
+    {
+      "path": "B.5.in",
+      "size": 1737
+    },
+    {
+      "path": "B.5.out",
+      "size": 29
+    },
+    {
+      "path": "B.6.in",
+      "size": 1742
+    },
+    {
+      "path": "B.6.out",
+      "size": 23
+    },
+    {
+      "path": "B.7.in",
+      "size": 23302
+    },
+    {
+      "path": "B.7.out",
+      "size": 29
+    },
+    {
+      "path": "B.8.in",
+      "size": 23319
+    },
+    {
+      "path": "B.8.out",
+      "size": 23
+    },
+    {
+      "path": "B.9.in",
+      "size": 286860
+    },
+    {
+      "path": "B.9.out",
+      "size": 29
+    }
+  ]
+}

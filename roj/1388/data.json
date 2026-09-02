@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "GEN0.IN",
+      "size": 104
+    },
+    {
+      "path": "GEN0.OUT",
+      "size": 60
+    },
+    {
+      "path": "GEN1.IN",
+      "size": 127
+    },
+    {
+      "path": "GEN1.OUT",
+      "size": 30
+    },
+    {
+      "path": "GEN2.IN",
+      "size": 226
+    },
+    {
+      "path": "GEN2.OUT",
+      "size": 30
+    },
+    {
+      "path": "GEN3.IN",
+      "size": 253
+    },
+    {
+      "path": "GEN3.OUT",
+      "size": 30
+    },
+    {
+      "path": "GEN4.IN",
+      "size": 109
+    },
+    {
+      "path": "GEN4.OUT",
+      "size": 30
+    },
+    {
+      "path": "GEN5.IN",
+      "size": 190
+    },
+    {
+      "path": "GEN5.OUT",
+      "size": 45
+    },
+    {
+      "path": "GEN6.IN",
+      "size": 532
+    },
+    {
+      "path": "GEN6.OUT",
+      "size": 45
+    },
+    {
+      "path": "GEN7.IN",
+      "size": 739
+    },
+    {
+      "path": "GEN7.OUT",
+      "size": 75
+    },
+    {
+      "path": "GEN8.IN",
+      "size": 180039
+    },
+    {
+      "path": "GEN8.OUT",
+      "size": 30
+    },
+    {
+      "path": "GEN9.IN",
+      "size": 180012
+    },
+    {
+      "path": "GEN9.OUT",
+      "size": 15
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "transfer0.in",
+      "size": 3
+    },
+    {
+      "path": "transfer0.out",
+      "size": 3
+    },
+    {
+      "path": "transfer1.in",
+      "size": 4
+    },
+    {
+      "path": "transfer1.out",
+      "size": 3
+    },
+    {
+      "path": "transfer2.in",
+      "size": 4
+    },
+    {
+      "path": "transfer2.out",
+      "size": 4
+    },
+    {
+      "path": "transfer3.in",
+      "size": 5
+    },
+    {
+      "path": "transfer3.out",
+      "size": 4
+    },
+    {
+      "path": "transfer4.in",
+      "size": 5
+    },
+    {
+      "path": "transfer4.out",
+      "size": 4
+    },
+    {
+      "path": "transfer5.in",
+      "size": 6
+    },
+    {
+      "path": "transfer5.out",
+      "size": 4
+    },
+    {
+      "path": "transfer6.in",
+      "size": 6
+    },
+    {
+      "path": "transfer6.out",
+      "size": 4
+    },
+    {
+      "path": "transfer7.in",
+      "size": 7
+    },
+    {
+      "path": "transfer7.out",
+      "size": 4
+    },
+    {
+      "path": "transfer8.in",
+      "size": 7
+    },
+    {
+      "path": "transfer8.out",
+      "size": 4
+    },
+    {
+      "path": "transfer9.in",
+      "size": 7
+    },
+    {
+      "path": "transfer9.out",
+      "size": 4
+    }
+  ]
+}

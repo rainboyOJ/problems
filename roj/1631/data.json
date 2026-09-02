@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "frog0.in",
+      "size": 10
+    },
+    {
+      "path": "frog0.out",
+      "size": 2
+    },
+    {
+      "path": "frog1.in",
+      "size": 10
+    },
+    {
+      "path": "frog1.out",
+      "size": 2
+    },
+    {
+      "path": "frog2.in",
+      "size": 17
+    },
+    {
+      "path": "frog2.out",
+      "size": 3
+    },
+    {
+      "path": "frog3.in",
+      "size": 18
+    },
+    {
+      "path": "frog3.out",
+      "size": 11
+    },
+    {
+      "path": "frog4.in",
+      "size": 34
+    },
+    {
+      "path": "frog4.out",
+      "size": 11
+    },
+    {
+      "path": "frog5.in",
+      "size": 27
+    },
+    {
+      "path": "frog5.out",
+      "size": 7
+    },
+    {
+      "path": "frog6.in",
+      "size": 30
+    },
+    {
+      "path": "frog6.out",
+      "size": 10
+    },
+    {
+      "path": "frog7.in",
+      "size": 46
+    },
+    {
+      "path": "frog7.out",
+      "size": 3
+    },
+    {
+      "path": "frog8.in",
+      "size": 51
+    },
+    {
+      "path": "frog8.out",
+      "size": 11
+    },
+    {
+      "path": "frog9.in",
+      "size": 51
+    },
+    {
+      "path": "frog9.out",
+      "size": 11
+    }
+  ]
+}

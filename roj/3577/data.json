@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "waterj0.in",
+      "size": 19
+    },
+    {
+      "path": "waterj0.out",
+      "size": 2
+    },
+    {
+      "path": "waterj1.in",
+      "size": 34
+    },
+    {
+      "path": "waterj1.out",
+      "size": 3
+    },
+    {
+      "path": "waterj2.in",
+      "size": 152
+    },
+    {
+      "path": "waterj2.out",
+      "size": 3
+    },
+    {
+      "path": "waterj3.in",
+      "size": 304
+    },
+    {
+      "path": "waterj3.out",
+      "size": 3
+    },
+    {
+      "path": "waterj4.in",
+      "size": 1468
+    },
+    {
+      "path": "waterj4.out",
+      "size": 3
+    },
+    {
+      "path": "waterj5.in",
+      "size": 2920
+    },
+    {
+      "path": "waterj5.out",
+      "size": 3
+    },
+    {
+      "path": "waterj6.in",
+      "size": 5851
+    },
+    {
+      "path": "waterj6.out",
+      "size": 4
+    },
+    {
+      "path": "waterj7.in",
+      "size": 14619
+    },
+    {
+      "path": "waterj7.out",
+      "size": 4
+    },
+    {
+      "path": "waterj8.in",
+      "size": 29221
+    },
+    {
+      "path": "waterj8.out",
+      "size": 6
+    },
+    {
+      "path": "waterj9.in",
+      "size": 29181
+    },
+    {
+      "path": "waterj9.out",
+      "size": 4
+    }
+  ]
+}

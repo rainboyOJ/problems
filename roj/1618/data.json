@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "prison1.in",
+      "size": 6
+    },
+    {
+      "path": "prison1.out",
+      "size": 6
+    },
+    {
+      "path": "prison10.in",
+      "size": 21
+    },
+    {
+      "path": "prison10.out",
+      "size": 5
+    },
+    {
+      "path": "prison2.in",
+      "size": 9
+    },
+    {
+      "path": "prison2.out",
+      "size": 7
+    },
+    {
+      "path": "prison3.in",
+      "size": 9
+    },
+    {
+      "path": "prison3.out",
+      "size": 7
+    },
+    {
+      "path": "prison4.in",
+      "size": 15
+    },
+    {
+      "path": "prison4.out",
+      "size": 6
+    },
+    {
+      "path": "prison5.in",
+      "size": 17
+    },
+    {
+      "path": "prison5.out",
+      "size": 7
+    },
+    {
+      "path": "prison6.in",
+      "size": 20
+    },
+    {
+      "path": "prison6.out",
+      "size": 7
+    },
+    {
+      "path": "prison7.in",
+      "size": 21
+    },
+    {
+      "path": "prison7.out",
+      "size": 7
+    },
+    {
+      "path": "prison8.in",
+      "size": 23
+    },
+    {
+      "path": "prison8.out",
+      "size": 6
+    },
+    {
+      "path": "prison9.in",
+      "size": 22
+    },
+    {
+      "path": "prison9.out",
+      "size": 7
+    }
+  ]
+}

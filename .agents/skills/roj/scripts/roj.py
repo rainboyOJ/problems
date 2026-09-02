@@ -19,7 +19,7 @@ import time
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote, urljoin
+from urllib.parse import quote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -110,6 +110,20 @@ class RojClient:
         files = result.get("files")
         if not isinstance(files, list):
             raise RojError("ROJ 返回的数据清单无效。")
+        sources = result.get("sources")
+        if not isinstance(sources, list) or not sources:
+            raise RojError("ROJ 返回的下载源清单无效。")
+        normalized_sources = []
+        for source in sources:
+            if not isinstance(source, dict) or not isinstance(source.get("id"), str) or not isinstance(source.get("baseUrl"), str):
+                raise RojError("ROJ 返回了无效的下载源。")
+            parsed = urlparse(source["baseUrl"])
+            if parsed.scheme not in ("http", "https") or not parsed.netloc:
+                raise RojError("ROJ 返回了不安全的下载源。")
+            normalized_sources.append({
+                **source,
+                "baseUrl": source["baseUrl"].rstrip("/") + "/",
+            })
         normalized = []
         for item in files:
             if not isinstance(item, dict) or not isinstance(item.get("path"), str):
@@ -118,7 +132,7 @@ class RojClient:
                 **item,
                 "path": safe_relative_path(item["path"]),
             })
-        return {**result, "files": normalized}
+        return {**result, "sources": normalized_sources, "files": normalized}
 
     def markdown(self, identifier: str) -> str | None:
         try:
@@ -155,39 +169,47 @@ def local_destination(root: Path, relative: str) -> Path:
     return destination
 
 
-def download_to(client: RojClient, url: str, destination: Path, force: bool = False) -> int:
+def download_to(client: RojClient, urls: list[str], destination: Path, force: bool = False) -> int:
     if destination.exists() and not force:
         raise RojError(f"文件已存在，未覆盖：{destination}（如需覆盖请使用 --force）")
-    temporary = None
-    total = 0
-    try:
-        destination.parent.mkdir(parents=True, exist_ok=True)
-        with urlopen(Request(url, headers={"Accept": "application/octet-stream", "User-Agent": "roj-cli/1.0"}), timeout=client.timeout) as response:
-            with tempfile.NamedTemporaryFile(prefix=".roj-download-", dir=destination.parent, delete=False) as output:
-                temporary = Path(output.name)
-                while True:
-                    chunk = response.read(CHUNK_SIZE)
-                    if not chunk:
-                        break
-                    output.write(chunk)
-                    total += len(chunk)
-        os.replace(temporary, destination)
+    if not urls:
+        raise RojError("没有可用的下载源。")
+    errors = []
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    for url in urls:
         temporary = None
-        return total
-    except HTTPError as error:
-        raise RojError(f"下载失败：HTTP {error.code}") from error
-    except URLError as error:
-        raise RojError(f"下载失败：{error.reason}") from error
-    except OSError as error:
-        raise RojError(f"无法写入下载文件：{destination}（{error.strerror or error}）") from error
-    finally:
-        if temporary:
-            temporary.unlink(missing_ok=True)
+        total = 0
+        try:
+            with urlopen(Request(url, headers={"Accept": "application/octet-stream", "User-Agent": "roj-cli/1.0"}), timeout=client.timeout) as response:
+                with tempfile.NamedTemporaryFile(prefix=".roj-download-", dir=destination.parent, delete=False) as output:
+                    temporary = Path(output.name)
+                    while True:
+                        chunk = response.read(CHUNK_SIZE)
+                        if not chunk:
+                            break
+                        output.write(chunk)
+                        total += len(chunk)
+            os.replace(temporary, destination)
+            temporary = None
+            return total
+        except HTTPError as error:
+            errors.append(f"HTTP {error.code}")
+        except URLError as error:
+            errors.append(str(error.reason))
+        except TimeoutError:
+            errors.append("请求超时")
+        except OSError as error:
+            raise RojError(f"无法写入下载文件：{destination}（{error.strerror or error}）") from error
+        finally:
+            if temporary:
+                temporary.unlink(missing_ok=True)
+    detail = "；".join(errors) if errors else "未知错误"
+    raise RojError(f"下载失败，已尝试 {len(urls)} 个源：{detail}")
 
 
-def file_url(client: RojClient, identifier: str, relative: str) -> str:
+def file_urls(manifest: dict[str, Any], relative: str) -> list[str]:
     encoded = "/".join(quote(part, safe="") for part in safe_relative_path(relative).split("/"))
-    return client.make_url(f"/problem/{quote(identifier, safe='')}/data/{encoded}")
+    return [f"{source['baseUrl']}{encoded}" for source in manifest.get("sources", [])]
 
 
 def download_manifest(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
@@ -199,7 +221,7 @@ def download_manifest(client: RojClient, identifier: str, manifest: dict[str, An
         if target.exists() and skip_existing and not force:
             skipped.append(target)
             continue
-        size = download_to(client, file_url(client, identifier, item["path"]), target, force=force)
+        size = download_to(client, file_urls(manifest, item["path"]), target, force=force)
         downloaded.append({"path": item["path"], "size": size})
     return downloaded, skipped
 
@@ -280,18 +302,6 @@ def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
     destination = Path(args.output or DEFAULT_DOWNLOAD_ROOT / args.identifier)
     if not manifest.get("files"):
         raise RojError("这道题没有公开数据。")
-
-    if args.zip:
-        target = destination / f"roj-{args.identifier}-data.zip"
-        zip_path = manifest.get("zipUrl") or f"/problem/{args.identifier}/data.zip"
-        size = download_to(client, client.make_url(zip_path), target, force=args.force)
-        payload = {"problemId": args.identifier, "kind": "zip", "path": str(target), "size": size}
-        if json_requested(args):
-            print(json.dumps(payload, ensure_ascii=False, indent=2))
-        else:
-            print_manifest_summary(manifest)
-            print(f"已下载 ZIP：{target}（{format_bytes(size)}）")
-        return 0
 
     files = [manifest_file(manifest, args.file)] if args.file else manifest.get("files", [])
     selected_manifest = {**manifest, "files": files}
@@ -476,9 +486,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     download_parser = commands.add_parser("download", help="下载公开数据")
     download_parser.add_argument("identifier", type=problem_id)
-    group = download_parser.add_mutually_exclusive_group()
-    group.add_argument("--file", help="只下载指定文件或唯一匹配的文件名")
-    group.add_argument("--zip", action="store_true", help="下载服务器按请求生成的 ZIP")
+    download_parser.add_argument("--file", help="只下载指定文件或唯一匹配的文件名")
     download_parser.add_argument("--output", help="目标目录，默认 ./roj-data/<id>/")
     download_parser.add_argument("--force", action="store_true", help="允许覆盖已有文件")
     download_parser.add_argument("--json", dest="command_json", action="store_true", help="使用 JSON 输出")

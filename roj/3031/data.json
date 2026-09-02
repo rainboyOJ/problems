@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "p1.in",
+      "size": 2
+    },
+    {
+      "path": "p1.out",
+      "size": 121
+    },
+    {
+      "path": "p2.in",
+      "size": 1
+    },
+    {
+      "path": "p2.out",
+      "size": 180
+    },
+    {
+      "path": "p3.in",
+      "size": 2
+    },
+    {
+      "path": "p3.out",
+      "size": 240
+    },
+    {
+      "path": "p4.in",
+      "size": 2
+    },
+    {
+      "path": "p4.out",
+      "size": 279
+    },
+    {
+      "path": "p5.in",
+      "size": 2
+    },
+    {
+      "path": "p5.out",
+      "size": 320
+    }
+  ]
+}

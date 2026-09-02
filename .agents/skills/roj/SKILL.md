@@ -10,17 +10,17 @@ Use `scripts/roj.py` to interact with the read-only ROJ site. The website serves
 problem metadata, Markdown/PDF statements, and public test data. It does not accept
 accounts, source-code submissions, or remote judging requests.
 
-Run the script from any directory with Python 3:
+Run the globally installed script from any directory with Python 3:
 
 ```sh
-python3 .agents/skills/roj/scripts/roj.py --help
+python3 ~/.agents/skills/roj/scripts/roj.py --help
 ```
 
 Set `ROJ_URL` or pass `--base-url` when using a local or staging server:
 
 ```sh
-ROJ_URL=https://roj.ac.cn python3 .agents/skills/roj/scripts/roj.py list
-python3 .agents/skills/roj/scripts/roj.py --base-url http://127.0.0.1:3033 list
+ROJ_URL=https://roj.ac.cn python3 ~/.agents/skills/roj/scripts/roj.py list
+python3 ~/.agents/skills/roj/scripts/roj.py --base-url http://127.0.0.1:3033 list
 ```
 
 ## Commands
@@ -31,10 +31,10 @@ python3 .agents/skills/roj/scripts/roj.py --base-url http://127.0.0.1:3033 list
 use `--page N` when only one page is needed.
 
 ```sh
-python3 .agents/skills/roj/scripts/roj.py list
-python3 .agents/skills/roj/scripts/roj.py list "最短路"
-python3 .agents/skills/roj/scripts/roj.py list --page 2
-python3 .agents/skills/roj/scripts/roj.py --json list "二分"
+python3 ~/.agents/skills/roj/scripts/roj.py list
+python3 ~/.agents/skills/roj/scripts/roj.py list "最短路"
+python3 ~/.agents/skills/roj/scripts/roj.py list --page 2
+python3 ~/.agents/skills/roj/scripts/roj.py --json list "二分"
 ```
 
 Use `--json` for tool or AI consumption. JSON output is also available after a
@@ -46,28 +46,27 @@ subcommand, for example `list --json`.
 print the browser URL instead; the CLI does not attempt to convert PDFs to text.
 
 ```sh
-python3 .agents/skills/roj/scripts/roj.py get 1000
-python3 .agents/skills/roj/scripts/roj.py get 10000 --no-markdown
-python3 .agents/skills/roj/scripts/roj.py --json get 1000
+python3 ~/.agents/skills/roj/scripts/roj.py get 1000
+python3 ~/.agents/skills/roj/scripts/roj.py get 10000 --no-markdown
+python3 ~/.agents/skills/roj/scripts/roj.py --json get 1000
 ```
 
 ### Download public data
 
-The default destination is `./roj-data/<id>/`. The command reads the server manifest
-first, then downloads only files listed by ROJ. Existing files are never overwritten
+The default destination is `./roj-data/<id>/`. The command reads the ROJ manifest
+first, then downloads only files listed by it from the configured GitHub mirror. If a
+mirror fails, it tries GitHub Raw directly. Existing files are never overwritten
 unless `--force` is supplied. `--output` names a destination directory.
 
 ```sh
-python3 .agents/skills/roj/scripts/roj.py download 1000
-python3 .agents/skills/roj/scripts/roj.py download 1000 --file problem1.in
-python3 .agents/skills/roj/scripts/roj.py download 1000 --zip
-python3 .agents/skills/roj/scripts/roj.py download 1000 --output ./data/1000 --force
+python3 ~/.agents/skills/roj/scripts/roj.py download 1000
+python3 ~/.agents/skills/roj/scripts/roj.py download 1000 --file problem1.in
+python3 ~/.agents/skills/roj/scripts/roj.py download 1000 --output ./data/1000 --force
 ```
 
-`--file` accepts a manifest-relative path or a unique basename. `--zip` downloads
-the ZIP generated on demand by the VPS and saves `roj-<id>-data.zip` under the
-destination directory. The raw GitHub mirror configuration is a server detail; the
-CLI always uses the ROJ API and download routes.
+`--file` accepts a manifest-relative path or a unique basename. Batch download is
+the normal mode; there is no server-side ZIP operation. The ROJ API supplies the
+manifest and configured source order, while file bytes come directly from GitHub.
 
 ### Test C++ locally
 
@@ -87,10 +86,10 @@ If no data exists, add `--download` to explicitly fetch it into
 `./roj-data/<id>/`. This is the only `test` mode that uses the network.
 
 ```sh
-python3 .agents/skills/roj/scripts/roj.py test 1000 main.cpp
-python3 .agents/skills/roj/scripts/roj.py test 1000 main.cpp --data-dir ./tests/1000
-python3 .agents/skills/roj/scripts/roj.py test 1000 main.cpp --download
-python3 .agents/skills/roj/scripts/roj.py --json test 1000 main.cpp
+python3 ~/.agents/skills/roj/scripts/roj.py test 1000 main.cpp
+python3 ~/.agents/skills/roj/scripts/roj.py test 1000 main.cpp --data-dir ./tests/1000
+python3 ~/.agents/skills/roj/scripts/roj.py test 1000 main.cpp --download
+python3 ~/.agents/skills/roj/scripts/roj.py --json test 1000 main.cpp
 ```
 
 The command returns exit status 0 only when compilation succeeds and every data
@@ -102,8 +101,9 @@ compiler details, per-case status, elapsed time, and any diagnostics.
 
 - Treat IDs and paths as untrusted input. Never construct a shell command from a
   problem title or a manifest filename.
-- Download only public files returned by `/api/problem/<id>/data`; do not expose or
-  copy `std.cpp`, solution files, generators, checkers, or legacy `down/` files.
+- Download only public files returned by `/api/problem/<id>/data`; the file bytes
+  come from its configured GitHub sources. Do not expose or copy `std.cpp`, solution
+  files, generators, checkers, or legacy `down/` files.
 - Do not claim that a local `AC` is an official submission result. It only means the
   program matched the public data with this client's comparison rule.
 - Keep downloaded data in a user-selected working directory and inspect it before
@@ -118,9 +118,12 @@ GET /api/problems?q=<query>&page=<number>
 GET /api/problem/<id>
 GET /api/problem/<id>/markdown
 GET /api/problem/<id>/data
-GET /problem/<id>/data/<path>
-GET /problem/<id>/data.zip
 ```
+
+`/api/problem/<id>/data` returns `sources` and a `files` array. Each source contains
+an `id`, a display `label`, and a problem-specific `baseUrl`; append the encoded
+manifest-relative `path` to that base URL to download the file. The normal source
+order is the configured GitHub mirror(s), followed by GitHub Raw direct.
 
 The problem metadata response contains `id`, `title`, `time`, `memory`, `tags`,
 `source`, `statementKind`, `hasMarkdown`, `hasPdf`, and `hasPublicData`. A missing

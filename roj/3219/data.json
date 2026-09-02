@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "data1.in",
+      "size": 28119
+    },
+    {
+      "path": "data1.out",
+      "size": 134
+    },
+    {
+      "path": "data2.in",
+      "size": 28119
+    },
+    {
+      "path": "data2.out",
+      "size": 134
+    }
+  ]
+}

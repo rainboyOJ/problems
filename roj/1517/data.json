@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "net1.in",
+      "size": 106
+    },
+    {
+      "path": "net1.out",
+      "size": 10
+    },
+    {
+      "path": "net10.in",
+      "size": 113693
+    },
+    {
+      "path": "net10.out",
+      "size": 9
+    },
+    {
+      "path": "net11.in",
+      "size": 114943
+    },
+    {
+      "path": "net11.out",
+      "size": 14
+    },
+    {
+      "path": "net12.in",
+      "size": 19
+    },
+    {
+      "path": "net12.out",
+      "size": 5
+    },
+    {
+      "path": "net2.in",
+      "size": 134
+    },
+    {
+      "path": "net2.out",
+      "size": 7
+    },
+    {
+      "path": "net3.in",
+      "size": 851
+    },
+    {
+      "path": "net3.out",
+      "size": 8
+    },
+    {
+      "path": "net4.in",
+      "size": 995
+    },
+    {
+      "path": "net4.out",
+      "size": 10
+    },
+    {
+      "path": "net5.in",
+      "size": 21994
+    },
+    {
+      "path": "net5.out",
+      "size": 8
+    },
+    {
+      "path": "net6.in",
+      "size": 34124
+    },
+    {
+      "path": "net6.out",
+      "size": 9
+    },
+    {
+      "path": "net7.in",
+      "size": 84173
+    },
+    {
+      "path": "net7.out",
+      "size": 14
+    },
+    {
+      "path": "net8.in",
+      "size": 93282
+    },
+    {
+      "path": "net8.out",
+      "size": 9
+    },
+    {
+      "path": "net9.in",
+      "size": 104648
+    },
+    {
+      "path": "net9.out",
+      "size": 14
+    }
+  ]
+}

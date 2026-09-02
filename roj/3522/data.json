@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "numgame0.in",
+      "size": 16
+    },
+    {
+      "path": "numgame0.out",
+      "size": 5
+    },
+    {
+      "path": "numgame1.in",
+      "size": 76
+    },
+    {
+      "path": "numgame1.out",
+      "size": 6
+    },
+    {
+      "path": "numgame2.in",
+      "size": 225
+    },
+    {
+      "path": "numgame2.out",
+      "size": 8
+    },
+    {
+      "path": "numgame3.in",
+      "size": 373
+    },
+    {
+      "path": "numgame3.out",
+      "size": 12
+    },
+    {
+      "path": "numgame4.in",
+      "size": 370
+    },
+    {
+      "path": "numgame4.out",
+      "size": 4
+    }
+  ]
+}

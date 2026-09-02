@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "CITY1.IN",
+      "size": 248
+    },
+    {
+      "path": "CITY1.OUT",
+      "size": 6
+    },
+    {
+      "path": "CITY10.IN",
+      "size": 105149
+    },
+    {
+      "path": "CITY10.OUT",
+      "size": 9
+    },
+    {
+      "path": "CITY2.IN",
+      "size": 1080
+    },
+    {
+      "path": "CITY2.OUT",
+      "size": 7
+    },
+    {
+      "path": "CITY3.IN",
+      "size": 1922
+    },
+    {
+      "path": "CITY3.OUT",
+      "size": 7
+    },
+    {
+      "path": "CITY4.IN",
+      "size": 2297
+    },
+    {
+      "path": "CITY4.OUT",
+      "size": 8
+    },
+    {
+      "path": "CITY5.IN",
+      "size": 31410
+    },
+    {
+      "path": "CITY5.OUT",
+      "size": 7
+    },
+    {
+      "path": "CITY6.IN",
+      "size": 41183
+    },
+    {
+      "path": "CITY6.OUT",
+      "size": 8
+    },
+    {
+      "path": "CITY7.IN",
+      "size": 48100
+    },
+    {
+      "path": "CITY7.OUT",
+      "size": 9
+    },
+    {
+      "path": "CITY8.IN",
+      "size": 67586
+    },
+    {
+      "path": "CITY8.OUT",
+      "size": 9
+    },
+    {
+      "path": "CITY9.IN",
+      "size": 104482
+    },
+    {
+      "path": "CITY9.OUT",
+      "size": 9
+    }
+  ]
+}

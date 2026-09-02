@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "turnover0.in",
+      "size": 239927
+    },
+    {
+      "path": "turnover0.out",
+      "size": 9
+    },
+    {
+      "path": "turnover1.in",
+      "size": 43
+    },
+    {
+      "path": "turnover1.out",
+      "size": 5
+    },
+    {
+      "path": "turnover2.in",
+      "size": 4719
+    },
+    {
+      "path": "turnover2.out",
+      "size": 7
+    },
+    {
+      "path": "turnover3.in",
+      "size": 78914
+    },
+    {
+      "path": "turnover3.out",
+      "size": 9
+    },
+    {
+      "path": "turnover4.in",
+      "size": 258360
+    },
+    {
+      "path": "turnover4.out",
+      "size": 9
+    },
+    {
+      "path": "turnover5.in",
+      "size": 251045
+    },
+    {
+      "path": "turnover5.out",
+      "size": 8
+    },
+    {
+      "path": "turnover6.in",
+      "size": 225712
+    },
+    {
+      "path": "turnover6.out",
+      "size": 9
+    },
+    {
+      "path": "turnover7.in",
+      "size": 225712
+    },
+    {
+      "path": "turnover7.out",
+      "size": 9
+    },
+    {
+      "path": "turnover8.in",
+      "size": 229610
+    },
+    {
+      "path": "turnover8.out",
+      "size": 9
+    },
+    {
+      "path": "turnover9.in",
+      "size": 262138
+    },
+    {
+      "path": "turnover9.out",
+      "size": 8
+    }
+  ]
+}

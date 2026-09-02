@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "route1.ans",
+      "size": 21
+    },
+    {
+      "path": "route1.in",
+      "size": 247
+    },
+    {
+      "path": "route2.ans",
+      "size": 131
+    },
+    {
+      "path": "route2.in",
+      "size": 79466
+    },
+    {
+      "path": "route3.ans",
+      "size": 199
+    },
+    {
+      "path": "route3.in",
+      "size": 554032
+    },
+    {
+      "path": "route4.ans",
+      "size": 131
+    },
+    {
+      "path": "route4.in",
+      "size": 939906
+    },
+    {
+      "path": "route5.ans",
+      "size": 80
+    },
+    {
+      "path": "route5.in",
+      "size": 1270355
+    },
+    {
+      "path": "route6.ans",
+      "size": 43
+    },
+    {
+      "path": "route6.in",
+      "size": 887306
+    },
+    {
+      "path": "route7.ans",
+      "size": 65
+    },
+    {
+      "path": "route7.in",
+      "size": 1556569
+    },
+    {
+      "path": "route8.ans",
+      "size": 40
+    },
+    {
+      "path": "route8.in",
+      "size": 1648711
+    },
+    {
+      "path": "route9.ans",
+      "size": 30
+    },
+    {
+      "path": "route9.in",
+      "size": 1581447
+    }
+  ]
+}

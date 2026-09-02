@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "jobus0.in",
+      "size": 17
+    },
+    {
+      "path": "jobus0.out",
+      "size": 3
+    },
+    {
+      "path": "jobus1.in",
+      "size": 15
+    },
+    {
+      "path": "jobus1.out",
+      "size": 4
+    },
+    {
+      "path": "jobus10.in",
+      "size": 17
+    },
+    {
+      "path": "jobus10.out",
+      "size": 10
+    },
+    {
+      "path": "jobus11.in",
+      "size": 161
+    },
+    {
+      "path": "jobus11.out",
+      "size": 7
+    },
+    {
+      "path": "jobus2.in",
+      "size": 14
+    },
+    {
+      "path": "jobus2.out",
+      "size": 5
+    },
+    {
+      "path": "jobus3.in",
+      "size": 16
+    },
+    {
+      "path": "jobus3.out",
+      "size": 6
+    },
+    {
+      "path": "jobus4.in",
+      "size": 22
+    },
+    {
+      "path": "jobus4.out",
+      "size": 7
+    },
+    {
+      "path": "jobus5.in",
+      "size": 22
+    },
+    {
+      "path": "jobus5.out",
+      "size": 5
+    },
+    {
+      "path": "jobus6.in",
+      "size": 17
+    },
+    {
+      "path": "jobus6.out",
+      "size": 7
+    },
+    {
+      "path": "jobus7.in",
+      "size": 31
+    },
+    {
+      "path": "jobus7.out",
+      "size": 6
+    },
+    {
+      "path": "jobus8.in",
+      "size": 57
+    },
+    {
+      "path": "jobus8.out",
+      "size": 5
+    },
+    {
+      "path": "jobus9.in",
+      "size": 20
+    },
+    {
+      "path": "jobus9.out",
+      "size": 8
+    }
+  ]
+}

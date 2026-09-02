@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "telecow0.in",
+      "size": 17
+    },
+    {
+      "path": "telecow0.out",
+      "size": 4
+    },
+    {
+      "path": "telecow1.in",
+      "size": 163
+    },
+    {
+      "path": "telecow1.out",
+      "size": 8
+    },
+    {
+      "path": "telecow10.in",
+      "size": 4127
+    },
+    {
+      "path": "telecow10.out",
+      "size": 36
+    },
+    {
+      "path": "telecow2.in",
+      "size": 71
+    },
+    {
+      "path": "telecow2.out",
+      "size": 10
+    },
+    {
+      "path": "telecow3.in",
+      "size": 501
+    },
+    {
+      "path": "telecow3.out",
+      "size": 15
+    },
+    {
+      "path": "telecow4.in",
+      "size": 68
+    },
+    {
+      "path": "telecow4.out",
+      "size": 4
+    },
+    {
+      "path": "telecow5.in",
+      "size": 748
+    },
+    {
+      "path": "telecow5.out",
+      "size": 25
+    },
+    {
+      "path": "telecow6.in",
+      "size": 481
+    },
+    {
+      "path": "telecow6.out",
+      "size": 11
+    },
+    {
+      "path": "telecow7.in",
+      "size": 1119
+    },
+    {
+      "path": "telecow7.out",
+      "size": 26
+    },
+    {
+      "path": "telecow8.in",
+      "size": 2233
+    },
+    {
+      "path": "telecow8.out",
+      "size": 37
+    },
+    {
+      "path": "telecow9.in",
+      "size": 4056
+    },
+    {
+      "path": "telecow9.out",
+      "size": 42
+    }
+  ]
+}

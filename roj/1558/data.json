@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "meet0.in",
+      "size": 127
+    },
+    {
+      "path": "meet0.out",
+      "size": 51
+    },
+    {
+      "path": "meet1.in",
+      "size": 341
+    },
+    {
+      "path": "meet1.out",
+      "size": 167
+    },
+    {
+      "path": "meet2.in",
+      "size": 5585
+    },
+    {
+      "path": "meet2.out",
+      "size": 3357
+    },
+    {
+      "path": "meet3.in",
+      "size": 48430
+    },
+    {
+      "path": "meet3.out",
+      "size": 18252
+    },
+    {
+      "path": "meet4.in",
+      "size": 179768
+    },
+    {
+      "path": "meet4.out",
+      "size": 88780
+    },
+    {
+      "path": "meet5.in",
+      "size": 206106
+    },
+    {
+      "path": "meet5.out",
+      "size": 95882
+    },
+    {
+      "path": "meet6.in",
+      "size": 186148
+    },
+    {
+      "path": "meet6.out",
+      "size": 49129
+    },
+    {
+      "path": "meet7.in",
+      "size": 1544537
+    },
+    {
+      "path": "meet7.out",
+      "size": 544575
+    },
+    {
+      "path": "meet8.in",
+      "size": 17944725
+    },
+    {
+      "path": "meet8.out",
+      "size": 5933380
+    },
+    {
+      "path": "meet9.in",
+      "size": 17941950
+    },
+    {
+      "path": "meet9.out",
+      "size": 5864103
+    }
+  ]
+}

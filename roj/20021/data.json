@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "ex.ans",
+      "size": 7
+    },
+    {
+      "path": "ex.in",
+      "size": 6152651
+    },
+    {
+      "path": "painting1.in",
+      "size": 643
+    },
+    {
+      "path": "painting1.out",
+      "size": 4
+    },
+    {
+      "path": "painting10.in",
+      "size": 5452331
+    },
+    {
+      "path": "painting10.out",
+      "size": 7
+    },
+    {
+      "path": "painting2.in",
+      "size": 385
+    },
+    {
+      "path": "painting2.out",
+      "size": 4
+    },
+    {
+      "path": "painting3.in",
+      "size": 3313
+    },
+    {
+      "path": "painting3.out",
+      "size": 5
+    },
+    {
+      "path": "painting4.in",
+      "size": 8287
+    },
+    {
+      "path": "painting4.out",
+      "size": 5
+    },
+    {
+      "path": "painting5.in",
+      "size": 8287
+    },
+    {
+      "path": "painting5.out",
+      "size": 5
+    },
+    {
+      "path": "painting6.in",
+      "size": 8287
+    },
+    {
+      "path": "painting6.out",
+      "size": 5
+    },
+    {
+      "path": "painting7.in",
+      "size": 9006011
+    },
+    {
+      "path": "painting7.out",
+      "size": 3
+    },
+    {
+      "path": "painting8.in",
+      "size": 9006011
+    },
+    {
+      "path": "painting8.out",
+      "size": 3
+    },
+    {
+      "path": "painting9.in",
+      "size": 3338579
+    },
+    {
+      "path": "painting9.out",
+      "size": 7
+    }
+  ]
+}

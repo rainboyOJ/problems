@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "mine1.ans",
+      "size": 12
+    },
+    {
+      "path": "mine1.in",
+      "size": 16
+    },
+    {
+      "path": "mine10.ans",
+      "size": 10100
+    },
+    {
+      "path": "mine10.in",
+      "size": 10108
+    },
+    {
+      "path": "mine2.ans",
+      "size": 2
+    },
+    {
+      "path": "mine2.in",
+      "size": 6
+    },
+    {
+      "path": "mine3.ans",
+      "size": 2
+    },
+    {
+      "path": "mine3.in",
+      "size": 6
+    },
+    {
+      "path": "mine4.ans",
+      "size": 110
+    },
+    {
+      "path": "mine4.in",
+      "size": 116
+    },
+    {
+      "path": "mine5.ans",
+      "size": 10100
+    },
+    {
+      "path": "mine5.in",
+      "size": 10108
+    },
+    {
+      "path": "mine6.ans",
+      "size": 220
+    },
+    {
+      "path": "mine6.in",
+      "size": 226
+    },
+    {
+      "path": "mine7.ans",
+      "size": 10100
+    },
+    {
+      "path": "mine7.in",
+      "size": 10108
+    },
+    {
+      "path": "mine8.ans",
+      "size": 10100
+    },
+    {
+      "path": "mine8.in",
+      "size": 10108
+    },
+    {
+      "path": "mine9.ans",
+      "size": 200
+    },
+    {
+      "path": "mine9.in",
+      "size": 206
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "boxes0.in",
+      "size": 26
+    },
+    {
+      "path": "boxes0.out",
+      "size": 3
+    },
+    {
+      "path": "boxes1.in",
+      "size": 16
+    },
+    {
+      "path": "boxes1.out",
+      "size": 3
+    },
+    {
+      "path": "boxes2.in",
+      "size": 45
+    },
+    {
+      "path": "boxes2.out",
+      "size": 4
+    },
+    {
+      "path": "boxes3.in",
+      "size": 71
+    },
+    {
+      "path": "boxes3.out",
+      "size": 3
+    },
+    {
+      "path": "boxes4.in",
+      "size": 86
+    },
+    {
+      "path": "boxes4.out",
+      "size": 3
+    },
+    {
+      "path": "boxes5.in",
+      "size": 182
+    },
+    {
+      "path": "boxes5.out",
+      "size": 3
+    },
+    {
+      "path": "boxes6.in",
+      "size": 28
+    },
+    {
+      "path": "boxes6.out",
+      "size": 3
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "clover1.in",
+      "size": 113
+    },
+    {
+      "path": "clover1.out",
+      "size": 6
+    },
+    {
+      "path": "clover10.in",
+      "size": 963
+    },
+    {
+      "path": "clover10.out",
+      "size": 6
+    },
+    {
+      "path": "clover2.in",
+      "size": 68
+    },
+    {
+      "path": "clover2.out",
+      "size": 6
+    },
+    {
+      "path": "clover3.in",
+      "size": 10
+    },
+    {
+      "path": "clover3.out",
+      "size": 1
+    },
+    {
+      "path": "clover4.in",
+      "size": 36
+    },
+    {
+      "path": "clover4.out",
+      "size": 5
+    },
+    {
+      "path": "clover5.in",
+      "size": 42
+    },
+    {
+      "path": "clover5.out",
+      "size": 12
+    },
+    {
+      "path": "clover6.in",
+      "size": 398
+    },
+    {
+      "path": "clover6.out",
+      "size": 6
+    },
+    {
+      "path": "clover7.in",
+      "size": 656
+    },
+    {
+      "path": "clover7.out",
+      "size": 6
+    },
+    {
+      "path": "clover8.in",
+      "size": 559
+    },
+    {
+      "path": "clover8.out",
+      "size": 6
+    },
+    {
+      "path": "clover9.in",
+      "size": 483
+    },
+    {
+      "path": "clover9.out",
+      "size": 6
+    }
+  ]
+}

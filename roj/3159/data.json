@@ -1,0 +1,88 @@
+{
+  "files": [
+    {
+      "path": "batch.00.in",
+      "size": 25
+    },
+    {
+      "path": "batch.01.in",
+      "size": 24
+    },
+    {
+      "path": "batch.02.in",
+      "size": 64
+    },
+    {
+      "path": "batch.03.in",
+      "size": 94
+    },
+    {
+      "path": "batch.04.in",
+      "size": 124
+    },
+    {
+      "path": "batch.05.in",
+      "size": 184
+    },
+    {
+      "path": "batch.06.in",
+      "size": 296
+    },
+    {
+      "path": "batch.07.in",
+      "size": 592
+    },
+    {
+      "path": "batch.08.in",
+      "size": 1174
+    },
+    {
+      "path": "batch.09.in",
+      "size": 1755
+    },
+    {
+      "path": "batch.10.in",
+      "size": 2006
+    },
+    {
+      "path": "batch.11.in",
+      "size": 4094
+    },
+    {
+      "path": "batch.12.in",
+      "size": 5652
+    },
+    {
+      "path": "batch.13.in",
+      "size": 8464
+    },
+    {
+      "path": "batch.14.in",
+      "size": 11141
+    },
+    {
+      "path": "batch.15.in",
+      "size": 29441
+    },
+    {
+      "path": "batch.16.in",
+      "size": 33600
+    },
+    {
+      "path": "batch.17.in",
+      "size": 34007
+    },
+    {
+      "path": "batch.18.in",
+      "size": 36007
+    },
+    {
+      "path": "batch.19.in",
+      "size": 38007
+    },
+    {
+      "path": "batch.20.in",
+      "size": 40008
+    }
+  ]
+}

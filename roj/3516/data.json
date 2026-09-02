@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "jfzp0.in",
+      "size": 13
+    },
+    {
+      "path": "jfzp0.out",
+      "size": 1
+    },
+    {
+      "path": "jfzp1.in",
+      "size": 16
+    },
+    {
+      "path": "jfzp1.out",
+      "size": 1
+    },
+    {
+      "path": "jfzp2.in",
+      "size": 30
+    },
+    {
+      "path": "jfzp2.out",
+      "size": 1
+    },
+    {
+      "path": "jfzp3.in",
+      "size": 130
+    },
+    {
+      "path": "jfzp3.out",
+      "size": 2
+    },
+    {
+      "path": "jfzp4.in",
+      "size": 499
+    },
+    {
+      "path": "jfzp4.out",
+      "size": 2
+    }
+  ]
+}

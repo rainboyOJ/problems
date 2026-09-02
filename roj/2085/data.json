@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "path": "bigbrn0.in",
+      "size": 18
+    },
+    {
+      "path": "bigbrn0.out",
+      "size": 1
+    },
+    {
+      "path": "bigbrn1.in",
+      "size": 124
+    },
+    {
+      "path": "bigbrn1.out",
+      "size": 1
+    },
+    {
+      "path": "bigbrn10.in",
+      "size": 15
+    },
+    {
+      "path": "bigbrn10.out",
+      "size": 3
+    },
+    {
+      "path": "bigbrn11.in",
+      "size": 182
+    },
+    {
+      "path": "bigbrn11.out",
+      "size": 3
+    },
+    {
+      "path": "bigbrn12.in",
+      "size": 4420
+    },
+    {
+      "path": "bigbrn12.out",
+      "size": 3
+    },
+    {
+      "path": "bigbrn13.in",
+      "size": 21959
+    },
+    {
+      "path": "bigbrn13.out",
+      "size": 2
+    },
+    {
+      "path": "bigbrn14.in",
+      "size": 87836
+    },
+    {
+      "path": "bigbrn14.out",
+      "size": 2
+    },
+    {
+      "path": "bigbrn2.in",
+      "size": 306
+    },
+    {
+      "path": "bigbrn2.out",
+      "size": 1
+    },
+    {
+      "path": "bigbrn3.in",
+      "size": 1226
+    },
+    {
+      "path": "bigbrn3.out",
+      "size": 1
+    },
+    {
+      "path": "bigbrn4.in",
+      "size": 1246
+    },
+    {
+      "path": "bigbrn4.out",
+      "size": 2
+    },
+    {
+      "path": "bigbrn5.in",
+      "size": 2026
+    },
+    {
+      "path": "bigbrn5.out",
+      "size": 2
+    },
+    {
+      "path": "bigbrn6.in",
+      "size": 88
+    },
+    {
+      "path": "bigbrn6.out",
+      "size": 2
+    },
+    {
+      "path": "bigbrn7.in",
+      "size": 3976
+    },
+    {
+      "path": "bigbrn7.out",
+      "size": 2
+    },
+    {
+      "path": "bigbrn8.in",
+      "size": 4217
+    },
+    {
+      "path": "bigbrn8.out",
+      "size": 2
+    },
+    {
+      "path": "bigbrn9.in",
+      "size": 4378
+    },
+    {
+      "path": "bigbrn9.out",
+      "size": 3
+    }
+  ]
+}

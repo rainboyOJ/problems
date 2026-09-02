@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "3cfc0.in",
+      "size": 9
+    },
+    {
+      "path": "3cfc0.out",
+      "size": 15
+    },
+    {
+      "path": "3cfc1.in",
+      "size": 16
+    },
+    {
+      "path": "3cfc1.out",
+      "size": 15
+    },
+    {
+      "path": "3cfc2.in",
+      "size": 11
+    },
+    {
+      "path": "3cfc2.out",
+      "size": 17
+    },
+    {
+      "path": "3cfc3.in",
+      "size": 18
+    },
+    {
+      "path": "3cfc3.out",
+      "size": 16
+    },
+    {
+      "path": "3cfc4.in",
+      "size": 7
+    },
+    {
+      "path": "3cfc4.out",
+      "size": 20
+    }
+  ]
+}

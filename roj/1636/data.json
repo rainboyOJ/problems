@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "calc1.in",
+      "size": 314
+    },
+    {
+      "path": "calc1.out",
+      "size": 99
+    },
+    {
+      "path": "calc10.in",
+      "size": 315
+    },
+    {
+      "path": "calc10.out",
+      "size": 121
+    },
+    {
+      "path": "calc11.in",
+      "size": 284
+    },
+    {
+      "path": "calc11.out",
+      "size": 145
+    },
+    {
+      "path": "calc12.in",
+      "size": 317
+    },
+    {
+      "path": "calc12.out",
+      "size": 155
+    },
+    {
+      "path": "calc13.in",
+      "size": 314
+    },
+    {
+      "path": "calc13.out",
+      "size": 153
+    },
+    {
+      "path": "calc14.in",
+      "size": 317
+    },
+    {
+      "path": "calc14.out",
+      "size": 144
+    },
+    {
+      "path": "calc15.in",
+      "size": 286
+    },
+    {
+      "path": "calc15.out",
+      "size": 132
+    },
+    {
+      "path": "calc16.in",
+      "size": 285
+    },
+    {
+      "path": "calc16.out",
+      "size": 157
+    },
+    {
+      "path": "calc17.in",
+      "size": 255
+    },
+    {
+      "path": "calc17.out",
+      "size": 123
+    },
+    {
+      "path": "calc18.in",
+      "size": 287
+    },
+    {
+      "path": "calc18.out",
+      "size": 159
+    },
+    {
+      "path": "calc19.in",
+      "size": 316
+    },
+    {
+      "path": "calc19.out",
+      "size": 177
+    },
+    {
+      "path": "calc2.in",
+      "size": 316
+    },
+    {
+      "path": "calc2.out",
+      "size": 99
+    },
+    {
+      "path": "calc20.in",
+      "size": 252
+    },
+    {
+      "path": "calc20.out",
+      "size": 122
+    },
+    {
+      "path": "calc3.in",
+      "size": 280
+    },
+    {
+      "path": "calc3.out",
+      "size": 88
+    },
+    {
+      "path": "calc4.in",
+      "size": 254
+    },
+    {
+      "path": "calc4.out",
+      "size": 84
+    },
+    {
+      "path": "calc5.in",
+      "size": 280
+    },
+    {
+      "path": "calc5.out",
+      "size": 119
+    },
+    {
+      "path": "calc6.in",
+      "size": 286
+    },
+    {
+      "path": "calc6.out",
+      "size": 97
+    },
+    {
+      "path": "calc7.in",
+      "size": 251
+    },
+    {
+      "path": "calc7.out",
+      "size": 85
+    },
+    {
+      "path": "calc8.in",
+      "size": 252
+    },
+    {
+      "path": "calc8.out",
+      "size": 87
+    },
+    {
+      "path": "calc9.in",
+      "size": 281
+    },
+    {
+      "path": "calc9.out",
+      "size": 110
+    }
+  ]
+}

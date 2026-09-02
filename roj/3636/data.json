@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "port1.ans",
+      "size": 2
+    },
+    {
+      "path": "port1.in",
+      "size": 29
+    },
+    {
+      "path": "port10.ans",
+      "size": 1929
+    },
+    {
+      "path": "port10.in",
+      "size": 23037
+    },
+    {
+      "path": "port11.ans",
+      "size": 1901
+    },
+    {
+      "path": "port11.in",
+      "size": 22866
+    },
+    {
+      "path": "port12.ans",
+      "size": 1904
+    },
+    {
+      "path": "port12.in",
+      "size": 22965
+    },
+    {
+      "path": "port13.ans",
+      "size": 1895
+    },
+    {
+      "path": "port13.in",
+      "size": 22891
+    },
+    {
+      "path": "port14.ans",
+      "size": 1925
+    },
+    {
+      "path": "port14.in",
+      "size": 23123
+    },
+    {
+      "path": "port15.ans",
+      "size": 473768
+    },
+    {
+      "path": "port15.in",
+      "size": 2686240
+    },
+    {
+      "path": "port16.ans",
+      "size": 474869
+    },
+    {
+      "path": "port16.in",
+      "size": 2691484
+    },
+    {
+      "path": "port17.ans",
+      "size": 475049
+    },
+    {
+      "path": "port17.in",
+      "size": 2693318
+    },
+    {
+      "path": "port18.ans",
+      "size": 474687
+    },
+    {
+      "path": "port18.in",
+      "size": 2690256
+    },
+    {
+      "path": "port19.ans",
+      "size": 475054
+    },
+    {
+      "path": "port19.in",
+      "size": 2691701
+    },
+    {
+      "path": "port2.ans",
+      "size": 2
+    },
+    {
+      "path": "port2.in",
+      "size": 27
+    },
+    {
+      "path": "port20.ans",
+      "size": 474651
+    },
+    {
+      "path": "port20.in",
+      "size": 2693129
+    },
+    {
+      "path": "port3.ans",
+      "size": 27
+    },
+    {
+      "path": "port3.in",
+      "size": 368
+    },
+    {
+      "path": "port4.ans",
+      "size": 26
+    },
+    {
+      "path": "port4.in",
+      "size": 364
+    },
+    {
+      "path": "port5.ans",
+      "size": 181
+    },
+    {
+      "path": "port5.in",
+      "size": 780
+    },
+    {
+      "path": "port6.ans",
+      "size": 189
+    },
+    {
+      "path": "port6.in",
+      "size": 804
+    },
+    {
+      "path": "port7.ans",
+      "size": 182
+    },
+    {
+      "path": "port7.in",
+      "size": 784
+    },
+    {
+      "path": "port8.ans",
+      "size": 191
+    },
+    {
+      "path": "port8.in",
+      "size": 831
+    },
+    {
+      "path": "port9.ans",
+      "size": 1925
+    },
+    {
+      "path": "port9.in",
+      "size": 22987
+    }
+  ]
+}

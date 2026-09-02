@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "horse1.in",
+      "size": 19
+    },
+    {
+      "path": "horse1.out",
+      "size": 4
+    },
+    {
+      "path": "horse2.in",
+      "size": 10359
+    },
+    {
+      "path": "horse2.out",
+      "size": 5
+    },
+    {
+      "path": "horse3.in",
+      "size": 9023
+    },
+    {
+      "path": "horse3.out",
+      "size": 5
+    },
+    {
+      "path": "horse4.in",
+      "size": 14348
+    },
+    {
+      "path": "horse4.out",
+      "size": 5
+    },
+    {
+      "path": "horse5.in",
+      "size": 12178
+    },
+    {
+      "path": "horse5.out",
+      "size": 5
+    }
+  ]
+}

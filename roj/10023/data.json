@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "backpack1.in",
+      "size": 5193
+    },
+    {
+      "path": "backpack1.out",
+      "size": 6
+    },
+    {
+      "path": "backpack10.in",
+      "size": 6839761
+    },
+    {
+      "path": "backpack10.out",
+      "size": 19
+    },
+    {
+      "path": "backpack2.in",
+      "size": 5232
+    },
+    {
+      "path": "backpack2.out",
+      "size": 6
+    },
+    {
+      "path": "backpack3.in",
+      "size": 51965
+    },
+    {
+      "path": "backpack3.out",
+      "size": 6
+    },
+    {
+      "path": "backpack4.in",
+      "size": 52065
+    },
+    {
+      "path": "backpack4.out",
+      "size": 7
+    },
+    {
+      "path": "backpack5.in",
+      "size": 684075
+    },
+    {
+      "path": "backpack5.out",
+      "size": 8
+    },
+    {
+      "path": "backpack6.in",
+      "size": 683927
+    },
+    {
+      "path": "backpack6.out",
+      "size": 8
+    },
+    {
+      "path": "backpack7.in",
+      "size": 6840266
+    },
+    {
+      "path": "backpack7.out",
+      "size": 18
+    },
+    {
+      "path": "backpack8.in",
+      "size": 6840329
+    },
+    {
+      "path": "backpack8.out",
+      "size": 19
+    },
+    {
+      "path": "backpack9.in",
+      "size": 6839143
+    },
+    {
+      "path": "backpack9.out",
+      "size": 19
+    }
+  ]
+}

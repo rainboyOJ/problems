@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "math1.ans",
+      "size": 2
+    },
+    {
+      "path": "math1.in",
+      "size": 4
+    },
+    {
+      "path": "math10.ans",
+      "size": 9
+    },
+    {
+      "path": "math10.in",
+      "size": 10
+    },
+    {
+      "path": "math11.ans",
+      "size": 9
+    },
+    {
+      "path": "math11.in",
+      "size": 10
+    },
+    {
+      "path": "math12.ans",
+      "size": 9
+    },
+    {
+      "path": "math12.in",
+      "size": 10
+    },
+    {
+      "path": "math13.ans",
+      "size": 16
+    },
+    {
+      "path": "math13.in",
+      "size": 17
+    },
+    {
+      "path": "math14.ans",
+      "size": 19
+    },
+    {
+      "path": "math14.in",
+      "size": 20
+    },
+    {
+      "path": "math15.ans",
+      "size": 19
+    },
+    {
+      "path": "math15.in",
+      "size": 20
+    },
+    {
+      "path": "math16.ans",
+      "size": 18
+    },
+    {
+      "path": "math16.in",
+      "size": 20
+    },
+    {
+      "path": "math17.ans",
+      "size": 19
+    },
+    {
+      "path": "math17.in",
+      "size": 20
+    },
+    {
+      "path": "math18.ans",
+      "size": 18
+    },
+    {
+      "path": "math18.in",
+      "size": 19
+    },
+    {
+      "path": "math19.ans",
+      "size": 19
+    },
+    {
+      "path": "math19.in",
+      "size": 20
+    },
+    {
+      "path": "math2.ans",
+      "size": 4
+    },
+    {
+      "path": "math2.in",
+      "size": 6
+    },
+    {
+      "path": "math20.ans",
+      "size": 18
+    },
+    {
+      "path": "math20.in",
+      "size": 19
+    },
+    {
+      "path": "math3.ans",
+      "size": 4
+    },
+    {
+      "path": "math3.in",
+      "size": 6
+    },
+    {
+      "path": "math4.ans",
+      "size": 4
+    },
+    {
+      "path": "math4.in",
+      "size": 5
+    },
+    {
+      "path": "math5.ans",
+      "size": 3
+    },
+    {
+      "path": "math5.in",
+      "size": 5
+    },
+    {
+      "path": "math6.ans",
+      "size": 4
+    },
+    {
+      "path": "math6.in",
+      "size": 5
+    },
+    {
+      "path": "math7.ans",
+      "size": 9
+    },
+    {
+      "path": "math7.in",
+      "size": 10
+    },
+    {
+      "path": "math8.ans",
+      "size": 8
+    },
+    {
+      "path": "math8.in",
+      "size": 10
+    },
+    {
+      "path": "math9.ans",
+      "size": 9
+    },
+    {
+      "path": "math9.in",
+      "size": 10
+    }
+  ]
+}

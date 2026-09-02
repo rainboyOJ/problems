@@ -1,0 +1,284 @@
+{
+  "files": [
+    {
+      "path": "wir0.in",
+      "size": 14
+    },
+    {
+      "path": "wir0.out",
+      "size": 4
+    },
+    {
+      "path": "wir011.in",
+      "size": 15
+    },
+    {
+      "path": "wir011.out",
+      "size": 4
+    },
+    {
+      "path": "wir012.in",
+      "size": 14
+    },
+    {
+      "path": "wir012.out",
+      "size": 4
+    },
+    {
+      "path": "wir1011.in",
+      "size": 7538
+    },
+    {
+      "path": "wir1011.out",
+      "size": 4
+    },
+    {
+      "path": "wir111.in",
+      "size": 31
+    },
+    {
+      "path": "wir111.out",
+      "size": 4
+    },
+    {
+      "path": "wir112.in",
+      "size": 40
+    },
+    {
+      "path": "wir112.out",
+      "size": 4
+    },
+    {
+      "path": "wir113.in",
+      "size": 37
+    },
+    {
+      "path": "wir113.out",
+      "size": 4
+    },
+    {
+      "path": "wir211.in",
+      "size": 166
+    },
+    {
+      "path": "wir211.out",
+      "size": 4
+    },
+    {
+      "path": "wir212.in",
+      "size": 177
+    },
+    {
+      "path": "wir212.out",
+      "size": 4
+    },
+    {
+      "path": "wir213.in",
+      "size": 188
+    },
+    {
+      "path": "wir213.out",
+      "size": 4
+    },
+    {
+      "path": "wir311.in",
+      "size": 748
+    },
+    {
+      "path": "wir311.out",
+      "size": 4
+    },
+    {
+      "path": "wir312.in",
+      "size": 721
+    },
+    {
+      "path": "wir312.out",
+      "size": 4
+    },
+    {
+      "path": "wir313.in",
+      "size": 795
+    },
+    {
+      "path": "wir313.out",
+      "size": 4
+    },
+    {
+      "path": "wir314.in",
+      "size": 990
+    },
+    {
+      "path": "wir314.out",
+      "size": 4
+    },
+    {
+      "path": "wir411.in",
+      "size": 3546
+    },
+    {
+      "path": "wir411.out",
+      "size": 4
+    },
+    {
+      "path": "wir412.in",
+      "size": 4113
+    },
+    {
+      "path": "wir412.out",
+      "size": 4
+    },
+    {
+      "path": "wir413.in",
+      "size": 4042
+    },
+    {
+      "path": "wir413.out",
+      "size": 4
+    },
+    {
+      "path": "wir511.in",
+      "size": 10602
+    },
+    {
+      "path": "wir511.out",
+      "size": 4
+    },
+    {
+      "path": "wir512.in",
+      "size": 10702
+    },
+    {
+      "path": "wir512.out",
+      "size": 4
+    },
+    {
+      "path": "wir513.in",
+      "size": 11009
+    },
+    {
+      "path": "wir513.out",
+      "size": 4
+    },
+    {
+      "path": "wir514.in",
+      "size": 11586
+    },
+    {
+      "path": "wir514.out",
+      "size": 4
+    },
+    {
+      "path": "wir611.in",
+      "size": 1036
+    },
+    {
+      "path": "wir611.out",
+      "size": 4
+    },
+    {
+      "path": "wir612.in",
+      "size": 910
+    },
+    {
+      "path": "wir612.out",
+      "size": 4
+    },
+    {
+      "path": "wir613.in",
+      "size": 773
+    },
+    {
+      "path": "wir613.out",
+      "size": 4
+    },
+    {
+      "path": "wir711.in",
+      "size": 29184
+    },
+    {
+      "path": "wir711.out",
+      "size": 4
+    },
+    {
+      "path": "wir712.in",
+      "size": 29442
+    },
+    {
+      "path": "wir712.out",
+      "size": 4
+    },
+    {
+      "path": "wir713.in",
+      "size": 29255
+    },
+    {
+      "path": "wir713.out",
+      "size": 4
+    },
+    {
+      "path": "wir714.in",
+      "size": 28802
+    },
+    {
+      "path": "wir714.out",
+      "size": 4
+    },
+    {
+      "path": "wir811.in",
+      "size": 17933
+    },
+    {
+      "path": "wir811.out",
+      "size": 4
+    },
+    {
+      "path": "wir812.in",
+      "size": 18029
+    },
+    {
+      "path": "wir812.out",
+      "size": 4
+    },
+    {
+      "path": "wir813.in",
+      "size": 17969
+    },
+    {
+      "path": "wir813.out",
+      "size": 4
+    },
+    {
+      "path": "wir814.in",
+      "size": 17945
+    },
+    {
+      "path": "wir814.out",
+      "size": 4
+    },
+    {
+      "path": "wir911.in",
+      "size": 20726
+    },
+    {
+      "path": "wir911.out",
+      "size": 4
+    },
+    {
+      "path": "wir912.in",
+      "size": 20747
+    },
+    {
+      "path": "wir912.out",
+      "size": 4
+    },
+    {
+      "path": "wir913.in",
+      "size": 20500
+    },
+    {
+      "path": "wir913.out",
+      "size": 4
+    }
+  ]
+}

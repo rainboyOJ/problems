@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "c1.in",
+      "size": 1946
+    },
+    {
+      "path": "c1.out",
+      "size": 479
+    },
+    {
+      "path": "c2.in",
+      "size": 23059341
+    },
+    {
+      "path": "c2.out",
+      "size": 850
+    }
+  ]
+}

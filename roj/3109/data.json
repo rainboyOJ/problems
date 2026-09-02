@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "totem1.in",
+      "size": 2296
+    },
+    {
+      "path": "totem1.out",
+      "size": 18
+    },
+    {
+      "path": "totem10.in",
+      "size": 1288902
+    },
+    {
+      "path": "totem10.out",
+      "size": 32
+    },
+    {
+      "path": "totem2.in",
+      "size": 7013
+    },
+    {
+      "path": "totem2.out",
+      "size": 20
+    },
+    {
+      "path": "totem3.in",
+      "size": 15563
+    },
+    {
+      "path": "totem3.out",
+      "size": 22
+    },
+    {
+      "path": "totem4.in",
+      "size": 23898
+    },
+    {
+      "path": "totem4.out",
+      "size": 22
+    },
+    {
+      "path": "totem5.in",
+      "size": 78900
+    },
+    {
+      "path": "totem5.out",
+      "size": 26
+    },
+    {
+      "path": "totem6.in",
+      "size": 288900
+    },
+    {
+      "path": "totem6.out",
+      "size": 28
+    },
+    {
+      "path": "totem7.in",
+      "size": 588902
+    },
+    {
+      "path": "totem7.out",
+      "size": 30
+    },
+    {
+      "path": "totem8.in",
+      "size": 1148902
+    },
+    {
+      "path": "totem8.out",
+      "size": 32
+    },
+    {
+      "path": "totem9.in",
+      "size": 1218902
+    },
+    {
+      "path": "totem9.out",
+      "size": 32
+    }
+  ]
+}

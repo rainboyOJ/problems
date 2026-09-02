@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "schlnet0.in",
+      "size": 28
+    },
+    {
+      "path": "schlnet0.out",
+      "size": 4
+    },
+    {
+      "path": "schlnet1.in",
+      "size": 7
+    },
+    {
+      "path": "schlnet1.out",
+      "size": 4
+    },
+    {
+      "path": "schlnet10.in",
+      "size": 435
+    },
+    {
+      "path": "schlnet10.out",
+      "size": 6
+    },
+    {
+      "path": "schlnet2.in",
+      "size": 53
+    },
+    {
+      "path": "schlnet2.out",
+      "size": 4
+    },
+    {
+      "path": "schlnet3.in",
+      "size": 51
+    },
+    {
+      "path": "schlnet3.out",
+      "size": 4
+    },
+    {
+      "path": "schlnet4.in",
+      "size": 107
+    },
+    {
+      "path": "schlnet4.out",
+      "size": 4
+    },
+    {
+      "path": "schlnet5.in",
+      "size": 231
+    },
+    {
+      "path": "schlnet5.out",
+      "size": 4
+    },
+    {
+      "path": "schlnet6.in",
+      "size": 291
+    },
+    {
+      "path": "schlnet6.out",
+      "size": 4
+    },
+    {
+      "path": "schlnet7.in",
+      "size": 668
+    },
+    {
+      "path": "schlnet7.out",
+      "size": 4
+    },
+    {
+      "path": "schlnet8.in",
+      "size": 4625
+    },
+    {
+      "path": "schlnet8.out",
+      "size": 6
+    },
+    {
+      "path": "schlnet9.in",
+      "size": 593
+    },
+    {
+      "path": "schlnet9.out",
+      "size": 4
+    }
+  ]
+}

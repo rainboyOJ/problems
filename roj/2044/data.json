@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "contact0.in",
+      "size": 73
+    },
+    {
+      "path": "contact0.out",
+      "size": 123
+    },
+    {
+      "path": "contact1.in",
+      "size": 9
+    },
+    {
+      "path": "contact1.out",
+      "size": 4
+    },
+    {
+      "path": "contact2.in",
+      "size": 499
+    },
+    {
+      "path": "contact2.out",
+      "size": 160
+    },
+    {
+      "path": "contact3.in",
+      "size": 9209
+    },
+    {
+      "path": "contact3.out",
+      "size": 288
+    },
+    {
+      "path": "contact4.in",
+      "size": 126717
+    },
+    {
+      "path": "contact4.out",
+      "size": 532
+    },
+    {
+      "path": "contact5.in",
+      "size": 202054
+    },
+    {
+      "path": "contact5.out",
+      "size": 577
+    },
+    {
+      "path": "contact6.in",
+      "size": 202466
+    },
+    {
+      "path": "contact6.out",
+      "size": 22665
+    }
+  ]
+}

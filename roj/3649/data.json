@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "complexity1.ans",
+      "size": 13
+    },
+    {
+      "path": "complexity1.in",
+      "size": 150
+    },
+    {
+      "path": "complexity10.ans",
+      "size": 34
+    },
+    {
+      "path": "complexity10.in",
+      "size": 2453
+    },
+    {
+      "path": "complexity2.ans",
+      "size": 8
+    },
+    {
+      "path": "complexity2.in",
+      "size": 77
+    },
+    {
+      "path": "complexity3.ans",
+      "size": 17
+    },
+    {
+      "path": "complexity3.in",
+      "size": 300
+    },
+    {
+      "path": "complexity4.ans",
+      "size": 10
+    },
+    {
+      "path": "complexity4.in",
+      "size": 653
+    },
+    {
+      "path": "complexity5.ans",
+      "size": 11
+    },
+    {
+      "path": "complexity5.in",
+      "size": 943
+    },
+    {
+      "path": "complexity6.ans",
+      "size": 7
+    },
+    {
+      "path": "complexity6.in",
+      "size": 547
+    },
+    {
+      "path": "complexity7.ans",
+      "size": 12
+    },
+    {
+      "path": "complexity7.in",
+      "size": 1080
+    },
+    {
+      "path": "complexity8.ans",
+      "size": 19
+    },
+    {
+      "path": "complexity8.in",
+      "size": 1890
+    },
+    {
+      "path": "complexity9.ans",
+      "size": 18
+    },
+    {
+      "path": "complexity9.in",
+      "size": 1559
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "path": "hop1.in",
+      "size": 18
+    },
+    {
+      "path": "hop1.out",
+      "size": 6
+    },
+    {
+      "path": "hop10.in",
+      "size": 49
+    },
+    {
+      "path": "hop10.out",
+      "size": 14
+    },
+    {
+      "path": "hop11.in",
+      "size": 49
+    },
+    {
+      "path": "hop11.out",
+      "size": 13
+    },
+    {
+      "path": "hop12.in",
+      "size": 55
+    },
+    {
+      "path": "hop12.out",
+      "size": 10
+    },
+    {
+      "path": "hop13.in",
+      "size": 53
+    },
+    {
+      "path": "hop13.out",
+      "size": 12
+    },
+    {
+      "path": "hop14.in",
+      "size": 49
+    },
+    {
+      "path": "hop14.out",
+      "size": 14
+    },
+    {
+      "path": "hop15.in",
+      "size": 51
+    },
+    {
+      "path": "hop15.out",
+      "size": 13
+    },
+    {
+      "path": "hop16.in",
+      "size": 54
+    },
+    {
+      "path": "hop16.out",
+      "size": 11
+    },
+    {
+      "path": "hop17.in",
+      "size": 52
+    },
+    {
+      "path": "hop17.out",
+      "size": 12
+    },
+    {
+      "path": "hop2.in",
+      "size": 17
+    },
+    {
+      "path": "hop2.out",
+      "size": 7
+    },
+    {
+      "path": "hop3.in",
+      "size": 15
+    },
+    {
+      "path": "hop3.out",
+      "size": 7
+    },
+    {
+      "path": "hop4.in",
+      "size": 15
+    },
+    {
+      "path": "hop4.out",
+      "size": 6
+    },
+    {
+      "path": "hop5.in",
+      "size": 34
+    },
+    {
+      "path": "hop5.out",
+      "size": 3
+    },
+    {
+      "path": "hop6.in",
+      "size": 31
+    },
+    {
+      "path": "hop6.out",
+      "size": 8
+    },
+    {
+      "path": "hop7.in",
+      "size": 29
+    },
+    {
+      "path": "hop7.out",
+      "size": 8
+    },
+    {
+      "path": "hop8.in",
+      "size": 33
+    },
+    {
+      "path": "hop8.out",
+      "size": 7
+    },
+    {
+      "path": "hop9.in",
+      "size": 64
+    },
+    {
+      "path": "hop9.out",
+      "size": 3
+    }
+  ]
+}

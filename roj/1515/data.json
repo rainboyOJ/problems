@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "protocols0.in",
+      "size": 34
+    },
+    {
+      "path": "protocols0.out",
+      "size": 6
+    },
+    {
+      "path": "protocols1.in",
+      "size": 127
+    },
+    {
+      "path": "protocols1.out",
+      "size": 6
+    },
+    {
+      "path": "protocols10.in",
+      "size": 7571
+    },
+    {
+      "path": "protocols10.out",
+      "size": 8
+    },
+    {
+      "path": "protocols2.in",
+      "size": 195
+    },
+    {
+      "path": "protocols2.out",
+      "size": 6
+    },
+    {
+      "path": "protocols3.in",
+      "size": 45
+    },
+    {
+      "path": "protocols3.out",
+      "size": 8
+    },
+    {
+      "path": "protocols4.in",
+      "size": 59
+    },
+    {
+      "path": "protocols4.out",
+      "size": 6
+    },
+    {
+      "path": "protocols5.in",
+      "size": 230
+    },
+    {
+      "path": "protocols5.out",
+      "size": 6
+    },
+    {
+      "path": "protocols6.in",
+      "size": 130
+    },
+    {
+      "path": "protocols6.out",
+      "size": 6
+    },
+    {
+      "path": "protocols7.in",
+      "size": 510
+    },
+    {
+      "path": "protocols7.out",
+      "size": 8
+    },
+    {
+      "path": "protocols8.in",
+      "size": 456
+    },
+    {
+      "path": "protocols8.out",
+      "size": 8
+    },
+    {
+      "path": "protocols9.in",
+      "size": 402
+    },
+    {
+      "path": "protocols9.out",
+      "size": 8
+    }
+  ]
+}

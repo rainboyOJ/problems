@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "computer0.in",
+      "size": 9
+    },
+    {
+      "path": "computer0.out",
+      "size": 9
+    },
+    {
+      "path": "computer1.in",
+      "size": 8
+    },
+    {
+      "path": "computer1.out",
+      "size": 7
+    },
+    {
+      "path": "computer2.in",
+      "size": 9
+    },
+    {
+      "path": "computer2.out",
+      "size": 7
+    },
+    {
+      "path": "computer3.in",
+      "size": 15
+    },
+    {
+      "path": "computer3.out",
+      "size": 7
+    },
+    {
+      "path": "computer4.in",
+      "size": 11
+    },
+    {
+      "path": "computer4.out",
+      "size": 7
+    }
+  ]
+}

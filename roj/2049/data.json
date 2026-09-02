@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "ratios0.in",
+      "size": 26
+    },
+    {
+      "path": "ratios0.out",
+      "size": 9
+    },
+    {
+      "path": "ratios1.in",
+      "size": 26
+    },
+    {
+      "path": "ratios1.out",
+      "size": 7
+    },
+    {
+      "path": "ratios2.in",
+      "size": 32
+    },
+    {
+      "path": "ratios2.out",
+      "size": 7
+    },
+    {
+      "path": "ratios3.in",
+      "size": 38
+    },
+    {
+      "path": "ratios3.out",
+      "size": 4
+    },
+    {
+      "path": "ratios4.in",
+      "size": 29
+    },
+    {
+      "path": "ratios4.out",
+      "size": 10
+    },
+    {
+      "path": "ratios5.in",
+      "size": 32
+    },
+    {
+      "path": "ratios5.out",
+      "size": 11
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "heatwv1.in",
+      "size": 87
+    },
+    {
+      "path": "heatwv1.out",
+      "size": 2
+    },
+    {
+      "path": "heatwv10.in",
+      "size": 85012
+    },
+    {
+      "path": "heatwv10.out",
+      "size": 5
+    },
+    {
+      "path": "heatwv2.in",
+      "size": 190
+    },
+    {
+      "path": "heatwv2.out",
+      "size": 4
+    },
+    {
+      "path": "heatwv3.in",
+      "size": 452
+    },
+    {
+      "path": "heatwv3.out",
+      "size": 4
+    },
+    {
+      "path": "heatwv4.in",
+      "size": 1312
+    },
+    {
+      "path": "heatwv4.out",
+      "size": 5
+    },
+    {
+      "path": "heatwv5.in",
+      "size": 2701
+    },
+    {
+      "path": "heatwv5.out",
+      "size": 4
+    },
+    {
+      "path": "heatwv6.in",
+      "size": 7343
+    },
+    {
+      "path": "heatwv6.out",
+      "size": 5
+    },
+    {
+      "path": "heatwv7.in",
+      "size": 15372
+    },
+    {
+      "path": "heatwv7.out",
+      "size": 5
+    },
+    {
+      "path": "heatwv8.in",
+      "size": 31034
+    },
+    {
+      "path": "heatwv8.out",
+      "size": 4
+    },
+    {
+      "path": "heatwv9.in",
+      "size": 66951
+    },
+    {
+      "path": "heatwv9.out",
+      "size": 5
+    }
+  ]
+}

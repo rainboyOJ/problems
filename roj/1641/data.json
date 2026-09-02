@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "mat1.in",
+      "size": 101
+    },
+    {
+      "path": "mat1.out",
+      "size": 46
+    },
+    {
+      "path": "mat2.in",
+      "size": 55
+    },
+    {
+      "path": "mat2.out",
+      "size": 28
+    },
+    {
+      "path": "mat3.in",
+      "size": 6187
+    },
+    {
+      "path": "mat3.out",
+      "size": 4848
+    },
+    {
+      "path": "mat4.in",
+      "size": 11919
+    },
+    {
+      "path": "mat4.out",
+      "size": 16080
+    },
+    {
+      "path": "mat5.in",
+      "size": 107465
+    },
+    {
+      "path": "mat5.out",
+      "size": 102296
+    }
+  ]
+}

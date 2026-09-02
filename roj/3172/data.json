@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "chess1.in",
+      "size": 198
+    },
+    {
+      "path": "chess1.out",
+      "size": 9
+    },
+    {
+      "path": "chess2.in",
+      "size": 139
+    },
+    {
+      "path": "chess2.out",
+      "size": 7
+    },
+    {
+      "path": "chess3.in",
+      "size": 139
+    },
+    {
+      "path": "chess3.out",
+      "size": 7
+    },
+    {
+      "path": "chess4.in",
+      "size": 204
+    },
+    {
+      "path": "chess4.out",
+      "size": 8
+    },
+    {
+      "path": "chess5.in",
+      "size": 204
+    },
+    {
+      "path": "chess5.out",
+      "size": 8
+    }
+  ]
+}

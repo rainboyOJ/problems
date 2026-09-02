@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "road1.ans",
+      "size": 2
+    },
+    {
+      "path": "road1.in",
+      "size": 8
+    },
+    {
+      "path": "road10.ans",
+      "size": 10
+    },
+    {
+      "path": "road10.in",
+      "size": 488957
+    },
+    {
+      "path": "road2.ans",
+      "size": 3
+    },
+    {
+      "path": "road2.in",
+      "size": 14
+    },
+    {
+      "path": "road3.ans",
+      "size": 4
+    },
+    {
+      "path": "road3.in",
+      "size": 29
+    },
+    {
+      "path": "road4.ans",
+      "size": 4
+    },
+    {
+      "path": "road4.in",
+      "size": 62
+    },
+    {
+      "path": "road5.ans",
+      "size": 4
+    },
+    {
+      "path": "road5.in",
+      "size": 152
+    },
+    {
+      "path": "road6.ans",
+      "size": 6
+    },
+    {
+      "path": "road6.in",
+      "size": 968
+    },
+    {
+      "path": "road7.ans",
+      "size": 7
+    },
+    {
+      "path": "road7.in",
+      "size": 3889
+    },
+    {
+      "path": "road8.ans",
+      "size": 8
+    },
+    {
+      "path": "road8.in",
+      "size": 38948
+    },
+    {
+      "path": "road9.ans",
+      "size": 9
+    },
+    {
+      "path": "road9.in",
+      "size": 244474
+    }
+  ]
+}

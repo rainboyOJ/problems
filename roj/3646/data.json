@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "chess1.ans",
+      "size": 2
+    },
+    {
+      "path": "chess1.in",
+      "size": 10
+    },
+    {
+      "path": "chess10.ans",
+      "size": 3
+    },
+    {
+      "path": "chess10.in",
+      "size": 264
+    },
+    {
+      "path": "chess11.ans",
+      "size": 3
+    },
+    {
+      "path": "chess11.in",
+      "size": 179
+    },
+    {
+      "path": "chess12.ans",
+      "size": 3
+    },
+    {
+      "path": "chess12.in",
+      "size": 489
+    },
+    {
+      "path": "chess13.ans",
+      "size": 3
+    },
+    {
+      "path": "chess13.in",
+      "size": 590
+    },
+    {
+      "path": "chess14.ans",
+      "size": 3
+    },
+    {
+      "path": "chess14.in",
+      "size": 1890
+    },
+    {
+      "path": "chess15.ans",
+      "size": 3
+    },
+    {
+      "path": "chess15.in",
+      "size": 2290
+    },
+    {
+      "path": "chess16.ans",
+      "size": 3
+    },
+    {
+      "path": "chess16.in",
+      "size": 3056
+    },
+    {
+      "path": "chess17.ans",
+      "size": 3
+    },
+    {
+      "path": "chess17.in",
+      "size": 2196
+    },
+    {
+      "path": "chess18.ans",
+      "size": 4
+    },
+    {
+      "path": "chess18.in",
+      "size": 792
+    },
+    {
+      "path": "chess19.ans",
+      "size": 4
+    },
+    {
+      "path": "chess19.in",
+      "size": 6851
+    },
+    {
+      "path": "chess2.ans",
+      "size": 2
+    },
+    {
+      "path": "chess2.in",
+      "size": 22
+    },
+    {
+      "path": "chess20.ans",
+      "size": 4
+    },
+    {
+      "path": "chess20.in",
+      "size": 7834
+    },
+    {
+      "path": "chess3.ans",
+      "size": 2
+    },
+    {
+      "path": "chess3.in",
+      "size": 34
+    },
+    {
+      "path": "chess4.ans",
+      "size": 2
+    },
+    {
+      "path": "chess4.in",
+      "size": 52
+    },
+    {
+      "path": "chess5.ans",
+      "size": 3
+    },
+    {
+      "path": "chess5.in",
+      "size": 52
+    },
+    {
+      "path": "chess6.ans",
+      "size": 2
+    },
+    {
+      "path": "chess6.in",
+      "size": 46
+    },
+    {
+      "path": "chess7.ans",
+      "size": 3
+    },
+    {
+      "path": "chess7.in",
+      "size": 128
+    },
+    {
+      "path": "chess8.ans",
+      "size": 3
+    },
+    {
+      "path": "chess8.in",
+      "size": 101
+    },
+    {
+      "path": "chess9.ans",
+      "size": 3
+    },
+    {
+      "path": "chess9.in",
+      "size": 197
+    }
+  ]
+}

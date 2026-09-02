@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "jump1.ans",
+      "size": 3
+    },
+    {
+      "path": "jump1.in",
+      "size": 79
+    },
+    {
+      "path": "jump10.ans",
+      "size": 4
+    },
+    {
+      "path": "jump10.in",
+      "size": 7972331
+    },
+    {
+      "path": "jump2.ans",
+      "size": 3
+    },
+    {
+      "path": "jump2.in",
+      "size": 73
+    },
+    {
+      "path": "jump3.ans",
+      "size": 3
+    },
+    {
+      "path": "jump3.in",
+      "size": 4802
+    },
+    {
+      "path": "jump4.ans",
+      "size": 3
+    },
+    {
+      "path": "jump4.in",
+      "size": 4770
+    },
+    {
+      "path": "jump5.ans",
+      "size": 3
+    },
+    {
+      "path": "jump5.in",
+      "size": 4786
+    },
+    {
+      "path": "jump6.ans",
+      "size": 4
+    },
+    {
+      "path": "jump6.in",
+      "size": 7972619
+    },
+    {
+      "path": "jump7.ans",
+      "size": 4
+    },
+    {
+      "path": "jump7.in",
+      "size": 7972968
+    },
+    {
+      "path": "jump8.ans",
+      "size": 4
+    },
+    {
+      "path": "jump8.in",
+      "size": 7972171
+    },
+    {
+      "path": "jump9.ans",
+      "size": 4
+    },
+    {
+      "path": "jump9.in",
+      "size": 7971834
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "train1.in",
+      "size": 12
+    },
+    {
+      "path": "train1.out",
+      "size": 2
+    },
+    {
+      "path": "train2.in",
+      "size": 18
+    },
+    {
+      "path": "train2.out",
+      "size": 3
+    },
+    {
+      "path": "train3.in",
+      "size": 24
+    },
+    {
+      "path": "train3.out",
+      "size": 2
+    },
+    {
+      "path": "train4.in",
+      "size": 55
+    },
+    {
+      "path": "train4.out",
+      "size": 3
+    },
+    {
+      "path": "train5.in",
+      "size": 54
+    },
+    {
+      "path": "train5.out",
+      "size": 3
+    }
+  ]
+}

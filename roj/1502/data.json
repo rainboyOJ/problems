@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "trav0.in",
+      "size": 184
+    },
+    {
+      "path": "trav0.out",
+      "size": 2
+    },
+    {
+      "path": "trav1.in",
+      "size": 116
+    },
+    {
+      "path": "trav1.out",
+      "size": 2
+    },
+    {
+      "path": "trav2.in",
+      "size": 3294
+    },
+    {
+      "path": "trav2.out",
+      "size": 5
+    },
+    {
+      "path": "trav3.in",
+      "size": 7334
+    },
+    {
+      "path": "trav3.out",
+      "size": 5
+    },
+    {
+      "path": "trav4.in",
+      "size": 20216
+    },
+    {
+      "path": "trav4.out",
+      "size": 5
+    },
+    {
+      "path": "trav5.in",
+      "size": 12974
+    },
+    {
+      "path": "trav5.out",
+      "size": 6
+    },
+    {
+      "path": "trav6.in",
+      "size": 20214
+    },
+    {
+      "path": "trav6.out",
+      "size": 5
+    },
+    {
+      "path": "trav7.in",
+      "size": 20217
+    },
+    {
+      "path": "trav7.out",
+      "size": 5
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "epidemic0.in",
+      "size": 2174
+    },
+    {
+      "path": "epidemic0.out",
+      "size": 3
+    },
+    {
+      "path": "epidemic1.in",
+      "size": 27
+    },
+    {
+      "path": "epidemic1.out",
+      "size": 1
+    },
+    {
+      "path": "epidemic2.in",
+      "size": 41
+    },
+    {
+      "path": "epidemic2.out",
+      "size": 1
+    },
+    {
+      "path": "epidemic3.in",
+      "size": 41
+    },
+    {
+      "path": "epidemic3.out",
+      "size": 1
+    },
+    {
+      "path": "epidemic4.in",
+      "size": 72
+    },
+    {
+      "path": "epidemic4.out",
+      "size": 1
+    },
+    {
+      "path": "epidemic5.in",
+      "size": 97
+    },
+    {
+      "path": "epidemic5.out",
+      "size": 1
+    },
+    {
+      "path": "epidemic6.in",
+      "size": 131
+    },
+    {
+      "path": "epidemic6.out",
+      "size": 1
+    },
+    {
+      "path": "epidemic7.in",
+      "size": 155
+    },
+    {
+      "path": "epidemic7.out",
+      "size": 2
+    },
+    {
+      "path": "epidemic8.in",
+      "size": 576
+    },
+    {
+      "path": "epidemic8.out",
+      "size": 2
+    },
+    {
+      "path": "epidemic9.in",
+      "size": 1369
+    },
+    {
+      "path": "epidemic9.out",
+      "size": 3
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "packrec0.in",
+      "size": 18
+    },
+    {
+      "path": "packrec0.out",
+      "size": 13
+    },
+    {
+      "path": "packrec1.in",
+      "size": 26
+    },
+    {
+      "path": "packrec1.out",
+      "size": 18
+    },
+    {
+      "path": "packrec10.in",
+      "size": 18
+    },
+    {
+      "path": "packrec10.out",
+      "size": 14
+    },
+    {
+      "path": "packrec11.in",
+      "size": 18
+    },
+    {
+      "path": "packrec11.out",
+      "size": 14
+    },
+    {
+      "path": "packrec12.in",
+      "size": 18
+    },
+    {
+      "path": "packrec12.out",
+      "size": 14
+    },
+    {
+      "path": "packrec13.in",
+      "size": 18
+    },
+    {
+      "path": "packrec13.out",
+      "size": 13
+    },
+    {
+      "path": "packrec14.in",
+      "size": 23
+    },
+    {
+      "path": "packrec14.out",
+      "size": 17
+    },
+    {
+      "path": "packrec15.in",
+      "size": 18
+    },
+    {
+      "path": "packrec15.out",
+      "size": 13
+    },
+    {
+      "path": "packrec16.in",
+      "size": 18
+    },
+    {
+      "path": "packrec16.out",
+      "size": 7
+    },
+    {
+      "path": "packrec17.in",
+      "size": 26
+    },
+    {
+      "path": "packrec17.out",
+      "size": 28
+    },
+    {
+      "path": "packrec18.in",
+      "size": 26
+    },
+    {
+      "path": "packrec18.out",
+      "size": 11
+    },
+    {
+      "path": "packrec19.in",
+      "size": 26
+    },
+    {
+      "path": "packrec19.out",
+      "size": 11
+    },
+    {
+      "path": "packrec2.in",
+      "size": 19
+    },
+    {
+      "path": "packrec2.out",
+      "size": 8
+    },
+    {
+      "path": "packrec3.in",
+      "size": 19
+    },
+    {
+      "path": "packrec3.out",
+      "size": 14
+    },
+    {
+      "path": "packrec4.in",
+      "size": 22
+    },
+    {
+      "path": "packrec4.out",
+      "size": 10
+    },
+    {
+      "path": "packrec5.in",
+      "size": 24
+    },
+    {
+      "path": "packrec5.out",
+      "size": 10
+    },
+    {
+      "path": "packrec6.in",
+      "size": 22
+    },
+    {
+      "path": "packrec6.out",
+      "size": 10
+    },
+    {
+      "path": "packrec7.in",
+      "size": 22
+    },
+    {
+      "path": "packrec7.out",
+      "size": 10
+    },
+    {
+      "path": "packrec8.in",
+      "size": 18
+    },
+    {
+      "path": "packrec8.out",
+      "size": 8
+    },
+    {
+      "path": "packrec9.in",
+      "size": 23
+    },
+    {
+      "path": "packrec9.out",
+      "size": 10
+    }
+  ]
+}

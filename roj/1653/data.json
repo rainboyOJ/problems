@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "equation1.in",
+      "size": 3
+    },
+    {
+      "path": "equation1.out",
+      "size": 3
+    },
+    {
+      "path": "equation10.in",
+      "size": 12
+    },
+    {
+      "path": "equation10.out",
+      "size": 85
+    },
+    {
+      "path": "equation2.in",
+      "size": 4
+    },
+    {
+      "path": "equation2.out",
+      "size": 8
+    },
+    {
+      "path": "equation3.in",
+      "size": 10
+    },
+    {
+      "path": "equation3.out",
+      "size": 12
+    },
+    {
+      "path": "equation4.in",
+      "size": 9
+    },
+    {
+      "path": "equation4.out",
+      "size": 18
+    },
+    {
+      "path": "equation5.in",
+      "size": 13
+    },
+    {
+      "path": "equation5.out",
+      "size": 128
+    },
+    {
+      "path": "equation6.in",
+      "size": 12
+    },
+    {
+      "path": "equation6.out",
+      "size": 65
+    },
+    {
+      "path": "equation7.in",
+      "size": 15
+    },
+    {
+      "path": "equation7.out",
+      "size": 139
+    },
+    {
+      "path": "equation8.in",
+      "size": 13
+    },
+    {
+      "path": "equation8.out",
+      "size": 123
+    },
+    {
+      "path": "equation9.in",
+      "size": 12
+    },
+    {
+      "path": "equation9.out",
+      "size": 140
+    }
+  ]
+}

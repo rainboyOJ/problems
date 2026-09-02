@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "mod1.in",
+      "size": 6
+    },
+    {
+      "path": "mod10.in",
+      "size": 22
+    },
+    {
+      "path": "mod2.in",
+      "size": 6
+    },
+    {
+      "path": "mod3.in",
+      "size": 8
+    },
+    {
+      "path": "mod4.in",
+      "size": 9
+    },
+    {
+      "path": "mod5.in",
+      "size": 16
+    },
+    {
+      "path": "mod6.in",
+      "size": 15
+    },
+    {
+      "path": "mod7.in",
+      "size": 19
+    },
+    {
+      "path": "mod8.in",
+      "size": 22
+    },
+    {
+      "path": "mod9.in",
+      "size": 22
+    }
+  ]
+}

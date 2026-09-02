@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "inflate0.in",
+      "size": 41
+    },
+    {
+      "path": "inflate0.out",
+      "size": 3
+    },
+    {
+      "path": "inflate1.in",
+      "size": 16
+    },
+    {
+      "path": "inflate1.out",
+      "size": 9
+    },
+    {
+      "path": "inflate10.in",
+      "size": 23
+    },
+    {
+      "path": "inflate10.out",
+      "size": 4
+    },
+    {
+      "path": "inflate11.in",
+      "size": 557
+    },
+    {
+      "path": "inflate11.out",
+      "size": 4
+    },
+    {
+      "path": "inflate2.in",
+      "size": 202
+    },
+    {
+      "path": "inflate2.out",
+      "size": 5
+    },
+    {
+      "path": "inflate3.in",
+      "size": 531
+    },
+    {
+      "path": "inflate3.out",
+      "size": 7
+    },
+    {
+      "path": "inflate4.in",
+      "size": 1083
+    },
+    {
+      "path": "inflate4.out",
+      "size": 7
+    },
+    {
+      "path": "inflate5.in",
+      "size": 5397
+    },
+    {
+      "path": "inflate5.out",
+      "size": 7
+    },
+    {
+      "path": "inflate6.in",
+      "size": 21561
+    },
+    {
+      "path": "inflate6.out",
+      "size": 7
+    },
+    {
+      "path": "inflate7.in",
+      "size": 64663
+    },
+    {
+      "path": "inflate7.out",
+      "size": 8
+    },
+    {
+      "path": "inflate8.in",
+      "size": 107860
+    },
+    {
+      "path": "inflate8.out",
+      "size": 8
+    },
+    {
+      "path": "inflate9.in",
+      "size": 107762
+    },
+    {
+      "path": "inflate9.out",
+      "size": 8
+    }
+  ]
+}

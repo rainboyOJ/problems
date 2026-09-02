@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "dandelion1.in",
+      "size": 12522
+    },
+    {
+      "path": "dandelion1.out",
+      "size": 9619
+    },
+    {
+      "path": "dandelion10.in",
+      "size": 963646
+    },
+    {
+      "path": "dandelion10.out",
+      "size": 489236
+    },
+    {
+      "path": "dandelion11.in",
+      "size": 888093
+    },
+    {
+      "path": "dandelion11.out",
+      "size": 387379
+    },
+    {
+      "path": "dandelion12.in",
+      "size": 888705
+    },
+    {
+      "path": "dandelion12.out",
+      "size": 368059
+    },
+    {
+      "path": "dandelion13.in",
+      "size": 937940
+    },
+    {
+      "path": "dandelion13.out",
+      "size": 461883
+    },
+    {
+      "path": "dandelion14.in",
+      "size": 938975
+    },
+    {
+      "path": "dandelion14.out",
+      "size": 490968
+    },
+    {
+      "path": "dandelion15.in",
+      "size": 968939
+    },
+    {
+      "path": "dandelion15.out",
+      "size": 499057
+    },
+    {
+      "path": "dandelion16.in",
+      "size": 689449
+    },
+    {
+      "path": "dandelion16.out",
+      "size": 148861
+    },
+    {
+      "path": "dandelion17.in",
+      "size": 690138
+    },
+    {
+      "path": "dandelion17.out",
+      "size": 199801
+    },
+    {
+      "path": "dandelion18.in",
+      "size": 639311
+    },
+    {
+      "path": "dandelion18.out",
+      "size": 149997
+    },
+    {
+      "path": "dandelion19.in",
+      "size": 690143
+    },
+    {
+      "path": "dandelion19.out",
+      "size": 199703
+    },
+    {
+      "path": "dandelion2.in",
+      "size": 27555
+    },
+    {
+      "path": "dandelion2.out",
+      "size": 14297
+    },
+    {
+      "path": "dandelion20.in",
+      "size": 888526
+    },
+    {
+      "path": "dandelion20.out",
+      "size": 393698
+    },
+    {
+      "path": "dandelion3.in",
+      "size": 57283
+    },
+    {
+      "path": "dandelion3.out",
+      "size": 29050
+    },
+    {
+      "path": "dandelion4.in",
+      "size": 57243
+    },
+    {
+      "path": "dandelion4.out",
+      "size": 29713
+    },
+    {
+      "path": "dandelion5.in",
+      "size": 633908
+    },
+    {
+      "path": "dandelion5.out",
+      "size": 290488
+    },
+    {
+      "path": "dandelion6.in",
+      "size": 851588
+    },
+    {
+      "path": "dandelion6.out",
+      "size": 389250
+    },
+    {
+      "path": "dandelion7.in",
+      "size": 852341
+    },
+    {
+      "path": "dandelion7.out",
+      "size": 396390
+    },
+    {
+      "path": "dandelion8.in",
+      "size": 850642
+    },
+    {
+      "path": "dandelion8.out",
+      "size": 391134
+    },
+    {
+      "path": "dandelion9.in",
+      "size": 965815
+    },
+    {
+      "path": "dandelion9.out",
+      "size": 497450
+    }
+  ]
+}

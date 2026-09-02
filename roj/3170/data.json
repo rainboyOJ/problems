@@ -1,0 +1,332 @@
+{
+  "files": [
+    {
+      "path": "folding1.in",
+      "size": 19
+    },
+    {
+      "path": "folding1.out",
+      "size": 13
+    },
+    {
+      "path": "folding10.in",
+      "size": 7
+    },
+    {
+      "path": "folding10.out",
+      "size": 5
+    },
+    {
+      "path": "folding11.in",
+      "size": 8
+    },
+    {
+      "path": "folding11.out",
+      "size": 5
+    },
+    {
+      "path": "folding12.in",
+      "size": 9
+    },
+    {
+      "path": "folding12.out",
+      "size": 5
+    },
+    {
+      "path": "folding13.in",
+      "size": 10
+    },
+    {
+      "path": "folding13.out",
+      "size": 5
+    },
+    {
+      "path": "folding14.in",
+      "size": 11
+    },
+    {
+      "path": "folding14.out",
+      "size": 6
+    },
+    {
+      "path": "folding15.in",
+      "size": 12
+    },
+    {
+      "path": "folding15.out",
+      "size": 6
+    },
+    {
+      "path": "folding16.in",
+      "size": 5
+    },
+    {
+      "path": "folding16.out",
+      "size": 5
+    },
+    {
+      "path": "folding17.in",
+      "size": 7
+    },
+    {
+      "path": "folding17.out",
+      "size": 6
+    },
+    {
+      "path": "folding18.in",
+      "size": 9
+    },
+    {
+      "path": "folding18.out",
+      "size": 6
+    },
+    {
+      "path": "folding19.in",
+      "size": 53
+    },
+    {
+      "path": "folding19.out",
+      "size": 22
+    },
+    {
+      "path": "folding2.in",
+      "size": 29
+    },
+    {
+      "path": "folding2.out",
+      "size": 15
+    },
+    {
+      "path": "folding20.in",
+      "size": 101
+    },
+    {
+      "path": "folding20.out",
+      "size": 7
+    },
+    {
+      "path": "folding21.in",
+      "size": 27
+    },
+    {
+      "path": "folding21.out",
+      "size": 27
+    },
+    {
+      "path": "folding22.in",
+      "size": 101
+    },
+    {
+      "path": "folding22.out",
+      "size": 41
+    },
+    {
+      "path": "folding23.in",
+      "size": 101
+    },
+    {
+      "path": "folding23.out",
+      "size": 55
+    },
+    {
+      "path": "folding24.in",
+      "size": 101
+    },
+    {
+      "path": "folding24.out",
+      "size": 101
+    },
+    {
+      "path": "folding25.in",
+      "size": 101
+    },
+    {
+      "path": "folding25.out",
+      "size": 52
+    },
+    {
+      "path": "folding26.in",
+      "size": 101
+    },
+    {
+      "path": "folding26.out",
+      "size": 46
+    },
+    {
+      "path": "folding27.in",
+      "size": 101
+    },
+    {
+      "path": "folding27.out",
+      "size": 7
+    },
+    {
+      "path": "folding28.in",
+      "size": 100
+    },
+    {
+      "path": "folding28.out",
+      "size": 8
+    },
+    {
+      "path": "folding29.in",
+      "size": 101
+    },
+    {
+      "path": "folding29.out",
+      "size": 9
+    },
+    {
+      "path": "folding3.in",
+      "size": 2
+    },
+    {
+      "path": "folding3.out",
+      "size": 2
+    },
+    {
+      "path": "folding30.in",
+      "size": 101
+    },
+    {
+      "path": "folding30.out",
+      "size": 10
+    },
+    {
+      "path": "folding31.in",
+      "size": 97
+    },
+    {
+      "path": "folding31.out",
+      "size": 11
+    },
+    {
+      "path": "folding32.in",
+      "size": 99
+    },
+    {
+      "path": "folding32.out",
+      "size": 12
+    },
+    {
+      "path": "folding33.in",
+      "size": 97
+    },
+    {
+      "path": "folding33.out",
+      "size": 13
+    },
+    {
+      "path": "folding34.in",
+      "size": 100
+    },
+    {
+      "path": "folding34.out",
+      "size": 14
+    },
+    {
+      "path": "folding35.in",
+      "size": 101
+    },
+    {
+      "path": "folding35.out",
+      "size": 15
+    },
+    {
+      "path": "folding36.in",
+      "size": 100
+    },
+    {
+      "path": "folding36.out",
+      "size": 15
+    },
+    {
+      "path": "folding37.in",
+      "size": 101
+    },
+    {
+      "path": "folding37.out",
+      "size": 14
+    },
+    {
+      "path": "folding38.in",
+      "size": 101
+    },
+    {
+      "path": "folding38.out",
+      "size": 13
+    },
+    {
+      "path": "folding39.in",
+      "size": 101
+    },
+    {
+      "path": "folding39.out",
+      "size": 37
+    },
+    {
+      "path": "folding4.in",
+      "size": 3
+    },
+    {
+      "path": "folding4.out",
+      "size": 3
+    },
+    {
+      "path": "folding40.in",
+      "size": 101
+    },
+    {
+      "path": "folding40.out",
+      "size": 85
+    },
+    {
+      "path": "folding41.in",
+      "size": 101
+    },
+    {
+      "path": "folding41.out",
+      "size": 61
+    },
+    {
+      "path": "folding5.in",
+      "size": 4
+    },
+    {
+      "path": "folding5.out",
+      "size": 4
+    },
+    {
+      "path": "folding6.in",
+      "size": 3
+    },
+    {
+      "path": "folding6.out",
+      "size": 3
+    },
+    {
+      "path": "folding7.in",
+      "size": 4
+    },
+    {
+      "path": "folding7.out",
+      "size": 4
+    },
+    {
+      "path": "folding8.in",
+      "size": 5
+    },
+    {
+      "path": "folding8.out",
+      "size": 5
+    },
+    {
+      "path": "folding9.in",
+      "size": 6
+    },
+    {
+      "path": "folding9.out",
+      "size": 5
+    }
+  ]
+}

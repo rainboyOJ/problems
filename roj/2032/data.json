@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "zerosum0.in",
+      "size": 1
+    },
+    {
+      "path": "zerosum0.out",
+      "size": 5
+    },
+    {
+      "path": "zerosum1.in",
+      "size": 1
+    },
+    {
+      "path": "zerosum1.out",
+      "size": 7
+    },
+    {
+      "path": "zerosum2.in",
+      "size": 1
+    },
+    {
+      "path": "zerosum2.out",
+      "size": 9
+    },
+    {
+      "path": "zerosum3.in",
+      "size": 1
+    },
+    {
+      "path": "zerosum3.out",
+      "size": 11
+    },
+    {
+      "path": "zerosum4.in",
+      "size": 1
+    },
+    {
+      "path": "zerosum4.out",
+      "size": 88
+    },
+    {
+      "path": "zerosum5.in",
+      "size": 1
+    },
+    {
+      "path": "zerosum5.out",
+      "size": 168
+    },
+    {
+      "path": "zerosum6.in",
+      "size": 1
+    },
+    {
+      "path": "zerosum6.out",
+      "size": 207
+    }
+  ]
+}

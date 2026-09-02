@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "flower1.in",
+      "size": 834
+    },
+    {
+      "path": "flower1.out",
+      "size": 33
+    },
+    {
+      "path": "flower10.in",
+      "size": 16588
+    },
+    {
+      "path": "flower10.out",
+      "size": 153
+    },
+    {
+      "path": "flower2.in",
+      "size": 4999
+    },
+    {
+      "path": "flower2.out",
+      "size": 92
+    },
+    {
+      "path": "flower3.in",
+      "size": 4161
+    },
+    {
+      "path": "flower3.out",
+      "size": 77
+    },
+    {
+      "path": "flower4.in",
+      "size": 12467
+    },
+    {
+      "path": "flower4.out",
+      "size": 152
+    },
+    {
+      "path": "flower5.in",
+      "size": 9967
+    },
+    {
+      "path": "flower5.out",
+      "size": 122
+    },
+    {
+      "path": "flower6.in",
+      "size": 7475
+    },
+    {
+      "path": "flower6.out",
+      "size": 95
+    },
+    {
+      "path": "flower7.in",
+      "size": 29892
+    },
+    {
+      "path": "flower7.out",
+      "size": 271
+    },
+    {
+      "path": "flower8.in",
+      "size": 26567
+    },
+    {
+      "path": "flower8.out",
+      "size": 243
+    },
+    {
+      "path": "flower9.in",
+      "size": 24903
+    },
+    {
+      "path": "flower9.out",
+      "size": 228
+    }
+  ]
+}

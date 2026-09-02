@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "gcd1.in",
+      "size": 11664612
+    },
+    {
+      "path": "gcd1.out",
+      "size": 537867
+    },
+    {
+      "path": "gcd2.in",
+      "size": 11271701
+    },
+    {
+      "path": "gcd2.out",
+      "size": 457799
+    },
+    {
+      "path": "gcd3.in",
+      "size": 12283557
+    },
+    {
+      "path": "gcd3.out",
+      "size": 120547
+    },
+    {
+      "path": "gcd4.in",
+      "size": 12289601
+    },
+    {
+      "path": "gcd4.out",
+      "size": 75701
+    }
+  ]
+}

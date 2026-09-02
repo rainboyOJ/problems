@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "transformations0.in",
+      "size": 31
+    },
+    {
+      "path": "transformations0.out",
+      "size": 1
+    },
+    {
+      "path": "transformations1.in",
+      "size": 71
+    },
+    {
+      "path": "transformations1.out",
+      "size": 1
+    },
+    {
+      "path": "transformations2.in",
+      "size": 71
+    },
+    {
+      "path": "transformations2.out",
+      "size": 1
+    },
+    {
+      "path": "transformations3.in",
+      "size": 97
+    },
+    {
+      "path": "transformations3.out",
+      "size": 1
+    },
+    {
+      "path": "transformations4.in",
+      "size": 31
+    },
+    {
+      "path": "transformations4.out",
+      "size": 1
+    },
+    {
+      "path": "transformations5.in",
+      "size": 49
+    },
+    {
+      "path": "transformations5.out",
+      "size": 1
+    },
+    {
+      "path": "transformations6.in",
+      "size": 49
+    },
+    {
+      "path": "transformations6.out",
+      "size": 1
+    }
+  ]
+}

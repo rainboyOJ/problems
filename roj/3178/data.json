@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "POST1.in",
+      "size": 16
+    },
+    {
+      "path": "POST1.out",
+      "size": 18
+    },
+    {
+      "path": "POST10.in",
+      "size": 72
+    },
+    {
+      "path": "POST10.out",
+      "size": 77
+    },
+    {
+      "path": "POST2.in",
+      "size": 28
+    },
+    {
+      "path": "POST2.out",
+      "size": 31
+    },
+    {
+      "path": "POST3.in",
+      "size": 31
+    },
+    {
+      "path": "POST3.out",
+      "size": 33
+    },
+    {
+      "path": "POST4.in",
+      "size": 1391
+    },
+    {
+      "path": "POST4.out",
+      "size": 1397
+    },
+    {
+      "path": "POST5.in",
+      "size": 1431
+    },
+    {
+      "path": "POST5.out",
+      "size": 1437
+    },
+    {
+      "path": "POST6.in",
+      "size": 1463
+    },
+    {
+      "path": "POST6.out",
+      "size": 1469
+    },
+    {
+      "path": "POST7.in",
+      "size": 1310
+    },
+    {
+      "path": "POST7.out",
+      "size": 1318
+    },
+    {
+      "path": "POST8.in",
+      "size": 406
+    },
+    {
+      "path": "POST8.out",
+      "size": 411
+    },
+    {
+      "path": "POST9.in",
+      "size": 1245
+    },
+    {
+      "path": "POST9.out",
+      "size": 1250
+    }
+  ]
+}

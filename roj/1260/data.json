@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "missile0.in",
+      "size": 27
+    },
+    {
+      "path": "missile0.out",
+      "size": 4
+    },
+    {
+      "path": "missile1.in",
+      "size": 30
+    },
+    {
+      "path": "missile1.out",
+      "size": 4
+    },
+    {
+      "path": "missile2.in",
+      "size": 51
+    },
+    {
+      "path": "missile2.out",
+      "size": 4
+    },
+    {
+      "path": "missile3.in",
+      "size": 59
+    },
+    {
+      "path": "missile3.out",
+      "size": 4
+    },
+    {
+      "path": "missile4.in",
+      "size": 11
+    },
+    {
+      "path": "missile4.out",
+      "size": 4
+    },
+    {
+      "path": "missile5.in",
+      "size": 555
+    },
+    {
+      "path": "missile5.out",
+      "size": 6
+    },
+    {
+      "path": "missile6.in",
+      "size": 1668
+    },
+    {
+      "path": "missile6.out",
+      "size": 6
+    },
+    {
+      "path": "missile7.in",
+      "size": 2805
+    },
+    {
+      "path": "missile7.out",
+      "size": 6
+    },
+    {
+      "path": "missile8.in",
+      "size": 5546
+    },
+    {
+      "path": "missile8.out",
+      "size": 6
+    },
+    {
+      "path": "missile9.in",
+      "size": 5564
+    },
+    {
+      "path": "missile9.out",
+      "size": 6
+    }
+  ]
+}

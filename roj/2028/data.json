@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "runround0.in",
+      "size": 2
+    },
+    {
+      "path": "runround0.out",
+      "size": 3
+    },
+    {
+      "path": "runround1.in",
+      "size": 6
+    },
+    {
+      "path": "runround1.out",
+      "size": 6
+    },
+    {
+      "path": "runround2.in",
+      "size": 6
+    },
+    {
+      "path": "runround2.out",
+      "size": 6
+    },
+    {
+      "path": "runround3.in",
+      "size": 6
+    },
+    {
+      "path": "runround3.out",
+      "size": 6
+    },
+    {
+      "path": "runround4.in",
+      "size": 7
+    },
+    {
+      "path": "runround4.out",
+      "size": 7
+    },
+    {
+      "path": "runround5.in",
+      "size": 7
+    },
+    {
+      "path": "runround5.out",
+      "size": 7
+    },
+    {
+      "path": "runround6.in",
+      "size": 7
+    },
+    {
+      "path": "runround6.out",
+      "size": 7
+    }
+  ]
+}

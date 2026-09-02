@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "necklace1.in",
+      "size": 202
+    },
+    {
+      "path": "necklace1.out",
+      "size": 105
+    },
+    {
+      "path": "necklace10.in",
+      "size": 1000002
+    },
+    {
+      "path": "necklace10.out",
+      "size": 3
+    },
+    {
+      "path": "necklace2.in",
+      "size": 1000002
+    },
+    {
+      "path": "necklace2.out",
+      "size": 500005
+    },
+    {
+      "path": "necklace3.in",
+      "size": 20002
+    },
+    {
+      "path": "necklace3.out",
+      "size": 10005
+    },
+    {
+      "path": "necklace4.in",
+      "size": 1000002
+    },
+    {
+      "path": "necklace4.out",
+      "size": 500005
+    },
+    {
+      "path": "necklace5.in",
+      "size": 1000002
+    },
+    {
+      "path": "necklace5.out",
+      "size": 500005
+    },
+    {
+      "path": "necklace6.in",
+      "size": 1000002
+    },
+    {
+      "path": "necklace6.out",
+      "size": 500005
+    },
+    {
+      "path": "necklace7.in",
+      "size": 2002
+    },
+    {
+      "path": "necklace7.out",
+      "size": 1005
+    },
+    {
+      "path": "necklace8.in",
+      "size": 22
+    },
+    {
+      "path": "necklace8.out",
+      "size": 15
+    },
+    {
+      "path": "necklace9.in",
+      "size": 200002
+    },
+    {
+      "path": "necklace9.out",
+      "size": 100005
+    }
+  ]
+}

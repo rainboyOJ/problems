@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "curves1.in",
+      "size": 14636
+    },
+    {
+      "path": "curves1.out",
+      "size": 110
+    },
+    {
+      "path": "curves10.in",
+      "size": 1382073
+    },
+    {
+      "path": "curves10.out",
+      "size": 110
+    },
+    {
+      "path": "curves2.in",
+      "size": 14647
+    },
+    {
+      "path": "curves2.out",
+      "size": 110
+    },
+    {
+      "path": "curves3.in",
+      "size": 14673
+    },
+    {
+      "path": "curves3.out",
+      "size": 110
+    },
+    {
+      "path": "curves4.in",
+      "size": 14585
+    },
+    {
+      "path": "curves4.out",
+      "size": 110
+    },
+    {
+      "path": "curves5.in",
+      "size": 14626
+    },
+    {
+      "path": "curves5.out",
+      "size": 110
+    },
+    {
+      "path": "curves6.in",
+      "size": 1374806
+    },
+    {
+      "path": "curves6.out",
+      "size": 110
+    },
+    {
+      "path": "curves7.in",
+      "size": 1371254
+    },
+    {
+      "path": "curves7.out",
+      "size": 110
+    },
+    {
+      "path": "curves8.in",
+      "size": 1371239
+    },
+    {
+      "path": "curves8.out",
+      "size": 110
+    },
+    {
+      "path": "curves9.in",
+      "size": 1371600
+    },
+    {
+      "path": "curves9.out",
+      "size": 110
+    }
+  ]
+}

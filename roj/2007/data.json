@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "palsquare0.in",
+      "size": 2
+    },
+    {
+      "path": "palsquare0.out",
+      "size": 103
+    },
+    {
+      "path": "palsquare1.in",
+      "size": 1
+    },
+    {
+      "path": "palsquare1.out",
+      "size": 12
+    },
+    {
+      "path": "palsquare2.in",
+      "size": 1
+    },
+    {
+      "path": "palsquare2.out",
+      "size": 78
+    },
+    {
+      "path": "palsquare3.in",
+      "size": 2
+    },
+    {
+      "path": "palsquare3.out",
+      "size": 127
+    },
+    {
+      "path": "palsquare4.in",
+      "size": 2
+    },
+    {
+      "path": "palsquare4.out",
+      "size": 143
+    },
+    {
+      "path": "palsquare5.in",
+      "size": 2
+    },
+    {
+      "path": "palsquare5.out",
+      "size": 50
+    },
+    {
+      "path": "palsquare6.in",
+      "size": 2
+    },
+    {
+      "path": "palsquare6.out",
+      "size": 59
+    },
+    {
+      "path": "palsquare7.in",
+      "size": 1
+    },
+    {
+      "path": "palsquare7.out",
+      "size": 233
+    }
+  ]
+}

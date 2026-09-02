@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "produce1.in",
+      "size": 19
+    },
+    {
+      "path": "produce1.out",
+      "size": 3
+    },
+    {
+      "path": "produce2.in",
+      "size": 22
+    },
+    {
+      "path": "produce2.out",
+      "size": 3
+    },
+    {
+      "path": "produce3.in",
+      "size": 17
+    },
+    {
+      "path": "produce3.out",
+      "size": 4
+    },
+    {
+      "path": "produce4.in",
+      "size": 47
+    },
+    {
+      "path": "produce4.out",
+      "size": 6
+    },
+    {
+      "path": "produce5.in",
+      "size": 42
+    },
+    {
+      "path": "produce5.out",
+      "size": 5
+    }
+  ]
+}

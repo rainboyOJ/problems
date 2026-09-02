@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "pprime0.in",
+      "size": 5
+    },
+    {
+      "path": "pprime0.out",
+      "size": 53
+    },
+    {
+      "path": "pprime1.in",
+      "size": 9
+    },
+    {
+      "path": "pprime1.out",
+      "size": 100
+    },
+    {
+      "path": "pprime2.in",
+      "size": 14
+    },
+    {
+      "path": "pprime2.out",
+      "size": 160
+    },
+    {
+      "path": "pprime3.in",
+      "size": 13
+    },
+    {
+      "path": "pprime3.out",
+      "size": 546
+    },
+    {
+      "path": "pprime4.in",
+      "size": 15
+    },
+    {
+      "path": "pprime4.out",
+      "size": 169
+    },
+    {
+      "path": "pprime5.in",
+      "size": 15
+    },
+    {
+      "path": "pprime5.out",
+      "size": 7
+    },
+    {
+      "path": "pprime6.in",
+      "size": 10
+    },
+    {
+      "path": "pprime6.out",
+      "size": 6743
+    },
+    {
+      "path": "pprime7.in",
+      "size": 15
+    },
+    {
+      "path": "pprime7.out",
+      "size": 5011
+    },
+    {
+      "path": "pprime8.in",
+      "size": 11
+    },
+    {
+      "path": "pprime8.out",
+      "size": 6746
+    }
+  ]
+}

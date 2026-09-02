@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "vote1.in",
+      "size": 3
+    },
+    {
+      "path": "vote1.out",
+      "size": 31
+    },
+    {
+      "path": "vote2.in",
+      "size": 3
+    },
+    {
+      "path": "vote2.out",
+      "size": 17
+    },
+    {
+      "path": "vote3.in",
+      "size": 3
+    },
+    {
+      "path": "vote3.out",
+      "size": 4
+    },
+    {
+      "path": "vote4.in",
+      "size": 3
+    },
+    {
+      "path": "vote4.out",
+      "size": 3
+    },
+    {
+      "path": "vote5.in",
+      "size": 3
+    },
+    {
+      "path": "vote5.out",
+      "size": 3
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "toy1.ans",
+      "size": 2
+    },
+    {
+      "path": "toy1.in",
+      "size": 4088
+    },
+    {
+      "path": "toy10.ans",
+      "size": 2
+    },
+    {
+      "path": "toy10.in",
+      "size": 4181
+    },
+    {
+      "path": "toy11.ans",
+      "size": 10
+    },
+    {
+      "path": "toy11.in",
+      "size": 4173
+    },
+    {
+      "path": "toy12.ans",
+      "size": 11
+    },
+    {
+      "path": "toy12.in",
+      "size": 4193
+    },
+    {
+      "path": "toy13.ans",
+      "size": 5
+    },
+    {
+      "path": "toy13.in",
+      "size": 4716
+    },
+    {
+      "path": "toy14.ans",
+      "size": 6
+    },
+    {
+      "path": "toy14.in",
+      "size": 4707
+    },
+    {
+      "path": "toy15.ans",
+      "size": 8
+    },
+    {
+      "path": "toy15.in",
+      "size": 4716
+    },
+    {
+      "path": "toy16.ans",
+      "size": 11
+    },
+    {
+      "path": "toy16.in",
+      "size": 4715
+    },
+    {
+      "path": "toy17.ans",
+      "size": 6
+    },
+    {
+      "path": "toy17.in",
+      "size": 1748664
+    },
+    {
+      "path": "toy18.ans",
+      "size": 8
+    },
+    {
+      "path": "toy18.in",
+      "size": 1749621
+    },
+    {
+      "path": "toy19.ans",
+      "size": 5
+    },
+    {
+      "path": "toy19.in",
+      "size": 1749159
+    },
+    {
+      "path": "toy2.ans",
+      "size": 2
+    },
+    {
+      "path": "toy2.in",
+      "size": 4088
+    },
+    {
+      "path": "toy20.ans",
+      "size": 8
+    },
+    {
+      "path": "toy20.in",
+      "size": 1749547
+    },
+    {
+      "path": "toy3.ans",
+      "size": 2
+    },
+    {
+      "path": "toy3.in",
+      "size": 4088
+    },
+    {
+      "path": "toy4.ans",
+      "size": 2
+    },
+    {
+      "path": "toy4.in",
+      "size": 4088
+    },
+    {
+      "path": "toy5.ans",
+      "size": 2
+    },
+    {
+      "path": "toy5.in",
+      "size": 4592
+    },
+    {
+      "path": "toy6.ans",
+      "size": 2
+    },
+    {
+      "path": "toy6.in",
+      "size": 4606
+    },
+    {
+      "path": "toy7.ans",
+      "size": 2
+    },
+    {
+      "path": "toy7.in",
+      "size": 4616
+    },
+    {
+      "path": "toy8.ans",
+      "size": 2
+    },
+    {
+      "path": "toy8.in",
+      "size": 4645
+    },
+    {
+      "path": "toy9.ans",
+      "size": 7
+    },
+    {
+      "path": "toy9.in",
+      "size": 4186
+    }
+  ]
+}

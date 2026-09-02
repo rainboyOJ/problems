@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "choose0.in",
+      "size": 15
+    },
+    {
+      "path": "choose0.out",
+      "size": 1
+    },
+    {
+      "path": "choose1.in",
+      "size": 28
+    },
+    {
+      "path": "choose1.out",
+      "size": 2
+    },
+    {
+      "path": "choose2.in",
+      "size": 21
+    },
+    {
+      "path": "choose2.out",
+      "size": 2
+    },
+    {
+      "path": "choose3.in",
+      "size": 9
+    },
+    {
+      "path": "choose3.out",
+      "size": 1
+    },
+    {
+      "path": "choose4.in",
+      "size": 34
+    },
+    {
+      "path": "choose4.out",
+      "size": 2
+    }
+  ]
+}

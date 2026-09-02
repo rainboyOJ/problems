@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "xor0.in",
+      "size": 132
+    },
+    {
+      "path": "xor0.out",
+      "size": 11
+    },
+    {
+      "path": "xor1.in",
+      "size": 132
+    },
+    {
+      "path": "xor1.out",
+      "size": 11
+    },
+    {
+      "path": "xor2.in",
+      "size": 133
+    },
+    {
+      "path": "xor2.out",
+      "size": 11
+    },
+    {
+      "path": "xor3.in",
+      "size": 1599
+    },
+    {
+      "path": "xor3.out",
+      "size": 11
+    },
+    {
+      "path": "xor4.in",
+      "size": 17972
+    },
+    {
+      "path": "xor4.out",
+      "size": 11
+    },
+    {
+      "path": "xor5.in",
+      "size": 17975
+    },
+    {
+      "path": "xor5.out",
+      "size": 11
+    },
+    {
+      "path": "xor6.in",
+      "size": 199676
+    },
+    {
+      "path": "xor6.out",
+      "size": 11
+    },
+    {
+      "path": "xor7.in",
+      "size": 199694
+    },
+    {
+      "path": "xor7.out",
+      "size": 11
+    },
+    {
+      "path": "xor8.in",
+      "size": 1938075
+    },
+    {
+      "path": "xor8.out",
+      "size": 9
+    },
+    {
+      "path": "xor9.in",
+      "size": 1938016
+    },
+    {
+      "path": "xor9.out",
+      "size": 9
+    }
+  ]
+}

@@ -7,23 +7,12 @@ export const DEFAULT_DOWNLOAD_CONFIG = Object.freeze({
     rawBase: 'https://raw.githubusercontent.com/rainboyOJ/problems/master'
   },
   download: {
-    rawMirrors: [],
-    zip: {
-      activeJobs: 1,
-      queueSize: 3,
-      maxSourceBytes: 1024 ** 3,
-      timeoutMs: 15 * 60 * 1000,
-      compressionLevel: 1
-    }
+    rawMirrors: ['https://gh-proxy.com/']
   }
 });
 
 function asObject(value) {
   return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
-}
-
-function positiveInteger(value, fallback) {
-  return Number.isInteger(value) && value > 0 ? value : fallback;
 }
 
 function optionalUrl(value) {
@@ -45,7 +34,6 @@ export function normalizeDownloadConfig(value = {}) {
   const root = asObject(value);
   const repository = asObject(root.repository);
   const download = asObject(root.download);
-  const zip = asObject(download.zip);
   const rawBase = optionalUrl(repository.rawBase) || DEFAULT_DOWNLOAD_CONFIG.repository.rawBase;
   const rawMirrors = Array.isArray(download.rawMirrors)
     ? download.rawMirrors.map(normalizeMirror).filter(Boolean)
@@ -53,18 +41,7 @@ export function normalizeDownloadConfig(value = {}) {
 
   return {
     repository: { rawBase },
-    download: {
-      rawMirrors,
-      zip: {
-        activeJobs: positiveInteger(zip.activeJobs, DEFAULT_DOWNLOAD_CONFIG.download.zip.activeJobs),
-        queueSize: Number.isInteger(zip.queueSize) && zip.queueSize >= 0 ? zip.queueSize : DEFAULT_DOWNLOAD_CONFIG.download.zip.queueSize,
-        maxSourceBytes: positiveInteger(zip.maxSourceBytes, DEFAULT_DOWNLOAD_CONFIG.download.zip.maxSourceBytes),
-        timeoutMs: positiveInteger(zip.timeoutMs, DEFAULT_DOWNLOAD_CONFIG.download.zip.timeoutMs),
-        compressionLevel: Number.isInteger(zip.compressionLevel) && zip.compressionLevel >= 0 && zip.compressionLevel <= 9
-          ? zip.compressionLevel
-          : DEFAULT_DOWNLOAD_CONFIG.download.zip.compressionLevel
-      }
-    }
+    download: { rawMirrors }
   };
 }
 
@@ -87,4 +64,26 @@ export function loadDownloadConfig(configPath, logger = console) {
 export function rawUrlFor(config, problemId, relativePath) {
   const encodedPath = relativePath.split('/').map((part) => encodeURIComponent(part)).join('/');
   return `${config.repository.rawBase}/roj/${encodeURIComponent(problemId)}/data/${encodedPath}`;
+}
+
+export function downloadSources(config, problemId) {
+  const directBase = `${config.repository.rawBase}/roj/${encodeURIComponent(problemId)}/data/`;
+  const sources = [];
+  const seen = new Set();
+  for (const mirror of config.download.rawMirrors) {
+    const baseUrl = `${mirror}${directBase}`;
+    if (seen.has(baseUrl)) continue;
+    seen.add(baseUrl);
+    let hostname = mirror;
+    try { hostname = new URL(mirror).hostname; } catch { /* normalized config should make this unreachable */ }
+    sources.push({
+      id: `mirror-${sources.length}`,
+      label: `GitHub 加速源（${hostname}）`,
+      baseUrl
+    });
+  }
+  if (!seen.has(directBase)) {
+    sources.push({ id: 'github', label: 'GitHub Raw 直连', baseUrl: directBase });
+  }
+  return sources;
 }

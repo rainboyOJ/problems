@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "path": "atm1.in",
+      "size": 2792
+    },
+    {
+      "path": "atm1.out",
+      "size": 6
+    },
+    {
+      "path": "atm10.in",
+      "size": 8451070
+    },
+    {
+      "path": "atm10.out",
+      "size": 9
+    },
+    {
+      "path": "atm11.in",
+      "size": 8457789
+    },
+    {
+      "path": "atm11.out",
+      "size": 9
+    },
+    {
+      "path": "atm12.in",
+      "size": 8185439
+    },
+    {
+      "path": "atm12.out",
+      "size": 9
+    },
+    {
+      "path": "atm13.in",
+      "size": 8231973
+    },
+    {
+      "path": "atm13.out",
+      "size": 9
+    },
+    {
+      "path": "atm14.in",
+      "size": 8185193
+    },
+    {
+      "path": "atm14.out",
+      "size": 8
+    },
+    {
+      "path": "atm15.in",
+      "size": 8232022
+    },
+    {
+      "path": "atm15.out",
+      "size": 7
+    },
+    {
+      "path": "atm2.in",
+      "size": 2225
+    },
+    {
+      "path": "atm2.out",
+      "size": 6
+    },
+    {
+      "path": "atm3.in",
+      "size": 2230
+    },
+    {
+      "path": "atm3.out",
+      "size": 5
+    },
+    {
+      "path": "atm4.in",
+      "size": 34168
+    },
+    {
+      "path": "atm4.out",
+      "size": 7
+    },
+    {
+      "path": "atm5.in",
+      "size": 36761
+    },
+    {
+      "path": "atm5.out",
+      "size": 6
+    },
+    {
+      "path": "atm6.in",
+      "size": 37456
+    },
+    {
+      "path": "atm6.out",
+      "size": 7
+    },
+    {
+      "path": "atm7.in",
+      "size": 37792
+    },
+    {
+      "path": "atm7.out",
+      "size": 6
+    },
+    {
+      "path": "atm8.in",
+      "size": 34213
+    },
+    {
+      "path": "atm8.out",
+      "size": 7
+    },
+    {
+      "path": "atm9.in",
+      "size": 36787
+    },
+    {
+      "path": "atm9.out",
+      "size": 7
+    }
+  ]
+}

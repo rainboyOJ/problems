@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "twostack1.in",
+      "size": 294
+    },
+    {
+      "path": "twostack1.out",
+      "size": 297
+    },
+    {
+      "path": "twostack2.in",
+      "size": 1087
+    },
+    {
+      "path": "twostack2.out",
+      "size": 630
+    },
+    {
+      "path": "twostack3.in",
+      "size": 6128
+    },
+    {
+      "path": "twostack3.out",
+      "size": 1641
+    },
+    {
+      "path": "twostack4.in",
+      "size": 9543
+    },
+    {
+      "path": "twostack4.out",
+      "size": 10040
+    },
+    {
+      "path": "twostack5.in",
+      "size": 22
+    },
+    {
+      "path": "twostack5.out",
+      "size": 30
+    },
+    {
+      "path": "twostack6.in",
+      "size": 352
+    },
+    {
+      "path": "twostack6.out",
+      "size": 203
+    },
+    {
+      "path": "twostack7.in",
+      "size": 190
+    },
+    {
+      "path": "twostack7.out",
+      "size": 157
+    },
+    {
+      "path": "twostack8.in",
+      "size": 2012
+    },
+    {
+      "path": "twostack8.out",
+      "size": 587
+    }
+  ]
+}

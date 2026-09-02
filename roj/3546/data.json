@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "counting0.in",
+      "size": 12
+    },
+    {
+      "path": "counting0.out",
+      "size": 29
+    },
+    {
+      "path": "counting1.in",
+      "size": 13
+    },
+    {
+      "path": "counting1.out",
+      "size": 34
+    },
+    {
+      "path": "counting2.in",
+      "size": 15
+    },
+    {
+      "path": "counting2.out",
+      "size": 44
+    },
+    {
+      "path": "counting3.in",
+      "size": 15
+    },
+    {
+      "path": "counting3.out",
+      "size": 44
+    },
+    {
+      "path": "counting4.in",
+      "size": 18
+    },
+    {
+      "path": "counting4.out",
+      "size": 54
+    },
+    {
+      "path": "counting5.in",
+      "size": 22
+    },
+    {
+      "path": "counting5.out",
+      "size": 74
+    },
+    {
+      "path": "counting6.in",
+      "size": 22
+    },
+    {
+      "path": "counting6.out",
+      "size": 74
+    },
+    {
+      "path": "counting7.in",
+      "size": 25
+    },
+    {
+      "path": "counting7.out",
+      "size": 89
+    },
+    {
+      "path": "counting8.in",
+      "size": 27
+    },
+    {
+      "path": "counting8.out",
+      "size": 99
+    },
+    {
+      "path": "counting9.in",
+      "size": 10
+    },
+    {
+      "path": "counting9.out",
+      "size": 24
+    }
+  ]
+}

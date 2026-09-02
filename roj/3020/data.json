@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "game1.in",
+      "size": 18
+    },
+    {
+      "path": "game10.in",
+      "size": 589250
+    },
+    {
+      "path": "game2.in",
+      "size": 47
+    },
+    {
+      "path": "game3.in",
+      "size": 67
+    },
+    {
+      "path": "game4.in",
+      "size": 87
+    },
+    {
+      "path": "game5.in",
+      "size": 589
+    },
+    {
+      "path": "game6.in",
+      "size": 408
+    },
+    {
+      "path": "game7.in",
+      "size": 5849
+    },
+    {
+      "path": "game8.in",
+      "size": 9726
+    },
+    {
+      "path": "game9.in",
+      "size": 9734
+    }
+  ]
+}

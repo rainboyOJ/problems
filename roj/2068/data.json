@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "cowcycle0.in",
+      "size": 15
+    },
+    {
+      "path": "cowcycle0.out",
+      "size": 10
+    },
+    {
+      "path": "cowcycle1.in",
+      "size": 15
+    },
+    {
+      "path": "cowcycle1.out",
+      "size": 12
+    },
+    {
+      "path": "cowcycle2.in",
+      "size": 16
+    },
+    {
+      "path": "cowcycle2.out",
+      "size": 21
+    },
+    {
+      "path": "cowcycle3.in",
+      "size": 16
+    },
+    {
+      "path": "cowcycle3.out",
+      "size": 18
+    },
+    {
+      "path": "cowcycle4.in",
+      "size": 16
+    },
+    {
+      "path": "cowcycle4.out",
+      "size": 15
+    },
+    {
+      "path": "cowcycle5.in",
+      "size": 16
+    },
+    {
+      "path": "cowcycle5.out",
+      "size": 42
+    },
+    {
+      "path": "cowcycle6.in",
+      "size": 15
+    },
+    {
+      "path": "cowcycle6.out",
+      "size": 31
+    },
+    {
+      "path": "cowcycle7.in",
+      "size": 15
+    },
+    {
+      "path": "cowcycle7.out",
+      "size": 15
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "digit1.in",
+      "size": 7
+    },
+    {
+      "path": "digit1.out",
+      "size": 5
+    },
+    {
+      "path": "digit10.in",
+      "size": 58
+    },
+    {
+      "path": "digit10.out",
+      "size": 11
+    },
+    {
+      "path": "digit2.in",
+      "size": 7
+    },
+    {
+      "path": "digit2.out",
+      "size": 7
+    },
+    {
+      "path": "digit3.in",
+      "size": 13
+    },
+    {
+      "path": "digit3.out",
+      "size": 11
+    },
+    {
+      "path": "digit4.in",
+      "size": 13
+    },
+    {
+      "path": "digit4.out",
+      "size": 11
+    },
+    {
+      "path": "digit5.in",
+      "size": 13
+    },
+    {
+      "path": "digit5.out",
+      "size": 11
+    },
+    {
+      "path": "digit6.in",
+      "size": 58
+    },
+    {
+      "path": "digit6.out",
+      "size": 11
+    },
+    {
+      "path": "digit7.in",
+      "size": 58
+    },
+    {
+      "path": "digit7.out",
+      "size": 11
+    },
+    {
+      "path": "digit8.in",
+      "size": 58
+    },
+    {
+      "path": "digit8.out",
+      "size": 11
+    },
+    {
+      "path": "digit9.in",
+      "size": 58
+    },
+    {
+      "path": "digit9.out",
+      "size": 10
+    }
+  ]
+}

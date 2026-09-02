@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "sumdiv0.in",
+      "size": 5
+    },
+    {
+      "path": "sumdiv0.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv1.in",
+      "size": 6
+    },
+    {
+      "path": "sumdiv1.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv11.in",
+      "size": 5
+    },
+    {
+      "path": "sumdiv11.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv110.in",
+      "size": 19
+    },
+    {
+      "path": "sumdiv110.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv12.in",
+      "size": 5
+    },
+    {
+      "path": "sumdiv12.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv13.in",
+      "size": 5
+    },
+    {
+      "path": "sumdiv13.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv14.in",
+      "size": 12
+    },
+    {
+      "path": "sumdiv14.out",
+      "size": 3
+    },
+    {
+      "path": "sumdiv15.in",
+      "size": 19
+    },
+    {
+      "path": "sumdiv15.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv16.in",
+      "size": 19
+    },
+    {
+      "path": "sumdiv16.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv17.in",
+      "size": 19
+    },
+    {
+      "path": "sumdiv17.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv18.in",
+      "size": 19
+    },
+    {
+      "path": "sumdiv18.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv19.in",
+      "size": 18
+    },
+    {
+      "path": "sumdiv19.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv2.in",
+      "size": 7
+    },
+    {
+      "path": "sumdiv2.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv3.in",
+      "size": 9
+    },
+    {
+      "path": "sumdiv3.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv4.in",
+      "size": 11
+    },
+    {
+      "path": "sumdiv4.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv5.in",
+      "size": 13
+    },
+    {
+      "path": "sumdiv5.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv6.in",
+      "size": 12
+    },
+    {
+      "path": "sumdiv6.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv7.in",
+      "size": 13
+    },
+    {
+      "path": "sumdiv7.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv8.in",
+      "size": 19
+    },
+    {
+      "path": "sumdiv8.out",
+      "size": 6
+    },
+    {
+      "path": "sumdiv9.in",
+      "size": 19
+    },
+    {
+      "path": "sumdiv9.out",
+      "size": 6
+    }
+  ]
+}

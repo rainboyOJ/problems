@@ -1,0 +1,88 @@
+{
+  "files": [
+    {
+      "path": "SHOPTH1.IN",
+      "size": 62
+    },
+    {
+      "path": "SHOPTH1.OUT",
+      "size": 56
+    },
+    {
+      "path": "SHOPTH10.IN",
+      "size": 16126
+    },
+    {
+      "path": "SHOPTH10.OUT",
+      "size": 1404
+    },
+    {
+      "path": "SHOPTH2.IN",
+      "size": 61
+    },
+    {
+      "path": "SHOPTH2.OUT",
+      "size": 54
+    },
+    {
+      "path": "SHOPTH3.IN",
+      "size": 110
+    },
+    {
+      "path": "SHOPTH3.OUT",
+      "size": 83
+    },
+    {
+      "path": "SHOPTH4.IN",
+      "size": 132
+    },
+    {
+      "path": "SHOPTH4.OUT",
+      "size": 93
+    },
+    {
+      "path": "SHOPTH5.IN",
+      "size": 43
+    },
+    {
+      "path": "SHOPTH5.OUT",
+      "size": 43
+    },
+    {
+      "path": "SHOPTH6.IN",
+      "size": 874
+    },
+    {
+      "path": "SHOPTH6.OUT",
+      "size": 226
+    },
+    {
+      "path": "SHOPTH7.IN",
+      "size": 1020
+    },
+    {
+      "path": "SHOPTH7.OUT",
+      "size": 309
+    },
+    {
+      "path": "SHOPTH8.IN",
+      "size": 1562
+    },
+    {
+      "path": "SHOPTH8.OUT",
+      "size": 308
+    },
+    {
+      "path": "SHOPTH9.IN",
+      "size": 9726
+    },
+    {
+      "path": "SHOPTH9.OUT",
+      "size": 830
+    },
+    {
+      "path": "shopth.txt",
+      "size": 0
+    }
+  ]
+}

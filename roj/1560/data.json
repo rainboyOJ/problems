@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "count1.ans",
+      "size": 42249
+    },
+    {
+      "path": "count1.in",
+      "size": 335657
+    },
+    {
+      "path": "count10.ans",
+      "size": 1226019
+    },
+    {
+      "path": "count10.in",
+      "size": 4061391
+    },
+    {
+      "path": "count2.ans",
+      "size": 43245
+    },
+    {
+      "path": "count2.in",
+      "size": 337721
+    },
+    {
+      "path": "count3.ans",
+      "size": 44996
+    },
+    {
+      "path": "count3.in",
+      "size": 337563
+    },
+    {
+      "path": "count4.ans",
+      "size": 902686
+    },
+    {
+      "path": "count4.in",
+      "size": 4166325
+    },
+    {
+      "path": "count5.ans",
+      "size": 918731
+    },
+    {
+      "path": "count5.in",
+      "size": 4165622
+    },
+    {
+      "path": "count6.ans",
+      "size": 1148462
+    },
+    {
+      "path": "count6.in",
+      "size": 3747525
+    },
+    {
+      "path": "count7.ans",
+      "size": 1010340
+    },
+    {
+      "path": "count7.in",
+      "size": 3829252
+    },
+    {
+      "path": "count8.ans",
+      "size": 909779
+    },
+    {
+      "path": "count8.in",
+      "size": 4165602
+    },
+    {
+      "path": "count9.ans",
+      "size": 1202219
+    },
+    {
+      "path": "count9.in",
+      "size": 4056677
+    }
+  ]
+}

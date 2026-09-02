@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "popular1.in",
+      "size": 16
+    },
+    {
+      "path": "popular1.out",
+      "size": 2
+    },
+    {
+      "path": "popular10.in",
+      "size": 57799
+    },
+    {
+      "path": "popular10.out",
+      "size": 2
+    },
+    {
+      "path": "popular11.in",
+      "size": 410706
+    },
+    {
+      "path": "popular11.out",
+      "size": 2
+    },
+    {
+      "path": "popular12.in",
+      "size": 29821
+    },
+    {
+      "path": "popular12.out",
+      "size": 2
+    },
+    {
+      "path": "popular13.in",
+      "size": 97791
+    },
+    {
+      "path": "popular13.out",
+      "size": 3
+    },
+    {
+      "path": "popular2.in",
+      "size": 12
+    },
+    {
+      "path": "popular2.out",
+      "size": 2
+    },
+    {
+      "path": "popular3.in",
+      "size": 20
+    },
+    {
+      "path": "popular3.out",
+      "size": 2
+    },
+    {
+      "path": "popular4.in",
+      "size": 111
+    },
+    {
+      "path": "popular4.out",
+      "size": 2
+    },
+    {
+      "path": "popular5.in",
+      "size": 97791
+    },
+    {
+      "path": "popular5.out",
+      "size": 2
+    },
+    {
+      "path": "popular6.in",
+      "size": 97791
+    },
+    {
+      "path": "popular6.out",
+      "size": 2
+    },
+    {
+      "path": "popular7.in",
+      "size": 97800
+    },
+    {
+      "path": "popular7.out",
+      "size": 6
+    },
+    {
+      "path": "popular8.in",
+      "size": 81
+    },
+    {
+      "path": "popular8.out",
+      "size": 2
+    },
+    {
+      "path": "popular9.in",
+      "size": 5100
+    },
+    {
+      "path": "popular9.out",
+      "size": 2
+    }
+  ]
+}

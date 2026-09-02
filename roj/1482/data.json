@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "word1.ans",
+      "size": 335
+    },
+    {
+      "path": "word1.in",
+      "size": 329
+    },
+    {
+      "path": "word10.ans",
+      "size": 1200
+    },
+    {
+      "path": "word10.in",
+      "size": 1000204
+    },
+    {
+      "path": "word2.ans",
+      "size": 300
+    },
+    {
+      "path": "word2.in",
+      "size": 239
+    },
+    {
+      "path": "word3.ans",
+      "size": 300
+    },
+    {
+      "path": "word3.in",
+      "size": 286
+    },
+    {
+      "path": "word4.ans",
+      "size": 61
+    },
+    {
+      "path": "word4.in",
+      "size": 11197
+    },
+    {
+      "path": "word5.ans",
+      "size": 88
+    },
+    {
+      "path": "word5.in",
+      "size": 49087
+    },
+    {
+      "path": "word6.ans",
+      "size": 818
+    },
+    {
+      "path": "word6.in",
+      "size": 180966
+    },
+    {
+      "path": "word7.ans",
+      "size": 826
+    },
+    {
+      "path": "word7.in",
+      "size": 180185
+    },
+    {
+      "path": "word8.ans",
+      "size": 825
+    },
+    {
+      "path": "word8.in",
+      "size": 180460
+    },
+    {
+      "path": "word9.ans",
+      "size": 800
+    },
+    {
+      "path": "word9.in",
+      "size": 180040
+    }
+  ]
+}

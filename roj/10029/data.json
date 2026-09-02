@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "palin0.in",
+      "size": 2
+    },
+    {
+      "path": "palin0.out",
+      "size": 2
+    },
+    {
+      "path": "palin1.in",
+      "size": 2
+    },
+    {
+      "path": "palin1.out",
+      "size": 2
+    },
+    {
+      "path": "palin2.in",
+      "size": 2
+    },
+    {
+      "path": "palin2.out",
+      "size": 3
+    },
+    {
+      "path": "palin3.in",
+      "size": 3
+    },
+    {
+      "path": "palin3.out",
+      "size": 4
+    },
+    {
+      "path": "palin4.in",
+      "size": 4
+    },
+    {
+      "path": "palin4.out",
+      "size": 6
+    },
+    {
+      "path": "palin5.in",
+      "size": 4
+    },
+    {
+      "path": "palin5.out",
+      "size": 8
+    },
+    {
+      "path": "palin6.in",
+      "size": 4
+    },
+    {
+      "path": "palin6.out",
+      "size": 9
+    },
+    {
+      "path": "palin7.in",
+      "size": 4
+    },
+    {
+      "path": "palin7.out",
+      "size": 10
+    },
+    {
+      "path": "palin8.in",
+      "size": 4
+    },
+    {
+      "path": "palin8.out",
+      "size": 11
+    },
+    {
+      "path": "palin9.in",
+      "size": 5
+    },
+    {
+      "path": "palin9.out",
+      "size": 11
+    }
+  ]
+}

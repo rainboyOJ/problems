@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "fbip0.in",
+      "size": 11
+    },
+    {
+      "path": "fbip0.out",
+      "size": 15
+    },
+    {
+      "path": "fbip1.in",
+      "size": 4
+    },
+    {
+      "path": "fbip1.out",
+      "size": 1
+    },
+    {
+      "path": "fbip2.in",
+      "size": 5
+    },
+    {
+      "path": "fbip2.out",
+      "size": 3
+    },
+    {
+      "path": "fbip3.in",
+      "size": 7
+    },
+    {
+      "path": "fbip3.out",
+      "size": 7
+    },
+    {
+      "path": "fbip4.in",
+      "size": 7
+    },
+    {
+      "path": "fbip4.out",
+      "size": 7
+    },
+    {
+      "path": "fbip5.in",
+      "size": 11
+    },
+    {
+      "path": "fbip5.out",
+      "size": 15
+    },
+    {
+      "path": "fbip6.in",
+      "size": 35
+    },
+    {
+      "path": "fbip6.out",
+      "size": 63
+    },
+    {
+      "path": "fbip7.in",
+      "size": 67
+    },
+    {
+      "path": "fbip7.out",
+      "size": 127
+    },
+    {
+      "path": "fbip8.in",
+      "size": 515
+    },
+    {
+      "path": "fbip8.out",
+      "size": 1023
+    },
+    {
+      "path": "fbip9.in",
+      "size": 1028
+    },
+    {
+      "path": "fbip9.out",
+      "size": 2047
+    }
+  ]
+}

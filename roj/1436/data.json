@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "divide_b1.in",
+      "size": 18
+    },
+    {
+      "path": "divide_b1.out",
+      "size": 3
+    },
+    {
+      "path": "divide_b2.in",
+      "size": 5902
+    },
+    {
+      "path": "divide_b2.out",
+      "size": 8
+    },
+    {
+      "path": "divide_b3.in",
+      "size": 489122
+    },
+    {
+      "path": "divide_b3.out",
+      "size": 10
+    },
+    {
+      "path": "divide_b4.in",
+      "size": 291987
+    },
+    {
+      "path": "divide_b4.out",
+      "size": 8
+    },
+    {
+      "path": "divide_b5.in",
+      "size": 590489
+    },
+    {
+      "path": "divide_b5.out",
+      "size": 9
+    }
+  ]
+}

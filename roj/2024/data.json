@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "holstein0.in",
+      "size": 12
+    },
+    {
+      "path": "holstein0.out",
+      "size": 3
+    },
+    {
+      "path": "holstein1.in",
+      "size": 52
+    },
+    {
+      "path": "holstein1.out",
+      "size": 3
+    },
+    {
+      "path": "holstein2.in",
+      "size": 49
+    },
+    {
+      "path": "holstein2.out",
+      "size": 5
+    },
+    {
+      "path": "holstein3.in",
+      "size": 90
+    },
+    {
+      "path": "holstein3.out",
+      "size": 11
+    },
+    {
+      "path": "holstein4.in",
+      "size": 162
+    },
+    {
+      "path": "holstein4.out",
+      "size": 5
+    },
+    {
+      "path": "holstein5.in",
+      "size": 206
+    },
+    {
+      "path": "holstein5.out",
+      "size": 11
+    },
+    {
+      "path": "holstein6.in",
+      "size": 593
+    },
+    {
+      "path": "holstein6.out",
+      "size": 11
+    },
+    {
+      "path": "holstein7.in",
+      "size": 921
+    },
+    {
+      "path": "holstein7.out",
+      "size": 26
+    },
+    {
+      "path": "holstein8.in",
+      "size": 1421
+    },
+    {
+      "path": "holstein8.out",
+      "size": 8
+    },
+    {
+      "path": "holstein9.in",
+      "size": 1400
+    },
+    {
+      "path": "holstein9.out",
+      "size": 25
+    }
+  ]
+}

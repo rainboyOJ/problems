@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "sample.in",
+      "size": 18
+    },
+    {
+      "path": "sample.out",
+      "size": 6
+    },
+    {
+      "path": "sequence 1-5.in",
+      "size": 1142916
+    },
+    {
+      "path": "sequence 1-5.out",
+      "size": 14196
+    }
+  ]
+}

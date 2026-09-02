@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "substring1.ans",
+      "size": 3
+    },
+    {
+      "path": "substring1.in",
+      "size": 506
+    },
+    {
+      "path": "substring10.ans",
+      "size": 10
+    },
+    {
+      "path": "substring10.in",
+      "size": 1215
+    },
+    {
+      "path": "substring2.ans",
+      "size": 5
+    },
+    {
+      "path": "substring2.in",
+      "size": 451
+    },
+    {
+      "path": "substring3.ans",
+      "size": 7
+    },
+    {
+      "path": "substring3.in",
+      "size": 561
+    },
+    {
+      "path": "substring4.ans",
+      "size": 10
+    },
+    {
+      "path": "substring4.in",
+      "size": 452
+    },
+    {
+      "path": "substring5.ans",
+      "size": 10
+    },
+    {
+      "path": "substring5.in",
+      "size": 562
+    },
+    {
+      "path": "substring6.ans",
+      "size": 7
+    },
+    {
+      "path": "substring6.in",
+      "size": 121
+    },
+    {
+      "path": "substring7.ans",
+      "size": 10
+    },
+    {
+      "path": "substring7.in",
+      "size": 562
+    },
+    {
+      "path": "substring8.ans",
+      "size": 10
+    },
+    {
+      "path": "substring8.in",
+      "size": 1114
+    },
+    {
+      "path": "substring9.ans",
+      "size": 10
+    },
+    {
+      "path": "substring9.in",
+      "size": 1114
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "shuttleus0.in",
+      "size": 1
+    },
+    {
+      "path": "shuttleus0.out",
+      "size": 5
+    },
+    {
+      "path": "shuttleus1.in",
+      "size": 1
+    },
+    {
+      "path": "shuttleus1.out",
+      "size": 29
+    },
+    {
+      "path": "shuttleus2.in",
+      "size": 1
+    },
+    {
+      "path": "shuttleus2.out",
+      "size": 48
+    },
+    {
+      "path": "shuttleus3.in",
+      "size": 1
+    },
+    {
+      "path": "shuttleus3.out",
+      "size": 73
+    },
+    {
+      "path": "shuttleus4.in",
+      "size": 1
+    },
+    {
+      "path": "shuttleus4.out",
+      "size": 149
+    },
+    {
+      "path": "shuttleus5.in",
+      "size": 1
+    },
+    {
+      "path": "shuttleus5.out",
+      "size": 198
+    },
+    {
+      "path": "shuttleus6.in",
+      "size": 1
+    },
+    {
+      "path": "shuttleus6.out",
+      "size": 255
+    },
+    {
+      "path": "shuttleus7.in",
+      "size": 2
+    },
+    {
+      "path": "shuttleus7.out",
+      "size": 319
+    },
+    {
+      "path": "shuttleus8.in",
+      "size": 2
+    },
+    {
+      "path": "shuttleus8.out",
+      "size": 390
+    },
+    {
+      "path": "shuttleus9.in",
+      "size": 2
+    },
+    {
+      "path": "shuttleus9.out",
+      "size": 466
+    }
+  ]
+}

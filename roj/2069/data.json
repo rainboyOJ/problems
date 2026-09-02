@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "buylow0.in",
+      "size": 4
+    },
+    {
+      "path": "buylow0.out",
+      "size": 3
+    },
+    {
+      "path": "buylow1.in",
+      "size": 24
+    },
+    {
+      "path": "buylow1.out",
+      "size": 4
+    },
+    {
+      "path": "buylow2.in",
+      "size": 40
+    },
+    {
+      "path": "buylow2.out",
+      "size": 3
+    },
+    {
+      "path": "buylow3.in",
+      "size": 57
+    },
+    {
+      "path": "buylow3.out",
+      "size": 4
+    },
+    {
+      "path": "buylow4.in",
+      "size": 1468
+    },
+    {
+      "path": "buylow4.out",
+      "size": 5
+    },
+    {
+      "path": "buylow5.in",
+      "size": 2637
+    },
+    {
+      "path": "buylow5.out",
+      "size": 4
+    },
+    {
+      "path": "buylow6.in",
+      "size": 3124
+    },
+    {
+      "path": "buylow6.out",
+      "size": 9
+    },
+    {
+      "path": "buylow7.in",
+      "size": 1924
+    },
+    {
+      "path": "buylow7.out",
+      "size": 65
+    },
+    {
+      "path": "buylow8.in",
+      "size": 8122
+    },
+    {
+      "path": "buylow8.out",
+      "size": 13
+    },
+    {
+      "path": "buylow9.in",
+      "size": 26929
+    },
+    {
+      "path": "buylow9.out",
+      "size": 19
+    }
+  ]
+}

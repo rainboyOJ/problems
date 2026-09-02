@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "visit1.in",
+      "size": 47
+    },
+    {
+      "path": "visit1.out",
+      "size": 20
+    },
+    {
+      "path": "visit2.in",
+      "size": 5834
+    },
+    {
+      "path": "visit2.out",
+      "size": 278
+    },
+    {
+      "path": "visit3.in",
+      "size": 77849
+    },
+    {
+      "path": "visit3.out",
+      "size": 3521
+    },
+    {
+      "path": "visit4.in",
+      "size": 290437
+    },
+    {
+      "path": "visit4.out",
+      "size": 46038
+    },
+    {
+      "path": "visit5.in",
+      "size": 337800
+    },
+    {
+      "path": "visit5.out",
+      "size": 168894
+    }
+  ]
+}

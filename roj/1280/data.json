@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "ski0.in",
+      "size": 76
+    },
+    {
+      "path": "ski0.out",
+      "size": 4
+    },
+    {
+      "path": "ski1.in",
+      "size": 26
+    },
+    {
+      "path": "ski1.out",
+      "size": 3
+    },
+    {
+      "path": "ski2.in",
+      "size": 133
+    },
+    {
+      "path": "ski2.out",
+      "size": 3
+    },
+    {
+      "path": "ski3.in",
+      "size": 6
+    },
+    {
+      "path": "ski3.out",
+      "size": 3
+    },
+    {
+      "path": "ski4.in",
+      "size": 83
+    },
+    {
+      "path": "ski4.out",
+      "size": 3
+    },
+    {
+      "path": "ski5.in",
+      "size": 79
+    },
+    {
+      "path": "ski5.out",
+      "size": 4
+    },
+    {
+      "path": "ski6.in",
+      "size": 69000
+    },
+    {
+      "path": "ski6.out",
+      "size": 4
+    },
+    {
+      "path": "ski7.in",
+      "size": 9995
+    },
+    {
+      "path": "ski7.out",
+      "size": 4
+    },
+    {
+      "path": "ski8.in",
+      "size": 40086
+    },
+    {
+      "path": "ski8.out",
+      "size": 4
+    },
+    {
+      "path": "ski9.in",
+      "size": 49003
+    },
+    {
+      "path": "ski9.out",
+      "size": 7
+    }
+  ]
+}

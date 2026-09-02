@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "martian0.in",
+      "size": 15
+    },
+    {
+      "path": "martian0.out",
+      "size": 9
+    },
+    {
+      "path": "martian1.in",
+      "size": 11
+    },
+    {
+      "path": "martian1.out",
+      "size": 5
+    },
+    {
+      "path": "martian2.in",
+      "size": 43
+    },
+    {
+      "path": "martian2.out",
+      "size": 35
+    },
+    {
+      "path": "martian3.in",
+      "size": 58
+    },
+    {
+      "path": "martian3.out",
+      "size": 50
+    },
+    {
+      "path": "martian4.in",
+      "size": 57
+    },
+    {
+      "path": "martian4.out",
+      "size": 50
+    },
+    {
+      "path": "martian5.in",
+      "size": 148
+    },
+    {
+      "path": "martian5.out",
+      "size": 140
+    },
+    {
+      "path": "martian6.in",
+      "size": 300
+    },
+    {
+      "path": "martian6.out",
+      "size": 291
+    },
+    {
+      "path": "martian7.in",
+      "size": 1900
+    },
+    {
+      "path": "martian7.out",
+      "size": 1891
+    },
+    {
+      "path": "martian8.in",
+      "size": 3902
+    },
+    {
+      "path": "martian8.out",
+      "size": 3892
+    },
+    {
+      "path": "martian9.in",
+      "size": 48904
+    },
+    {
+      "path": "martian9.out",
+      "size": 48893
+    }
+  ]
+}

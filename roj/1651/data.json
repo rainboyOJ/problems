@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "path": "ancient1.in",
+      "size": 13
+    },
+    {
+      "path": "ancient1.out",
+      "size": 10
+    },
+    {
+      "path": "ancient10.in",
+      "size": 20
+    },
+    {
+      "path": "ancient10.out",
+      "size": 10
+    },
+    {
+      "path": "ancient11.in",
+      "size": 20
+    },
+    {
+      "path": "ancient11.out",
+      "size": 10
+    },
+    {
+      "path": "ancient12.in",
+      "size": 20
+    },
+    {
+      "path": "ancient12.out",
+      "size": 10
+    },
+    {
+      "path": "ancient13.in",
+      "size": 20
+    },
+    {
+      "path": "ancient13.out",
+      "size": 10
+    },
+    {
+      "path": "ancient14.in",
+      "size": 20
+    },
+    {
+      "path": "ancient14.out",
+      "size": 10
+    },
+    {
+      "path": "ancient15.in",
+      "size": 20
+    },
+    {
+      "path": "ancient15.out",
+      "size": 10
+    },
+    {
+      "path": "ancient16.in",
+      "size": 20
+    },
+    {
+      "path": "ancient16.out",
+      "size": 8
+    },
+    {
+      "path": "ancient17.in",
+      "size": 19
+    },
+    {
+      "path": "ancient17.out",
+      "size": 9
+    },
+    {
+      "path": "ancient2.in",
+      "size": 13
+    },
+    {
+      "path": "ancient2.out",
+      "size": 10
+    },
+    {
+      "path": "ancient3.in",
+      "size": 14
+    },
+    {
+      "path": "ancient3.out",
+      "size": 10
+    },
+    {
+      "path": "ancient4.in",
+      "size": 14
+    },
+    {
+      "path": "ancient4.out",
+      "size": 10
+    },
+    {
+      "path": "ancient5.in",
+      "size": 15
+    },
+    {
+      "path": "ancient5.out",
+      "size": 10
+    },
+    {
+      "path": "ancient6.in",
+      "size": 16
+    },
+    {
+      "path": "ancient6.out",
+      "size": 10
+    },
+    {
+      "path": "ancient7.in",
+      "size": 16
+    },
+    {
+      "path": "ancient7.out",
+      "size": 10
+    },
+    {
+      "path": "ancient8.in",
+      "size": 15
+    },
+    {
+      "path": "ancient8.out",
+      "size": 10
+    },
+    {
+      "path": "ancient9.in",
+      "size": 19
+    },
+    {
+      "path": "ancient9.out",
+      "size": 10
+    }
+  ]
+}

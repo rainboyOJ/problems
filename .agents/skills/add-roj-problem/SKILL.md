@@ -17,8 +17,8 @@ judge integration. The website discovers numeric `roj/<id>/` directories at star
 - Do not copy or expose registration, judging, or account data.
 - Do not expose `std.cpp`, generators, checkers, or other maintenance files. The
   website's download feature treats allowlisted files under `data/` as public download
-  candidates; the legacy `down/` directory is retained for compatibility but is not
-  part of the new download UI.
+  candidates listed in `data.json`; the legacy `down/` directory is retained for
+  compatibility but is not part of the new download UI.
 - Do not overwrite an existing `roj/<id>/` directory. A collision is a stop-and-ask
   condition, not a reason to replace files.
 - Do not write anything before producing a preview and receiving explicit user
@@ -167,6 +167,7 @@ moving it into the final numeric directory:
 ```text
 roj/<id>/
 ├── config.json
+├── data.json                # generated public-data manifest, even when empty
 ├── content.md              # or content.pdf for PDF-only problems
 ├── std.cpp                 # only when a source was selected
 ├── data/                   # public data candidates; web2 applies an extension filter
@@ -194,18 +195,36 @@ Reject or pause a candidate when any single file intended for a GitHub Raw link 
 over 100 MB. GitHub cannot reliably serve such a file through the agreed link; wait
 for an explicit Git LFS or external storage decision.
 
-### 6. Record public data candidates
+### 6. Generate the public data manifest
 
-Do not append a managed download-link block to `content.md`. The web2 download API
-builds a local VPS download URL from the final `roj/<id>/data/` path and its filtered
-manifest. In the preview, report the public data candidates, their relative paths,
-sizes, and the eventual API path. A GitHub Raw URL may be reported only as an
-explicit fallback; do not claim either URL works until the destination is committed
-and deployed.
+Do not append a managed download-link block to `content.md`. Generate
+`roj/<id>/data.json` with the bundled manifest tool after copying the public data:
+
+```sh
+python3 .agents/skills/add-roj-problem/scripts/generate-data-manifest.py \
+  --root roj --problem <id>
+```
+
+The manifest contains only a sorted `files` array of `{ "path", "size" }` objects.
+Generate `{ "files": [] }` for a problem with no public data. The web2 API reads this
+small manifest from bohai and gives the browser and `roj.py` configured GitHub Raw or
+mirror source URLs; no VPS data URL is created. In the preview, report the public
+data candidates, their relative paths, sizes, and the generated manifest.
+
+Before finalizing an import, run the validator:
+
+```sh
+python3 .agents/skills/add-roj-problem/scripts/generate-data-manifest.py --check
+```
+
+The validator rejects missing or stale manifests, unsafe paths, unsupported
+extensions, symlinks, and any single public file over 100 MiB. Do not claim a Raw
+download URL works until the destination is committed and available on GitHub.
 
 Existing legacy download-link blocks are not rewritten automatically. If the user asks
 to migrate one, show a separate before/after preview and remove only links explicitly
-covered by that request.
+covered by that request. Do not copy `data/` or `down/` into the bohai deployment; the
+deployment script excludes both directories.
 
 ### 7. Preview and confirm
 
@@ -224,6 +243,8 @@ For every imported problem, verify:
 
 - `config.json` parses and contains no `null` values; tags are strings
 - exactly one usable statement carrier exists (`content.md` or `content.pdf`)
+- `data.json` exists, parses, and matches the copied public data (including an empty
+  `files` array when no public data exists)
 - `content.md` has no unapproved structural raw HTML
 - all local image references resolve to copied files
 - every reported public data candidate maps to a copied `data/` file
@@ -233,11 +254,9 @@ For every imported problem, verify:
 - `git diff --check` is clean for the new text files
 
 If the ROJ web server is already running, request each imported `/problem/<id>` page
-and each PDF/download URL that the current server supports. The planned web2
-download UI uses the VPS for individual files and server-generated ZIP archives;
-verify the manifest endpoint, at least one individual data URL, and the ZIP URL when
-the destination is deployed. Do not claim a download URL works before deployment.
-If a GitHub Raw fallback is configured, verify it separately.
+and each PDF URL that the current server supports. Verify the manifest endpoint and,
+when public data exists, verify at least one configured GitHub source URL after the
+destination is committed. Do not claim a download URL works before deployment.
 
 Report imported IDs, skipped candidates, warnings, file counts, and validation results.
 Leave all Git operations to the user.

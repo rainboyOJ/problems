@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "castle0.in",
+      "size": 77
+    },
+    {
+      "path": "castle0.out",
+      "size": 15
+    },
+    {
+      "path": "castle1.in",
+      "size": 10
+    },
+    {
+      "path": "castle1.out",
+      "size": 14
+    },
+    {
+      "path": "castle2.in",
+      "size": 62
+    },
+    {
+      "path": "castle2.out",
+      "size": 15
+    },
+    {
+      "path": "castle3.in",
+      "size": 540
+    },
+    {
+      "path": "castle3.out",
+      "size": 19
+    },
+    {
+      "path": "castle4.in",
+      "size": 231
+    },
+    {
+      "path": "castle4.out",
+      "size": 17
+    },
+    {
+      "path": "castle5.in",
+      "size": 2087
+    },
+    {
+      "path": "castle5.out",
+      "size": 21
+    },
+    {
+      "path": "castle6.in",
+      "size": 7555
+    },
+    {
+      "path": "castle6.out",
+      "size": 18
+    },
+    {
+      "path": "castle7.in",
+      "size": 6042
+    },
+    {
+      "path": "castle7.out",
+      "size": 23
+    }
+  ]
+}

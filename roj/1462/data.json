@@ -1,0 +1,500 @@
+{
+  "files": [
+    {
+      "path": "ant0.in",
+      "size": 11
+    },
+    {
+      "path": "ant0.out",
+      "size": 2
+    },
+    {
+      "path": "ant10a.in",
+      "size": 500008
+    },
+    {
+      "path": "ant10a.out",
+      "size": 7
+    },
+    {
+      "path": "ant10b.in",
+      "size": 500008
+    },
+    {
+      "path": "ant10b.out",
+      "size": 7
+    },
+    {
+      "path": "ant10c.in",
+      "size": 500008
+    },
+    {
+      "path": "ant10c.out",
+      "size": 11
+    },
+    {
+      "path": "ant10d.in",
+      "size": 500008
+    },
+    {
+      "path": "ant10d.out",
+      "size": 8
+    },
+    {
+      "path": "ant11a.in",
+      "size": 500008
+    },
+    {
+      "path": "ant11a.out",
+      "size": 7
+    },
+    {
+      "path": "ant11b.in",
+      "size": 500008
+    },
+    {
+      "path": "ant11b.out",
+      "size": 11
+    },
+    {
+      "path": "ant11c.in",
+      "size": 500008
+    },
+    {
+      "path": "ant11c.out",
+      "size": 7
+    },
+    {
+      "path": "ant11d.in",
+      "size": 500008
+    },
+    {
+      "path": "ant11d.out",
+      "size": 7
+    },
+    {
+      "path": "ant12a.in",
+      "size": 500008
+    },
+    {
+      "path": "ant12a.out",
+      "size": 11
+    },
+    {
+      "path": "ant12b.in",
+      "size": 500008
+    },
+    {
+      "path": "ant12b.out",
+      "size": 12
+    },
+    {
+      "path": "ant12c.in",
+      "size": 500008
+    },
+    {
+      "path": "ant12c.out",
+      "size": 12
+    },
+    {
+      "path": "ant12d.in",
+      "size": 500008
+    },
+    {
+      "path": "ant12d.out",
+      "size": 12
+    },
+    {
+      "path": "ant13a.in",
+      "size": 500008
+    },
+    {
+      "path": "ant13a.out",
+      "size": 12
+    },
+    {
+      "path": "ant13b.in",
+      "size": 500008
+    },
+    {
+      "path": "ant13b.out",
+      "size": 7
+    },
+    {
+      "path": "ant13c.in",
+      "size": 500008
+    },
+    {
+      "path": "ant13c.out",
+      "size": 12
+    },
+    {
+      "path": "ant13d.in",
+      "size": 500008
+    },
+    {
+      "path": "ant13d.out",
+      "size": 8
+    },
+    {
+      "path": "ant14a.in",
+      "size": 500006
+    },
+    {
+      "path": "ant14a.out",
+      "size": 12
+    },
+    {
+      "path": "ant14b.in",
+      "size": 491528
+    },
+    {
+      "path": "ant14b.out",
+      "size": 10
+    },
+    {
+      "path": "ant14c.in",
+      "size": 500008
+    },
+    {
+      "path": "ant14c.out",
+      "size": 7
+    },
+    {
+      "path": "ant14d.in",
+      "size": 500008
+    },
+    {
+      "path": "ant14d.out",
+      "size": 12
+    },
+    {
+      "path": "ant1a.in",
+      "size": 4
+    },
+    {
+      "path": "ant1a.out",
+      "size": 2
+    },
+    {
+      "path": "ant1b.in",
+      "size": 4
+    },
+    {
+      "path": "ant1b.out",
+      "size": 2
+    },
+    {
+      "path": "ant1c.in",
+      "size": 5
+    },
+    {
+      "path": "ant1c.out",
+      "size": 2
+    },
+    {
+      "path": "ant1d.in",
+      "size": 14
+    },
+    {
+      "path": "ant1d.out",
+      "size": 3
+    },
+    {
+      "path": "ant1e.in",
+      "size": 5
+    },
+    {
+      "path": "ant1e.out",
+      "size": 2
+    },
+    {
+      "path": "ant1ocen.in",
+      "size": 10
+    },
+    {
+      "path": "ant1ocen.out",
+      "size": 2
+    },
+    {
+      "path": "ant2a.in",
+      "size": 49
+    },
+    {
+      "path": "ant2a.out",
+      "size": 2
+    },
+    {
+      "path": "ant2b.in",
+      "size": 54
+    },
+    {
+      "path": "ant2b.out",
+      "size": 2
+    },
+    {
+      "path": "ant2c.in",
+      "size": 54
+    },
+    {
+      "path": "ant2c.out",
+      "size": 3
+    },
+    {
+      "path": "ant2d.in",
+      "size": 105
+    },
+    {
+      "path": "ant2d.out",
+      "size": 4
+    },
+    {
+      "path": "ant2ocen.in",
+      "size": 14
+    },
+    {
+      "path": "ant2ocen.out",
+      "size": 2
+    },
+    {
+      "path": "ant3a.in",
+      "size": 65
+    },
+    {
+      "path": "ant3a.out",
+      "size": 4
+    },
+    {
+      "path": "ant3b.in",
+      "size": 427
+    },
+    {
+      "path": "ant3b.out",
+      "size": 4
+    },
+    {
+      "path": "ant3c.in",
+      "size": 605
+    },
+    {
+      "path": "ant3c.out",
+      "size": 4
+    },
+    {
+      "path": "ant3d.in",
+      "size": 805
+    },
+    {
+      "path": "ant3d.out",
+      "size": 7
+    },
+    {
+      "path": "ant3ocen.in",
+      "size": 18
+    },
+    {
+      "path": "ant3ocen.out",
+      "size": 3
+    },
+    {
+      "path": "ant4a.in",
+      "size": 1008
+    },
+    {
+      "path": "ant4a.out",
+      "size": 5
+    },
+    {
+      "path": "ant4b.in",
+      "size": 1036
+    },
+    {
+      "path": "ant4b.out",
+      "size": 4
+    },
+    {
+      "path": "ant4c.in",
+      "size": 1204
+    },
+    {
+      "path": "ant4c.out",
+      "size": 5
+    },
+    {
+      "path": "ant4d.in",
+      "size": 1607
+    },
+    {
+      "path": "ant4d.out",
+      "size": 7
+    },
+    {
+      "path": "ant4ocen.in",
+      "size": 500008
+    },
+    {
+      "path": "ant4ocen.out",
+      "size": 2
+    },
+    {
+      "path": "ant5a.in",
+      "size": 6662
+    },
+    {
+      "path": "ant5a.out",
+      "size": 7
+    },
+    {
+      "path": "ant5b.in",
+      "size": 6237
+    },
+    {
+      "path": "ant5b.out",
+      "size": 7
+    },
+    {
+      "path": "ant5c.in",
+      "size": 7059
+    },
+    {
+      "path": "ant5c.out",
+      "size": 8
+    },
+    {
+      "path": "ant5d.in",
+      "size": 7674
+    },
+    {
+      "path": "ant5d.out",
+      "size": 6
+    },
+    {
+      "path": "ant6a.in",
+      "size": 20487
+    },
+    {
+      "path": "ant6a.out",
+      "size": 8
+    },
+    {
+      "path": "ant6b.in",
+      "size": 18341
+    },
+    {
+      "path": "ant6b.out",
+      "size": 8
+    },
+    {
+      "path": "ant6c.in",
+      "size": 20007
+    },
+    {
+      "path": "ant6c.out",
+      "size": 10
+    },
+    {
+      "path": "ant6d.in",
+      "size": 38107
+    },
+    {
+      "path": "ant6d.out",
+      "size": 6
+    },
+    {
+      "path": "ant7a.in",
+      "size": 37095
+    },
+    {
+      "path": "ant7a.out",
+      "size": 9
+    },
+    {
+      "path": "ant7b.in",
+      "size": 100008
+    },
+    {
+      "path": "ant7b.out",
+      "size": 7
+    },
+    {
+      "path": "ant7c.in",
+      "size": 106830
+    },
+    {
+      "path": "ant7c.out",
+      "size": 6
+    },
+    {
+      "path": "ant7d.in",
+      "size": 500001
+    },
+    {
+      "path": "ant7d.out",
+      "size": 2
+    },
+    {
+      "path": "ant8a.in",
+      "size": 158312
+    },
+    {
+      "path": "ant8a.out",
+      "size": 11
+    },
+    {
+      "path": "ant8b.in",
+      "size": 200008
+    },
+    {
+      "path": "ant8b.out",
+      "size": 7
+    },
+    {
+      "path": "ant8c.in",
+      "size": 200008
+    },
+    {
+      "path": "ant8c.out",
+      "size": 7
+    },
+    {
+      "path": "ant8d.in",
+      "size": 221268
+    },
+    {
+      "path": "ant8d.out",
+      "size": 7
+    },
+    {
+      "path": "ant9a.in",
+      "size": 400012
+    },
+    {
+      "path": "ant9a.out",
+      "size": 7
+    },
+    {
+      "path": "ant9b.in",
+      "size": 407709
+    },
+    {
+      "path": "ant9b.out",
+      "size": 11
+    },
+    {
+      "path": "ant9c.in",
+      "size": 409608
+    },
+    {
+      "path": "ant9c.out",
+      "size": 10
+    },
+    {
+      "path": "ant9d.in",
+      "size": 400008
+    },
+    {
+      "path": "ant9d.out",
+      "size": 7
+    }
+  ]
+}

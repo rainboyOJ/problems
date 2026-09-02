@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "sleep1.in",
+      "size": 714
+    },
+    {
+      "path": "sleep1.out",
+      "size": 4
+    },
+    {
+      "path": "sleep10.in",
+      "size": 1255725
+    },
+    {
+      "path": "sleep10.out",
+      "size": 11
+    },
+    {
+      "path": "sleep2.in",
+      "size": 7472
+    },
+    {
+      "path": "sleep2.out",
+      "size": 4
+    },
+    {
+      "path": "sleep3.in",
+      "size": 6810
+    },
+    {
+      "path": "sleep3.out",
+      "size": 4
+    },
+    {
+      "path": "sleep4.in",
+      "size": 933586
+    },
+    {
+      "path": "sleep4.out",
+      "size": 5
+    },
+    {
+      "path": "sleep5.in",
+      "size": 981247
+    },
+    {
+      "path": "sleep5.out",
+      "size": 7
+    },
+    {
+      "path": "sleep6.in",
+      "size": 949103
+    },
+    {
+      "path": "sleep6.out",
+      "size": 6
+    },
+    {
+      "path": "sleep7.in",
+      "size": 1265882
+    },
+    {
+      "path": "sleep7.out",
+      "size": 10
+    },
+    {
+      "path": "sleep8.in",
+      "size": 1301469
+    },
+    {
+      "path": "sleep8.out",
+      "size": 9
+    },
+    {
+      "path": "sleep9.in",
+      "size": 1043664
+    },
+    {
+      "path": "sleep9.out",
+      "size": 10
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "fact40.in",
+      "size": 1
+    },
+    {
+      "path": "fact40.out",
+      "size": 1
+    },
+    {
+      "path": "fact41.in",
+      "size": 1
+    },
+    {
+      "path": "fact41.out",
+      "size": 1
+    },
+    {
+      "path": "fact42.in",
+      "size": 1
+    },
+    {
+      "path": "fact42.out",
+      "size": 1
+    },
+    {
+      "path": "fact43.in",
+      "size": 2
+    },
+    {
+      "path": "fact43.out",
+      "size": 1
+    },
+    {
+      "path": "fact44.in",
+      "size": 3
+    },
+    {
+      "path": "fact44.out",
+      "size": 1
+    },
+    {
+      "path": "fact45.in",
+      "size": 3
+    },
+    {
+      "path": "fact45.out",
+      "size": 1
+    },
+    {
+      "path": "fact46.in",
+      "size": 3
+    },
+    {
+      "path": "fact46.out",
+      "size": 1
+    },
+    {
+      "path": "fact47.in",
+      "size": 3
+    },
+    {
+      "path": "fact47.out",
+      "size": 1
+    },
+    {
+      "path": "fact48.in",
+      "size": 3
+    },
+    {
+      "path": "fact48.out",
+      "size": 1
+    },
+    {
+      "path": "fact49.in",
+      "size": 4
+    },
+    {
+      "path": "fact49.out",
+      "size": 1
+    }
+  ]
+}

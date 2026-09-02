@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "book1.in",
+      "size": 174
+    },
+    {
+      "path": "book1.out",
+      "size": 11
+    },
+    {
+      "path": "book10.in",
+      "size": 4261430
+    },
+    {
+      "path": "book10.out",
+      "size": 15
+    },
+    {
+      "path": "book2.in",
+      "size": 133
+    },
+    {
+      "path": "book2.out",
+      "size": 12
+    },
+    {
+      "path": "book3.in",
+      "size": 28
+    },
+    {
+      "path": "book3.out",
+      "size": 11
+    },
+    {
+      "path": "book4.in",
+      "size": 40423
+    },
+    {
+      "path": "book4.out",
+      "size": 14
+    },
+    {
+      "path": "book5.in",
+      "size": 30246
+    },
+    {
+      "path": "book5.out",
+      "size": 14
+    },
+    {
+      "path": "book6.in",
+      "size": 24468
+    },
+    {
+      "path": "book6.out",
+      "size": 14
+    },
+    {
+      "path": "book7.in",
+      "size": 6180794
+    },
+    {
+      "path": "book7.out",
+      "size": 16
+    },
+    {
+      "path": "book8.in",
+      "size": 7355491
+    },
+    {
+      "path": "book8.out",
+      "size": 17
+    },
+    {
+      "path": "book9.in",
+      "size": 8834652
+    },
+    {
+      "path": "book9.out",
+      "size": 16
+    },
+    {
+      "path": "大样例/ex.in",
+      "size": 2791178
+    },
+    {
+      "path": "大样例/ex.out",
+      "size": 16
+    }
+  ]
+}

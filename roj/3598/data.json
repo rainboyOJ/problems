@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "vigenere0.in",
+      "size": 57
+    },
+    {
+      "path": "vigenere0.out",
+      "size": 52
+    },
+    {
+      "path": "vigenere1.in",
+      "size": 110
+    },
+    {
+      "path": "vigenere1.out",
+      "size": 104
+    },
+    {
+      "path": "vigenere2.in",
+      "size": 221
+    },
+    {
+      "path": "vigenere2.out",
+      "size": 208
+    },
+    {
+      "path": "vigenere3.in",
+      "size": 429
+    },
+    {
+      "path": "vigenere3.out",
+      "size": 416
+    },
+    {
+      "path": "vigenere4.in",
+      "size": 432
+    },
+    {
+      "path": "vigenere4.out",
+      "size": 416
+    },
+    {
+      "path": "vigenere5.in",
+      "size": 878
+    },
+    {
+      "path": "vigenere5.out",
+      "size": 832
+    },
+    {
+      "path": "vigenere6.in",
+      "size": 861
+    },
+    {
+      "path": "vigenere6.out",
+      "size": 832
+    },
+    {
+      "path": "vigenere7.in",
+      "size": 866
+    },
+    {
+      "path": "vigenere7.out",
+      "size": 832
+    },
+    {
+      "path": "vigenere8.in",
+      "size": 892
+    },
+    {
+      "path": "vigenere8.out",
+      "size": 832
+    },
+    {
+      "path": "vigenere9.in",
+      "size": 933
+    },
+    {
+      "path": "vigenere9.out",
+      "size": 832
+    }
+  ]
+}

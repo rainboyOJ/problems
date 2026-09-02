@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "snail0.in",
+      "size": 19
+    },
+    {
+      "path": "snail0.out",
+      "size": 2
+    },
+    {
+      "path": "snail1.in",
+      "size": 19
+    },
+    {
+      "path": "snail1.out",
+      "size": 2
+    },
+    {
+      "path": "snail10.in",
+      "size": 230
+    },
+    {
+      "path": "snail10.out",
+      "size": 3
+    },
+    {
+      "path": "snail11.in",
+      "size": 342
+    },
+    {
+      "path": "snail11.out",
+      "size": 3
+    },
+    {
+      "path": "snail2.in",
+      "size": 44
+    },
+    {
+      "path": "snail2.out",
+      "size": 2
+    },
+    {
+      "path": "snail3.in",
+      "size": 46
+    },
+    {
+      "path": "snail3.out",
+      "size": 2
+    },
+    {
+      "path": "snail4.in",
+      "size": 41
+    },
+    {
+      "path": "snail4.out",
+      "size": 2
+    },
+    {
+      "path": "snail5.in",
+      "size": 61
+    },
+    {
+      "path": "snail5.out",
+      "size": 2
+    },
+    {
+      "path": "snail6.in",
+      "size": 102
+    },
+    {
+      "path": "snail6.out",
+      "size": 2
+    },
+    {
+      "path": "snail7.in",
+      "size": 84
+    },
+    {
+      "path": "snail7.out",
+      "size": 2
+    },
+    {
+      "path": "snail8.in",
+      "size": 95
+    },
+    {
+      "path": "snail8.out",
+      "size": 3
+    },
+    {
+      "path": "snail9.in",
+      "size": 172
+    },
+    {
+      "path": "snail9.out",
+      "size": 3
+    }
+  ]
+}

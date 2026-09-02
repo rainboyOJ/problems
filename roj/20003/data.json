@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "maxnum1.in",
+      "size": 15
+    },
+    {
+      "path": "maxnum1.out",
+      "size": 10
+    },
+    {
+      "path": "maxnum2.in",
+      "size": 11
+    },
+    {
+      "path": "maxnum2.out",
+      "size": 8
+    },
+    {
+      "path": "maxnum3.in",
+      "size": 16
+    },
+    {
+      "path": "maxnum3.out",
+      "size": 10
+    },
+    {
+      "path": "maxnum4.in",
+      "size": 21
+    },
+    {
+      "path": "maxnum4.out",
+      "size": 15
+    },
+    {
+      "path": "maxnum5.in",
+      "size": 26
+    },
+    {
+      "path": "maxnum5.out",
+      "size": 18
+    }
+  ]
+}

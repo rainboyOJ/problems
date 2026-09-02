@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "path": "moneysys0.in",
+      "size": 6
+    },
+    {
+      "path": "moneysys0.out",
+      "size": 1
+    },
+    {
+      "path": "moneysys1.in",
+      "size": 21
+    },
+    {
+      "path": "moneysys1.out",
+      "size": 10
+    },
+    {
+      "path": "moneysys10.in",
+      "size": 154
+    },
+    {
+      "path": "moneysys10.out",
+      "size": 1
+    },
+    {
+      "path": "moneysys11.in",
+      "size": 97
+    },
+    {
+      "path": "moneysys11.out",
+      "size": 9
+    },
+    {
+      "path": "moneysys12.in",
+      "size": 106
+    },
+    {
+      "path": "moneysys12.out",
+      "size": 4
+    },
+    {
+      "path": "moneysys2.in",
+      "size": 58
+    },
+    {
+      "path": "moneysys2.out",
+      "size": 11
+    },
+    {
+      "path": "moneysys3.in",
+      "size": 26
+    },
+    {
+      "path": "moneysys3.out",
+      "size": 19
+    },
+    {
+      "path": "moneysys4.in",
+      "size": 59
+    },
+    {
+      "path": "moneysys4.out",
+      "size": 19
+    },
+    {
+      "path": "moneysys5.in",
+      "size": 11
+    },
+    {
+      "path": "moneysys5.out",
+      "size": 2
+    },
+    {
+      "path": "moneysys6.in",
+      "size": 28
+    },
+    {
+      "path": "moneysys6.out",
+      "size": 7
+    },
+    {
+      "path": "moneysys7.in",
+      "size": 179
+    },
+    {
+      "path": "moneysys7.out",
+      "size": 1
+    },
+    {
+      "path": "moneysys8.in",
+      "size": 179
+    },
+    {
+      "path": "moneysys8.out",
+      "size": 1
+    },
+    {
+      "path": "moneysys9.in",
+      "size": 154
+    },
+    {
+      "path": "moneysys9.out",
+      "size": 3
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "ditch0.in",
+      "size": 43
+    },
+    {
+      "path": "ditch0.out",
+      "size": 2
+    },
+    {
+      "path": "ditch1.in",
+      "size": 26
+    },
+    {
+      "path": "ditch1.out",
+      "size": 1
+    },
+    {
+      "path": "ditch10.in",
+      "size": 2704
+    },
+    {
+      "path": "ditch10.out",
+      "size": 6
+    },
+    {
+      "path": "ditch11.in",
+      "size": 3
+    },
+    {
+      "path": "ditch11.out",
+      "size": 1
+    },
+    {
+      "path": "ditch2.in",
+      "size": 76
+    },
+    {
+      "path": "ditch2.out",
+      "size": 5
+    },
+    {
+      "path": "ditch3.in",
+      "size": 109
+    },
+    {
+      "path": "ditch3.out",
+      "size": 3
+    },
+    {
+      "path": "ditch4.in",
+      "size": 166
+    },
+    {
+      "path": "ditch4.out",
+      "size": 2
+    },
+    {
+      "path": "ditch5.in",
+      "size": 139
+    },
+    {
+      "path": "ditch5.out",
+      "size": 1
+    },
+    {
+      "path": "ditch6.in",
+      "size": 2002
+    },
+    {
+      "path": "ditch6.out",
+      "size": 6
+    },
+    {
+      "path": "ditch7.in",
+      "size": 1597
+    },
+    {
+      "path": "ditch7.out",
+      "size": 3
+    },
+    {
+      "path": "ditch8.in",
+      "size": 2893
+    },
+    {
+      "path": "ditch8.out",
+      "size": 4
+    },
+    {
+      "path": "ditch9.in",
+      "size": 2653
+    },
+    {
+      "path": "ditch9.out",
+      "size": 7
+    }
+  ]
+}

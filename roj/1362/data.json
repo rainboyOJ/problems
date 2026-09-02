@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "family1.in",
+      "size": 18
+    },
+    {
+      "path": "family1.out",
+      "size": 5
+    },
+    {
+      "path": "family2.in",
+      "size": 4
+    },
+    {
+      "path": "family2.out",
+      "size": 6
+    },
+    {
+      "path": "family3.in",
+      "size": 6184
+    },
+    {
+      "path": "family3.out",
+      "size": 7
+    },
+    {
+      "path": "family4.in",
+      "size": 144
+    },
+    {
+      "path": "family4.out",
+      "size": 6
+    },
+    {
+      "path": "family5.in",
+      "size": 95
+    },
+    {
+      "path": "family5.out",
+      "size": 6
+    }
+  ]
+}

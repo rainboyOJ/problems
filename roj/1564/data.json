@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "q1.in",
+      "size": 24344
+    },
+    {
+      "path": "q1.out",
+      "size": 2983
+    },
+    {
+      "path": "q10.in",
+      "size": 3128450
+    },
+    {
+      "path": "q10.out",
+      "size": 348713
+    },
+    {
+      "path": "q11.in",
+      "size": 3126493
+    },
+    {
+      "path": "q11.out",
+      "size": 351833
+    },
+    {
+      "path": "q12.in",
+      "size": 3127257
+    },
+    {
+      "path": "q12.out",
+      "size": 349047
+    },
+    {
+      "path": "q13.in",
+      "size": 3247521
+    },
+    {
+      "path": "q13.out",
+      "size": 366141
+    },
+    {
+      "path": "q14.in",
+      "size": 3239465
+    },
+    {
+      "path": "q14.out",
+      "size": 368521
+    },
+    {
+      "path": "q15.in",
+      "size": 3284436
+    },
+    {
+      "path": "q15.out",
+      "size": 374125
+    },
+    {
+      "path": "q16.in",
+      "size": 3284869
+    },
+    {
+      "path": "q16.out",
+      "size": 373972
+    },
+    {
+      "path": "q17.in",
+      "size": 3254648
+    },
+    {
+      "path": "q17.out",
+      "size": 331591
+    },
+    {
+      "path": "q18.in",
+      "size": 3284104
+    },
+    {
+      "path": "q18.out",
+      "size": 320480
+    },
+    {
+      "path": "q19.in",
+      "size": 3272406
+    },
+    {
+      "path": "q19.out",
+      "size": 322603
+    },
+    {
+      "path": "q2.in",
+      "size": 24344
+    },
+    {
+      "path": "q2.out",
+      "size": 2983
+    },
+    {
+      "path": "q20.in",
+      "size": 3284428
+    },
+    {
+      "path": "q20.out",
+      "size": 323419
+    },
+    {
+      "path": "q3.in",
+      "size": 3205827
+    },
+    {
+      "path": "q3.out",
+      "size": 403324
+    },
+    {
+      "path": "q4.in",
+      "size": 3205794
+    },
+    {
+      "path": "q4.out",
+      "size": 403381
+    },
+    {
+      "path": "q5.in",
+      "size": 2166956
+    },
+    {
+      "path": "q5.out",
+      "size": 328178
+    },
+    {
+      "path": "q6.in",
+      "size": 3179431
+    },
+    {
+      "path": "q6.out",
+      "size": 342825
+    },
+    {
+      "path": "q7.in",
+      "size": 3179103
+    },
+    {
+      "path": "q7.out",
+      "size": 341086
+    },
+    {
+      "path": "q8.in",
+      "size": 3310574
+    },
+    {
+      "path": "q8.out",
+      "size": 357064
+    },
+    {
+      "path": "q9.in",
+      "size": 3311161
+    },
+    {
+      "path": "q9.out",
+      "size": 357680
+    }
+  ]
+}

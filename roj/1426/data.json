@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "riddle1.in",
+      "size": 111
+    },
+    {
+      "path": "riddle1.out",
+      "size": 7
+    },
+    {
+      "path": "riddle2.in",
+      "size": 351
+    },
+    {
+      "path": "riddle2.out",
+      "size": 7
+    },
+    {
+      "path": "riddle3.in",
+      "size": 701
+    },
+    {
+      "path": "riddle3.out",
+      "size": 7
+    },
+    {
+      "path": "riddle4.in",
+      "size": 1484
+    },
+    {
+      "path": "riddle4.out",
+      "size": 7
+    },
+    {
+      "path": "riddle5.in",
+      "size": 3856
+    },
+    {
+      "path": "riddle5.out",
+      "size": 8
+    }
+  ]
+}

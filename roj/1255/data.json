@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "problem1.in",
+      "size": 50
+    },
+    {
+      "path": "problem1.out",
+      "size": 63
+    },
+    {
+      "path": "problem2.in",
+      "size": 50
+    },
+    {
+      "path": "problem2.out",
+      "size": 63
+    },
+    {
+      "path": "problem3.in",
+      "size": 50
+    },
+    {
+      "path": "problem3.out",
+      "size": 63
+    }
+  ]
+}

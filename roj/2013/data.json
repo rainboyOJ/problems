@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "clocks0.in",
+      "size": 20
+    },
+    {
+      "path": "clocks0.out",
+      "size": 7
+    },
+    {
+      "path": "clocks1.in",
+      "size": 23
+    },
+    {
+      "path": "clocks1.out",
+      "size": 1
+    },
+    {
+      "path": "clocks2.in",
+      "size": 22
+    },
+    {
+      "path": "clocks2.out",
+      "size": 19
+    },
+    {
+      "path": "clocks3.in",
+      "size": 19
+    },
+    {
+      "path": "clocks3.out",
+      "size": 21
+    },
+    {
+      "path": "clocks4.in",
+      "size": 27
+    },
+    {
+      "path": "clocks4.out",
+      "size": 23
+    },
+    {
+      "path": "clocks5.in",
+      "size": 23
+    },
+    {
+      "path": "clocks5.out",
+      "size": 35
+    },
+    {
+      "path": "clocks6.in",
+      "size": 21
+    },
+    {
+      "path": "clocks6.out",
+      "size": 45
+    },
+    {
+      "path": "clocks7.in",
+      "size": 22
+    },
+    {
+      "path": "clocks7.out",
+      "size": 47
+    },
+    {
+      "path": "clocks8.in",
+      "size": 23
+    },
+    {
+      "path": "clocks8.out",
+      "size": 53
+    }
+  ]
+}

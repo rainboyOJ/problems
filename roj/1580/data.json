@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "TREE0.in",
+      "size": 18
+    },
+    {
+      "path": "TREE0.out",
+      "size": 16
+    },
+    {
+      "path": "TREE1.in",
+      "size": 33
+    },
+    {
+      "path": "TREE1.out",
+      "size": 30
+    },
+    {
+      "path": "TREE2.in",
+      "size": 42
+    },
+    {
+      "path": "TREE2.out",
+      "size": 46
+    },
+    {
+      "path": "TREE3.in",
+      "size": 52
+    },
+    {
+      "path": "TREE3.out",
+      "size": 63
+    },
+    {
+      "path": "TREE4.in",
+      "size": 59
+    },
+    {
+      "path": "TREE4.out",
+      "size": 78
+    }
+  ]
+}

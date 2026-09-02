@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "xor1.in",
+      "size": 75
+    },
+    {
+      "path": "xor1.out",
+      "size": 8
+    },
+    {
+      "path": "xor2.in",
+      "size": 69395
+    },
+    {
+      "path": "xor2.out",
+      "size": 8
+    },
+    {
+      "path": "xor3.in",
+      "size": 10474
+    },
+    {
+      "path": "xor3.out",
+      "size": 11
+    },
+    {
+      "path": "xor4.in",
+      "size": 1054
+    },
+    {
+      "path": "xor4.out",
+      "size": 11
+    },
+    {
+      "path": "xor5.in",
+      "size": 1048573
+    },
+    {
+      "path": "xor5.out",
+      "size": 11
+    }
+  ]
+}

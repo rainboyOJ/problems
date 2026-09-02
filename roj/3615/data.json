@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "ratio0.in",
+      "size": 11
+    },
+    {
+      "path": "ratio0.out",
+      "size": 3
+    },
+    {
+      "path": "ratio1.in",
+      "size": 6
+    },
+    {
+      "path": "ratio1.out",
+      "size": 3
+    },
+    {
+      "path": "ratio2.in",
+      "size": 9
+    },
+    {
+      "path": "ratio2.out",
+      "size": 5
+    },
+    {
+      "path": "ratio3.in",
+      "size": 7
+    },
+    {
+      "path": "ratio3.out",
+      "size": 3
+    },
+    {
+      "path": "ratio4.in",
+      "size": 14
+    },
+    {
+      "path": "ratio4.out",
+      "size": 5
+    },
+    {
+      "path": "ratio5.in",
+      "size": 13
+    },
+    {
+      "path": "ratio5.out",
+      "size": 4
+    },
+    {
+      "path": "ratio6.in",
+      "size": 13
+    },
+    {
+      "path": "ratio6.out",
+      "size": 4
+    },
+    {
+      "path": "ratio7.in",
+      "size": 14
+    },
+    {
+      "path": "ratio7.out",
+      "size": 5
+    },
+    {
+      "path": "ratio8.in",
+      "size": 14
+    },
+    {
+      "path": "ratio8.out",
+      "size": 5
+    },
+    {
+      "path": "ratio9.in",
+      "size": 14
+    },
+    {
+      "path": "ratio9.out",
+      "size": 5
+    }
+  ]
+}

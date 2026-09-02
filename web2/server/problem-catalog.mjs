@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { scanPublicData } from './download-service.mjs';
+import { readDataManifest } from './data-manifest.mjs';
 
 class LruCache {
   constructor(limit = 128) {
@@ -57,6 +57,7 @@ export class ProblemCatalog {
     this.renderer = renderer;
     this.pageSize = options.pageSize || 30;
     this.renderCache = new LruCache(options.cacheSize || 128);
+    this.logger = options.logger || console;
     this.entries = [];
   }
 
@@ -76,7 +77,8 @@ export class ProblemCatalog {
       const { config, invalid } = readConfig(path.join(dir, 'config.json'));
       const configuredTitle = optionalString(config.title);
       const title = configuredTitle || `题目 ${id}`;
-      const publicData = scanPublicData(path.join(dir, 'data'));
+      const manifest = readDataManifest(dir, this.logger);
+      const publicData = manifest.files;
 
       entries.push({
         id,
@@ -93,7 +95,8 @@ export class ProblemCatalog {
         publicData,
         publicDataBytes: publicData.reduce((total, file) => total + file.size, 0),
         metadataIncomplete: invalid || !configuredTitle,
-        configInvalid: invalid
+        configInvalid: invalid,
+        dataManifestInvalid: manifest.invalid
       });
     }
 

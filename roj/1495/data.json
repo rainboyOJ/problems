@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "rescue1.in",
+      "size": 126
+    },
+    {
+      "path": "rescue1.out",
+      "size": 4
+    },
+    {
+      "path": "rescue2.in",
+      "size": 474
+    },
+    {
+      "path": "rescue2.out",
+      "size": 4
+    },
+    {
+      "path": "rescue3.in",
+      "size": 748
+    },
+    {
+      "path": "rescue3.out",
+      "size": 4
+    },
+    {
+      "path": "rescue4.in",
+      "size": 1127
+    },
+    {
+      "path": "rescue4.out",
+      "size": 4
+    },
+    {
+      "path": "rescue5.in",
+      "size": 1449
+    },
+    {
+      "path": "rescue5.out",
+      "size": 4
+    },
+    {
+      "path": "rescue6.in",
+      "size": 1725
+    },
+    {
+      "path": "rescue6.out",
+      "size": 4
+    }
+  ]
+}

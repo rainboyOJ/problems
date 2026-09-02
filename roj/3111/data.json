@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "lost.1.in",
+      "size": 10
+    },
+    {
+      "path": "lost.1.out",
+      "size": 10
+    },
+    {
+      "path": "lost.2.in",
+      "size": 21
+    },
+    {
+      "path": "lost.2.out",
+      "size": 21
+    },
+    {
+      "path": "lost.3.in",
+      "size": 122
+    },
+    {
+      "path": "lost.3.out",
+      "size": 141
+    },
+    {
+      "path": "lost.4.in",
+      "size": 10329
+    },
+    {
+      "path": "lost.4.out",
+      "size": 11588
+    },
+    {
+      "path": "lost.5.in",
+      "size": 23574
+    },
+    {
+      "path": "lost.5.out",
+      "size": 25538
+    },
+    {
+      "path": "lost.6.in",
+      "size": 36409
+    },
+    {
+      "path": "lost.6.out",
+      "size": 38888
+    },
+    {
+      "path": "lost.7.in",
+      "size": 16003
+    },
+    {
+      "path": "lost.7.out",
+      "size": 38893
+    }
+  ]
+}

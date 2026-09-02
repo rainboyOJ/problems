@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "shortest1.in",
+      "size": 58407
+    },
+    {
+      "path": "shortest1.out",
+      "size": 330
+    },
+    {
+      "path": "shortest2.in",
+      "size": 31225
+    },
+    {
+      "path": "shortest2.out",
+      "size": 3067
+    },
+    {
+      "path": "shortest3.in",
+      "size": 778564
+    },
+    {
+      "path": "shortest3.out",
+      "size": 3829
+    },
+    {
+      "path": "shortest4.in",
+      "size": 2355760
+    },
+    {
+      "path": "shortest4.out",
+      "size": 301600
+    },
+    {
+      "path": "shortest5.in",
+      "size": 2355605
+    },
+    {
+      "path": "shortest5.out",
+      "size": 488894
+    }
+  ]
+}

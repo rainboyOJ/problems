@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "medic0.in",
+      "size": 53
+    },
+    {
+      "path": "medic0.out",
+      "size": 3
+    },
+    {
+      "path": "medic1.in",
+      "size": 65
+    },
+    {
+      "path": "medic1.out",
+      "size": 3
+    },
+    {
+      "path": "medic2.in",
+      "size": 596
+    },
+    {
+      "path": "medic2.out",
+      "size": 4
+    },
+    {
+      "path": "medic3.in",
+      "size": 589
+    },
+    {
+      "path": "medic3.out",
+      "size": 4
+    },
+    {
+      "path": "medic4.in",
+      "size": 593
+    },
+    {
+      "path": "medic4.out",
+      "size": 4
+    },
+    {
+      "path": "medic5.in",
+      "size": 590
+    },
+    {
+      "path": "medic5.out",
+      "size": 4
+    },
+    {
+      "path": "medic6.in",
+      "size": 596
+    },
+    {
+      "path": "medic6.out",
+      "size": 4
+    },
+    {
+      "path": "medic7.in",
+      "size": 596
+    },
+    {
+      "path": "medic7.out",
+      "size": 4
+    },
+    {
+      "path": "medic8.in",
+      "size": 590
+    },
+    {
+      "path": "medic8.out",
+      "size": 4
+    },
+    {
+      "path": "medic9.in",
+      "size": 35
+    },
+    {
+      "path": "medic9.out",
+      "size": 3
+    }
+  ]
+}

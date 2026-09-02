@@ -9,8 +9,7 @@ import pug from 'pug';
 import { ProblemCatalog } from './problem-catalog.mjs';
 import { ContestCatalog } from './contest-catalog.mjs';
 import { MarkdownRenderer } from './markdown-renderer.mjs';
-import { loadDownloadConfig } from './download-config.mjs';
-import { resolvePublicDataFile, sendPublicFile, streamZip, ZipJobQueue, zipError } from './download-service.mjs';
+import { downloadSources, loadDownloadConfig } from './download-config.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const rojRoot = path.resolve(process.env.ROJ_ROOT || path.join(projectRoot, '..', 'roj'));
@@ -41,11 +40,14 @@ const app = Fastify({
 });
 const { config: downloadConfig, invalid: downloadConfigInvalid } = loadDownloadConfig(downloadConfigPath, app.log);
 const renderer = new MarkdownRenderer();
-const catalog = new ProblemCatalog(rojRoot, renderer);
+const catalog = new ProblemCatalog(rojRoot, renderer, { logger: app.log });
 catalog.load();
 const contestCatalog = new ContestCatalog(contestsRoot, renderer, catalog, { logger: app.log });
 contestCatalog.load();
-const zipQueue = new ZipJobQueue(downloadConfig.download.zip);
+
+function apiError(reply, statusCode, error, message) {
+  return reply.code(statusCode).send({ error, message, retryable: false });
+}
 
 function pageUrl(page, query) {
   const params = new URLSearchParams();
@@ -71,11 +73,7 @@ function problemViewModel(entry) {
   const hasResourceLimit = entry.time !== null || entry.memory !== null;
   return {
     ...entry,
-    publicData: entry.publicData.map((file) => ({
-      path: file.path,
-      size: file.size,
-      downloadUrl: `/problem/${encodeURIComponent(entry.id)}/data/${file.path.split('/').map((part) => encodeURIComponent(part)).join('/')}`
-    })),
+    publicData: entry.publicData.map((file) => ({ path: file.path, size: file.size })),
     hasPublicData: entry.publicData.length > 0,
     resourceLimit: hasResourceLimit ? `${entry.time ?? '-'} ms / ${entry.memory ?? '-'} MB` : null
   };
@@ -98,8 +96,7 @@ function problemApiModel(entry) {
       problem: `/problem/${encodeURIComponent(entry.id)}`,
       markdown: entry.hasMarkdown ? `/api/problem/${encodeURIComponent(entry.id)}/markdown` : null,
       pdf: entry.hasPdf ? `/problem/${encodeURIComponent(entry.id)}/pdf` : null,
-      data: `/api/problem/${encodeURIComponent(entry.id)}/data`,
-      zip: entry.publicData.length ? `/problem/${encodeURIComponent(entry.id)}/data.zip` : null
+      data: `/api/problem/${encodeURIComponent(entry.id)}/data`
     }
   };
 }
@@ -110,20 +107,9 @@ function dataManifest(entry) {
     problemId: entry.id,
     totalFiles: entry.publicData.length,
     totalBytes: entry.publicDataBytes,
-    files: entry.publicData.map((file) => ({
-      path: file.path,
-      size: file.size,
-      downloadUrl: `/problem/${encodeURIComponent(entry.id)}/data/${file.path.split('/').map((part) => encodeURIComponent(part)).join('/')}`
-    })),
-    zipUrl: `/problem/${encodeURIComponent(entry.id)}/data.zip`
+    sources: downloadSources(downloadConfig, entry.id),
+    files: entry.publicData.map((file) => ({ path: file.path, size: file.size }))
   };
-}
-
-function zipFailure(reply, error) {
-  if (reply.raw.headersSent || reply.sent) return reply;
-  if (error?.code === 'ZIP_TIMEOUT') return zipError(reply, 504, 'zip_timeout', 'ZIP 生成超时，请稍后重试。', true);
-  if (error?.code === 'CLIENT_ABORTED') return reply;
-  return zipError(reply, 500, 'zip_failed', '读取数据或生成 ZIP 失败。', false, error?.failedPath ? { failedPath: error.failedPath } : {});
 }
 
 function baseLocals(activePath, values = {}) {
@@ -186,20 +172,20 @@ app.get('/api/problems', async (request, reply) => {
 
 app.get('/api/problem/:id', async (request, reply) => {
   const entry = catalog.get(request.params.id);
-  if (!entry) return zipError(reply, 404, 'problem_not_found', '题目不存在。');
+  if (!entry) return apiError(reply, 404, 'problem_not_found', '题目不存在。');
   return reply.send(problemApiModel(entry));
 });
 
 app.get('/api/problem/:id/data', async (request, reply) => {
   const entry = catalog.get(request.params.id);
-  if (!entry) return zipError(reply, 404, 'problem_not_found', '题目不存在。');
+  if (!entry) return apiError(reply, 404, 'problem_not_found', '题目不存在。');
   return reply.send(dataManifest(entry));
 });
 
 app.get('/api/problem/:id/markdown', async (request, reply) => {
   const entry = catalog.get(request.params.id);
-  if (!entry) return zipError(reply, 404, 'problem_not_found', '题目不存在。');
-  if (!entry.hasMarkdown) return zipError(reply, 404, 'markdown_not_found', '这道题没有 Markdown 题面。');
+  if (!entry) return apiError(reply, 404, 'problem_not_found', '题目不存在。');
+  if (!entry.hasMarkdown) return apiError(reply, 404, 'markdown_not_found', '这道题没有 Markdown 题面。');
 
   try {
     const markdown = await fs.promises.readFile(path.join(entry.dir, 'content.md'), 'utf8');
@@ -210,7 +196,7 @@ app.get('/api/problem/:id/markdown', async (request, reply) => {
       .send(markdown);
   } catch (error) {
     request.log.error({ err: error, problemId: entry.id }, 'Raw Markdown read failed');
-    return zipError(reply, 500, 'markdown_unavailable', '题面暂时无法读取。');
+    return apiError(reply, 500, 'markdown_unavailable', '题面暂时无法读取。');
   }
 });
 
@@ -268,48 +254,6 @@ app.get('/problem/:id', async (request, reply) => {
     githubUrl: `https://github.com/rainboyOJ/problems/tree/master/roj/${encodeURIComponent(entry.id)}`,
     howToEvaluateUrl: '/about#how-to-evaluate'
   }));
-});
-
-app.get('/problem/:id/data.zip', async (request, reply) => {
-  const entry = catalog.get(request.params.id);
-  if (!entry) return zipError(reply, 404, 'problem_not_found', '题目不存在。');
-  if (!entry.publicData.length) return zipError(reply, 404, 'data_not_found', '这道题没有公开数据。');
-  const files = entry.publicData.map((file) => resolvePublicDataFile(entry, file.path));
-  const missingFile = files.findIndex((file) => !file);
-  if (missingFile >= 0) {
-    return zipError(reply, 500, 'zip_failed', '公开数据在打包前发生变化，请稍后重试。', true, { failedPath: entry.publicData[missingFile].path });
-  }
-  const totalBytes = files.reduce((total, file) => total + file.size, 0);
-  if (totalBytes > downloadConfig.download.zip.maxSourceBytes) {
-    return zipError(reply, 413, 'zip_too_large', '数据总量超过 ZIP 打包限制。');
-  }
-
-  const clientKey = request.ip || request.socket.remoteAddress || 'unknown';
-  const queued = zipQueue.submit(clientKey, () => streamZip(reply, request, files, {
-    problemId: entry.id,
-    compressionLevel: downloadConfig.download.zip.compressionLevel,
-    timeoutMs: downloadConfig.download.zip.timeoutMs
-  }));
-  if (!queued.accepted) {
-    reply.header('Retry-After', '5');
-    return zipError(reply, 429, 'zip_queue_full', queued.reason === 'client' ? '你已有一个 ZIP 任务正在处理。' : '当前 ZIP 下载任务较多，请稍后重试。', true);
-  }
-  const cancelQueued = () => queued.cancel();
-  request.raw.once('close', cancelQueued);
-  try {
-    await queued.promise;
-  } catch (error) {
-    zipFailure(reply, error);
-  } finally {
-    request.raw.off('close', cancelQueued);
-  }
-});
-
-app.get('/problem/:id/data/*', async (request, reply) => {
-  const entry = catalog.get(request.params.id);
-  const file = resolvePublicDataFile(entry, request.params['*']);
-  if (!file) return reply.code(404).send('Not found');
-  return sendPublicFile(request, reply, file);
 });
 
 app.get('/problem/:id/pdf', async (request, reply) => {

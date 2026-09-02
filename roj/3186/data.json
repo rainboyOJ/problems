@@ -1,0 +1,172 @@
+{
+  "files": [
+    {
+      "path": "A.1.in",
+      "size": 185
+    },
+    {
+      "path": "A.1.out",
+      "size": 24
+    },
+    {
+      "path": "A.10.in",
+      "size": 206
+    },
+    {
+      "path": "A.10.out",
+      "size": 24
+    },
+    {
+      "path": "A.11.in",
+      "size": 1148
+    },
+    {
+      "path": "A.11.out",
+      "size": 24
+    },
+    {
+      "path": "A.12.in",
+      "size": 1071
+    },
+    {
+      "path": "A.12.out",
+      "size": 23
+    },
+    {
+      "path": "A.13.in",
+      "size": 137
+    },
+    {
+      "path": "A.13.out",
+      "size": 22
+    },
+    {
+      "path": "A.14.in",
+      "size": 140
+    },
+    {
+      "path": "A.14.out",
+      "size": 22
+    },
+    {
+      "path": "A.15.in",
+      "size": 216
+    },
+    {
+      "path": "A.15.out",
+      "size": 23
+    },
+    {
+      "path": "A.16.in",
+      "size": 216
+    },
+    {
+      "path": "A.16.out",
+      "size": 24
+    },
+    {
+      "path": "A.17.in",
+      "size": 247
+    },
+    {
+      "path": "A.17.out",
+      "size": 24
+    },
+    {
+      "path": "A.18.in",
+      "size": 87
+    },
+    {
+      "path": "A.18.out",
+      "size": 23
+    },
+    {
+      "path": "A.19.in",
+      "size": 99
+    },
+    {
+      "path": "A.19.out",
+      "size": 23
+    },
+    {
+      "path": "A.2.in",
+      "size": 80
+    },
+    {
+      "path": "A.2.out",
+      "size": 23
+    },
+    {
+      "path": "A.20.in",
+      "size": 1014
+    },
+    {
+      "path": "A.20.out",
+      "size": 24
+    },
+    {
+      "path": "A.21.in",
+      "size": 39
+    },
+    {
+      "path": "A.21.out",
+      "size": 24
+    },
+    {
+      "path": "A.3.in",
+      "size": 38
+    },
+    {
+      "path": "A.3.out",
+      "size": 23
+    },
+    {
+      "path": "A.4.in",
+      "size": 52
+    },
+    {
+      "path": "A.4.out",
+      "size": 23
+    },
+    {
+      "path": "A.5.in",
+      "size": 97
+    },
+    {
+      "path": "A.5.out",
+      "size": 22
+    },
+    {
+      "path": "A.6.in",
+      "size": 97
+    },
+    {
+      "path": "A.6.out",
+      "size": 22
+    },
+    {
+      "path": "A.7.in",
+      "size": 1609
+    },
+    {
+      "path": "A.7.out",
+      "size": 24
+    },
+    {
+      "path": "A.8.in",
+      "size": 1608
+    },
+    {
+      "path": "A.8.out",
+      "size": 24
+    },
+    {
+      "path": "A.9.in",
+      "size": 251
+    },
+    {
+      "path": "A.9.out",
+      "size": 22
+    }
+  ]
+}

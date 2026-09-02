@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "factor1.in",
+      "size": 10
+    },
+    {
+      "path": "factor10.in",
+      "size": 28
+    },
+    {
+      "path": "factor2.in",
+      "size": 10
+    },
+    {
+      "path": "factor3.in",
+      "size": 11
+    },
+    {
+      "path": "factor4.in",
+      "size": 16
+    },
+    {
+      "path": "factor5.in",
+      "size": 17
+    },
+    {
+      "path": "factor6.in",
+      "size": 22
+    },
+    {
+      "path": "factor7.in",
+      "size": 26
+    },
+    {
+      "path": "factor8.in",
+      "size": 16
+    },
+    {
+      "path": "factor9.in",
+      "size": 17
+    }
+  ]
+}

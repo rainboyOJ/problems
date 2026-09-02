@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "p10.in",
+      "size": 1
+    },
+    {
+      "path": "p10.out",
+      "size": 2
+    },
+    {
+      "path": "p11.in",
+      "size": 1
+    },
+    {
+      "path": "p11.out",
+      "size": 3
+    },
+    {
+      "path": "p12.in",
+      "size": 2
+    },
+    {
+      "path": "p12.out",
+      "size": 6
+    },
+    {
+      "path": "p13.in",
+      "size": 2
+    },
+    {
+      "path": "p13.out",
+      "size": 5
+    },
+    {
+      "path": "p14.in",
+      "size": 2
+    },
+    {
+      "path": "p14.out",
+      "size": 5
+    }
+  ]
+}

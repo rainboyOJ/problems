@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "shoppingus0.in",
+      "size": 11
+    },
+    {
+      "path": "shoppingus0.out",
+      "size": 1
+    },
+    {
+      "path": "shoppingus1.in",
+      "size": 41
+    },
+    {
+      "path": "shoppingus1.out",
+      "size": 2
+    },
+    {
+      "path": "shoppingus10.in",
+      "size": 1594
+    },
+    {
+      "path": "shoppingus10.out",
+      "size": 4
+    },
+    {
+      "path": "shoppingus11.in",
+      "size": 2081
+    },
+    {
+      "path": "shoppingus11.out",
+      "size": 4
+    },
+    {
+      "path": "shoppingus2.in",
+      "size": 4
+    },
+    {
+      "path": "shoppingus2.out",
+      "size": 1
+    },
+    {
+      "path": "shoppingus3.in",
+      "size": 49
+    },
+    {
+      "path": "shoppingus3.out",
+      "size": 4
+    },
+    {
+      "path": "shoppingus4.in",
+      "size": 107
+    },
+    {
+      "path": "shoppingus4.out",
+      "size": 4
+    },
+    {
+      "path": "shoppingus5.in",
+      "size": 110
+    },
+    {
+      "path": "shoppingus5.out",
+      "size": 3
+    },
+    {
+      "path": "shoppingus6.in",
+      "size": 213
+    },
+    {
+      "path": "shoppingus6.out",
+      "size": 4
+    },
+    {
+      "path": "shoppingus7.in",
+      "size": 942
+    },
+    {
+      "path": "shoppingus7.out",
+      "size": 3
+    },
+    {
+      "path": "shoppingus8.in",
+      "size": 1501
+    },
+    {
+      "path": "shoppingus8.out",
+      "size": 4
+    },
+    {
+      "path": "shoppingus9.in",
+      "size": 964
+    },
+    {
+      "path": "shoppingus9.out",
+      "size": 4
+    }
+  ]
+}

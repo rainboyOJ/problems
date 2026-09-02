@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "secret1.in",
+      "size": 9
+    },
+    {
+      "path": "secret10.in",
+      "size": 12
+    },
+    {
+      "path": "secret2.in",
+      "size": 10
+    },
+    {
+      "path": "secret3.in",
+      "size": 13
+    },
+    {
+      "path": "secret4.in",
+      "size": 10
+    },
+    {
+      "path": "secret5.in",
+      "size": 9
+    },
+    {
+      "path": "secret6.in",
+      "size": 9
+    },
+    {
+      "path": "secret7.in",
+      "size": 11
+    },
+    {
+      "path": "secret8.in",
+      "size": 12
+    },
+    {
+      "path": "secret9.in",
+      "size": 12
+    }
+  ]
+}
