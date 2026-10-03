@@ -46,7 +46,7 @@
     },
     {
       "path": "milk5.out",
-      "size": 1
+      "size": 10
     },
     {
       "path": "milk6.in",
@@ -54,7 +54,7 @@
     },
     {
       "path": "milk6.out",
-      "size": 1
+      "size": 6
     },
     {
       "path": "milk7.in",
@@ -62,7 +62,7 @@
     },
     {
       "path": "milk7.out",
-      "size": 1
+      "size": 8
     }
   ]
 }
