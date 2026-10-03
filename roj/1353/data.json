@@ -6,7 +6,7 @@
     },
     {
       "path": "stack1.out",
-      "size": 5
+      "size": 4
     },
     {
       "path": "stack2.in",
@@ -14,15 +14,15 @@
     },
     {
       "path": "stack2.out",
-      "size": 4
+      "size": 3
     },
     {
       "path": "stack3.in",
-      "size": 74
+      "size": 36
     },
     {
       "path": "stack3.out",
-      "size": 4
+      "size": 3
     },
     {
       "path": "stack4.in",
@@ -30,7 +30,7 @@
     },
     {
       "path": "stack4.out",
-      "size": 4
+      "size": 3
     },
     {
       "path": "stack5.in",
@@ -38,7 +38,7 @@
     },
     {
       "path": "stack5.out",
-      "size": 5
+      "size": 4
     }
   ]
 }
