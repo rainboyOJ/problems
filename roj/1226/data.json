@@ -2,59 +2,75 @@
   "files": [
     {
       "path": "boxes0.in",
-      "size": 26
+      "size": 36
     },
     {
       "path": "boxes0.out",
-      "size": 3
-    },
-    {
-      "path": "boxes1.in",
-      "size": 16
-    },
-    {
-      "path": "boxes1.out",
-      "size": 3
-    },
-    {
-      "path": "boxes2.in",
-      "size": 45
-    },
-    {
-      "path": "boxes2.out",
       "size": 4
     },
     {
+      "path": "boxes1.in",
+      "size": 12
+    },
+    {
+      "path": "boxes1.out",
+      "size": 0
+    },
+    {
+      "path": "boxes2.in",
+      "size": 50
+    },
+    {
+      "path": "boxes2.out",
+      "size": 8
+    },
+    {
       "path": "boxes3.in",
-      "size": 71
+      "size": 76
     },
     {
       "path": "boxes3.out",
-      "size": 3
+      "size": 10
     },
     {
       "path": "boxes4.in",
-      "size": 86
+      "size": 133
     },
     {
       "path": "boxes4.out",
-      "size": 3
+      "size": 20
     },
     {
       "path": "boxes5.in",
-      "size": 182
+      "size": 161
     },
     {
       "path": "boxes5.out",
-      "size": 3
+      "size": 24
     },
     {
       "path": "boxes6.in",
-      "size": 28
+      "size": 691
     },
     {
       "path": "boxes6.out",
-      "size": 3
+      "size": 132
+    },
+    {
+      "path": "boxes7.in",
+      "size": 320
+    },
+    {
+      "path": "boxes7.out",
+      "size": 60
+    },
+    {
+      "path": "boxes8.in",
+      "size": 1152
+    },
+    {
+      "path": "boxes8.out",
+      "size": 210
     }
   ]
 }
