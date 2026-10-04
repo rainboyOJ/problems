@@ -1,164 +1,164 @@
 {
   "files": [
     {
-      "path": "angrybirds1.ans",
-      "size": 20
+      "path": "earthworm1.ans",
+      "size": 8
     },
     {
-      "path": "angrybirds1.in",
-      "size": 193
+      "path": "earthworm1.in",
+      "size": 19
     },
     {
-      "path": "angrybirds10.ans",
-      "size": 20
+      "path": "earthworm10.ans",
+      "size": 1202361
     },
     {
-      "path": "angrybirds10.in",
-      "size": 803
+      "path": "earthworm10.in",
+      "size": 689040
     },
     {
-      "path": "angrybirds11.ans",
-      "size": 60
+      "path": "earthworm11.ans",
+      "size": 1201836
     },
     {
-      "path": "angrybirds11.in",
-      "size": 2663
+      "path": "earthworm11.in",
+      "size": 688744
     },
     {
-      "path": "angrybirds12.ans",
-      "size": 60
+      "path": "earthworm12.ans",
+      "size": 1398614
     },
     {
-      "path": "angrybirds12.in",
-      "size": 2944
+      "path": "earthworm12.in",
+      "size": 788990
     },
     {
-      "path": "angrybirds13.ans",
-      "size": 60
+      "path": "earthworm13.ans",
+      "size": 1348280
     },
     {
-      "path": "angrybirds13.in",
-      "size": 3543
+      "path": "earthworm13.in",
+      "size": 788878
     },
     {
-      "path": "angrybirds14.ans",
-      "size": 60
+      "path": "earthworm14.ans",
+      "size": 1498875
     },
     {
-      "path": "angrybirds14.in",
-      "size": 3753
+      "path": "earthworm14.in",
+      "size": 888794
     },
     {
-      "path": "angrybirds15.ans",
-      "size": 30
+      "path": "earthworm15.ans",
+      "size": 1347052
     },
     {
-      "path": "angrybirds15.in",
-      "size": 2128
+      "path": "earthworm15.in",
+      "size": 444383
     },
     {
-      "path": "angrybirds16.ans",
-      "size": 30
+      "path": "earthworm16.ans",
+      "size": 1575000
     },
     {
-      "path": "angrybirds16.in",
-      "size": 2268
+      "path": "earthworm16.in",
+      "size": 444253
     },
     {
-      "path": "angrybirds17.ans",
-      "size": 30
+      "path": "earthworm17.ans",
+      "size": 890571
     },
     {
-      "path": "angrybirds17.in",
-      "size": 2328
+      "path": "earthworm17.in",
+      "size": 888729
     },
     {
-      "path": "angrybirds18.ans",
-      "size": 13
+      "path": "earthworm18.ans",
+      "size": 1575000
     },
     {
-      "path": "angrybirds18.in",
-      "size": 927
+      "path": "earthworm18.in",
+      "size": 888582
     },
     {
-      "path": "angrybirds19.ans",
-      "size": 10
+      "path": "earthworm19.ans",
+      "size": 1923145
     },
     {
-      "path": "angrybirds19.in",
-      "size": 927
+      "path": "earthworm19.in",
+      "size": 888644
     },
     {
-      "path": "angrybirds2.ans",
-      "size": 60
+      "path": "earthworm2.ans",
+      "size": 6914
     },
     {
-      "path": "angrybirds2.in",
-      "size": 613
+      "path": "earthworm2.in",
+      "size": 6928
     },
     {
-      "path": "angrybirds20.ans",
-      "size": 10
+      "path": "earthworm20.ans",
+      "size": 1956918
     },
     {
-      "path": "angrybirds20.in",
-      "size": 927
+      "path": "earthworm20.in",
+      "size": 888379
     },
     {
-      "path": "angrybirds3.ans",
-      "size": 20
+      "path": "earthworm3.ans",
+      "size": 689033
     },
     {
-      "path": "angrybirds3.in",
-      "size": 263
+      "path": "earthworm3.in",
+      "size": 689049
     },
     {
-      "path": "angrybirds4.ans",
-      "size": 60
+      "path": "earthworm4.ans",
+      "size": 6580
     },
     {
-      "path": "angrybirds4.in",
-      "size": 793
+      "path": "earthworm4.in",
+      "size": 21
     },
     {
-      "path": "angrybirds5.ans",
-      "size": 20
+      "path": "earthworm5.ans",
+      "size": 20874
     },
     {
-      "path": "angrybirds5.in",
-      "size": 313
+      "path": "earthworm5.in",
+      "size": 6892
     },
     {
-      "path": "angrybirds6.ans",
-      "size": 60
+      "path": "earthworm6.ans",
+      "size": 12021
     },
     {
-      "path": "angrybirds6.in",
-      "size": 1003
+      "path": "earthworm6.in",
+      "size": 24
     },
     {
-      "path": "angrybirds7.ans",
-      "size": 20
+      "path": "earthworm7.ans",
+      "size": 21000
     },
     {
-      "path": "angrybirds7.in",
-      "size": 453
+      "path": "earthworm7.in",
+      "size": 6901
     },
     {
-      "path": "angrybirds8.ans",
-      "size": 20
+      "path": "earthworm8.ans",
+      "size": 1044530
     },
     {
-      "path": "angrybirds8.in",
-      "size": 593
+      "path": "earthworm8.in",
+      "size": 344550
     },
     {
-      "path": "angrybirds9.ans",
-      "size": 20
+      "path": "earthworm9.ans",
+      "size": 1044402
     },
     {
-      "path": "angrybirds9.in",
-      "size": 703
+      "path": "earthworm9.in",
+      "size": 688828
     }
   ]
 }

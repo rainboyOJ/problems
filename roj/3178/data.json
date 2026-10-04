@@ -6,7 +6,7 @@
     },
     {
       "path": "POST1.out",
-      "size": 18
+      "size": 2
     },
     {
       "path": "POST10.in",
@@ -14,7 +14,7 @@
     },
     {
       "path": "POST10.out",
-      "size": 77
+      "size": 5
     },
     {
       "path": "POST2.in",
@@ -22,7 +22,7 @@
     },
     {
       "path": "POST2.out",
-      "size": 31
+      "size": 3
     },
     {
       "path": "POST3.in",
@@ -30,7 +30,7 @@
     },
     {
       "path": "POST3.out",
-      "size": 33
+      "size": 2
     },
     {
       "path": "POST4.in",
@@ -38,7 +38,7 @@
     },
     {
       "path": "POST4.out",
-      "size": 1397
+      "size": 6
     },
     {
       "path": "POST5.in",
@@ -46,7 +46,7 @@
     },
     {
       "path": "POST5.out",
-      "size": 1437
+      "size": 6
     },
     {
       "path": "POST6.in",
@@ -54,7 +54,7 @@
     },
     {
       "path": "POST6.out",
-      "size": 1469
+      "size": 6
     },
     {
       "path": "POST7.in",
@@ -62,7 +62,7 @@
     },
     {
       "path": "POST7.out",
-      "size": 1318
+      "size": 8
     },
     {
       "path": "POST8.in",
@@ -70,7 +70,7 @@
     },
     {
       "path": "POST8.out",
-      "size": 411
+      "size": 5
     },
     {
       "path": "POST9.in",
@@ -78,7 +78,7 @@
     },
     {
       "path": "POST9.out",
-      "size": 1250
+      "size": 5
     }
   ]
 }

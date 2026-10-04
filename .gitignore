@@ -152,3 +152,6 @@ roj.json
 
 push-to-vps.sh
 __pycache__/
+
+# ROJ 测试数据已迁移至 new_ROJ/problems/<id>/data/（本地 gitignored）
+roj/*/data/
