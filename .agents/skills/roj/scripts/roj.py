@@ -185,24 +185,6 @@ class RojClient:
         return body.decode("utf-8")
 
 
-def manifest_file(manifest: dict[str, Any], requested: str) -> dict[str, Any]:
-    """按路径或文件名从清单中选出单个文件（--file 用）。
-
-    先精确匹配路径；再按文件名匹配——仅在唯一命中时接受，
-    避免嵌套目录下误选同名文件。
-    """
-    requested = safe_relative_path(requested)
-    files = manifest.get("files", [])
-    exact = next((item for item in files if item["path"] == requested), None)
-    if exact:
-        return exact
-    # 通常 data/ 是扁平目录，允许直接给文件名；但必须无歧义
-    matches = [item for item in files if Path(item["path"]).name == requested]
-    if len(matches) == 1:
-        return matches[0]
-    raise RojError(f"公开数据中没有唯一匹配的文件：{requested}")
-
-
 def local_destination(root: Path, relative: str) -> Path:
     """把清单相对路径映射到本地目标路径，并确认不越出 root。"""
     relative = safe_relative_path(relative)
@@ -217,12 +199,14 @@ def local_destination(root: Path, relative: str) -> Path:
 
 def download_to(client: RojClient, urls: list[str], destination: Path, force: bool = False,
                 on_attempt: Callable[[], None] | None = None,
-                on_chunk: Callable[[int], None] | None = None) -> int:
+                on_chunk: Callable[[int], None] | None = None,
+                on_start: Callable[[int], None] | None = None) -> int:
     """依次尝试多个下载源，把文件下载到 destination，返回字节数。
 
     先写入同目录临时文件再原子改名，避免半截文件残留；
     所有源都失败才报错。--force 允许覆盖已存在文件。
-    on_attempt/on_chunk 用于进度回调：每次换源时与每读一块后触发。
+    on_attempt/on_chunk/on_start 用于进度回调：换源、拿到 Content-Length、
+    每读一块时分别触发（归档大小只有响应头里才知道，用 on_start 补进进度条）。
     """
     if destination.exists() and not force:
         raise RojError(f"文件已存在，未覆盖：{destination}（如需覆盖请使用 --force）")
@@ -237,6 +221,10 @@ def download_to(client: RojClient, urls: list[str], destination: Path, force: bo
             on_attempt()
         try:
             with urlopen(Request(url, headers={"Accept": "application/octet-stream", "User-Agent": "roj-cli/1.0"}), timeout=client.timeout) as response:
+                if on_start:
+                    length = (response.headers.get("Content-Length") or "").strip()
+                    if length.isdigit():
+                        on_start(int(length))
                 # 与目标同目录的临时文件，保证同文件系统可原子 rename
                 with tempfile.NamedTemporaryFile(prefix=".roj-download-", dir=destination.parent, delete=False) as output:
                     temporary = Path(output.name)
@@ -268,55 +256,147 @@ def download_to(client: RojClient, urls: list[str], destination: Path, force: bo
     raise RojError(f"下载失败，已尝试 {len(urls)} 个源：{detail}")
 
 
-def file_urls(manifest: dict[str, Any], relative: str) -> list[str]:
-    """为清单中的一个文件生成所有下载源 URL（按段编码，保留目录结构）。"""
-    encoded = "/".join(quote(part, safe="") for part in safe_relative_path(relative).split("/"))
-    return [f"{source['baseUrl']}{encoded}" for source in manifest.get("sources", [])]
+def archive_name(manifest: dict[str, Any]) -> str:
+    """取清单里的归档文件名（ROJ 只以整包提供公开数据，形如 1337.tar.zst）。"""
+    archive = manifest.get("archive")
+    name = archive.get("name") if isinstance(archive, dict) else None
+    if not isinstance(name, str) or not name:
+        raise RojError("数据清单没有 archive.name，无法下载公开数据。")
+    return safe_relative_path(name)
 
 
-def download_manifest(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
-                      force: bool = False, skip_existing: bool = False,
-                      progress: DownloadProgress | None = None) -> tuple[list[dict[str, Any]], list[Path]]:
-    """按清单批量下载全部文件。
+def archive_urls(manifest: dict[str, Any]) -> list[str]:
+    """按清单给出的源顺序生成归档 URL。
 
-    返回 (已下载列表, 跳过列表)。skip_existing 用于 test --download：
-    已有文件不覆盖、不报错。
-    progress 非空时启用进度条，分母 = 本次实际要下载的文件 size 之和
-    （排除 --file 未选中与被跳过的文件）。
+    清单里 files[].path 的直链在 ROJ 上并不存在（逐文件请求一律 404），
+    真正可取的只有 <baseUrl><archive.name> 这一个整包，所以这里只拼归档地址。
     """
-    downloaded: list[dict[str, Any]] = []
-    skipped: list[Path] = []
-    files = manifest.get("files", [])
+    name = "/".join(quote(part, safe="") for part in archive_name(manifest).split("/"))
+    sources = manifest.get("sources") or []
+    if not sources:
+        raise RojError("数据清单没有可用的下载源。")
+    return [f"{source['baseUrl']}{name}" for source in sources]
+
+
+def archive_path_for(destination: Path, manifest: dict[str, Any]) -> Path:
+    """归档落盘位置：目标目录名是 data 时放上一级（roj-data/<id>/<id>.tar.zst），
+    否则放目标目录里，避免归档和数据文件混在一起。"""
+    root = destination.expanduser().absolute()
+    holder = root.parent if root.name == "data" else root
+    return holder / archive_name(manifest)
+
+
+def archive_strip_components(members: list[str], paths: list[str]) -> int:
+    """判断归档是否多包了一层顶层目录（常见 data/）。
+
+    只有当「去掉顶层目录后正好包含全部清单路径」才剥掉这层，
+    保证解包结果落在 destination/<path> 上；否则原样解包。
+    """
+    tops = {member.split("/", 1)[0] for member in members if member and member != "."}
+    if len(tops) != 1:
+        return 0
+    top = tops.pop()
+    stripped = [member.split("/", 1)[1] for member in members if member.startswith(top + "/")]
+    return 1 if set(paths) <= set(stripped) else 0
+
+
+def zstd_stdout(archive: Path) -> Any:
+    """把 .tar.zst 解到标准输出（系统 tar 没编进 --zstd 时的回退）。"""
+    try:
+        return subprocess.Popen(["zstd", "-dc", str(archive)], stdout=subprocess.PIPE)
+    except OSError as error:
+        raise RojError(f"解包需要 tar 与 zstd：{error.strerror or error}") from error
+
+
+def tail_error(data: bytes) -> str:
+    """截取子进程 stderr 尾部作为报错细节，避免整段刷屏。"""
+    return data.decode("utf-8", errors="replace").strip()[-300:]
+
+
+def tar_members(archive: Path) -> list[str]:
+    """列出归档成员路径，供解包层级判断使用。"""
+    result = subprocess.run(["tar", "--zstd", "-tf", str(archive)],
+                            stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+    if result.returncode != 0:
+        decompressor = zstd_stdout(archive)
+        assert decompressor.stdout is not None
+        result = subprocess.run(["tar", "-tf", "-"], stdin=decompressor.stdout,
+                                stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+        decompressor.stdout.close()
+        decompressor.wait()
+        if result.returncode != 0:
+            raise RojError(f"读取归档成员失败：{tail_error(result.stderr)}")
+    return [line for line in result.stdout.decode("utf-8", errors="replace").splitlines() if line.strip()]
+
+
+def extract_archive(archive: Path, destination: Path, strip_components: int = 0) -> None:
+    """把归档解包到 destination；strip_components 用于去掉多余的顶层目录。"""
+    destination.mkdir(parents=True, exist_ok=True)
+    command = ["tar", "--zstd", "-xf", str(archive), "-C", str(destination)]
+    if strip_components:
+        command.append(f"--strip-components={strip_components}")
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+    if result.returncode == 0:
+        return
+    primary_error = tail_error(result.stderr)
+    # 回退：zstd 解到管道再交给 tar
+    decompressor = zstd_stdout(archive)
+    assert decompressor.stdout is not None
+    fallback = ["tar", "-xf", "-", "-C", str(destination)]
+    if strip_components:
+        fallback.append(f"--strip-components={strip_components}")
+    result = subprocess.run(fallback, stdin=decompressor.stdout,
+                            stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+    decompressor.stdout.close()
+    decompressor.wait()
+    if result.returncode != 0:
+        raise RojError(f"解包失败（--zstd：{primary_error}；回退：{tail_error(result.stderr)}）")
+
+
+def download_archive(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
+                     force: bool = False, skip_existing: bool = False,
+                     progress: DownloadProgress | None = None) -> tuple[list[dict[str, Any]], list[Path]]:
+    """下载题目数据归档并解包到 destination（整包取回，不再逐文件下载）。
+
+    归档长期保留在 archive_path_for(...) 指定的位置；解包后的文件与清单
+    files[].path 一一对应地落在 destination 下，解包后逐个校验，缺文件直接报错。
+    skip_existing 且清单文件全部已存在时整体跳过（test --download 用）。
+    返回 (已落盘文件列表, 跳过的本地路径列表)。
+    """
+    paths = [item["path"] for item in manifest.get("files", [])]
+    local = [local_destination(destination, path) for path in paths]
+    if skip_existing and all(target.is_file() for target in local):
+        return [], local
+
+    name = archive_name(manifest)
+    archive_path = archive_path_for(destination, manifest)
 
     if progress is not None:
-        # 计算分母：先按"会被下载"过滤一遍（与下方循环相同的判定）
-        planned = 0
-        for item in files:
-            target = local_destination(destination, item["path"])
-            if target.exists() and skip_existing and not force:
-                continue
-            planned += int(item.get("size") or 0)
-        # 清单没有逐文件 size 时退回 totalBytes；仍无效则进度条自动静默
-        if planned <= 0:
-            total = manifest.get("totalBytes")
-            if isinstance(total, (int, float)) and total > 0:
-                planned = int(total)
-        progress.enable(planned)
+        # 归档大小要等响应头才拿得到，先只画状态行，拿到 Content-Length 再补分母
+        progress.enable(0)
+    if archive_path.is_file() and not force:
+        if progress is not None:
+            progress.show_status(f"复用已有归档 {name}")
+    else:
+        if progress is not None:
+            progress.show_status(f"下载 {name}")
+        download_to(client, archive_urls(manifest), archive_path, force=force,
+                    on_attempt=progress.on_attempt if progress else None,
+                    on_chunk=progress.on_chunk if progress else None,
+                    on_start=progress.set_total if progress else None)
 
-    for item in files:
-        target = local_destination(destination, item["path"])
-        if target.exists() and skip_existing and not force:
-            skipped.append(target)
-            continue
-        if progress is not None:
-            progress.show_status(f"下载 {item['path']}")
-        size = download_to(client, file_urls(manifest, item["path"]), target, force=force,
-                           on_attempt=progress.on_attempt if progress else None,
-                           on_chunk=progress.on_chunk if progress else None)
-        if progress is not None:
-            progress.commit(int(item.get("size") or size))
-        downloaded.append({"path": item["path"], "size": size})
-    return downloaded, skipped
+    if progress is not None:
+        progress.show_status(f"解包 {name}")
+    extract_archive(archive_path, destination, archive_strip_components(tar_members(archive_path), paths))
+
+    missing = [path for path, target in zip(paths, local) if not target.is_file()]
+    if missing:
+        shown = ", ".join(missing[:5])
+        raise RojError(f"归档解包后缺少 {len(missing)} 个清单文件：{shown}"
+                       + (" ..." if len(missing) > 5 else ""))
+    downloaded = [{"path": path, "size": target.stat().st_size}
+                  for path, target in zip(paths, local)]
+    return downloaded, []
 
 
 def print_manifest_summary(manifest: dict[str, Any]) -> None:
@@ -343,8 +423,8 @@ class DownloadProgress:
     """下载总体进度条，绘制到 stderr。
 
     仅当 stderr 是 TTY 且总大小为正时才启用；管道/重定向/JSON 输出时静默。
-    进度 = 已成功落盘的文件字节（committed）+ 当前源尝试中已读的字节（attempt）。
-    分母是本次任务实际要下载的文件 size 之和。
+    进度 = 已成功落盘的字节（committed）+ 当前源尝试中已读的字节（attempt）。
+    分母是待下载归档的字节数（Content-Length），拿不到时只画状态行。
     """
 
     BAR_WIDTH = 30  # 进度条字符宽度
@@ -369,6 +449,12 @@ class DownloadProgress:
         self.total = max(0, int(total_bytes))
         self.samples.clear()
         self.show_status("准备下载")
+
+    def set_total(self, total_bytes: int) -> None:
+        """下载开始后才拿到 Content-Length：补上分母，状态行保持不变。"""
+        if total_bytes > 0 and self.total <= 0:
+            self.total = int(total_bytes)
+            self.samples.clear()
 
     def show_status(self, text: str) -> None:
         """设置状态行文字并强制刷新（清单请求、文件开始等阶段切换）。"""
@@ -670,13 +756,13 @@ def resolve_download_destination(identifier: str, explicit_output: str | None) -
 def perform_download(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
                      force: bool = False, skip_existing: bool = False,
                      progress: DownloadProgress | None = None) -> tuple[list[dict[str, Any]], list[Path]]:
-    """执行清单下载（带进度条），失败时清进度条并抛错。
+    """执行归档下载并解包（带进度条），失败时清进度条并抛错。
 
     供 cmd_download 与 cmd_test --download 复用。
     """
     try:
-        downloaded, skipped = download_manifest(client, identifier, manifest, destination,
-                                                force=force, skip_existing=skip_existing, progress=progress)
+        downloaded, skipped = download_archive(client, identifier, manifest, destination,
+                                               force=force, skip_existing=skip_existing, progress=progress)
     except RojError:
         if progress is not None:
             # 失败：清掉进度条行，保留"卡在哪"的上下文后重新抛出
@@ -710,14 +796,12 @@ def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
     if not manifest.get("files"):
         raise RojError("这道题没有公开数据。")
 
-    # --file 只下载一个文件（路径或唯一文件名），否则下载全部
-    files = [manifest_file(manifest, args.file)] if args.file else manifest.get("files", [])
-    selected_manifest = {**manifest, "files": files}
-    downloaded, skipped = perform_download(client, args.identifier, selected_manifest, destination,
+    downloaded, skipped = perform_download(client, args.identifier, manifest, destination,
                                            force=args.force, progress=progress)
     payload = {
         "problemId": args.identifier,
-        "kind": "files",
+        "kind": "archive",
+        "archive": str(archive_path_for(destination, manifest)),
         "destination": str(destination),
         "downloaded": [{**item, "localPath": str(local_destination(destination, item["path"]))} for item in downloaded],
         "skipped": [str(target) for target in skipped],
@@ -726,8 +810,9 @@ def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
     else:
         print_manifest_summary(manifest)
+        print(f"归档：{archive_path_for(destination, manifest)}")
         for item in downloaded:
-            print(f"已下载：{local_destination(destination, item['path'])}")
+            print(f"已解包：{local_destination(destination, item['path'])}")
         for target in skipped:
             print(f"已存在，跳过：{target}")
     return 0
@@ -933,10 +1018,9 @@ def build_parser() -> argparse.ArgumentParser:
     get_parser.add_argument("--json", dest="command_json", action="store_true", help="使用 JSON 输出")
     get_parser.set_defaults(handler=cmd_get)
 
-    download_parser = commands.add_parser("download", help="下载公开数据")
+    download_parser = commands.add_parser("download", help="下载公开数据（整包归档）")
     download_parser.add_argument("identifier", type=problem_id)
-    download_parser.add_argument("--file", help="只下载指定文件或唯一匹配的文件名")
-    download_parser.add_argument("--output", help="目标目录，默认 ./roj-data/<id>/")
+    download_parser.add_argument("--output", help="目标目录，默认 ./roj-data/<id>/data/")
     download_parser.add_argument("--force", action="store_true", help="允许覆盖已有文件")
     download_parser.add_argument("--json", dest="command_json", action="store_true", help="使用 JSON 输出")
     download_parser.set_defaults(handler=cmd_download)
